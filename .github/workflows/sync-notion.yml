@@ -1,0 +1,48 @@
+name: Notion 동기화
+
+on:
+  # 1) 1시간마다 자동 실행 (UTC 기준, 매시 정각)
+  schedule:
+    - cron: "0 * * * *"
+  # 2) Actions 탭에서 버튼으로 즉시 실행
+  workflow_dispatch:
+  # 3) 코드를 수정해 push할 때도 최신 데이터로 갱신
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notion-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Node 설치
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Notion에서 games.json 생성
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: node scripts/build.mjs
+
+      - name: 변경된 경우에만 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- games.json; then
+            echo "변경 사항 없음 — 커밋 생략"
+          else
+            git add games.json
+            git commit -m "chore: Notion 데이터 동기화 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
