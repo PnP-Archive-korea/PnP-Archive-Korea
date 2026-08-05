@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-08-05T05:00:00.000Z",
+  "count": 16,
+  "note": "이 파일은 미리보기용 샘플입니다. GitHub Actions가 실행되면 Notion 실데이터로 자동 교체됩니다.",
+  "facets": {
+    "playtime": ["30~60분", "30분 이하"],
+    "age": ["10세 이상", "13세 이상", "14세 이상", "8세 이상", "9세 이상"],
+    "theme": [],
+    "mech": [],
+    "diff": [],
+    "lang": ["한국어"],
+    "price": ["무료"]
+  },
+  "games": [
+    {
+      "id": "3b2aa7a159118103b9b4d3aa7d993be2", "slug": "waves-help-me-3b2aa7",
+      "ko": "파도야 도와줘!", "en": "Waves, Help Me!", "author": "링쿠",
+      "desc": "아기 거북이들이 바다로 향하는 험난한 여정을 그린 주사위 전략 레이싱 게임.",
+      "players": "2명", "playtime": "30분 이하", "age": "8세 이상",
+      "mech": [], "mechEtc": "[메커니즘 원본] 맵 변형, 조립 보드, 주사위 굴림\n[테마 원본] 동물, 레이싱, 주사위",
+      "theme": [], "diff": "", "price": "무료", "year": 2025, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1782&game=20668",
+      "thumb": null, "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)", "icon": "🦊",
+      "createdAt": "2026-08-04T05:49:22.000Z", "updatedAt": "2026-08-04T05:49:22.000Z"
+    },
+    {
+      "id": "3b2aa7a15911811abab3d90669220975", "slug": "doodadada-3b2aa7",
+      "ko": "두다다다", "en": "Doodadada", "author": "Gerrard",
+      "desc": "", "players": "1명", "playtime": "30분 이하", "age": "8세 이상",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2025, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1765&game=20679",
+      "thumb": null, "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)", "icon": "🎯",
+      "createdAt": "2026-08-04T05:49:22.000Z", "updatedAt": "2026-08-04T05:49:22.000Z"
+    },
+    {
+      "id": "3b2aa7a1591181188e6eed0230f37cc9", "slug": "drawing-city-3b2aa7",
+      "ko": "드로잉 시티", "en": "Drawing City", "author": "dunit",
+      "desc": "", "players": "1-4명", "playtime": "30~60분", "age": "14세 이상",
+      "mech": [], "mechEtc": "[테마 원본] 도시 건설, 프린트 & 플레이",
+      "theme": [], "diff": "", "price": "무료", "year": 2025, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1784&game=20680",
+      "thumb": null, "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)", "icon": "🗺️",
+      "createdAt": "2026-08-04T05:49:22.000Z", "updatedAt": "2026-08-04T05:49:22.000Z"
+    },
+    {
+      "id": "3b2aa7a159118131955cd5a4c947d22f", "slug": "dice-poker-3b2aa7",
+      "ko": "다이스 포커", "en": "Dice Poker", "author": "정성인",
+      "desc": "", "players": "2-4명", "playtime": "30분 이하", "age": "9세 이상",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2025, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1778&game=20614",
+      "thumb": null, "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)", "icon": "🃏",
+      "createdAt": "2026-08-04T05:49:22.000Z", "updatedAt": "2026-08-04T05:49:22.000Z"
+    },
+    {
+      "id": "3b2aa7a159118112a0acc3527150390b", "slug": "rune-world-3b2aa7",
+      "ko": "룬 월드", "en": "Rune World", "author": "KY81(황기영)",
+      "desc": "룬을 조합해 영토를 확장하고 부족을 번영시키는 게임.",
+      "players": "1-4명", "playtime": "30분 이하", "age": "10세 이상",
+      "mech": [], "mechEtc": "[메커니즘 원본] 롤앤라이트, 액션 포인트, 종이와 펜, 주사위 굴림, 패턴 빌딩\n[테마 원본] 영역 건설, 주사위, 판타지, 프린트 & 플레이",
+      "theme": [], "diff": "", "price": "무료", "year": 2024, "lang": ["한국어"],
+      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#7fc266d6a99548778515d87375b953dd",
+      "thumb": null, "grad": "linear-gradient(135deg,#C4593A,#E0A83C)", "icon": "🧩",
+      "createdAt": "2026-08-04T05:47:04.000Z", "updatedAt": "2026-08-04T05:47:04.000Z"
+    },
+    {
+      "id": "3b2aa7a15911811c83dff2b2cfb0b4a1", "slug": "taekgyeon-competition-3b2aa7",
+      "ko": "택견 겨루기", "en": "Taekgyeon Competition", "author": "작자 미상",
+      "desc": "", "players": "2명", "playtime": "", "age": "",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1135&game=16671",
+      "thumb": null, "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)", "icon": "⚔️",
+      "createdAt": "2026-08-04T05:47:04.000Z", "updatedAt": "2026-08-04T05:47:04.000Z"
+    },
+    {
+      "id": "3b2aa7a1591181259d2cd28feed478f1", "slug": "operation-exodus-3b2aa7",
+      "ko": "지구 탈출 대작전", "en": "Operation Exodus", "author": "PAAN Cultures",
+      "desc": "", "players": "1명", "playtime": "", "age": "",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1137&game=16564",
+      "thumb": null, "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)", "icon": "📦",
+      "createdAt": "2026-08-04T05:47:04.000Z", "updatedAt": "2026-08-04T05:47:04.000Z"
+    },
+    {
+      "id": "3b2aa7a1591181269b30e837ef7005b3", "slug": "king-of-landscaping-3b2aa7",
+      "ko": "조경의 왕", "en": "King Of Landscaping", "author": "작자 미상",
+      "desc": "", "players": "2명", "playtime": "", "age": "",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1163&game=16555",
+      "thumb": null, "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)", "icon": "🔖",
+      "createdAt": "2026-08-04T05:47:04.000Z", "updatedAt": "2026-08-04T05:47:04.000Z"
+    },
+    {
+      "id": "3b2aa7a159118101b655e0c8f1f350b4", "slug": "dark-city-3b2aa7",
+      "ko": "검은 도시", "en": "Dark City", "author": "허니버터칩",
+      "desc": "검은 괴물의 추격을 피해 목표까지 가자",
+      "players": "1명", "playtime": "30분 이하", "age": "14세 이상",
+      "mech": [], "mechEtc": "[메커니즘 원본] 운걸기, 조립 보드, 지역 이동\n[테마 원본] 공포, 살인/미스터리",
+      "theme": [], "diff": "", "price": "무료", "year": 2022, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=744&game=15272",
+      "thumb": null, "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)", "icon": "👻",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a15911810bac89d20d6299db81", "slug": "village-nodaji-3b2aa7",
+      "ko": "빌리지 노다지", "en": "village nodaji", "author": "작자 미상",
+      "desc": "", "players": "2-4명", "playtime": "30~60분", "age": "14세 이상",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1063&game=16732",
+      "thumb": null, "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)", "icon": "🎲",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a159118111b88bf87bfed07e31", "slug": "the-adventure-of-chipmunks-3b2aa7",
+      "ko": "보늬당의 다람쥐들", "en": "The Adventure of Chipmunks", "author": "PAAN Cultures",
+      "desc": "인간 세상으로 온 다람쥐들의 여정",
+      "players": "1명", "playtime": "30~60분", "age": "",
+      "mech": [], "mechEtc": "[메커니즘 원본] 맵 추가, 시나리오/미션/캠페인 게임, 액션 포인트\n[테마 원본] 동물, 모험",
+      "theme": [], "diff": "", "price": "무료", "year": 2022, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=746&game=15286",
+      "thumb": null, "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)", "icon": "🦊",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a159118113a902d4e7564eb0dd", "slug": "biosphere-ii-3b2aa7",
+      "ko": "바이오스피어 II", "en": "Biosphere II", "author": "한결",
+      "desc": "", "players": "2-3명", "playtime": "30분 이하", "age": "10세 이상",
+      "mech": [], "mechEtc": "[메커니즘 원본] 육각형 그리드, 종이와 펜\n[테마 원본] SF 공상 과학, 농업, 영역 건설",
+      "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=976&game=16523",
+      "thumb": null, "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)", "icon": "🛰️",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a159118123ba85cc1e5e3fc647", "slug": "do-not-bust-3b2aa7",
+      "ko": "두 낫 버스트", "en": "Do not bust", "author": "작자 미상",
+      "desc": "", "players": "1-4명", "playtime": "", "age": "",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1122&game=16516",
+      "thumb": null, "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)", "icon": "🃏",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a15911812589abc970cb3bc9bb", "slug": "taming-slime-3b2aa7",
+      "ko": "슬라임 길들이기", "en": "Taming Slime", "author": "작자 미상",
+      "desc": "", "players": "1-4명", "playtime": "30~60분", "age": "13세 이상",
+      "mech": [], "mechEtc": "[메커니즘 원본] 레이스, 롤앤라이트, 스탯 체크 해결, 이벤트, 종이와 펜 등\n[테마 원본] 게임 시스템, 수개념, 주사위, 판타지, 프린트 & 플레이",
+      "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1040&game=16712",
+      "thumb": null, "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)", "icon": "🧩",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a15911812fa317dd516dab8d2a", "slug": "game-of-drone-3b2aa7",
+      "ko": "게임 오브 드론", "en": "Game of Drone", "author": "손영익, 이창훈",
+      "desc": "", "players": "1-4명", "playtime": "30분 이하", "age": "8세 이상",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1123&game=16513",
+      "thumb": null, "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)", "icon": "🎯",
+      "createdAt": "2026-08-04T05:41:36.000Z", "updatedAt": "2026-08-04T05:41:36.000Z"
+    },
+    {
+      "id": "3b2aa7a159118133a9f5f479e87ae104", "slug": "farmster-3b2aa7",
+      "ko": "팜스터", "en": "Farmster", "author": "작자 미상",
+      "desc": "", "players": "1명", "playtime": "", "age": "",
+      "mech": [], "mechEtc": "", "theme": [], "diff": "", "price": "무료", "year": 2023, "lang": ["한국어"],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1112&game=16629",
+      "thumb": null, "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)", "icon": "📦",
+      "createdAt": "2026-08-04T05:47:04.000Z", "updatedAt": "2026-08-04T05:47:04.000Z"
+    }
+  ]
+}
