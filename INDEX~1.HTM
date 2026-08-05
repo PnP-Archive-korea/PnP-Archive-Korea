@@ -437,10 +437,21 @@ async function loadData(){
 /* ══════════════════════════════════════════════
    카드 렌더
    ══════════════════════════════════════════════ */
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+// 외부에서 제출된 주소는 http/https 만 허용합니다.
+// (javascript: 같은 위험한 주소를 걸러내기 위한 안전장치)
+function safeUrl(u){
+  if(!u) return "";
+  try{
+    const parsed = new URL(String(u).trim(), location.href);
+    return (parsed.protocol === "http:" || parsed.protocol === "https:") ? parsed.href : "";
+  }catch{ return ""; }
+}
 
 function thumbStyle(g){
-  return g.thumb ? `background-image:url('${esc(g.thumb)}')` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
+  const t = safeUrl(g.thumb);
+  return t ? `background-image:url("${esc(t)}")` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
 }
 function cardHTML(g){
   const chips = [g.players, g.playtime, g.diff ? "제작 " + g.diff : ""].filter(Boolean);
@@ -558,7 +569,7 @@ function renderDetail(id){
         <h1 style="margin-top:14px">${esc(g.ko)}</h1>
         ${g.en?`<div class="en">${esc(g.en)}</div>`:""}
         <div class="by">작가 · <b>${esc(g.author)}</b></div>
-        ${g.url?`<a class="btn btn-primary btn-lg" href="${esc(g.url)}" target="_blank" rel="noopener">⬇ 파일 다운로드</a>`
+        ${safeUrl(g.url)?`<a class="btn btn-primary btn-lg" href="${esc(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">⬇ 파일 다운로드</a>`
                :`<span class="btn btn-ghost btn-lg" style="cursor:default;opacity:.6">다운로드 링크 준비 중</span>`}
         <div class="spec-table">
           ${spec.map(([k,v])=>`<div class="spec-row"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join("")}
@@ -577,9 +588,10 @@ function renderDetail(id){
    ══════════════════════════════════════════════ */
 (function initForm(){
   const btn=document.getElementById("formBtn"), ph=document.getElementById("formPlaceholder");
-  if(NOTION_FORM_URL){
-    btn.href=NOTION_FORM_URL;
-    ph.outerHTML=`<iframe src="${NOTION_FORM_URL}" title="게임 등록 폼" loading="lazy"></iframe>`;
+  const formUrl = safeUrl(NOTION_FORM_URL);
+  if(formUrl){
+    btn.href=formUrl;
+    ph.outerHTML=`<iframe src="${esc(formUrl)}" title="게임 등록 폼" loading="lazy"></iframe>`;
   }else{
     btn.addEventListener("click",e=>{e.preventDefault();alert("index.html의 NOTION_FORM_URL 값을 채워주세요.");});
   }
