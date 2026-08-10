@@ -46,7 +46,8 @@ header{position:sticky;top:0;z-index:100;background:rgba(250,246,239,.85);backdr
 .container{max-width:1280px;margin:0 auto;padding:0 24px}
 section{padding:72px 0}
 
-.hero{text-align:center;padding:96px 0 72px}
+.hero{text-align:center;padding:96px 0 72px;min-height:calc(100vh - 65px);display:flex;flex-direction:column;justify-content:center}
+.how-works,.vh-fill{min-height:calc(100vh - 65px);display:flex;flex-direction:column;justify-content:center}
 .badge-pill{display:inline-flex;align-items:center;border-radius:999px;overflow:hidden;font-size:13px;font-weight:700;box-shadow:var(--shadow);margin-bottom:28px;border:1px solid var(--line)}
 .badge-pill .tag{background:var(--main);color:#fff;padding:7px 14px}
 .badge-pill .txt{background:var(--surface);color:var(--muted);padding:7px 14px}
@@ -100,7 +101,7 @@ section{padding:72px 0}
 .banner h2 em{font-style:normal;color:var(--accent)}
 .banner p{color:rgba(255,255,255,.75);max-width:520px;margin:0 auto 32px;font-size:16px}
 .banner .btn-primary{position:relative;z-index:1}
-.banner .sub-note{font-size:13px;color:rgba(255,255,255,.5);margin-top:14px}
+.banner .sub-note{font-size:13px;color:rgba(255,255,255,.5);margin-top:32px}
 
 .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:18px}
 .pill-group{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px;flex-wrap:wrap}
@@ -167,7 +168,7 @@ select{font-family:inherit;font-size:14px;font-weight:600;color:var(--text);back
 .about-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:36px;box-shadow:var(--shadow)}
 .about-card h3{font-size:19px;font-weight:800;margin-bottom:14px;display:flex;gap:10px;align-items:center}
 .about-card p{color:#5B5148;font-size:15px;line-height:1.75}
-.contact-strip{text-align:center;padding:48px;background:var(--surface2);border-radius:var(--radius)}
+.contact-strip{text-align:center;padding:48px;background:var(--surface2);border-radius:var(--radius);scroll-margin-top:100px}
 .contact-strip h3{font-size:20px;font-weight:800;margin-bottom:8px}
 .contact-strip a{color:var(--main);font-weight:700;font-size:17px}
 
@@ -179,7 +180,7 @@ select{font-family:inherit;font-size:14px;font-weight:600;color:var(--text);back
 .foot-cta .checks span{display:flex;align-items:center;gap:7px}
 .foot-cta .checks svg{color:var(--main)}
 footer{border-top:1px solid var(--line);background:var(--bg)}
-.foot-grid{max-width:1280px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:40px}
+.foot-grid{max-width:1280px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
 @media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.foot-grid{grid-template-columns:1fr}}
 .foot-grid h4{font-size:13.5px;font-weight:800;margin-bottom:16px}
@@ -207,14 +208,13 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
       <a href="#/home" data-nav="home">홈</a>
       <a href="#/archive" data-nav="archive">게임 아카이브</a>
       <a href="#/submit" data-nav="submit">게임 등록하기</a>
-      <a href="#/about" data-nav="about">소개</a>
+      <a href="#/about" data-nav="about">소개 · 문의</a>
     </nav>
     <div class="nav-search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input id="navSearch" placeholder="게임 검색" />
     </div>
     <div class="nav-cta">
-      <a class="btn btn-ghost" href="#/about">문의하기</a>
       <a class="btn btn-dark" href="#/submit">게임 등록하기</a>
     </div>
   </div>
@@ -223,25 +223,19 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 <!-- HOME -->
 <div class="page" id="page-home">
   <section class="hero container">
-    <div class="badge-pill reveal"><span class="tag">New</span><span class="txt" id="heroBadge">한국 창작 PnP 아카이브</span></div>
     <h1 class="reveal d1">보드게임<br><em>만들어 볼래요?</em></h1>
-    <p class="reveal d2">한국 창작 PnP 보드게임을 한곳에서.<br>다운로드하고, 인쇄하고, 플레이하세요.</p>
+    <p class="reveal d2">한국 PnP 게임을 한 곳에서<br>다운로드하고, 인쇄하고, 플레이하세요.</p>
     <div class="hero-ctas reveal d3">
       <a class="btn btn-primary btn-lg" href="#/archive">게임 둘러보기</a>
       <a class="btn btn-ghost btn-lg" href="#/submit">내 게임 등록하기</a>
     </div>
-    <div class="hero-deco reveal d3">
-      <span><span class="dot">✂</span> 무료 다운로드</span>
-      <span><span class="dot">🖨</span> 프린터 한 대면 충분</span>
-      <span><span class="dot">🎲</span> 한국 창작 게임</span>
-    </div>
   </section>
 
-  <section class="container">
+  <section class="container how-works">
     <div class="sec-head reveal">
       <span class="kicker">How it works</span>
       <h2>프린트에서 플레이까지</h2>
-      <p>PnP는 어렵지 않아요. 네 단계면 오늘 저녁에 새 게임을 즐길 수 있어요.</p>
+      <p>PnP는 네 단계로 이루어져 있어요.</p>
     </div>
     <div class="steps">
       <div class="step-card reveal"><span class="num">01</span><div class="step-icon">⬇️</div><h3>다운로드</h3><p>원하는 PnP 게임을 무료로 내려받고, 룰북과 컴포넌트 시트를 확인하세요.</p></div>
@@ -251,28 +245,28 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     </div>
   </section>
 
-  <section class="container">
+  <section class="container vh-fill">
     <div class="sec-row reveal">
-      <div><span class="kicker" style="margin-bottom:8px">Weekly Pick</span><h2>이번 주 인기 PnP</h2></div>
+      <div><h2>인기 PnP</h2></div>
       <a class="more" href="#/archive">전체 보기 →</a>
     </div>
     <div class="grid-3" id="popularGrid"></div>
   </section>
 
-  <section class="container">
+  <section class="container vh-fill">
     <div class="sec-row reveal">
-      <div><span class="kicker" style="margin-bottom:8px">Just Arrived</span><h2>최신 등록 게임</h2></div>
+      <div><h2>최신 등록 게임</h2></div>
       <a class="more" href="#/archive">전체 보기 →</a>
     </div>
     <div class="grid-3" id="latestGrid"></div>
   </section>
 
-  <section class="container">
+  <section class="container vh-fill">
     <div class="banner reveal">
       <h2>시작이 반입니다.<br><em>규칙을 완성했다면, 지금 발표하세요.</em></h2>
-      <p>실물 제작 없이 게임을 세상에 내놓을 수 있어요. 피드백과 함께 성장하세요.</p>
+      <p>실물 제작 없이 세상에 내놓을 수 있어요.<br>피드백과 함께 성장하세요.</p>
       <a class="btn btn-primary btn-lg" href="#/submit">내 게임 등록하기</a>
-      <div class="sub-note">등록은 무료 · 모든 권리는 창작자에게</div>
+      <div class="sub-note">모든 권리는 창작자에게 있습니다.</div>
     </div>
   </section>
 </div>
@@ -283,7 +277,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     <div class="sec-head reveal in">
       <span class="kicker">Archive</span>
       <h2>게임 아카이브</h2>
-      <p>한국 창작 PnP 보드게임을 검색하고 발견해 보세요.</p>
+      <p>한국 PnP 게임을 검색하고 발견해 보세요.</p>
     </div>
     <div class="search-big">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="color:var(--muted)"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -320,13 +314,13 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 <div class="page" id="page-submit">
   <section class="container">
     <div class="submit-hero reveal in">
-      <div class="badge-pill"><span class="tag">Free</span><span class="txt">등록 비용 없음 · 비독점</span></div>
-      <h1 style="font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:-.03em;margin:24px 0 16px">당신의 게임을<br><span style="color:var(--main)">세상에 내놓으세요</span></h1>
-      <p style="color:var(--muted);max-width:480px;margin:0 auto">폼을 제출하면 운영자가 검토 후 아카이브에 게시해 드려요.<br>검토는 보통 며칠 정도 걸려요.</p>
+      <span class="kicker">Submit</span>
+      <h1 style="font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px">당신의 게임을<br><span style="color:var(--main)">세상에 내놓으세요</span></h1>
+      <p style="color:var(--muted);max-width:480px;margin:0 auto">폼을 제출하면 운영자가 검토 후 아카이브에 게시해 드려요.</p>
     </div>
     <div class="process">
-      <div class="proc-card reveal in"><div class="n">1</div><h3>폼 제출</h3><p>게임 정보와 파일 링크를 제출해 주세요.</p></div>
-      <div class="proc-card reveal in d1"><div class="n">2</div><h3>운영자 검토</h3><p>내용과 권리 관계를 확인해요. 보통 며칠 소요돼요.</p></div>
+      <div class="proc-card reveal in"><div class="n">1</div><h3>구글 폼 제출</h3><p>게임 정보와 파일 링크를 제출해 주세요.</p></div>
+      <div class="proc-card reveal in d1"><div class="n">2</div><h3>운영자 검토</h3><p>저작권 침해 여부를 확인해요.</p></div>
       <div class="proc-card reveal in d2"><div class="n">3</div><h3>아카이브 게시</h3><p>검토가 끝나면 아카이브에 공개돼요.</p></div>
     </div>
     <div class="rule-box reveal in">
@@ -343,7 +337,6 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
         <span style="font-size:13px">index.html에서 <code>NOTION_FORM_URL</code> 값을 채우면 이 자리에 폼이 표시됩니다.</span>
       </div>
       <a class="btn btn-primary btn-lg" id="formBtn" href="#" target="_blank" rel="noopener">제출 폼 열기</a>
-      <p class="form-fields">폼 항목: 제목(국문) · 제목(영문) · 작가 성명 · 게임 설명 · 인원수 · 제출자 이메일 · 플레이타임 · 권장연령<br>메인 메커니즘 · 테마 · 제작 난이도 · 무료/유료 · 발표연도 · 파일 다운로드 위치(URL) · 언어</p>
     </div>
   </section>
 </div>
@@ -352,48 +345,41 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 <div class="page" id="page-about">
   <section class="container">
     <div class="about-hero reveal in">
-      <div class="badge-pill"><span class="tag">Mission</span><span class="txt">PnP 아카이브 KOREA</span></div>
-      <h1 style="margin-top:24px">아이디어를 가진 누구나<br>보드게임을 <em>완성까지</em> 가져갈 수 있게</h1>
+      <span class="kicker">Mission</span>
+      <h1>아이디어를 가진 누구나<br>보드게임을 <em>완성까지</em> 가져갈 수 있게</h1>
     </div>
     <div class="about-cols">
-      <div class="about-card reveal in"><h3>🖨 왜 PnP인가요?</h3><p>보드게임을 만들 때 가장 큰 벽은 규칙이 아니라 실물 제작이에요. 인쇄소를 찾고, 수백 개를 찍어내는 리스크를 감당해야 하죠. PnP는 소비자가 직접 인쇄하기 때문에 재고도, 계약도 필요 없어요. 규칙만 완성되면 누구나 게임을 세상에 내놓을 수 있어요.</p></div>
-      <div class="about-card reveal in d1"><h3>🎲 무엇을 하나요?</h3><p>흩어져 있던 한국 창작 PnP 게임을 한곳에 모아 검색하고 발견할 수 있게 색인해요. 창작자에게는 발표 창구와 피드백을, 플레이어에게는 어디서도 살 수 없는 새로운 게임을 프린터 한 대로 즐기는 경험을 드려요.</p></div>
+      <div class="about-card reveal in"><h3>🖨 왜 PnP인가요?</h3><p>보드게임 제작에서의 난관은 피드백과 실물 제작이에요. 오프라인 구인은 어렵고, 실물 제작은 리스크가 커요. PnP는 소비자가 인쇄하는 방식을 통해 이러한 난관을 극복합니다. 규칙만 완성되면 누구나 게임을 세상에 내놓을 수 있어요.</p></div>
+      <div class="about-card reveal in d1"><h3>🎲 이 사이트의 역할은?</h3><p>흩어져 있던 한국 PnP 게임을 한 곳에 모아 검색 및 색인 서비스를 제공해요. 창작자에게는 발표와 피드백을 위한 창구를 제공하고, 플레이어에게는 새로운 게임 및 함께 만들어가는 경험을 제공해요.</p></div>
     </div>
-    <div class="contact-strip reveal in">
+    <div class="contact-strip reveal in" id="contactStrip">
       <h3>궁금한 점이 있으신가요?</h3>
-      <p style="color:var(--muted);margin-bottom:10px">제휴·등록·기타 문의를 환영해요.</p>
-      <a href="mailto:flyment1229@gmail.com">flyment1229@gmail.com</a>
+      <p style="color:var(--muted);margin-bottom:10px">제휴·등록·기타 문의</p>
+      <a href="mailto:GameSmithLab@gmail.com">GameSmithLab@gmail.com</a>
     </div>
   </section>
 </div>
 
 <div class="foot-cta">
-  <div class="logo-mark">P</div>
-  <h2>오늘 저녁, 새 게임 어때요?</h2>
-  <p>지금 바로 내려받아 인쇄하면, 오늘 밤 테이블 위에 새 게임이 놓여요.</p>
+  <h2>새로운 게임을 찾아보세요.</h2>
+  <p>피드백과 함께 게임 개발에 기여하세요.</p>
   <a class="btn btn-dark btn-lg" href="#/archive">게임 둘러보기</a>
   <div class="checks">
-    <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>무료 아카이브</span>
-    <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>한국 창작 게임</span>
-    <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>창작자 권리 보호</span>
+    <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>모든 권리는 창작자에게 있습니다.</span>
   </div>
 </div>
 <footer>
   <div class="foot-grid">
     <div class="foot-brand">
-      <a href="#/home" class="logo"><span class="logo-mark">P</span>PnP 아카이브 KOREA</a>
-      <p>한국 창작 PnP 보드게임을 한곳에 모으는 무료 아카이브예요.</p>
-      <div class="newsletter">
-        <input placeholder="이메일 주소" />
-        <button onclick="alert('구독해 주셔서 감사해요! (뉴스레터 연동 자리)')">구독</button>
-      </div>
+      <a href="#/home" class="logo">PnP 아카이브 KOREA</a>
+      <p>한국 PnP 게임을 모은 무료 아카이브</p>
     </div>
     <div><h4>페이지</h4><a href="#/home">홈</a><a href="#/archive">게임 아카이브</a><a href="#/submit">게임 등록하기</a><a href="#/about">소개</a></div>
-    <div><h4>둘러보기</h4><a href="#/archive">인기 게임</a><a href="#/archive">최신 등록</a><a href="#/archive">무료 게임</a></div>
-    <div><h4>안내</h4><a href="#/submit">등록 원칙</a><a href="#/about">문의하기</a><a href="#/about">저작권 정책</a></div>
+    <div><h4>안내</h4><a href="#/submit">등록 원칙</a><a href="#/about" onclick="setTimeout(()=>document.getElementById('contactStrip')?.scrollIntoView({behavior:'smooth',block:'start'}),60)">문의</a></div>
+    <div><h4>연락처</h4><a href="mailto:GameSmithLab@gmail.com">GameSmithLab@gmail.com</a></div>
   </div>
   <div class="foot-bottom">
-    © 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다
+    © 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다.
     <div class="sync-note" id="syncNote"></div>
   </div>
 </footer>
@@ -431,7 +417,6 @@ async function loadData(){
   const d = DATA.generatedAt ? new Date(DATA.generatedAt) : null;
   if(d) document.getElementById("syncNote").textContent =
     "마지막 동기화: " + d.toLocaleString("ko-KR",{dateStyle:"medium",timeStyle:"short"}) + " · 총 " + (DATA.count||DATA.games.length) + "개 게임";
-  if(DATA.games.length) document.getElementById("heroBadge").textContent = DATA.games.length + "개의 한국 창작 PnP 게임";
 }
 
 /* ══════════════════════════════════════════════
