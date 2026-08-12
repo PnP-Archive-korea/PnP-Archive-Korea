@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:17:05.030Z",
+  "generatedAt": "2026-08-12T09:46:52.722Z",
   "count": 72,
   "facets": {
     "playtime": [
@@ -53,7 +53,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181188e6eed0230f37cc9",
@@ -79,7 +79,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a15911811abab3d90669220975",
@@ -183,7 +183,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a15911816e84d6cbd37806ae6a",
@@ -235,7 +235,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a159118179b5eee7dced103969",
@@ -313,7 +313,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a159118186afaffda134bb7234",
@@ -365,7 +365,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a15911819797c4f7e7e7d9d47d",
@@ -378,7 +378,7 @@
       "playtime": "30분 이하",
       "age": "10세 이상",
       "mech": [],
-      "mechEtc": "[메커니즘 원본] 액션/이동 프로그래밍\n[테마 원본] 고대, 신화, 역사, 워게임, 전투 등",
+      "mechEtc": "[메커니즘 원본] 액션/이동 프로그래밍\n[테마 원본] 고대, 신화, 역사, 워게임, 전투",
       "theme": [],
       "diff": "",
       "price": "무료",
@@ -391,7 +391,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T07:42:00.000Z"
     },
     {
       "id": "3b2aa7a1591181a5a11cd209a9e259fa",
@@ -443,7 +443,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181ab98c3f063bca34c35",
@@ -469,7 +469,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181b080dcdf629353e672",
@@ -547,7 +547,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181c2b021ed41ecdd6370",
@@ -573,7 +573,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181d1b3c3c86fb1c60a54",
@@ -599,7 +599,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a1591181f19c20f3b4a2403da4",
@@ -651,7 +651,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a159118112a0acc3527150390b",
@@ -677,7 +677,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a15911811c83dff2b2cfb0b4a1",
@@ -859,7 +859,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a159118141914afda15f36db63",
@@ -885,7 +885,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:57:00.000Z"
     },
     {
       "id": "3b2aa7a159118156a007e3c6ed6904cd",
@@ -911,7 +911,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911815eb4bcc4600d5f2370",
@@ -963,7 +963,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181729d1bde5ed9a261a8",
@@ -1015,7 +1015,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911817fb6aacb9ee22df2fc",
@@ -1067,7 +1067,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911819babebcf9e0944d5cb",
@@ -1093,7 +1093,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181ad82d0eb700be6d694",
@@ -1145,7 +1145,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181ceb5eecbb63c01fb38",
@@ -1249,7 +1249,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181e9b229f0d67f799ce0",
@@ -1301,7 +1301,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911810bac89d20d6299db81",
@@ -1353,7 +1353,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a159118113a902d4e7564eb0dd",
@@ -1379,7 +1379,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a159118123ba85cc1e5e3fc647",
@@ -1418,7 +1418,7 @@
       "playtime": "30~60분",
       "age": "13세 이상",
       "mech": [],
-      "mechEtc": "[메커니즘 원본] 레이스, 롤앤라이트, 스탯 체크 해결, 이벤트, 종이와 펜 등\n[테마 원본] 게임 시스템, 수개념, 주사위, 판타지, 프린트 & 플레이",
+      "mechEtc": "[메커니즘 원본] 레이스, 롤앤라이트, 스탯 체크 해결, 이벤트, 종이와 펜\n[테마 원본] 게임 시스템, 수개념, 주사위, 판타지, 프린트 & 플레이",
       "theme": [],
       "diff": "",
       "price": "무료",
@@ -1431,7 +1431,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T07:35:00.000Z"
     },
     {
       "id": "3b2aa7a15911812fa317dd516dab8d2a",
@@ -1483,7 +1483,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911813d8d4af252b8361b9f",
@@ -1548,7 +1548,7 @@
       "playtime": "30분 이하",
       "age": "9세 이상",
       "mech": [],
-      "mechEtc": "[메커니즘 원본] 정보 없음(난이도 2.30)",
+      "mechEtc": "",
       "theme": [],
       "diff": "",
       "price": "무료",
@@ -1561,7 +1561,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T07:44:00.000Z"
     },
     {
       "id": "3b2aa7a159118151a548ec9811387ad7",
@@ -1613,7 +1613,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911815bb1fcf94101b01dfc",
@@ -1691,7 +1691,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a15911817682f9f58a274ad03f",
@@ -1717,7 +1717,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181888e4bf6f094fcbf29",
@@ -1769,7 +1769,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181deae0cf089ec8e4136",
@@ -1821,7 +1821,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181e2a429eb50d711e135",
@@ -1847,7 +1847,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     },
     {
       "id": "3b2aa7a1591181f5a981f1f0e39e5e72",
@@ -1899,7 +1899,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-08-12T06:58:00.000Z"
     }
   ]
 }
