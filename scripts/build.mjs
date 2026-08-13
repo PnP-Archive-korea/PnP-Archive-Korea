@@ -192,7 +192,7 @@ function transform(page) {
     price: read(p, "무료/유료") || "무료",
     year: read(p, "발표연도"),
     lang: read(p, "언어") || [],
-    url: read(p, "파일 다운로드 위치") || "",
+    url: read(p, "파일 다운로드 주소") || read(p, "파일 다운로드 위치") || "",
     thumb,
     // 썸네일이 없을 때 카드에 쓸 대체 비주얼
     grad: PALETTE[h % PALETTE.length],

@@ -29,20 +29,23 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Notion에서 games.json 생성
+      - name: Notion에서 games.json + 정적 SEO 파일 생성
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          # 커스텀 도메인을 붙이면 저장소 Settings → Variables에 SITE_URL을 등록하세요.
+          SITE_URL: ${{ vars.SITE_URL }}
         run: node scripts/build.mjs
 
       - name: 변경된 경우에만 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- games.json; then
+          # games.json 외에 sitemap.xml / robots.txt / game/* 도 함께 커밋합니다.
+          git add -A games.json sitemap.xml robots.txt game
+          if git diff --cached --quiet; then
             echo "변경 사항 없음 — 커밋 생략"
           else
-            git add games.json
             git commit -m "chore: Notion 데이터 동기화 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
           fi
