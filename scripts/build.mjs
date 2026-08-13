@@ -2,16 +2,24 @@
  * PnP 아카이브 KOREA — Notion → games.json 빌드 스크립트
  *
  * 실행:  NOTION_TOKEN=ntn_xxx node scripts/build.mjs
- * 산출물: games.json  (사이트가 fetch 하는 파일)
+ * 산출물:
+ *   games.json               사이트가 fetch 하는 데이터
+ *   sitemap.xml, robots.txt  검색엔진용
+ *   game/<slug>/index.html   게임별 정적 페이지 (링크 미리보기 + SEO)
  *
  * 의존성 없음 (Node 18+ 내장 fetch 사용)
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir, rm } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+// 공개 사이트 주소. GitHub Actions에서는 저장소 Variables의 SITE_URL을 읽습니다.
+// 커스텀 도메인을 붙이면 이 값만 바꾸면 됩니다.
+const SITE_URL = (process.env.SITE_URL || "https://gamesmithlab.github.io/PnP-Archive-Korea")
+  .replace(/\/+$/, "");
 
 // ─────────────────────────────────────────────
 // 설정
@@ -181,7 +189,6 @@ function transform(page) {
     mech: read(p, "메인 메커니즘") || [],
     mechEtc: read(p, "메인 메커니즘 - 기타 내용") || "",
     theme,
-    diff: read(p, "제작 난이도") || "",
     price: read(p, "무료/유료") || "무료",
     year: read(p, "발표연도"),
     lang: read(p, "언어") || [],
@@ -194,6 +201,158 @@ function transform(page) {
     updatedAt: page.last_edited_time,
   };
   // 주의: 제출자 이메일 / 검토상태는 의도적으로 내보내지 않습니다(비공개 정보).
+}
+
+// ─────────────────────────────────────────────
+// 정적 SEO 산출물 (sitemap / robots / 게임별 페이지)
+// ─────────────────────────────────────────────
+const escHtml = (s) =>
+  String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
+  );
+
+// http/https만 허용 (javascript: 같은 주소 차단)
+function safeHttpUrl(u) {
+  if (!u) return "";
+  try {
+    const p = new URL(String(u).trim());
+    return p.protocol === "http:" || p.protocol === "https:" ? p.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function gamePageHtml(g) {
+  const title = `${g.ko}${g.en ? ` (${g.en})` : ""} · PnP 아카이브 KOREA`;
+  const desc =
+    g.desc || `${g.ko} — ${g.author || "작자 미상"}의 한국 창작 PnP 보드게임.`;
+  const canonical = `${SITE_URL}/game/${g.slug}/`;
+  const image = safeHttpUrl(g.thumb) || `${SITE_URL}/assets/og-default.png`;
+  const dl = safeHttpUrl(g.url);
+
+  const spec = [
+    ["인원수", g.players],
+    ["플레이타임", g.playtime],
+    ["권장연령", g.age],
+    ["발표연도", g.year],
+    ["언어", (g.lang || []).join(", ")],
+    ["테마", (g.theme || []).join(", ")],
+    ["메인 메커니즘", (g.mech || []).join(", ")],
+    ["가격", g.price],
+  ].filter(([, v]) => v !== null && v !== undefined && v !== "");
+
+  // 주의: meta-refresh 자동 리다이렉트를 넣지 않습니다.
+  // 카카오톡 등 링크 미리보기 봇은 자바스크립트를 실행하지 않으므로
+  // 이 정적 페이지 자체가 사람이 읽어도 되는 완결된 콘텐츠여야 합니다.
+  return `<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${escHtml(title)}</title>
+<meta name="description" content="${escHtml(desc)}">
+<link rel="canonical" href="${escHtml(canonical)}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="PnP 아카이브 KOREA">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="${escHtml(title)}">
+<meta property="og:description" content="${escHtml(desc)}">
+<meta property="og:url" content="${escHtml(canonical)}">
+<meta property="og:image" content="${escHtml(image)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escHtml(title)}">
+<meta name="twitter:description" content="${escHtml(desc)}">
+<meta name="twitter:image" content="${escHtml(image)}">
+<style>
+:root{--bg:#FAF6EF;--surface:#fff;--main:#C4593A;--navy:#2E3A4E;--text:#3B322C;--muted:#8A7E74;--line:#E7DFD2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit}
+.wrap{max-width:720px;margin:0 auto;padding:48px 24px 72px}
+.crumb{font-size:14px;color:var(--muted);margin-bottom:28px}
+.crumb a{color:var(--main);text-decoration:none}
+h1{font-size:clamp(28px,5vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1.2}
+.en{color:var(--muted);font-size:16px;margin-top:6px}
+.by{margin-top:14px;font-size:15px;color:var(--muted)}
+.desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;margin:28px 0;white-space:pre-wrap}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+th,td{text-align:left;padding:12px 18px;font-size:15px;border-bottom:1px solid var(--line)}
+tr:last-child th,tr:last-child td{border-bottom:none}
+th{width:34%;color:var(--muted);font-weight:600}
+.btn{display:inline-block;margin:28px 0 8px;background:var(--main);color:#fff;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
+.btn.off{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.back{display:inline-block;margin-top:32px;color:var(--main);text-decoration:none;font-weight:600}
+footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="crumb"><a href="${escHtml(SITE_URL)}/">PnP 아카이브 KOREA</a> › 게임 아카이브</div>
+  <h1>${escHtml(g.ko)}</h1>
+  ${g.en ? `<div class="en">${escHtml(g.en)}</div>` : ""}
+  <div class="by">작가 · <strong>${escHtml(g.author || "작자 미상")}</strong></div>
+  ${g.desc ? `<div class="desc">${escHtml(g.desc)}</div>` : ""}
+  <table>
+    ${spec
+      .map(([k, v]) => `<tr><th>${escHtml(k)}</th><td>${escHtml(v)}</td></tr>`)
+      .join("\n    ")}
+  </table>
+  ${
+    dl
+      ? `<a class="btn" href="${escHtml(dl)}" rel="noopener noreferrer">⬇ 파일 다운로드</a>`
+      : `<span class="btn off">다운로드 링크 준비 중</span>`
+  }
+  <div><a class="back" href="${escHtml(SITE_URL)}/#/game/${escHtml(g.id)}">← 아카이브에서 보기</a></div>
+  <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다.</footer>
+</div>
+</body>
+</html>
+`;
+}
+
+async function writeStaticSEO(games) {
+  // 삭제된 게임의 페이지가 남지 않도록 game/ 디렉터리를 매번 새로 만듭니다.
+  await rm(join(ROOT, "game"), { recursive: true, force: true });
+
+  for (const g of games) {
+    const dir = join(ROOT, "game", g.slug);
+    await mkdir(dir, { recursive: true });
+    await writeFile(join(dir, "index.html"), gamePageHtml(g), "utf8");
+  }
+
+  const urls = [
+    { loc: `${SITE_URL}/`, priority: "1.0" },
+    ...games.map((g) => ({
+      loc: `${SITE_URL}/game/${g.slug}/`,
+      lastmod: (g.updatedAt || "").slice(0, 10),
+      priority: "0.7",
+    })),
+  ];
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+  .map(
+    (u) =>
+      `  <url><loc>${escHtml(u.loc)}</loc>${
+        u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ""
+      }<priority>${u.priority}</priority></url>`
+  )
+  .join("\n")}
+</urlset>
+`;
+  await writeFile(join(ROOT, "sitemap.xml"), sitemap, "utf8");
+
+  const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+  await writeFile(join(ROOT, "robots.txt"), robots, "utf8");
+
+  console.log(
+    `✓ 정적 SEO 생성 완료 — game/*/index.html ${games.length}개, sitemap.xml, robots.txt`
+  );
+  console.log(`  사이트 주소: ${SITE_URL}`);
 }
 
 // ─────────────────────────────────────────────
@@ -216,7 +375,6 @@ async function main() {
     age: uniq(games.map((g) => g.age)),
     theme: uniq(games.flatMap((g) => g.theme)),
     mech: uniq(games.flatMap((g) => g.mech)),
-    diff: uniq(games.map((g) => g.diff)),
     lang: uniq(games.flatMap((g) => g.lang)),
     price: uniq(games.map((g) => g.price)),
   };
@@ -232,6 +390,8 @@ async function main() {
   await writeFile(join(ROOT, "games.json"), JSON.stringify(out, null, 2), "utf8");
 
   console.log(`✓ games.json 생성 완료 — ${games.length}개 게임`);
+
+  await writeStaticSEO(games);
 
   // 데이터 품질 경고
   const noDesc = games.filter((g) => !g.desc).length;

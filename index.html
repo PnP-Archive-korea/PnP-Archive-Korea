@@ -5,6 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PnP 아카이브 KOREA — 보드게임 만들어 볼래요?</title>
 <meta name="description" content="한국 창작 PnP 보드게임을 한곳에서. 다운로드하고, 인쇄하고, 플레이하세요.">
+
+<!-- 공유 미리보기 / 검색엔진 -->
+<link rel="canonical" href="https://gamesmithlab.github.io/PnP-Archive-Korea/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PnP 아카이브 KOREA">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="PnP 아카이브 KOREA — 보드게임 만들어 볼래요?">
+<meta property="og:description" content="한국 창작 PnP 보드게임을 한곳에서. 다운로드하고, 인쇄하고, 플레이하세요.">
+<meta property="og:url" content="https://gamesmithlab.github.io/PnP-Archive-Korea/">
+<meta property="og:image" content="https://gamesmithlab.github.io/PnP-Archive-Korea/assets/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PnP 아카이브 KOREA — 보드게임 만들어 볼래요?">
+<meta name="twitter:description" content="한국 창작 PnP 보드게임을 한곳에서. 다운로드하고, 인쇄하고, 플레이하세요.">
+<meta name="twitter:image" content="https://gamesmithlab.github.io/PnP-Archive-Korea/assets/og-default.png">
+
+<!-- Google Analytics 4 -->
+<script>window.GA_MEASUREMENT_ID = "G-NJDJMDKBE0";</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJDJMDKBE0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag("js", new Date());
+  // SPA(해시 라우팅)이므로 자동 page_view를 끄고 route()에서 직접 보냅니다.
+  gtag("config", window.GA_MEASUREMENT_ID, { send_page_view: false });
+</script>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 :root{
@@ -187,10 +215,6 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 .foot-grid a{display:block;font-size:14px;color:var(--muted);margin-bottom:10px;transition:color .2s}
 .foot-grid a:hover{color:var(--main)}
 .foot-brand p{font-size:14px;color:var(--muted);margin-top:12px;max-width:280px}
-.newsletter{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px;margin-top:14px;max-width:340px}
-.newsletter input{border:none;outline:none;background:none;font-family:inherit;font-size:14px;padding:8px 14px;width:100%;color:var(--text)}
-.newsletter button{background:var(--navy);color:#fff;border-radius:999px;padding:9px 18px;font-size:13.5px;font-weight:700;transition:background .2s}
-.newsletter button:hover{background:#1F2938}
 .foot-bottom{border-top:1px solid var(--line);padding:22px 24px;text-align:center;font-size:13px;color:var(--muted)}
 .sync-note{font-size:12px;color:var(--muted);opacity:.7;margin-top:6px}
 
@@ -247,7 +271,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 
   <section class="container vh-fill">
     <div class="sec-row reveal">
-      <div><h2>인기 PnP</h2></div>
+      <div><h2>오늘의 랜덤 PnP</h2><p style="color:var(--muted);font-size:14.5px;margin-top:6px">매일 자정에 새로운 조합으로 바뀝니다.</p></div>
       <a class="more" href="#/archive">전체 보기 →</a>
     </div>
     <div class="grid-3" id="popularGrid"></div>
@@ -391,9 +415,64 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 // Notion 제출 폼 공개 링크를 여기에 넣으세요.
 const NOTION_FORM_URL = "";
 
-// '이번 주 인기 PnP'에 띄울 게임. 비워두면 자동으로 최신 3개가 들어갑니다.
-// Notion 페이지 ID(하이픈 제거) 또는 게임 제목을 넣으세요. 예: ["룬 월드","검은 도시","다이스 포커"]
-const WEEKLY_PICKS = [];
+// '오늘의 랜덤 PnP'에 몇 개를 띄울지. 화면 폭 640px 이하면 mobile 값을 씁니다.
+// 폰에서 보이는 3개는 항상 데스크톱 6개의 앞부분이 되도록 설계돼 있습니다.
+const RANDOM_PICK_COUNT = { mobile: 3, desktop: 6 };
+const MOBILE_BREAKPOINT = 640;
+
+// 사이트 기본 정보 (상세 페이지 진입 시 문서 제목·설명을 되돌릴 때 사용)
+const SITE_NAME = "PnP 아카이브 KOREA";
+const SITE_DESC = "한국 창작 PnP 보드게임을 한곳에서. 다운로드하고, 인쇄하고, 플레이하세요.";
+const PAGE_TITLES = {
+  home:    SITE_NAME + " — 보드게임 만들어 볼래요?",
+  archive: "게임 아카이브 · " + SITE_NAME,
+  submit:  "게임 등록하기 · " + SITE_NAME,
+  about:   "소개 · " + SITE_NAME
+};
+
+/* ══════════════════════════════════════════════
+   오늘의 랜덤 PnP — 날짜 시드 결정론적 셔플
+   같은 날에는 누가 접속해도 같은 순서가 나오고,
+   자정이 지나면 자동으로 다른 조합이 나옵니다.
+   ══════════════════════════════════════════════ */
+function todaySeed(){
+  const d = new Date();
+  return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
+}
+// mulberry32 스타일 PRNG — 문자열 시드를 32비트 정수로 접어 사용합니다.
+function seededShuffle(arr, seedStr){
+  let h = 1779033703 ^ seedStr.length;
+  for(let i=0;i<seedStr.length;i++){
+    h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353);
+    h = (h << 13) | (h >>> 19);
+  }
+  let a = h >>> 0;
+  const rand = () => {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const out = arr.slice();
+  for(let i = out.length - 1; i > 0; i--){
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+function pickCount(){
+  return window.innerWidth <= MOBILE_BREAKPOINT ? RANDOM_PICK_COUNT.mobile : RANDOM_PICK_COUNT.desktop;
+}
+
+/* GA4 — SPA이므로 해시가 바뀔 때마다 직접 보냅니다. */
+function trackPageview(){
+  if(typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
+  gtag("event", "page_view", {
+    page_title: document.title,
+    page_location: location.href,
+    page_path: location.pathname + location.hash
+  });
+}
 
 /* ══════════════════════════════════════════════
    데이터 로딩
@@ -424,6 +503,16 @@ async function loadData(){
    ══════════════════════════════════════════════ */
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
+/* 문서 제목 / 설명 메타 갱신.
+   링크 미리보기 봇은 자바스크립트를 실행하지 않으므로 이건 사람이 보는 탭 제목과
+   브라우저 내 검색용입니다. 카톡·트위터 미리보기는 build.mjs가 만드는
+   game/<slug>/index.html 정적 페이지가 담당합니다. */
+function setDocMeta(title, desc){
+  document.title = title;
+  const m = document.querySelector('meta[name="description"]');
+  if(m) m.setAttribute("content", desc);
+}
+
 // 외부에서 제출된 주소는 http/https 만 허용합니다.
 // (javascript: 같은 위험한 주소를 걸러내기 위한 안전장치)
 function safeUrl(u){
@@ -439,7 +528,7 @@ function thumbStyle(g){
   return t ? `background-image:url("${esc(t)}")` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
 }
 function cardHTML(g){
-  const chips = [g.players, g.playtime, g.diff ? "제작 " + g.diff : ""].filter(Boolean);
+  const chips = [g.players, g.playtime].filter(Boolean);
   return `<div class="game-card reveal" onclick="location.hash='#/game/${g.id}'">
     <div class="thumb ${g.thumb?'has-img':''}" style="${thumbStyle(g)}">${g.thumb?"":esc(g.icon||"🎲")}</div>
     <div class="meta">
@@ -456,27 +545,35 @@ const skeletons = n => Array.from({length:n},()=>`<div class="skeleton"><div cla
    ══════════════════════════════════════════════ */
 function renderHome(){
   const g = DATA.games;
-  let picks;
-  if(WEEKLY_PICKS.length){
-    picks = WEEKLY_PICKS.map(k => g.find(x => x.id === k || x.ko === k || x.en === k)).filter(Boolean);
-  }
-  if(!picks || !picks.length) picks = g.slice(0,3);
+  // 같은 셔플 순서를 슬라이스만 다르게 하므로, 폰의 3개는 데스크톱 6개의 앞부분이 됩니다.
+  const picks = seededShuffle(g, todaySeed()).slice(0, pickCount());
   document.getElementById("popularGrid").innerHTML = picks.map(cardHTML).join("");
   document.getElementById("latestGrid").innerHTML = g.slice(0,3).map(cardHTML).join("");
   observeReveals();
 }
 
+// 640px 기준선을 넘나들 때만 다시 그립니다 (디바운스 200ms).
+let lastPickCount = pickCount();
+let resizeTimer = null;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    const now = pickCount();
+    if(now !== lastPickCount){ lastPickCount = now; if(LOADED) renderHome(); }
+  }, 200);
+});
+
 /* ══════════════════════════════════════════════
    아카이브 필터 (facets 기반 자동 생성)
    ══════════════════════════════════════════════ */
-const state = {q:"",quick:"all",playtime:"",age:"",theme:"",mech:"",diff:"",lang:"",sort:"latest"};
-const FACET_LABEL = {playtime:"플레이타임",age:"권장연령",theme:"테마",mech:"메인 메커니즘",diff:"제작 난이도",lang:"언어"};
+const state = {q:"",quick:"all",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"};
+const FACET_LABEL = {playtime:"플레이타임",age:"권장연령",theme:"테마",mech:"메인 메커니즘",lang:"언어"};
 
 function buildFilterBar(){
   const bar = document.getElementById("filterBar");
   const f = DATA.facets || {};
   let html = "";
-  for(const key of ["playtime","age","theme","mech","diff","lang"]){
+  for(const key of ["playtime","age","theme","mech","lang"]){
     const opts = f[key] || [];
     if(!opts.length) continue; // 데이터가 없는 필터는 아예 감춥니다
     html += `<select data-f="${key}"><option value="">${FACET_LABEL[key]}</option>${opts.map(o=>`<option>${esc(o)}</option>`).join("")}</select>`;
@@ -485,7 +582,7 @@ function buildFilterBar(){
   bar.innerHTML = html;
   bar.querySelectorAll("select").forEach(s=>s.addEventListener("change",e=>{state[e.target.dataset.f]=e.target.value;renderArchive();}));
   document.getElementById("resetFilters").addEventListener("click",()=>{
-    Object.assign(state,{q:"",quick:"all",playtime:"",age:"",theme:"",mech:"",diff:"",lang:"",sort:"latest"});
+    Object.assign(state,{q:"",quick:"all",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"});
     document.getElementById("archiveSearch").value="";
     bar.querySelectorAll("select").forEach(s=>s.value="");
     document.getElementById("sortSel").value="latest";
@@ -507,7 +604,6 @@ function renderArchive(){
     if(state.age&&g.age!==state.age)return false;
     if(state.theme&&!(g.theme||[]).includes(state.theme))return false;
     if(state.mech&&!(g.mech||[]).includes(state.mech))return false;
-    if(state.diff&&g.diff!==state.diff)return false;
     if(state.lang&&!(g.lang||[]).includes(state.lang))return false;
     return true;
   });
@@ -539,9 +635,14 @@ function renderDetail(id){
   if(!LOADED){document.getElementById("detailBody").innerHTML=`<div style="padding:80px 0">${skeletons(1)}</div>`;return;}
   const g = DATA.games.find(x=>x.id===id||x.slug===id);
   if(!g){location.hash="#/archive";return;}
+  setDocMeta(
+    g.ko + (g.en ? " (" + g.en + ")" : "") + " · " + SITE_NAME,
+    g.desc || (g.ko + " — " + (g.author||"작자 미상") + "의 한국 창작 PnP 보드게임.")
+  );
+  trackPageview();
   const related = DATA.games.filter(x=>x.id!==g.id).slice(0,3);
   const spec = [
-    ["인원수",g.players],["플레이타임",g.playtime],["권장연령",g.age],["제작 난이도",g.diff],
+    ["인원수",g.players],["플레이타임",g.playtime],["권장연령",g.age],
     ["발표연도",g.year],["언어",(g.lang||[]).join(", ")],["테마",(g.theme||[]).join(", ")],["메커니즘",(g.mech||[]).join(", ")]
   ].filter(([,v])=>v!==null&&v!==undefined&&v!=="");
 
@@ -561,7 +662,7 @@ function renderDetail(id){
         </div>
       </div>
     </div>
-    ${(g.desc||g.mechEtc)?`<div class="desc-box reveal in"><h2>🎲 게임 설명</h2><p>${esc(g.desc||"")}${g.mechEtc?`\n\n${esc(g.mechEtc)}`:""}</p></div>`:""}
+    ${g.desc?`<div class="desc-box reveal in"><h2>🎲 게임 설명</h2><p>${esc(g.desc)}</p></div>`:""}
     <div class="sec-row"><h2>이런 게임은 어때요?</h2><a class="more" href="#/archive">전체 보기 →</a></div>
     <div class="grid-3" style="padding-bottom:60px">${related.map(cardHTML).join("")}</div>`;
   observeReveals();
@@ -597,6 +698,8 @@ function route(){
     (document.getElementById("page-"+name)||document.getElementById("page-home")).classList.add("active");
     const nav=document.querySelector(`[data-nav="${name}"]`); if(nav)nav.classList.add("active");
     if(name==="archive")renderArchive();
+    setDocMeta(PAGE_TITLES[name] || PAGE_TITLES.home, SITE_DESC);
+    trackPageview();
     window.scrollTo({top:0});
     observeReveals();
   }

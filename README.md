@@ -17,8 +17,10 @@ Notion DB ──(GitHub Actions, 1시간마다)──> games.json ──> index.
 |---|---|---|
 | `index.html` | 사이트 전체 (5페이지) | 폼 주소만 |
 | `games.json` | Notion에서 뽑아낸 데이터 | ❌ 자동 생성 |
-| `scripts/build.mjs` | Notion → JSON 변환 | ❌ |
+| `scripts/build.mjs` | Notion → JSON 변환 + 정적 SEO 생성 | ❌ |
 | `.github/workflows/sync-notion.yml` | 1시간마다 자동 실행 | ❌ |
+| `assets/og-default.png` | 기본 공유 미리보기 이미지 (1200×630) | 바꾸고 싶을 때만 |
+| `sitemap.xml`, `robots.txt`, `game/*/` | 검색·공유용 정적 페이지 | ❌ 자동 생성 |
 
 > 지금 들어 있는 `games.json`은 실제 Notion 데이터로 만든 **미리보기 샘플(16건)** 입니다. Actions가 처음 돌면 최신 데이터로 교체됩니다.
 
@@ -120,7 +122,6 @@ const WEEKLY_PICKS = ["룬 월드", "검은 도시", "다이스 포커"];
 |---|---|---|
 | 테마 | 전 건 비어 있음 | 테마 필터가 화면에 안 나옴 |
 | 메인 메커니즘 | 전 건 비어 있음 | 메커니즘 필터가 안 나옴 |
-| 제작 난이도 | 전 건 비어 있음 | 난이도 필터·카드 태그 안 나옴 |
 | 게임 설명 | 약 2/3 비어 있음 | 상세 페이지가 허전함 |
 | 썸네일 | 속성 자체가 없음 | 카드가 전부 색상 블록 |
 
@@ -149,9 +150,41 @@ Notion DB에 `썸네일`이라는 **URL 타입** 속성을 만들고 이미지 �
 ## 로컬에서 테스트
 
 ```bash
-# 데이터 새로 뽑기
+# 데이터 새로 뽑기 (games.json + sitemap.xml + robots.txt + game/*/index.html)
 NOTION_TOKEN=ntn_xxx node scripts/build.mjs
 
 # 사이트 띄우기
 npx serve .
 ```
+
+---
+
+## 공유 미리보기 · 검색엔진 (SEO)
+
+이 사이트는 해시 라우팅 SPA라서 `#/game/xxx` 주소를 카카오톡·트위터 미리보기 봇이
+읽지 못합니다. 봇은 자바스크립트를 실행하지 않기 때문입니다.
+그래서 `build.mjs`가 매 동기화마다 **게임별 정적 페이지**를 따로 만듭니다.
+
+| 산출물 | 용도 |
+|---|---|
+| `game/<slug>/index.html` | 게임 1개당 1페이지. og:title·description·image + 사람이 읽어도 되는 본문(제목·설명·스펙표·다운로드 버튼) |
+| `sitemap.xml` | 검색엔진에 전체 페이지 목록 제출 |
+| `robots.txt` | 크롤링 허용 + sitemap 위치 안내 |
+
+정적 페이지에는 **자동 리다이렉트를 넣지 않았습니다.** 미리보기 봇이 리다이렉트를 따라가면
+메타 정보를 못 읽으므로, 이 페이지 자체가 완결된 콘텐츠여야 합니다.
+
+### 커스텀 도메인을 붙일 때
+
+기본 주소는 `https://gamesmithlab.github.io/PnP-Archive-Korea`입니다.
+도메인을 바꾸면 저장소 **Settings → Secrets and variables → Actions → Variables**에
+`SITE_URL`을 새 주소로 등록하세요. 워크플로가 이 값을 읽어 정적 페이지·sitemap의 주소를 맞춥니다.
+(로컬 실행 시에는 `SITE_URL=https://... node scripts/build.mjs`)
+
+---
+
+## 방문자 분석 (GA4)
+
+`index.html` `<head>`에 측정 ID가 들어 있습니다 (`window.GA_MEASUREMENT_ID`).
+SPA라서 자동 page_view를 끄고, 해시가 바뀔 때마다 `trackPageview()`가 직접 이벤트를 보냅니다.
+측정 ID를 바꾸려면 `<head>`의 `GA_MEASUREMENT_ID` 값과 `gtag/js?id=` 주소를 함께 수정하세요.
