@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T01:11:05.618Z",
+  "generatedAt": "2026-08-13T05:50:28.343Z",
   "count": 72,
   "facets": {
     "playtime": [
@@ -8,15 +8,9 @@
       "60분~120분"
     ],
     "age": [
-      "10세 이상",
       "12세 이상",
-      "13세 이상",
       "14세 이상",
-      "15세 이상",
-      "5세 이상",
-      "7세 이상",
-      "8세 이상",
-      "9세 이상"
+      "8세 이상"
     ],
     "theme": [],
     "mech": [],
@@ -46,7 +40,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1782&game=20668",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -71,7 +65,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1784&game=20680",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -96,7 +90,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1765&game=20679",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -112,7 +106,7 @@
       "desc": "",
       "players": "2-4명",
       "playtime": "30분 이하",
-      "age": "9세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "",
       "theme": [],
@@ -121,7 +115,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1778&game=20614",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -146,7 +140,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1679&game=20650",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -162,7 +156,7 @@
       "desc": "",
       "players": "2명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 베팅/내기, 협력 게임\n[테마 원본] 카드 게임, 판타지, 프린트 & 플레이",
       "theme": [],
@@ -171,7 +165,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1781&game=20665",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -196,7 +190,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1779&game=20603",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -221,7 +215,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1783&game=20666",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -246,7 +240,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1770&game=20640",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -271,7 +265,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1766&game=20608",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -296,7 +290,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1771&game=20629",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -321,7 +315,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1774&game=20652",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -346,7 +340,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1769&game=20627",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -362,7 +356,7 @@
       "desc": "왕을 호위하고 전선을 지배하세요! 군단을 편성하고 주사위 수를 바꾸어 운명을 뒤틀어버리십쇼.",
       "players": "2명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 액션/이동 프로그래밍\n[테마 원본] 고대, 신화, 역사, 워게임, 전투",
       "theme": [],
@@ -371,7 +365,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1763&game=20644",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -396,7 +390,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1772&game=20657",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -421,7 +415,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1746&game=20670",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -437,7 +431,7 @@
       "desc": "",
       "players": "2-4명",
       "playtime": "30분 이하",
-      "age": "7세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 주사위 굴림",
       "theme": [],
@@ -446,7 +440,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1773&game=20651",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -471,7 +465,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1757&game=20591",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -496,7 +490,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#f95b611c929547b8a61276c318b90715",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -521,7 +515,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1775&game=20663",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -546,7 +540,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1742&game=20669",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -571,7 +565,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1764&game=20589",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -596,7 +590,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1632&game=20588",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -612,7 +606,7 @@
       "desc": "롤 앤 라이트로 즐기는 3X 게임.",
       "players": "1-4명",
       "playtime": "60분~120분",
-      "age": "15세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 롤앤라이트, 액션 포인트, 주사위 굴림, 주사위 아이콘 해결\n[테마 원본] 문명, 탐험",
       "theme": [],
@@ -621,7 +615,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1776&game=20606",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -637,7 +631,7 @@
       "desc": "룬을 조합해 영토를 확장하고 부족을 번영시키는 게임.",
       "players": "1-4명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 롤앤라이트, 액션 포인트, 종이와 펜, 주사위 굴림, 패턴 빌딩\n[테마 원본] 영역 건설, 주사위, 판타지, 프린트 & 플레이",
       "theme": [],
@@ -646,7 +640,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#7fc266d6a99548778515d87375b953dd",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -671,7 +665,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1135&game=16671",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -696,7 +690,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1137&game=16564",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -721,7 +715,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1163&game=16555",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -746,7 +740,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1112&game=16629",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -771,7 +765,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#c1a2ef23498f4e09b87b1e93f7eadf05",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -821,7 +815,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=997&game=16558",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -837,7 +831,7 @@
       "desc": "대륙횡단 철도를 건설해 상대 정거장까지 먼저 도착하는 게임.",
       "players": "2-4명",
       "playtime": "30분 이하",
-      "age": "7세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 레이스, 롤앤라이트, 액션/이동 프로그래밍, 연결, 주사위 굴림\n[테마 원본] 기차, 운송, 주사위, 프린트 & 플레이",
       "theme": [],
@@ -846,7 +840,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#ee894cc425d646388badc652a9027808",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -871,7 +865,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#01c7173abdb948bb9d2efd6c3ec853e1",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -896,7 +890,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1098&game=16582",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -921,7 +915,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1008&game=16721",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -946,7 +940,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#60925f1a48e145efbff60a2b7f81e010",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -971,7 +965,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#e9f66fee83574433a065b3c6d0fc1e41",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -996,7 +990,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1141&game=16624",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1021,7 +1015,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#9a694bcbf0b14930820f0376a43631ad",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1037,7 +1031,7 @@
       "desc": "플레잉 카드만으로 즐기는 파티 게임. 높은 합 경쟁으로 표식을 이동시키고 살아남아야 한다.",
       "players": "3-5명",
       "playtime": "30분 이하",
-      "age": "7세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 서든 데쓰 엔딩, 점수 계산 및 리셋 게임, 주사위 굴림, 핸드 관리\n[테마 원본] 블러핑, 수개념, 주사위, 카드 게임",
       "theme": [],
@@ -1046,7 +1040,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#0cc215e266424b4881b64eb35b604be1",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -1087,7 +1081,7 @@
       "desc": "기억을 잃은 캐릭터들의 면접 역할극 TRPG.",
       "players": "4명",
       "playtime": "30~60분",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 액션/이벤트, 연기\n[테마 원본] 블러핑, 판타지, 행동/재주",
       "theme": [],
@@ -1096,7 +1090,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#5f22f9600f704c619919c5ddba30c86a",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1121,7 +1115,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#12750c237c9745c18a7cfca15638af42",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1146,7 +1140,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#dc8c8cd1635a42a586a275621d86c8ee",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1171,7 +1165,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#10507a27373641a5a669425b330199d2",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1196,7 +1190,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1142&game=16675",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -1212,7 +1206,7 @@
       "desc": "플레잉 카드와 펜만으로 도시에 투자해 수입을 얻는 전략 게임.",
       "players": "2-4명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "",
       "theme": [],
@@ -1221,7 +1215,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#3b1248bec7294f4f831cf3bbd6b0d8f0",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1246,7 +1240,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=744&game=15272",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1271,7 +1265,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1063&game=16732",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1296,7 +1290,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=746&game=15286",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -1312,7 +1306,7 @@
       "desc": "",
       "players": "2-3명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 육각형 그리드, 종이와 펜\n[테마 원본] SF 공상 과학, 농업, 영역 건설",
       "theme": [],
@@ -1321,7 +1315,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=976&game=16523",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1346,7 +1340,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1122&game=16516",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1362,7 +1356,7 @@
       "desc": "",
       "players": "1-4명",
       "playtime": "30~60분",
-      "age": "13세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 레이스, 롤앤라이트, 스탯 체크 해결, 이벤트, 종이와 펜\n[테마 원본] 게임 시스템, 수개념, 주사위, 판타지, 프린트 & 플레이",
       "theme": [],
@@ -1371,7 +1365,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1040&game=16712",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1396,7 +1390,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1123&game=16513",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1421,7 +1415,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=745&game=15388",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1446,7 +1440,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=718&game=15404",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1462,7 +1456,7 @@
       "desc": "던전을 탐험하는 리코셰 용사",
       "players": "1명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "",
       "theme": [],
@@ -1471,7 +1465,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=748&game=15341",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1487,7 +1481,7 @@
       "desc": "",
       "players": "1-2명",
       "playtime": "30분 이하",
-      "age": "9세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "",
       "theme": [],
@@ -1496,7 +1490,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=8857&game=16613",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -1521,7 +1515,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=752&game=15398",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -1537,7 +1531,7 @@
       "desc": "",
       "players": "2-4명",
       "playtime": "30분 이하",
-      "age": "5세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 기억력, 비공개 승점, 운걸기\n[테마 원본] 소풍",
       "theme": [],
@@ -1546,7 +1540,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1119&game=16667",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -1596,7 +1590,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=751&game=15405",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -1621,7 +1615,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=743&game=15340",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -1646,7 +1640,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=750&game=15403",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1662,7 +1656,7 @@
       "desc": "",
       "players": "2명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "",
       "theme": [],
@@ -1671,7 +1665,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1131&game=16722",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1696,7 +1690,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1143&game=16731",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -1721,7 +1715,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=747&game=15406",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -1737,7 +1731,7 @@
       "desc": "블록 카드를 쌓아서 점수를 최대한 높이자",
       "players": "1명",
       "playtime": "30분 이하",
-      "age": "10세 이상",
+      "age": "",
       "mech": [],
       "mechEtc": "[메커니즘 원본] 기억력, 매칭, 셋 컬렉션, 핸드 관리\n[테마 원본] 카드 게임, 퍼즐",
       "theme": [],
@@ -1746,7 +1740,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=736&game=15397",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -1771,7 +1765,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1010&game=16533",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1821,7 +1815,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=749&game=15395",
+      "url": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
