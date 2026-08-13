@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gamesmithlab.github.io/PnP-Archive-Korea/sitemap.xml
