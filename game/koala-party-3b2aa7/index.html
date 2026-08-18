@@ -17,12 +17,23 @@
 <meta name="twitter:title" content="코알라 파티 (Koala Party) · PnP 아카이브 KOREA">
 <meta name="twitter:description" content="색상/숫자를 거짓으로 외치며 살아남는 반응속도 파티 게임.">
 <meta name="twitter:image" content="https://gamesmithlab.github.io/PnP-Archive-Korea/assets/og-default.png">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJDJMDKBE0"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag("js", new Date());
+gtag("config", "G-NJDJMDKBE0");
+</script>
 <style>
 :root{--bg:#FAF6EF;--surface:#fff;--main:#C4593A;--navy:#2E3A4E;--text:#3B322C;--muted:#8A7E74;--line:#E7DFD2}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
 a{color:inherit}
-.wrap{max-width:720px;margin:0 auto;padding:48px 24px 72px}
+.topnav{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:720px;margin:0 auto;padding:20px 24px 0;font-size:14px}
+.topnav .brand{font-weight:800;text-decoration:none;color:var(--navy)}
+.topnav .navlinks a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
+.topnav .navlinks a:hover{color:var(--main)}
+.wrap{max-width:720px;margin:0 auto;padding:24px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:28px}
 .crumb a{color:var(--main);text-decoration:none}
 h1{font-size:clamp(28px,5vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1.2}
@@ -33,15 +44,31 @@ table{width:100%;border-collapse:collapse;background:var(--surface);border:1px s
 th,td{text-align:left;padding:12px 18px;font-size:15px;border-bottom:1px solid var(--line)}
 tr:last-child th,tr:last-child td{border-bottom:none}
 th{width:34%;color:var(--muted);font-weight:600}
-.btn{display:inline-block;margin:28px 0 8px;background:var(--main);color:#fff;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
+.btn{display:inline-block;margin:28px 8px 8px 0;background:var(--main);color:#fff;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
 .btn.off{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.btn-small{display:inline-block;margin:8px 0;background:var(--surface);color:var(--muted);border:1px solid var(--line);padding:8px 16px;border-radius:999px;font-weight:600;font-size:12.5px;text-decoration:none}
+.btn-small:hover{color:var(--main);border-color:var(--main)}
 .back{display:inline-block;margin-top:32px;color:var(--main);text-decoration:none;font-weight:600}
+.related{margin-top:44px}
+.related h2{font-size:19px;font-weight:800;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:600px){.related-grid{grid-template-columns:1fr}}
+.related-card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit}
+.related-thumb{aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;font-size:28px;background-size:cover;background-position:center}
+.related-title{padding:10px 12px;font-size:13.5px;font-weight:700}
 footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
+<div class="topnav">
+  <a class="brand" href="https://gamesmithlab.github.io/PnP-Archive-Korea/">🎲 PnP 아카이브 KOREA</a>
+  <div class="navlinks">
+    <a href="https://gamesmithlab.github.io/PnP-Archive-Korea/#/archive">게임 아카이브</a>
+    <a href="https://gamesmithlab.github.io/PnP-Archive-Korea/#/submit">게임 등록하기</a>
+  </div>
+</div>
 <div class="wrap">
-  <div class="crumb"><a href="https://gamesmithlab.github.io/PnP-Archive-Korea/">PnP 아카이브 KOREA</a> › 게임 아카이브</div>
+  <div class="crumb"><a href="https://gamesmithlab.github.io/PnP-Archive-Korea/#/archive">게임 아카이브</a> › 코알라 파티</div>
   <h1>코알라 파티</h1>
   <div class="en">Koala Party</div>
   <div class="by">작가 · <strong>기전세</strong></div>
@@ -53,9 +80,29 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <tr><th>언어</th><td>한국어</td></tr>
     <tr><th>가격</th><td>무료</td></tr>
   </table>
-  <a class="btn" href="https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#f95b611c929547b8a61276c318b90715" rel="noopener noreferrer">⬇ 파일 다운로드</a>
-  <div><a class="back" href="https://gamesmithlab.github.io/PnP-Archive-Korea/#/game/3b2aa7a1591181b385f0da6b53a7c4ea">← 아카이브에서 보기</a></div>
-  <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다.</footer>
+  <div>
+    <a class="btn" href="https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#f95b611c929547b8a61276c318b90715" rel="noopener noreferrer">⬇ 파일 다운로드</a>
+  </div>
+  <a class="btn-small" href="mailto:GameSmithLab@gmail.com?subject=%5B%EA%B2%8C%EC%8B%9C%EC%A4%91%EB%8B%A8%20%EC%9A%94%EC%B2%AD%5D%20%EC%BD%94%EC%95%8C%EB%9D%BC%20%ED%8C%8C%ED%8B%B0&amp;body=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C%20PnP%20%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%20KOREA%20%EC%9A%B4%EC%98%81%EC%9E%90%EB%8B%98.%0A%0A%EC%95%84%EB%9E%98%20%EA%B2%8C%EC%9E%84%EC%9D%98%20%EA%B6%8C%EB%A6%AC%EC%9E%90(%EB%98%90%EB%8A%94%20%EB%8C%80%EB%A6%AC%EC%9D%B8)%EB%A1%9C%EC%84%9C%20%EA%B2%8C%EC%8B%9C%EC%A4%91%EB%8B%A8%EC%9D%84%20%EC%9A%94%EC%B2%AD%ED%95%A9%EB%8B%88%EB%8B%A4.%0A%0A-%20%EA%B2%8C%EC%9E%84%EB%AA%85%3A%20%EC%BD%94%EC%95%8C%EB%9D%BC%20%ED%8C%8C%ED%8B%B0%0A-%20%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fgamesmithlab.github.io%2FPnP-Archive-Korea%2Fgame%2Fkoala-party-3b2aa7%2F%0A-%20%EC%9A%94%EC%B2%AD%EC%9E%90%EC%99%80%20%EB%B3%B8%20%EA%B2%8C%EC%9E%84%EC%9D%98%20%EA%B4%80%EA%B3%84%3A%20(%EC%98%88%3A%20%EC%B0%BD%EC%9E%91%EC%9E%90%20%EB%B3%B8%EC%9D%B8%20%2F%20%EB%8C%80%EB%A6%AC%EC%9D%B8%20%EB%93%B1%EC%9D%84%20%EC%A0%81%EC%96%B4%EC%A3%BC%EC%84%B8%EC%9A%94)%0A-%20%EC%8B%A0%EC%9B%90%20%ED%99%95%EC%9D%B8%20%EC%9E%90%EB%A3%8C%3A%20(%EB%B3%B8%EC%9D%B8%EC%9E%84%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EC%A0%81%EC%96%B4%EC%A3%BC%EC%84%B8%EC%9A%94%20%E2%80%94%20%EC%98%88%3A%20%EC%9B%90%EB%B3%B8%20%EC%97%85%EB%A1%9C%EB%93%9C%20%EA%B3%84%EC%A0%95%2C%20%EC%B0%B8%EA%B3%A0%20%EB%A7%81%ED%81%AC%20%EB%93%B1)%0A%0A%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.">🔒 이 게임의 권리자이신가요? · 게시중단 요청</a>
+  <div><a class="back" href="https://gamesmithlab.github.io/PnP-Archive-Korea/#/archive">← 아카이브에서 다른 게임 보기</a></div>
+  <div class="related">
+    <h2>이런 게임은 어때요?</h2>
+    <div class="related-grid">
+      <a class="related-card" href="https://gamesmithlab.github.io/PnP-Archive-Korea/game/bloom-3baaa7/">
+        <div class="related-thumb" style="background:linear-gradient(135deg,#5B6E8C,#8A9BB8)">⚔️</div>
+        <div class="related-title">꽃을 피워요</div>
+      </a>
+      <a class="related-card" href="https://gamesmithlab.github.io/PnP-Archive-Korea/game/go-up-go-down-3baaa7/">
+        <div class="related-thumb" style="background:linear-gradient(135deg,#C4593A,#E0A83C)">🃏</div>
+        <div class="related-title">고 업 &amp; 고 다운</div>
+      </a>
+      <a class="related-card" href="https://gamesmithlab.github.io/PnP-Archive-Korea/game/happy-marimo-3b2aa7/">
+        <div class="related-thumb" style="background:linear-gradient(135deg,#7A5C3E,#A8845C)">🎯</div>
+        <div class="related-title">행복한 마리모</div>
+      </a>
+    </div>
+  </div>
+  <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
 </div>
 </body>
 </html>
