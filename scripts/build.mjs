@@ -284,28 +284,6 @@ function pickRelated(games, g, n = 3) {
   return scored.slice(0, n).map((s) => s.x);
 }
 
-// ─────────────────────────────────────────────
-// 게시중단 요청 mailto 링크
-// 이 사이트는 서버가 없어 신원 확인을 자동화할 수 없습니다 — 대신 이메일 본문에
-// 권리자 확인 정보를 적어 보내도록 안내하고, 운영자가 수동으로 검토합니다.
-// ─────────────────────────────────────────────
-function takedownMailto(g, canonical) {
-  const subject = `[게시중단 요청] ${g.ko}`;
-  const body = [
-    "안녕하세요, PnP 아카이브 KOREA 운영자님.",
-    "",
-    "아래 게임의 권리자(또는 대리인)로서 게시중단을 요청합니다.",
-    "",
-    `- 게임명: ${g.ko}`,
-    `- 페이지 주소: ${canonical}`,
-    "- 요청자와 본 게임의 관계: (예: 창작자 본인 / 대리인 등을 적어주세요)",
-    "- 신원 확인 자료: (본인임을 확인할 수 있는 정보를 적어주세요 — 예: 원본 업로드 계정, 참고 링크 등)",
-    "",
-    "감사합니다.",
-  ].join("\n");
-  return `mailto:GameSmithLab@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-}
-
 function gamePageHtml(g, related) {
   const title = `${g.ko}${g.en ? ` (${g.en})` : ""} · PnP 아카이브 KOREA`;
   const desc =
@@ -313,7 +291,6 @@ function gamePageHtml(g, related) {
   const canonical = `${SITE_URL}/game/${g.slug}/`;
   const image = safeHttpUrl(g.thumb) || `${SITE_URL}/assets/og-default.png`;
   const dl = safeHttpUrl(g.url);
-  const takedownUrl = takedownMailto(g, canonical);
 
   const spec = [
     ["인원수", g.players],
@@ -377,8 +354,7 @@ tr:last-child th,tr:last-child td{border-bottom:none}
 th{width:34%;color:var(--muted);font-weight:600}
 .btn{display:inline-block;margin:28px 8px 8px 0;background:var(--main);color:#fff;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
 .btn.off{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
-.btn-small{display:inline-block;margin:8px 0;background:var(--surface);color:var(--muted);border:1px solid var(--line);padding:8px 16px;border-radius:999px;font-weight:600;font-size:12.5px;text-decoration:none}
-.btn-small:hover{color:var(--main);border-color:var(--main)}
+.takedown-note{margin:8px 0;font-size:12.5px;color:var(--muted)}
 .back{display:inline-block;margin-top:32px;color:var(--main);text-decoration:none;font-weight:600}
 .related{margin-top:44px}
 .related h2{font-size:19px;font-weight:800;margin-bottom:16px}
@@ -416,7 +392,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
         : `<span class="btn off">다운로드 링크 준비 중</span>`
     }
   </div>
-  <a class="btn-small" href="${escHtml(takedownUrl)}">🔒 이 게임의 권리자이신가요? · 게시중단 요청</a>
+  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>GameSmithLab@gmail.com</strong>으로 연락부탁드립니다.</div>
   <div><a class="back" href="${escHtml(SITE_URL)}/#/archive">← 아카이브에서 다른 게임 보기</a></div>
   ${
     related.length
