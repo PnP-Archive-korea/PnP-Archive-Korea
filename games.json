@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T03:10:36.889Z",
-  "count": 160,
+  "generatedAt": "2026-08-18T05:16:39.185Z",
+  "count": 169,
   "facets": {
     "playtime": [
       "30~60분",
@@ -10,14 +10,18 @@
     "age": [
       "12세 이상",
       "14세 이상",
+      "18세 이상",
       "8세 이상"
     ],
     "theme": [
       "SF",
       "기타",
       "동물",
+      "스포츠",
       "역사",
+      "유머/파티",
       "추상",
+      "카드게임",
       "판타지",
       "현대"
     ],
@@ -27,11 +31,14 @@
       "기억력",
       "기타",
       "덱빌딩",
+      "드래프트",
       "롤플레잉",
       "마피아",
       "비공개 이동",
       "세트 수집",
+      "솔로/솔로테어 게임",
       "스토리텔링",
+      "액션/이동 프로그래밍",
       "자원 관리",
       "주사위 관리",
       "주사위 굴림",
@@ -44,6 +51,7 @@
       "타일 재배열",
       "트릭테이킹",
       "특정 상품 운송",
+      "패턴 인식",
       "퍼즐 풀이",
       "푸시 유어 럭",
       "플레이어 제거",
@@ -59,6 +67,282 @@
     ]
   },
   "games": [
+    {
+      "id": "3c0aa7a159118103a6a7e92e9a5bb9c7",
+      "slug": "마기의-나라-카드게임-3c0aa7",
+      "ko": "마기의 나라 카드게임",
+      "en": "",
+      "author": "이르메",
+      "desc": "덱을 구성해 하수인을 소환하고 적 영웅을 격퇴하는 1인용 카드게임. 중립·제국·프린키피아·마탑·교단 5세력.",
+      "players": "1명",
+      "playtime": "",
+      "age": "18세 이상",
+      "mech": [
+        "덱빌딩",
+        "솔로/솔로테어 게임",
+        "자원 관리"
+      ],
+      "mechEtc": "일부 일러스트 수위 높음(작가 주의 표기)",
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://drive.google.com/file/d/1MHcZZZ10LZO0S1_kicieyjg9jrYQwYXD/view?usp=sharing",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
+      "icon": "🏰",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:34:00.000Z"
+    },
+    {
+      "id": "3c0aa7a159118108957ef9aa2bc9b626",
+      "slug": "4x4-나이트킹-말왕-3c0aa7",
+      "ko": "4x4 나이트킹(말왕)",
+      "en": "",
+      "author": "샤데루",
+      "desc": "4x4 판 모서리의 말들이 나이트 공격을 피하며 이동하는 2인 추상 전략 게임.",
+      "players": "2명",
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "그리드 이동",
+        "퍼즐 풀이"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/99493686",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:34:00.000Z"
+    },
+    {
+      "id": "3c0aa7a159118127b9a4ff872d9aca5e",
+      "slug": "pollution-trump-3c0aa7",
+      "ko": "Pollution Trump",
+      "en": "Pollution Trump",
+      "author": "아야어여우유좋아",
+      "desc": "트럼프 카드와 노트만으로 즐기는, 질문과 카드 효과로 정답을 추론하거나 블러프로 방해하는 비대칭 1대1 추리 게임.",
+      "players": "2명(2대2 팀전 가능)",
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "추리",
+        "카드 사용"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/160047340",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:34:00.000Z"
+    },
+    {
+      "id": "3c0aa7a15911813ca588f6ae5e3da7ab",
+      "slug": "속성장기-3c0aa7",
+      "ko": "속성장기",
+      "en": "",
+      "author": "Euleeer",
+      "desc": "동물장기와 비슷하되 기물마다 속성이 붙어 상성 싸움을 하는 2인용 추상 전략 게임.",
+      "players": "2명",
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "그리드 이동",
+        "기타"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상",
+        "동물"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/139197510",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:34:00.000Z"
+    },
+    {
+      "id": "3c0aa7a15911814e9916f9403af7f064",
+      "slug": "솔리테어-타워-3c0aa7",
+      "ko": "솔리테어 타워",
+      "en": "",
+      "author": "피아",
+      "desc": "카드를 적절히 배치해 가장 높은 승점을 얻는 카드 배치 게임.",
+      "players": "7명",
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "카드 사용",
+        "지역 장악"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/125086183",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:34:00.000Z"
+    },
+    {
+      "id": "3c0aa7a15911817f804fdd925634806c",
+      "slug": "end-of-arts-3c0aa7",
+      "ko": "End of Arts",
+      "en": "End of Arts",
+      "author": "먹둘",
+      "desc": "카드가 발동할 시점의 상대 위치를 예측하는 예측형 턴제 1대1 카드 대전 게임.",
+      "players": "2명",
+      "playtime": "30~60분",
+      "age": "",
+      "mech": [
+        "그리드 이동",
+        "카드 사용",
+        "액션/이동 프로그래밍"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/174017067",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:35:00.000Z"
+    },
+    {
+      "id": "3c0aa7a159118196938bc67eb0e33fde",
+      "slug": "마피아-택틱스-3c0aa7",
+      "ko": "마피아 택틱스",
+      "en": "",
+      "author": "쇼이치에게블루버드실드를",
+      "desc": "공표·마나·쿨타임 시스템으로 5~10분 만에 끝나는 8~13인용 짧은 마피아 게임.",
+      "players": "8-13명",
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "마피아",
+        "추리"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "유머/파티"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/179217429",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:35:00.000Z"
+    },
+    {
+      "id": "3c0aa7a1591181c9b7c7dab3ea4c6f00",
+      "slug": "다이아몬드-에이스-3c0aa7",
+      "ko": "다이아몬드 에이스",
+      "en": "",
+      "author": "트악귀",
+      "desc": "표준 트럼프 카드만으로 타격·주루 페이즈를 진행하는 2인용 야구 게임.",
+      "players": "2명",
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "드래프트",
+        "패턴 인식",
+        "카드 사용"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "스포츠"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/154508532",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:35:00.000Z"
+    },
+    {
+      "id": "3c0aa7a1591181ce93e2d79d9b908723",
+      "slug": "lucky-v-3c0aa7",
+      "ko": "Lucky V",
+      "en": "Lucky V",
+      "author": "시온쨩카와이",
+      "desc": "트럼프 카드·주사위·코인칩 등 흔한 도구만으로 즐기는 순수 블러핑 베팅 게임. 실물로 출시된 적 없이 룰만 존재하는 형태라 PnP 개념과 정확히 일치한다.",
+      "players": "2-4명",
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "푸시 유어 럭",
+        "주사위 굴림",
+        "카드 사용"
+      ],
+      "mechEtc": "",
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://arca.live/b/boardgame/118104674",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🔷",
+      "createdAt": "2026-08-18T01:42:00.000Z",
+      "updatedAt": "2026-08-18T04:35:00.000Z"
+    },
     {
       "id": "3baaa7a15911811984eafee0b9e4eaf4",
       "slug": "연합-우주-방어-사령부-3baaa7",
