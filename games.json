@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T05:17:13.062Z",
-  "count": 197,
+  "generatedAt": "2026-08-19T07:25:06.821Z",
+  "count": 196,
   "facets": {
     "playtime": [
       "30~60분",
@@ -1334,34 +1334,6 @@
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=787",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "🏰",
-      "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
-    },
-    {
-      "id": "3baaa7a159118171a698ff7dc29f8f91",
-      "slug": "캐리어-3baaa7",
-      "ko": "캐리어",
-      "en": "",
-      "author": "플립베어",
-      "desc": "플립베어 팀의 자작 보드게임 '캐리어' 디자인 일지 4편(Design Artwork). 브레인스토밍을 통해 쓰레기로 더러워진 도시, 그리스·로마적 시대의 건물 등 5가지 디자인 요소를 정리한 과정을 기록. 테이블탑 시뮬레이터 플레이테스트 내용이 포함된 연재 제작기 시리즈.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
-      "mech": [],
-      "theme": [
-        "판타지"
-      ],
-      "price": "무료",
-      "year": 2022,
-      "lang": [
-        "한국어"
-      ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=779",
-      "thumb": null,
-      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
       "updatedAt": "2026-08-18T01:14:00.000Z"
