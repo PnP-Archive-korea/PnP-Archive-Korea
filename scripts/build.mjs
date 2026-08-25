@@ -18,7 +18,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 // 공개 사이트 주소. GitHub Actions에서는 저장소 Variables의 SITE_URL을 읽습니다.
 // 커스텀 도메인을 붙이면 이 값만 바꾸면 됩니다.
-const SITE_URL = (process.env.SITE_URL || "https://gamesmithlab.github.io/PnP-Archive-Korea")
+const SITE_URL = (process.env.SITE_URL || "https://pnparchive.com")
   .replace(/\/+$/, "");
 
 // index.html과 동일한 GA4 측정 ID — 정적 게임 페이지도 같은 속성으로 집계됩니다.
