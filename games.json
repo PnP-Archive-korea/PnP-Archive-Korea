@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T07:54:31.523Z",
+  "generatedAt": "2026-08-27T08:14:49.744Z",
   "count": 199,
   "facets": {
     "playtime": [
@@ -73,7 +73,9 @@
     "price": [
       "무료"
     ],
-    "origin": []
+    "origin": [
+      "해외 번역"
+    ]
   },
   "games": [
     {
@@ -105,12 +107,12 @@
       "url": "https://www.dropbox.com/scl/fo/72xdha5f14mb9ewqa614i/AO0y29m0sOEUlZXtjrk5azg?rlkey=9pnb8531nxaq3cn6w8cx40706&st=0ug70wou&dl=0",
       "infoUrl": "",
       "playUrl": "",
-      "origin": "",
+      "origin": "해외 번역",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-08-27T02:24:00.000Z"
+      "updatedAt": "2026-08-27T08:09:00.000Z"
     },
     {
       "id": "3c9aa7a15911804ba739d4ad7a358453",
@@ -140,12 +142,12 @@
       "url": "https://www.dropbox.com/scl/fo/2wpe82k8wc5g40l7vwiwt/AIA8GmZ2XlUIC-UtuIBlTNY?rlkey=8mzr6orgjsd3xnjhjt29h0bju&st=7czu0yio&dl=0",
       "infoUrl": "",
       "playUrl": "",
-      "origin": "",
+      "origin": "해외 번역",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-08-27T02:23:00.000Z"
+      "updatedAt": "2026-08-27T08:09:00.000Z"
     },
     {
       "id": "3c9aa7a159118089b8aec29995c23b10",
@@ -177,12 +179,12 @@
       "url": "https://www.dropbox.com/scl/fo/06im42bkl58lisbwelqfw/AD5SaG_QfQBhaA1-n_4nw6E?rlkey=d57q52352r73yzyariunm4gim&st=qvfwtj05&dl=0",
       "infoUrl": "",
       "playUrl": "",
-      "origin": "",
+      "origin": "해외 번역",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🦊",
       "createdAt": "2026-08-27T02:10:00.000Z",
-      "updatedAt": "2026-08-27T02:23:00.000Z"
+      "updatedAt": "2026-08-27T08:09:00.000Z"
     },
     {
       "id": "3c1aa7a1591181048720f450b9e6439b",
