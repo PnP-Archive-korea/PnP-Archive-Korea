@@ -238,6 +238,14 @@ function transform(page) {
     year: read(p, "발표연도"),
     lang: read(p, "언어") || [],
     url: read(p, "파일 다운로드 주소") || read(p, "파일 다운로드 위치") || "",
+    // 게임 하나에 링크가 여러 개 붙을 수 있습니다. 값이 있는 것만 버튼으로 나갑니다.
+    //   url     = PnP 자료(파일/자료 게시글)
+    //   infoUrl = 원문·게임 정보 페이지 (해외 원작 페이지, BGG, 창작일지 등)
+    //   playUrl = 온라인으로 바로 플레이할 수 있는 구현체
+    infoUrl: read(p, "원문/정보 링크") || "",
+    playUrl: read(p, "온라인 플레이 링크") || "",
+    // 출처: "국내 창작" / "해외 번역" (비어 있으면 필터·배지에 나타나지 않음)
+    origin: read(p, "출처") || "",
     thumb,
     // 썸네일이 없을 때 카드에 쓸 대체 비주얼
     grad: PALETTE[h % PALETTE.length],
@@ -290,7 +298,13 @@ function gamePageHtml(g, related) {
     g.desc || `${g.ko} — ${g.author || "작자 미상"}의 한국 창작 PnP 보드게임.`;
   const canonical = `${SITE_URL}/game/${g.slug}/`;
   const image = safeHttpUrl(g.thumb) || `${SITE_URL}/assets/og-default.png`;
-  const dl = safeHttpUrl(g.url);
+  // 값이 있는 링크만 버튼으로 만듭니다 — 1개면 버튼 1개, 2개면 2개.
+  // 맨 앞 버튼이 주 버튼(주황), 나머지는 보조 버튼(테두리)입니다.
+  const links = [
+    { url: safeHttpUrl(g.url), label: "⬇ 파일 다운로드" },
+    { url: safeHttpUrl(g.playUrl), label: "▶ 온라인으로 플레이" },
+    { url: safeHttpUrl(g.infoUrl), label: "🔗 원문·게임 정보" },
+  ].filter((l) => l.url);
 
   const spec = [
     ["인원수", g.players],
@@ -301,6 +315,7 @@ function gamePageHtml(g, related) {
     ["테마", (g.theme || []).join(", ")],
     ["메인 메커니즘", (g.mech || []).join(", ")],
     ["가격", g.price],
+    ["출처", g.origin],
   ].filter(([, v]) => v !== null && v !== undefined && v !== "");
 
   // 주의: meta-refresh 자동 리다이렉트를 넣지 않습니다.
@@ -354,6 +369,7 @@ tr:last-child th,tr:last-child td{border-bottom:none}
 th{width:34%;color:var(--muted);font-weight:600}
 .btn{display:inline-block;margin:28px 8px 8px 0;background:var(--main);color:#fff;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
 .btn.off{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.btn.sub{background:var(--surface);color:var(--navy);border:1.5px solid var(--line)}
 .takedown-note{margin:8px 0;font-size:12.5px;color:var(--muted)}
 .back{display:inline-block;margin-top:32px;color:var(--main);text-decoration:none;font-weight:600}
 .related{margin-top:44px}
@@ -387,8 +403,13 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   </table>
   <div>
     ${
-      dl
-        ? `<a class="btn" href="${escHtml(dl)}" rel="noopener noreferrer">⬇ 파일 다운로드</a>`
+      links.length
+        ? links
+            .map(
+              (l, i) =>
+                `<a class="btn${i ? " sub" : ""}" href="${escHtml(l.url)}" rel="noopener noreferrer">${escHtml(l.label)}</a>`
+            )
+            .join("\n    ")
         : `<span class="btn off">다운로드 링크 준비 중</span>`
     }
   </div>
@@ -503,6 +524,7 @@ async function main() {
     mech: uniq(games.flatMap((g) => g.mech)),
     lang: uniq(games.flatMap((g) => g.lang)),
     price: uniq(games.map((g) => g.price)),
+    origin: uniq(games.map((g) => g.origin)),
   };
 
   const out = {
