@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T16:36:42.721Z",
-  "count": 196,
+  "generatedAt": "2026-08-27T07:53:50.828Z",
+  "count": 199,
   "facets": {
     "playtime": [
       "30~60분",
@@ -22,6 +22,7 @@
       "스포츠",
       "역사",
       "유머/파티",
+      "전쟁/전투",
       "추상",
       "카드게임",
       "판타지",
@@ -66,13 +67,123 @@
       "협력"
     ],
     "lang": [
+      "영어",
       "한국어"
     ],
     "price": [
       "무료"
-    ]
+    ],
+    "origin": []
   },
   "games": [
+    {
+      "id": "3c9aa7a159118081a4c5dc3f36073d24",
+      "slug": "rules-of-engagement-3c9aa7",
+      "ko": "교전규칙",
+      "en": "Rules of Engagement",
+      "author": "Barry Smith",
+      "desc": "플레잉 카드로 즐기는 2인 전략 게임! 상대방보다 먼저 전장에서 승리하세요.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
+      "mech": [
+        "카드 사용",
+        "핸드 관리"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/72xdha5f14mb9ewqa614i/AO0y29m0sOEUlZXtjrk5azg?rlkey=9pnb8531nxaq3cn6w8cx40706&st=0ug70wou&dl=0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔖",
+      "createdAt": "2026-08-27T02:16:00.000Z",
+      "updatedAt": "2026-08-27T02:24:00.000Z"
+    },
+    {
+      "id": "3c9aa7a15911804ba739d4ad7a358453",
+      "slug": "candles-cannons-3c9aa7",
+      "ko": "양초 & 대포",
+      "en": "Candles&Cannons",
+      "author": "Playlines Games",
+      "desc": "양초를 밝히고, 대포를 점화하고, 해적을 침몰시키고, 보물을 모읍니다",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "퍼즐 풀이",
+        "카드 사용"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/2wpe82k8wc5g40l7vwiwt/AIA8GmZ2XlUIC-UtuIBlTNY?rlkey=8mzr6orgjsd3xnjhjt29h0bju&st=7czu0yio&dl=0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🎯",
+      "createdAt": "2026-08-27T02:16:00.000Z",
+      "updatedAt": "2026-08-27T02:23:00.000Z"
+    },
+    {
+      "id": "3c9aa7a159118089b8aec29995c23b10",
+      "slug": "swamp-3c9aa7",
+      "ko": "늪",
+      "en": "Swamp",
+      "author": "Playlines Games",
+      "desc": "굶주린 생태계를 관리하세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "퍼즐 풀이",
+        "타일 재배열",
+        "카드 사용"
+      ],
+      "theme": [
+        "동물",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/06im42bkl58lisbwelqfw/AD5SaG_QfQBhaA1-n_4nw6E?rlkey=d57q52352r73yzyariunm4gim&st=qvfwtj05&dl=0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🦊",
+      "createdAt": "2026-08-27T02:10:00.000Z",
+      "updatedAt": "2026-08-27T02:23:00.000Z"
+    },
     {
       "id": "3c1aa7a1591181048720f450b9e6439b",
       "slug": "뭐하세요-용사님-3c1aa7",
@@ -98,6 +209,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/79904a80-24b3-4255-a993-4687d2ef62ed",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
@@ -131,6 +245,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/130b09b6-d219-4610-8494-063f6d5ee97d",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🦊",
@@ -162,6 +279,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/c440bfea-f7d1-4a0d-a51e-268356fdf8d8",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
@@ -192,6 +312,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/056d3a8d-8f78-459b-aa61-27e88c241c78",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -223,6 +346,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/2583f32d-c741-4d0d-a160-69264c6e1461",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🛰️",
@@ -252,6 +378,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/fd8c8811-a60d-4ded-a1e9-171f228d39cb",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -283,6 +412,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/48c62cfc-871e-413c-9307-bc7df42eb53f",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏰",
@@ -313,6 +445,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/03bffd03-6238-4262-8e83-3b49b2eb3609",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🦊",
@@ -345,6 +480,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/edaa4fcd-e7c5-4a8f-a06e-221a0ba9ddc4",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏰",
@@ -376,6 +514,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/355dc424-51e5-4708-8d58-99e4c96043e9",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -407,6 +548,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/9ffaaca6-eff5-4b22-be54-4167d6f15361",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
@@ -437,6 +581,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/a99a3764-ad57-43f2-8c9c-c164b0499c6a",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -468,6 +615,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/4056d5a9-df90-44f2-9b71-fbbd789bec26",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
@@ -498,6 +648,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/c07339aa-b188-4689-befd-728b9626d3f0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -526,6 +679,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/593f435c-08b0-4387-8517-e0c2b9ded2a0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -558,6 +714,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/338e3fa1-5006-46ea-aa87-01552492678b",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -589,6 +748,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/3fdfad20-48e2-4dd7-b6fa-0e6399fae8f0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
@@ -620,6 +782,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/9fe9d137-d5c4-4e7c-826f-c7c3266c9b96",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -650,6 +815,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/c3e218f4-c520-45f5-b6b7-677da21e9fe9",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -680,6 +848,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/8167515a-fe89-46d2-8e15-f716df95e0d5",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -712,6 +883,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/4994e1d1-4b36-4bfd-bb03-ec0964873966",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🛰️",
@@ -744,6 +918,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/edb892b1-3403-461f-b3ca-b3d20ff3b216",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
@@ -773,6 +950,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/aacafb73-a322-42e2-a7ba-720235678f36",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -804,6 +984,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/b2f002d6-01d9-48ba-94c7-5eab2f3a5428",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -835,6 +1018,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/42709ab3-bca6-4e79-8ee6-d3f6d2077d20",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🛰️",
@@ -865,6 +1051,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/9f6a2917-2484-425f-b6c8-12ef199e7d5b",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -894,6 +1083,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/13e2c3ad-449d-4f0a-9d15-92b5d52a19b7",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -925,6 +1117,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/6056534e-6d67-4976-a58b-de1d5d4c228d",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -956,6 +1151,9 @@
         "한국어"
       ],
       "url": "https://www.wemakeplay.co.kr/entry/29084840-11cd-4dcf-94c1-de412864a706",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -989,6 +1187,9 @@
         "한국어"
       ],
       "url": "https://drive.google.com/file/d/1MHcZZZ10LZO0S1_kicieyjg9jrYQwYXD/view?usp=sharing",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏰",
@@ -1020,6 +1221,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/99493686",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
@@ -1051,6 +1255,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/160047340",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🔷",
@@ -1083,6 +1290,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/139197510",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🔷",
@@ -1114,6 +1324,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/125086183",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
@@ -1146,6 +1359,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/174017067",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🔷",
@@ -1177,6 +1393,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/179217429",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1209,6 +1428,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/154508532",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -1241,6 +1463,9 @@
         "한국어"
       ],
       "url": "https://arca.live/b/boardgame/118104674",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
@@ -1272,6 +1497,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=7947&blog=joyhunter&bfrom=board",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🛰️",
@@ -1300,6 +1528,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=720",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
@@ -1332,6 +1563,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=787",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -1363,6 +1597,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=797",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏰",
@@ -1389,6 +1626,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=638",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1420,6 +1660,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=767",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏯",
@@ -1448,6 +1691,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=789",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1478,6 +1724,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=554",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏯",
@@ -1508,6 +1757,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=499",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏙️",
@@ -1536,6 +1788,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=988",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1567,6 +1822,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=991",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -1595,6 +1853,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1016",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -1623,6 +1884,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=977",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏙️",
@@ -1654,6 +1918,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=995",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
@@ -1682,6 +1949,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=860",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
@@ -1712,6 +1982,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=969",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -1743,6 +2016,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=966",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
@@ -1772,6 +2048,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=978",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1802,6 +2081,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1012",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
@@ -1832,6 +2114,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=962",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
@@ -1863,6 +2148,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1058",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
@@ -1891,6 +2179,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1152",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
@@ -1922,6 +2213,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1454",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -1951,6 +2245,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1076",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -1982,6 +2279,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1062",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
@@ -2010,6 +2310,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1583",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
@@ -2041,6 +2344,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1100",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
@@ -2069,6 +2375,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1200",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -2099,6 +2408,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1052",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🦊",
@@ -2128,6 +2440,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1023",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -2154,6 +2469,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1391",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -2182,6 +2500,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1065",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -2213,6 +2534,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1025",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🔷",
@@ -2241,6 +2565,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1027",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏙️",
@@ -2272,6 +2599,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1067",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🦊",
@@ -2303,6 +2633,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1021",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
@@ -2333,6 +2666,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1031",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🦊",
@@ -2364,6 +2700,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1378",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🎲",
@@ -2395,6 +2734,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1386",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
@@ -2426,6 +2768,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1049",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
@@ -2457,6 +2802,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1053",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
@@ -2488,6 +2836,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1042",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏯",
@@ -2516,6 +2867,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1037",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -2547,6 +2901,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1230",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🦊",
@@ -2573,6 +2930,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1020",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -2601,6 +2961,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1102",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -2629,6 +2992,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1043",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -2657,6 +3023,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1703",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -2685,6 +3054,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1591",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -2716,6 +3088,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1780",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🦊",
@@ -2745,6 +3120,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1723",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -2773,6 +3151,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1648",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -2801,6 +3182,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1690",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
@@ -2832,6 +3216,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1712",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏯",
@@ -2861,6 +3248,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1696",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -2891,6 +3281,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1708",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏯",
@@ -2921,6 +3314,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1664",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
@@ -2947,6 +3343,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1714",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -2979,6 +3378,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1689",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
@@ -3008,6 +3410,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1673",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -3037,6 +3442,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1724",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -3065,6 +3473,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1704",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -3096,6 +3507,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1691",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏙️",
@@ -3124,6 +3538,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1702",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🦊",
@@ -3152,6 +3569,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1709",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -3183,6 +3603,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1715",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
@@ -3213,6 +3636,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1693",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🔷",
@@ -3243,6 +3669,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1669",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
@@ -3274,6 +3703,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1707",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
@@ -3305,6 +3737,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1677",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🛰️",
@@ -3333,6 +3768,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1646",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -3364,6 +3802,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1684",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
@@ -3392,6 +3833,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1894",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🔷",
@@ -3420,6 +3864,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1805",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
@@ -3448,6 +3895,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1903",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -3476,6 +3926,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1851",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -3506,6 +3959,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1883",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -3535,6 +3991,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2004",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -3567,6 +4026,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1833",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🎲",
@@ -3593,6 +4055,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -3621,6 +4086,9 @@
         "한국어"
       ],
       "url": "https://stack6.netlify.app",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
@@ -3651,6 +4119,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1886",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🦊",
@@ -3677,6 +4148,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1951",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -3705,6 +4179,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -3734,6 +4211,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2001",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -3762,6 +4242,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1963",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -3788,6 +4271,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1782&game=20668",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -3814,6 +4300,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1784&game=20680",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -3840,6 +4329,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1765&game=20679",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -3866,6 +4358,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1778&game=20614",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -3892,6 +4387,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1679&game=20650",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -3918,6 +4416,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1781&game=20665",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -3944,6 +4445,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1779&game=20603",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -3970,6 +4474,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1783&game=20666",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -3996,6 +4503,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1770&game=20640",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -4022,6 +4532,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1766&game=20608",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4048,6 +4561,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1771&game=20629",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -4074,6 +4590,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1774&game=20652",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -4100,6 +4619,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1769&game=20627",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -4126,6 +4648,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1763&game=20644",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -4152,6 +4677,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1772&game=20657",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -4178,6 +4706,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1746&game=20670",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -4204,6 +4735,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1773&game=20651",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -4230,6 +4764,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1757&game=20591",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4256,6 +4793,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#f95b611c929547b8a61276c318b90715",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -4282,6 +4822,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1775&game=20663",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -4308,6 +4851,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1742&game=20669",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -4334,6 +4880,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1764&game=20589",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -4360,6 +4909,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1632&game=20588",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -4386,6 +4938,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1776&game=20606",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4412,6 +4967,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#7fc266d6a99548778515d87375b953dd",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -4438,6 +4996,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1135&game=16671",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4464,6 +5025,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1137&game=16564",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4490,6 +5054,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1163&game=16555",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -4516,6 +5083,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1112&game=16629",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -4542,6 +5112,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#c1a2ef23498f4e09b87b1e93f7eadf05",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -4568,6 +5141,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1138",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4594,6 +5170,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=997&game=16558",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4620,6 +5199,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#ee894cc425d646388badc652a9027808",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4646,6 +5228,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#01c7173abdb948bb9d2efd6c3ec853e1",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4672,6 +5257,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1098&game=16582",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -4698,6 +5286,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1008&game=16721",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4724,6 +5315,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#60925f1a48e145efbff60a2b7f81e010",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -4750,6 +5344,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#e9f66fee83574433a065b3c6d0fc1e41",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -4776,6 +5373,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1141&game=16624",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4802,6 +5402,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#9a694bcbf0b14930820f0376a43631ad",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4828,6 +5431,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#0cc215e266424b4881b64eb35b604be1",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4857,6 +5463,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=992&game=16554",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -4883,6 +5492,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#5f22f9600f704c619919c5ddba30c86a",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -4909,6 +5521,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#12750c237c9745c18a7cfca15638af42",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -4935,6 +5550,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#dc8c8cd1635a42a586a275621d86c8ee",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -4961,6 +5579,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#10507a27373641a5a669425b330199d2",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -4987,6 +5608,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1142&game=16675",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -5013,6 +5637,9 @@
         "한국어"
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#3b1248bec7294f4f831cf3bbd6b0d8f0",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -5039,6 +5666,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=744&game=15272",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5065,6 +5695,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1063&game=16732",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5091,6 +5724,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=746&game=15286",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -5117,6 +5753,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=976&game=16523",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -5143,6 +5782,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1122&game=16516",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5169,6 +5811,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1040&game=16712",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -5195,6 +5840,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1123&game=16513",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5221,6 +5869,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=745&game=15388",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -5247,6 +5898,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=718&game=15404",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5273,6 +5927,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=748&game=15341",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -5299,6 +5956,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=8857&game=16613",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -5325,6 +5985,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=752&game=15398",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
@@ -5351,6 +6014,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1119&game=16667",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5377,6 +6043,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=753",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -5403,6 +6072,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=751&game=15405",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -5429,6 +6101,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=743&game=15340",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
@@ -5455,6 +6130,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=750&game=15403",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
@@ -5481,6 +6159,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1131&game=16722",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -5507,6 +6188,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1143&game=16731",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
@@ -5533,6 +6217,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=747&game=15406",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
@@ -5559,6 +6246,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=736&game=15397",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
@@ -5585,6 +6275,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1010&game=16533",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
@@ -5611,6 +6304,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1140",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
@@ -5637,6 +6333,9 @@
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=749&game=15395",
+      "infoUrl": "",
+      "playUrl": "",
+      "origin": "",
       "thumb": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
