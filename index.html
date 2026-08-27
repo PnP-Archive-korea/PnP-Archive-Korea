@@ -122,6 +122,7 @@ section{padding:72px 0}
 .pill-paid{background:rgba(196,89,58,.13);color:var(--main)}
 .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding:0 4px}
 .tag-chip{font-size:12px;font-weight:600;color:var(--muted);background:var(--surface2);border-radius:999px;padding:4px 11px}
+.tag-chip.origin{background:rgba(224,168,60,.18);color:#8A6510}
 
 .banner{background:var(--navy);border-radius:28px;padding:72px 40px;text-align:center;color:#fff;position:relative;overflow:hidden}
 .banner::before{content:"";position:absolute;inset:16px;border:1.5px dashed rgba(255,255,255,.22);border-radius:18px;pointer-events:none}
@@ -163,6 +164,8 @@ select{font-family:inherit;font-size:14px;font-weight:600;color:var(--text);back
 .detail-info .en{font-size:17px;color:var(--muted);font-weight:500;margin-bottom:10px}
 .detail-info .by{font-size:15px;margin-bottom:24px}
 .detail-info .by b{font-weight:700}
+/* 상세 페이지 링크 버튼 줄 — 링크가 있는 것만 버튼이 되므로 1개면 1개, 2개면 2개가 나옵니다. */
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .spec-table{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:28px 0;box-shadow:var(--shadow)}
 .spec-row{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--line)}
 .spec-row:last-child{border-bottom:none}
@@ -232,6 +235,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     <nav class="nav-links">
       <a href="#/home" data-nav="home">홈</a>
       <a href="#/archive" data-nav="archive">게임 아카이브</a>
+      <a href="#/translated" data-nav="translated">해외 번역 PnP</a>
       <a href="#/submit" data-nav="submit">게임 등록하기</a>
       <a href="#/about" data-nav="about">소개 · 문의</a>
     </nav>
@@ -286,6 +290,14 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     <div class="grid-3" id="latestGrid"></div>
   </section>
 
+  <section class="container vh-fill" id="translatedHomeSection" style="display:none">
+    <div class="sec-row reveal">
+      <div><h2>해외에서 건너온 번역 PnP</h2><p style="color:var(--muted);font-size:14.5px;margin-top:6px">원저작자 허가를 받아 직접 한국어로 옮긴 게임들이에요.</p></div>
+      <a class="more" href="#/translated">전체 보기 →</a>
+    </div>
+    <div class="grid-3" id="translatedHomeGrid"></div>
+  </section>
+
   <section class="container vh-fill">
     <div class="banner reveal">
       <h2>시작이 반입니다.<br><em>규칙을 완성했다면, 지금 발표하세요.</em></h2>
@@ -328,6 +340,33 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
       <p style="font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px">조건에 맞는 게임이 아직 없어요.</p>
       <p>필터를 바꿔보거나, 직접 만들어 등록해 보는 건 어때요?</p>
       <a class="btn btn-primary" href="#/submit" style="margin-top:22px">내 게임 등록하기</a>
+    </div>
+  </section>
+</div>
+
+<!-- TRANSLATED (해외 번역 PnP 전용 코너) -->
+<div class="page" id="page-translated">
+  <section class="container">
+    <div class="sec-head reveal in">
+      <span class="kicker">Translated</span>
+      <h2>해외 번역 PnP</h2>
+      <p>해외 창작자의 허가를 받아 한국어로 옮긴 PnP 게임만 모았어요.</p>
+    </div>
+    <div class="rule-box reveal in" style="max-width:760px;margin:0 auto 40px">
+      <h3>🌍 이 코너의 원칙</h3>
+      <ul>
+        <li>원저작자에게 게재 허가를 받은 게임만 올립니다.</li>
+        <li>원저작자명과 원문 링크를 항상 함께 표기합니다.</li>
+        <li>허가는 비독점이며, 원저작자가 원하면 즉시 내립니다.</li>
+      </ul>
+    </div>
+    <div class="count-note" id="translatedNote"></div>
+    <div class="grid-4" id="translatedGrid"></div>
+    <div class="empty" id="translatedEmpty" style="display:none">
+      <div class="big">🌍</div>
+      <p style="font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px">아직 공개된 번역 게임이 없어요.</p>
+      <p>원저작자 허가를 받는 대로 이곳에 하나씩 올라옵니다.</p>
+      <a class="btn btn-primary" href="#/archive" style="margin-top:22px">전체 아카이브 보기</a>
     </div>
   </section>
 </div>
@@ -391,7 +430,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
       <a href="#/home" class="logo">PnP 아카이브 KOREA</a>
       <p>한국어 PnP 게임을 모은 아카이브</p>
     </div>
-    <div><h4>페이지</h4><a href="#/home">홈</a><a href="#/archive">게임 아카이브</a><a href="#/submit">게임 등록하기</a><a href="#/about">소개</a></div>
+    <div><h4>페이지</h4><a href="#/home">홈</a><a href="#/archive">게임 아카이브</a><a href="#/translated">해외 번역 PnP</a><a href="#/submit">게임 등록하기</a><a href="#/about">소개</a></div>
     <div><h4>안내</h4><a href="#/submit">등록 원칙</a><a href="#/about" onclick="setTimeout(()=>document.getElementById('contactStrip')?.scrollIntoView({behavior:'smooth',block:'start'}),60)">문의</a></div>
     <div><h4>연락처</h4><a href="mailto:GameSmithLab@gmail.com">GameSmithLab@gmail.com</a></div>
   </div>
@@ -411,6 +450,9 @@ const NOTION_FORM_URL = "https://ten-street-bac.notion.site/f42e8c360f2f4520b10b
 // '오늘의 랜덤 PnP'에 몇 개를 띄울지. 화면 폭 640px 이하면 mobile 값을 씁니다.
 // 폰에서 보이는 3개는 항상 데스크톱 6개의 앞부분이 되도록 설계돼 있습니다.
 const RANDOM_PICK_COUNT = { mobile: 3, desktop: 6 };
+// Notion `출처` 속성에서 "해외에서 가져온 번역작"을 가리키는 값.
+// Notion 선택지 이름을 바꾸면 여기도 같이 바꿔야 합니다.
+const TRANSLATED_ORIGIN = "해외 번역";
 const MOBILE_BREAKPOINT = 640;
 
 // 사이트 기본 정보 (상세 페이지 진입 시 문서 제목·설명을 되돌릴 때 사용)
@@ -419,6 +461,7 @@ const SITE_DESC = "한국 창작 PnP 보드게임을 한곳에서. 다운로드�
 const PAGE_TITLES = {
   home:    SITE_NAME + " — 당신의 보드게임을 탐색하세요.",
   archive: "게임 아카이브 · " + SITE_NAME,
+  translated: "해외 번역 PnP · " + SITE_NAME,
   submit:  "게임 등록하기 · " + SITE_NAME,
   about:   "소개 · " + SITE_NAME
 };
@@ -486,6 +529,7 @@ async function loadData(){
   buildFilterBar();
   renderHome();
   renderArchive();
+  renderTranslated();
   const d = DATA.generatedAt ? new Date(DATA.generatedAt) : null;
   if(d) document.getElementById("syncNote").textContent =
     "마지막 동기화: " + d.toLocaleString("ko-KR",{dateStyle:"medium",timeStyle:"short"}) + " · 총 " + (DATA.count||DATA.games.length) + "개 게임";
@@ -521,6 +565,7 @@ function thumbStyle(g){
   return t ? `background-image:url("${esc(t)}")` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
 }
 function cardHTML(g){
+  const isTranslated = g.origin === TRANSLATED_ORIGIN;
   const chips = [g.players, g.playtime].filter(Boolean);
   return `<a class="game-card reveal" href="game/${g.slug}/">
     <div class="thumb ${g.thumb?'has-img':''}" style="${thumbStyle(g)}">${g.thumb?"":esc(g.icon||"🎲")}</div>
@@ -528,7 +573,7 @@ function cardHTML(g){
       <div><h3>${esc(g.ko)}</h3><div class="author">${esc(g.author)}</div></div>
       <span class="pill ${g.price==='유료'?'pill-paid':'pill-free'}">${esc(g.price||'무료')}</span>
     </div>
-    ${chips.length?`<div class="tags">${chips.map(c=>`<span class="tag-chip">${esc(c)}</span>`).join("")}</div>`:""}
+    ${(chips.length||isTranslated)?`<div class="tags">${isTranslated?`<span class="tag-chip origin">🌍 해외 번역</span>`:""}${chips.map(c=>`<span class="tag-chip">${esc(c)}</span>`).join("")}</div>`:""}
   </a>`;
 }
 const skeletons = n => Array.from({length:n},()=>`<div class="skeleton"><div class="sk-box"></div><div class="sk-line"></div><div class="sk-line short"></div></div>`).join("");
@@ -559,8 +604,8 @@ window.addEventListener("resize", () => {
 /* ══════════════════════════════════════════════
    아카이브 필터 (facets 기반 자동 생성)
    ══════════════════════════════════════════════ */
-const state = {q:"",quick:"all",players:"",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"};
-const FACET_LABEL = {playtime:"플레이타임",age:"권장연령",theme:"테마",mech:"메인 메커니즘",lang:"언어"};
+const state = {q:"",quick:"all",origin:"",players:"",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"};
+const FACET_LABEL = {origin:"출처",playtime:"플레이타임",age:"권장연령",theme:"테마",mech:"메인 메커니즘",lang:"언어"};
 
 function buildFilterBar(){
   const bar = document.getElementById("filterBar");
@@ -570,7 +615,7 @@ function buildFilterBar(){
   html += `<select data-f="players"><option value="">인원수</option>
     <option value="1">1인</option><option value="2">2인</option>
     <option value="3-4">3-4인</option><option value="5+">5인 이상</option></select>`;
-  for(const key of ["playtime","age","theme","mech","lang"]){
+  for(const key of ["origin","playtime","age","theme","mech","lang"]){
     const opts = f[key] || [];
     if(!opts.length) continue; // 데이터가 없는 필터는 아예 감춥니다
     html += `<select data-f="${key}"><option value="">${FACET_LABEL[key]}</option>${opts.map(o=>`<option>${esc(o)}</option>`).join("")}</select>`;
@@ -579,7 +624,7 @@ function buildFilterBar(){
   bar.innerHTML = html;
   bar.querySelectorAll("select").forEach(s=>s.addEventListener("change",e=>{state[e.target.dataset.f]=e.target.value;renderArchive();}));
   document.getElementById("resetFilters").addEventListener("click",()=>{
-    Object.assign(state,{q:"",quick:"all",players:"",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"});
+    Object.assign(state,{q:"",quick:"all",origin:"",players:"",playtime:"",age:"",theme:"",mech:"",lang:"",sort:"latest"});
     document.getElementById("archiveSearch").value="";
     bar.querySelectorAll("select").forEach(s=>s.value="");
     document.getElementById("sortSel").value="latest";
@@ -606,6 +651,7 @@ function renderArchive(){
       const gMax = g.playersMax ?? g.playersMin;
       if(!(g.playersMin<=hi && gMax>=lo)) return false;
     }
+    if(state.origin&&g.origin!==state.origin)return false;
     if(state.playtime&&g.playtime!==state.playtime)return false;
     if(state.age&&g.age!==state.age)return false;
     if(state.theme&&!(g.theme||[]).includes(state.theme))return false;
@@ -647,6 +693,28 @@ function pickRandomExcluding(games, excludeId, n){
   }
   return pool.slice(0,n);
 }
+/* 게임 하나에 붙을 수 있는 링크는 최대 3종입니다.
+     url     — PnP 자료(파일 또는 자료 게시글)
+     playUrl — 온라인으로 바로 플레이할 수 있는 구현체
+     infoUrl — 원문·게임 정보 페이지(해외 원작 페이지, BGG, 창작일지 등)
+   값이 들어 있는 것만 버튼이 되므로 링크가 1개면 버튼도 1개,
+   2개면 2개가 나옵니다. 맨 앞이 주 버튼(주황), 나머지는 보조 버튼입니다.
+   전부 비어 있을 때만 '준비 중' 회색 버튼이 나옵니다. */
+function gameLinks(g){
+  return [
+    { url: safeUrl(g.url),     label: "⬇ 파일 다운로드" },
+    { url: safeUrl(g.playUrl), label: "▶ 온라인으로 플레이" },
+    { url: safeUrl(g.infoUrl), label: "🔗 원문·게임 정보" }
+  ].filter(l => l.url);
+}
+function linkButtonsHTML(g){
+  const links = gameLinks(g);
+  if(!links.length) return `<div class="btn-row"><span class="btn btn-ghost btn-lg" style="cursor:default;opacity:.6">다운로드 링크 준비 중</span></div>`;
+  return `<div class="btn-row">${links.map((l,i)=>
+    `<a class="btn ${i===0?"btn-primary":"btn-ghost"} btn-lg" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${l.label}</a>`
+  ).join("")}</div>`;
+}
+
 function renderDetail(id){
   if(!LOADED){document.getElementById("detailBody").innerHTML=`<div style="padding:80px 0">${skeletons(1)}</div>`;return;}
   const g = DATA.games.find(x=>x.id===id||x.slug===id);
@@ -659,7 +727,8 @@ function renderDetail(id){
   const related = pickRandomExcluding(DATA.games, g.id, 3);
   const spec = [
     ["인원수",g.players],["플레이타임",g.playtime],["권장연령",g.age],
-    ["발표연도",g.year],["언어",(g.lang||[]).join(", ")],["테마",(g.theme||[]).join(", ")],["메커니즘",(g.mech||[]).join(", ")]
+    ["발표연도",g.year],["언어",(g.lang||[]).join(", ")],["테마",(g.theme||[]).join(", ")],["메커니즘",(g.mech||[]).join(", ")],
+    ["출처",g.origin]
   ].filter(([,v])=>v!==null&&v!==undefined&&v!=="");
 
   document.getElementById("detailBody").innerHTML = `
@@ -671,8 +740,7 @@ function renderDetail(id){
         <h1 style="margin-top:14px">${esc(g.ko)}</h1>
         ${g.en?`<div class="en">${esc(g.en)}</div>`:""}
         <div class="by">작가 · <b>${esc(g.author)}</b></div>
-        ${safeUrl(g.url)?`<a class="btn btn-primary btn-lg" href="${esc(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">⬇ 파일 다운로드</a>`
-               :`<span class="btn btn-ghost btn-lg" style="cursor:default;opacity:.6">다운로드 링크 준비 중</span>`}
+        ${linkButtonsHTML(g)}
         <div class="spec-table">
           ${spec.map(([k,v])=>`<div class="spec-row"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join("")}
         </div>
@@ -684,6 +752,39 @@ function renderDetail(id){
     <div class="grid-3" style="padding-bottom:60px">${related.map(cardHTML).join("")}</div>`;
   observeReveals();
   window.scrollTo({top:0});
+}
+
+/* ══════════════════════════════════════════════
+   해외 번역 PnP 전용 코너
+   ══════════════════════════════════════════════ */
+function translatedGames(){
+  return DATA.games.filter(g => g.origin === TRANSLATED_ORIGIN);
+}
+function renderTranslated(){
+  const list = translatedGames();
+
+  // 홈의 미리보기 섹션 — 번역작이 하나도 없으면 섹션 자체를 감춥니다.
+  const homeSec = document.getElementById("translatedHomeSection");
+  if(homeSec){
+    if(list.length){
+      homeSec.style.display = "";
+      document.getElementById("translatedHomeGrid").innerHTML =
+        list.slice(0, pickCount()).map(cardHTML).join("");
+    }else{
+      homeSec.style.display = "none";
+    }
+  }
+
+  const grid = document.getElementById("translatedGrid");
+  const empty = document.getElementById("translatedEmpty");
+  const note = document.getElementById("translatedNote");
+  if(!grid) return;
+  if(!LOADED){ grid.innerHTML = skeletons(6); note.textContent = "불러오는 중…"; return; }
+
+  note.textContent = `${list.length}개의 번역 게임`;
+  if(!list.length){ grid.innerHTML = ""; empty.style.display = "block"; }
+  else{ empty.style.display = "none"; grid.innerHTML = list.map(cardHTML).join(""); }
+  observeReveals();
 }
 
 /* ══════════════════════════════════════════════
@@ -716,6 +817,7 @@ function route(){
     (document.getElementById("page-"+name)||document.getElementById("page-home")).classList.add("active");
     const nav=document.querySelector(`[data-nav="${name}"]`); if(nav)nav.classList.add("active");
     if(name==="archive")renderArchive();
+    if(name==="translated")renderTranslated();
     setDocMeta(PAGE_TITLES[name] || PAGE_TITLES.home, SITE_DESC);
     trackPageview();
     window.scrollTo({top:0});
