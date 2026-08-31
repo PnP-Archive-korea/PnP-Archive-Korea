@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T11:06:47.761Z",
-  "count": 199,
+  "generatedAt": "2026-08-31T11:57:03.638Z",
+  "count": 200,
   "facets": {
     "playtime": [
       "30~60분",
@@ -78,6 +78,39 @@
     ]
   },
   "games": [
+    {
+      "id": "3cdaa7a1591180cd9bb9d1c7d79e2837",
+      "slug": "hocken-3cdaa7",
+      "ko": "호켄",
+      "en": "Hocken",
+      "author": "Iffix Y Santaph",
+      "desc": "플레잉 카드로 즐기는 점수를 적게 모아야 이기는 카드 수집 게임.",
+      "players": "2-6명",
+      "playersMin": 2,
+      "playersMax": 6,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "카드 사용",
+        "세트 수집"
+      ],
+      "theme": [],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/2hiitk7sn5khq2mj24h0z/APM1NnLrDBEvA1PGMmyBz2c?rlkey=q9qapf0vpw6pxvh2k1cweigda&st=53u6isgv&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3569651/wiphocken-2025-traditional-deck-game-design-contes",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": null,
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-08-31T11:50:00.000Z",
+      "updatedAt": "2026-08-31T11:56:00.000Z"
+    },
     {
       "id": "3c9aa7a159118081a4c5dc3f36073d24",
       "slug": "rules-of-engagement-3c9aa7",
