@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>썸네일 검토 큐 · PnP 아카이브 KOREA (운영자용)</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{--bg:#FAF6EF;--surface:#fff;--main:#C4593A;--navy:#2E3A4E;--text:#3B322C;--muted:#8A7E74;--line:#E7DFD2}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:32px 24px 80px}
+  h1{font-size:24px;font-weight:800;letter-spacing:-.02em}
+  .lead{margin-top:10px;color:var(--muted);font-size:14.5px;max-width:640px}
+  .count{margin-top:20px;font-size:14px;color:var(--navy);font-weight:700}
+  .grid{margin-top:20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .thumb{aspect-ratio:4/3;background-size:cover;background-position:center;background-color:#EFE7D8}
+  .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .title{font-size:14.5px;font-weight:700;line-height:1.35}
+  .author{font-size:12.5px;color:var(--muted)}
+  .actions{margin-top:auto;display:flex;gap:8px;padding-top:6px}
+  .btn{flex:1;text-align:center;font-size:12.5px;font-weight:700;text-decoration:none;padding:8px 10px;border-radius:8px}
+  .btn.notion{background:var(--navy);color:#fff}
+  .btn.site{background:var(--bg);color:var(--navy);border:1px solid var(--line)}
+  .empty{margin-top:60px;text-align:center;color:var(--muted);font-size:14.5px}
+  .err{margin-top:20px;color:#B23B3B;font-size:14px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🔍 썸네일 검토 큐</h1>
+  <p class="lead">
+    PDF 1페이지에서 자동으로 뽑은 썸네일 목록입니다. 표지가 아니라 이상한
+    페이지가 뽑혔다면, Notion에서 해당 게임의 <strong>"썸네일 이미지"</strong> 속성에
+    원하는 이미지를 직접 올려주세요 — 다음 시간 동기화 때 자동으로 교체되고
+    이 목록에서도 빠집니다. 그대로 괜찮으면 아무것도 안 하셔도 됩니다.
+  </p>
+  <div id="count" class="count"></div>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>지금은 검토할 항목이 없습니다 🎉</div>
+  <div id="err" class="err" hidden></div>
+  <footer>운영자 전용 페이지입니다 — 검색엔진에 노출되지 않도록 처리돼 있습니다.</footer>
+</div>
+<script>
+(async function () {
+  const $count = document.getElementById("count");
+  const $grid = document.getElementById("grid");
+  const $empty = document.getElementById("empty");
+  const $err = document.getElementById("err");
+
+  try {
+    const res = await fetch("./review-queue.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("review-queue.json을 불러오지 못했습니다 (" + res.status + ")");
+    const data = await res.json();
+    const items = data.items || [];
+
+    $count.textContent = "검토 대상 " + items.length + "건 · " +
+      (data.generatedAt ? new Date(data.generatedAt).toLocaleString("ko-KR") + " 기준" : "");
+
+    if (!items.length) {
+      $empty.hidden = false;
+      return;
+    }
+
+    $grid.innerHTML = items.map(function (g) {
+      const notionBtn = g.notionUrl
+        ? '<a class="btn notion" href="' + g.notionUrl + '" target="_blank" rel="noopener noreferrer">Notion에서 열기</a>'
+        : "";
+      return (
+        '<div class="card">' +
+          '<div class="thumb" style="background-image:url(\'' + g.thumb + '\')"></div>' +
+          '<div class="body">' +
+            '<div class="title">' + escapeHtml(g.title || "") + (g.titleEn ? ' <span style="color:var(--muted);font-weight:400">(' + escapeHtml(g.titleEn) + ')</span>' : '') + '</div>' +
+            '<div class="author">' + escapeHtml(g.author || "") + '</div>' +
+            '<div class="actions">' +
+              notionBtn +
+              '<a class="btn site" href="' + g.pageUrl + '" target="_blank" rel="noopener noreferrer">사이트에서 보기</a>' +
+            '</div>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join("");
+  } catch (e) {
+    $err.hidden = false;
+    $err.textContent = "불러오기 실패: " + e.message;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+})();
+</script>
+</body>
+</html>
