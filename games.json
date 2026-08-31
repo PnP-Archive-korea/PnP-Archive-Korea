@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T11:57:03.638Z",
+  "generatedAt": "2026-08-31T12:07:10.971Z",
   "count": 200,
   "facets": {
     "playtime": [
@@ -84,7 +84,7 @@
       "ko": "호켄",
       "en": "Hocken",
       "author": "Iffix Y Santaph",
-      "desc": "플레잉 카드로 즐기는 점수를 적게 모아야 이기는 카드 수집 게임.",
+      "desc": "점수를 적게 모아야 이기는 카드 수집 게임. 이미 모은 같은 슈트의 카드보다 낮거나 높은 카드를 모아야해서, 고를 수 있는 범위가 점점 좁아진다. 라운드가 끝나면 슈트 별 가장 낮은 카드의 합이 그대로 벌점이 된다.",
       "players": "2-6명",
       "playersMin": 2,
       "playersMax": 6,
@@ -109,7 +109,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-31T11:50:00.000Z",
-      "updatedAt": "2026-08-31T11:56:00.000Z"
+      "updatedAt": "2026-08-31T12:02:00.000Z"
     },
     {
       "id": "3c9aa7a159118081a4c5dc3f36073d24",
