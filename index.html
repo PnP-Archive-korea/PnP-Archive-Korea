@@ -552,8 +552,11 @@ function safeUrl(u){
   }catch{ return ""; }
 }
 
-function thumbStyle(g){
-  const t = safeUrl(g.thumb);
+// large=true면 상세페이지 히어로용 고해상도(1200×900) 이미지를 쓰고,
+// 그리드 카드는 기본값(그리드용 600×450)을 씁니다 — 목록 페이지에서
+// 필요 이상으로 큰 이미지를 여러 장 내려받지 않기 위함입니다.
+function thumbStyle(g, large){
+  const t = safeUrl(large ? (g.thumbLarge || g.thumb) : g.thumb);
   return t ? `background-image:url("${esc(t)}")` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
 }
 function cardHTML(g){
@@ -726,7 +729,7 @@ function renderDetail(id){
   document.getElementById("detailBody").innerHTML = `
     <div class="crumb" style="padding-top:40px"><a href="#/archive">게임 아카이브</a> <span>›</span> <b>${esc(g.ko)}</b></div>
     <div class="detail-top">
-      <div class="detail-thumb reveal in ${g.thumb?'has-img':''}" style="${thumbStyle(g)}">${g.thumb?"":esc(g.icon||"🎲")}</div>
+      <div class="detail-thumb reveal in ${g.thumb?'has-img':''}" style="${thumbStyle(g, true)}">${g.thumb?"":esc(g.icon||"🎲")}</div>
       <div class="detail-info reveal in d1">
         <span class="pill ${g.price==='유료'?'pill-paid':'pill-free'}" style="font-size:13px">${esc(g.price||'무료')}</span>
         <h1 style="margin-top:14px">${esc(g.ko)}</h1>

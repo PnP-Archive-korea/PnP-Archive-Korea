@@ -1,0 +1,16 @@
+{
+  "name": "pnp-archive-korea",
+  "private": true,
+  "type": "module",
+  "description": "PnP 아카이브 KOREA — Notion 동기화 빌드 스크립트",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "pdf-to-img": "^4.4.0"
+  }
+}
