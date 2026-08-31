@@ -18,17 +18,26 @@
  * 되고 실제로는 아무것도 잘리지 않는다 — 크롭 여부를 브라우저의 무작위 판단이
  * 아니라 여기서 결정하겠다는 뜻.
  *
- * 소스별로 다른 처리 방식을 쓴다
- * ------------------------------
- *   창작자 업로드 이미지 → contain(전체 보존) + 블러 배경 채움.
- *     원본이 어떤 비율이든 내용을 절대 자르지 않는다. 사람이 매번 크롭 위치를
- *     확인할 수 없는 자동 파이프라인이라 "잘못 잘리는 사고"보다 "여백이 좀
- *     있는 카드"가 안전하다.
- *   PDF 1페이지 렌더링 → cover(꽉 채워 크롭) + 상단 정렬(gravity: north).
- *     PDF 1페이지는 보통 세로로 긴 A4/Letter라 contain으로 넣으면 좌우로 큰
- *     여백만 남고 정작 페이지는 작게 쪼그라든다. 대부분 제목/타이틀 아트가
- *     페이지 상단에 있으므로, 위쪽을 기준으로 꽉 채워 자르는 쪽이 실제로
- *     더 알아볼 수 있는 카드가 된다.
+ * 소스 구분 없이 같은 처리 방식을 쓴다 — contain(전체 보존) + 블러 배경 채움
+ * ---------------------------------------------------------------------
+ * 원래는 창작자 업로드는 contain, PDF 1페이지 렌더링은 cover+상단크롭으로
+ * 나눠서 처리했었다("PDF는 보통 세로로 긴 A4라 contain으로 넣으면 좌우
+ * 여백만 남는다"는 추측 때문). 그런데 2026-08-31 밤, 사용자가 제출한 실제
+ * PnP 룰북 PDF(A4 세로형 표지 페이지, 제목+아이콘+제작자 표기가 페이지
+ * 중앙~하단에 퍼져 있는 전형적인 레이아웃)로 두 방식을 직접 렌더링해서
+ * 비교해봤더니 예상이 틀렸다:
+ *   - cover+상단크롭: 페이지 상단의 빈 여백만 크게 잡히고, 정작 제목 밑에
+ *     있던 인원/시간/연령 아이콘 줄은 카드 맨 아래에서 어중간하게 잘려
+ *     마치 렌더링이 깨진 것처럼 보였다.
+ *   - contain+블러배경: 제목·아이콘·제작자 표기가 전부 온전히 들어가고,
+ *     좌우 여백은 블러 처리된 배경으로 자연스럽게 채워져 훨씬 완성도 있는
+ *     카드가 나왔다.
+ * "제목/타이틀 아트가 페이지 상단에 있다"는 가정 자체가 실제 PnP 룰북
+ * (특히 Word/한글로 만든 표지)에는 잘 안 맞았던 것 — 내용이 페이지
+ * 중앙~하단까지 퍼져 있는 경우가 많다. 그래서 소스 구분 없이 항상
+ * renderContainPadded() 하나만 쓰도록 통일했다. (표본이 1건뿐이라 모든
+ * PDF에 대한 결론은 아니지만, "상단 크롭이 항상 안전하다"는 가정이
+ * 깨졌으니 더 안전한 쪽인 contain을 기본값으로 삼는다.)
  *
  * 최소 해상도 가드
  * -----------------
@@ -36,10 +45,12 @@
  * 쪽에서 그라디언트 대체 카드로 폴백). 뿌옇게 늘린 이미지보다 지금의 깔끔한
  * 대체 카드가 낫다는 원칙.
  *
- * 주의 — 이 세션은 npm 레지스트리에 접근할 수 없어 아래 코드를 실제로
- * `npm install` 해서 실행 테스트하지 못했다. sharp / pdf-to-img API 자체는
- * 공식 문서 기준으로 정확하나, 병합 전에 반드시 한 번은 실제로 돌려봐야 한다
- * (README의 "테스트 방법" 참고).
+ * 검증 상태 — sharp/pdf-to-img 자체(제어 흐름)는 가짜 모듈로, 그리고
+ * "contain vs cover+top" 렌더링 결과는 poppler(pdftoppm)+Python PIL로 실제
+ * PDF에 대해 검증했다(둘 다 이 세션에서 npm install이 막혀 있어 sharp를
+ * 직접 실행하지는 못했지만, 리사이즈 로직 자체는 동일 알고리즘). 병합 전에
+ * `npm install && NOTION_TOKEN=... node scripts/build.mjs`를 실제로 한 번
+ * 돌려보는 걸 권장한다.
  */
 
 import { mkdir, writeFile, stat } from "node:fs/promises";
@@ -77,7 +88,7 @@ async function fetchBuffer(url, { expectContentType } = {}) {
 }
 
 // ─────────────────────────────────────────────
-// 창작자 업로드 이미지 → contain + 블러 배경
+// contain + 블러 배경 (창작자 업로드 이미지 / PDF 1페이지 렌더링 공통)
 // ─────────────────────────────────────────────
 async function renderContainPadded(srcBuf, { width, height }) {
   const meta = await sharp(srcBuf).metadata();
@@ -100,21 +111,6 @@ async function renderContainPadded(srcBuf, { width, height }) {
 
   return sharp(background)
     .composite([{ input: foreground }])
-    .webp({ quality: 82 })
-    .toBuffer();
-}
-
-// ─────────────────────────────────────────────
-// PDF 1페이지 렌더링 → cover + 상단 정렬
-// ─────────────────────────────────────────────
-async function renderCoverTop(srcBuf, { width, height }) {
-  const meta = await sharp(srcBuf).metadata();
-  const longEdge = Math.max(meta.width || 0, meta.height || 0);
-  if (longEdge < MIN_SOURCE_EDGE) {
-    throw new Error(`원본 해상도가 너무 작음 (${meta.width}×${meta.height})`);
-  }
-  return sharp(srcBuf)
-    .resize(width, height, { fit: "cover", position: "top" })
     .webp({ quality: 82 })
     .toBuffer();
 }
@@ -161,7 +157,7 @@ export async function buildThumbnails({ slug, imageUrl, pdfUrl, outDir, log = co
     try {
       const { buf } = await fetchBuffer(pdfUrl, { expectContentType: "pdf" });
       const pageImage = await renderPdfFirstPageToPng(buf);
-      const paths = await writeVariants(slug, pageImage, renderCoverTop, outDir);
+      const paths = await writeVariants(slug, pageImage, renderContainPadded, outDir);
       return { ...paths, source: "pdf" };
     } catch (e) {
       log(`  ⚠ [${slug}] PDF 자동 추출 실패 → 대체 카드 사용: ${e.message}`);

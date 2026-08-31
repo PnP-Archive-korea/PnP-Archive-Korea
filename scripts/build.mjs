@@ -232,6 +232,14 @@ function transform(page) {
   const thumbSourceUrl =
     read(p, "썸네일 이미지") || read(p, "썸네일") || read(p, "썸네일 URL") || null;
 
+  // PDF 자동 추출용 원본 파일. 주의: "파일 다운로드 주소"는 여기 쓰면 안 된다 —
+  // 실제 데이터로 확인해보니 그 값은 boardlife.co.kr 게시글(사람이 보는 HTML
+  // 페이지) 링크이지 바로 받을 수 있는 PDF 파일이 아니다. 스크립트가 직접
+  // fetch할 수 있는 진짜 PDF는 운영자가 Notion "PDF 원본 파일"(File 속성)에
+  // 직접 올린 것뿐이다(Boardlife 다운로드는 로그인·JS 처리라 자동화 불가 —
+  // 2026-08-31 자정 무렵 조사 기록 참고).
+  const pdfSourceUrl = read(p, "PDF 원본 파일") || null;
+
   const playersRaw = read(p, "인원수") || "";
   const { min: playersMin, max: playersMax } = parsePlayers(playersRaw);
 
@@ -266,6 +274,9 @@ function transform(page) {
     // 원본 소스 URL (창작자 업로드 이미지). main()에서 다운로드·정규화된 뒤
     // thumb/thumbLarge로 대체되고, 이 필드 자체는 games.json에 나가지 않습니다.
     thumbSourceUrl,
+    // PDF 자동 추출용 원본(운영자가 Notion에 직접 올린 File). main()에서
+    // buildThumbnails()에 pdfUrl로 전달된 뒤 games.json에는 나가지 않습니다.
+    pdfSourceUrl,
     // Notion 페이지 ID(대시 포함 원본). "썸네일 검토 필요" 체크박스를 다시
     // 써넣을 때만 씁니다 — games.json에는 나가지 않습니다.
     notionPageId: page.id,
@@ -557,7 +568,10 @@ async function processThumbnails(games) {
     const result = await buildThumbnails({
       slug: g.slug,
       imageUrl: g.thumbSourceUrl,
-      pdfUrl: g.url,
+      // 주의: g.url("파일 다운로드 주소")이 아니라 g.pdfSourceUrl("PDF 원본
+      // 파일" Notion File 속성)을 써야 한다 — g.url은 boardlife.co.kr 게시글
+      // 링크라 PDF로 바로 fetch되지 않는다.
+      pdfUrl: g.pdfSourceUrl,
       outDir: THUMB_DIR,
     });
 
@@ -686,6 +700,7 @@ async function main() {
   // 특히 thumbSourceUrl은 Notion의 임시 서명 URL일 수 있어 그대로 노출하면 안 됩니다.
   for (const g of games) {
     delete g.thumbSourceUrl;
+    delete g.pdfSourceUrl;
     delete g.notionPageId;
   }
 
