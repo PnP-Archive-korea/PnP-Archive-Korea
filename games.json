@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T01:06:25.289Z",
+  "generatedAt": "2026-08-31T01:26:50.333Z",
   "count": 199,
   "facets": {
     "playtime": [
@@ -120,7 +120,7 @@
       "ko": "양초 & 대포",
       "en": "Candles&Cannons",
       "author": "Playlines Games",
-      "desc": "양초를 밝히고, 대포를 점화하고, 해적을 침몰시키고, 보물을 모읍니다",
+      "desc": "촛불을 밝히고, 대포를 발사해 해적선을 침몰시키고, 보물을 모으세요.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
@@ -147,7 +147,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-08-31T00:57:00.000Z"
+      "updatedAt": "2026-08-31T01:23:00.000Z"
     },
     {
       "id": "3c9aa7a159118089b8aec29995c23b10",
