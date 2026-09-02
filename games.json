@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T01:10:51.110Z",
-  "count": 200,
+  "generatedAt": "2026-09-02T02:08:04.434Z",
+  "count": 201,
   "facets": {
     "playtime": [
       "30~60분",
@@ -78,6 +78,42 @@
     ]
   },
   "games": [
+    {
+      "id": "3cfaa7a1591180b7bf07ff8f1e811623",
+      "slug": "shadow-market-3cfaa7",
+      "ko": "쉐도우 마켓",
+      "en": "Shadow Market",
+      "author": "Drew Grgich",
+      "desc": "낙찰자만 값을 치르고, 진 사람은 자기 돈을 그대로 지키는 치열한 경매 게임.",
+      "players": "3-4명",
+      "playersMin": 3,
+      "playersMax": 4,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "경매/입찰"
+      ],
+      "theme": [
+        "카드게임",
+        "현대"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/c3vxbgvei22os3u2bafii/AM0Z4I16ETKphgZGHIRj1mA?rlkey=nx3hbsetb479g6cfw0l00q6rj&st=e4bhu1mn&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3617857/wip-shadow-market-cutthroat-auction-game-2025-trad",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": null,
+      "thumbLarge": null,
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-09-02T01:15:00.000Z",
+      "updatedAt": "2026-09-02T01:29:00.000Z"
+    },
     {
       "id": "3cdaa7a1591180cd9bb9d1c7d79e2837",
       "slug": "hocken-3cdaa7",
