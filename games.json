@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T02:45:14.132Z",
-  "count": 201,
+  "generatedAt": "2026-09-03T03:33:09.832Z",
+  "count": 204,
   "facets": {
     "playtime": [
       "30~60분",
@@ -26,6 +26,7 @@
       "추상",
       "카드게임",
       "판타지",
+      "퍼즐",
       "현대"
     ],
     "mech": [
@@ -74,10 +75,116 @@
       "무료"
     ],
     "origin": [
+      "국내 창작",
       "해외 번역"
     ]
   },
   "games": [
+    {
+      "id": "3d0aa7a15911810f9708dee14d54069b",
+      "slug": "over-13-3d0aa7",
+      "ko": "오버 13",
+      "en": "Over 13",
+      "author": "타비",
+      "desc": "트럼프덱으로 즐기는 하이·로우 예측 게임. 중앙의 비공개 카드가 공개 카드보다 높은지 낮은지 맞히면 바닥의 카드를 모두 가져가고, 먼저 10장을 모으면 승리한다.",
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "푸시 유어 럭"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2032",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2032",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-09-03T02:55:00.000Z",
+      "updatedAt": "2026-09-03T03:09:00.000Z"
+    },
+    {
+      "id": "3d0aa7a15911813f8b99d7a014e8f729",
+      "slug": "sudoku-dual-3d0aa7",
+      "ko": "스도쿠 듀얼",
+      "en": "Sudoku Dual",
+      "author": "leehm 0110",
+      "desc": "종이 한 장과 펜 두 자루로 즐기는 2인 대전 스도쿠.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "퍼즐 풀이"
+      ],
+      "theme": [
+        "퍼즐",
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2038",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2038",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-09-03T02:55:00.000Z",
+      "updatedAt": "2026-09-03T03:05:00.000Z"
+    },
+    {
+      "id": "3d0aa7a159118166b011edf5a8c6b82e",
+      "slug": "kapao-3d0aa7",
+      "ko": "카파오",
+      "en": "KAPAO",
+      "author": "사계절",
+      "desc": "숨겨진 개인 보드와 카드 능력을 활용해 가장 강한 포커 족보를 만드는 게임.",
+      "players": "2-5명",
+      "playersMin": 2,
+      "playersMax": 5,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "기억력",
+        "추리",
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2010",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2010",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-09-03T02:55:00.000Z",
+      "updatedAt": "2026-09-03T03:21:00.000Z"
+    },
     {
       "id": "3cfaa7a1591180b7bf07ff8f1e811623",
       "slug": "shadow-market-3cfaa7",
