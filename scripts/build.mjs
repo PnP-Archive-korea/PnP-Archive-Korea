@@ -461,7 +461,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
         : `<span class="btn off">다운로드 링크 준비 중</span>`
     }
   </div>
-  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>GameSmithLab@gmail.com</strong>으로 연락부탁드립니다.</div>
+  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
   <div><a class="back" href="${escHtml(SITE_URL)}/#/archive">← 아카이브에서 다른 게임 보기</a></div>
   ${
     related.length
