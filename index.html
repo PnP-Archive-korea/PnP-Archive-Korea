@@ -411,7 +411,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     <div class="contact-strip reveal in" id="contactStrip">
       <h3>궁금한 점이 있으신가요?</h3>
       <p style="color:var(--muted);margin-bottom:10px">제휴·등록·기타 문의</p>
-      <a href="mailto:GameSmithLab@gmail.com">GameSmithLab@gmail.com</a>
+      <a href="mailto:contact@pnparchive.com">contact@pnparchive.com</a>
     </div>
   </section>
 </div>
@@ -424,7 +424,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     </div>
     <div><h4>페이지</h4><a href="#/home">홈</a><a href="#/archive">게임 아카이브</a><a href="#/translated">해외 번역 PnP</a><a href="#/submit">게임 등록하기</a><a href="#/about">소개</a></div>
     <div><h4>안내</h4><a href="#/submit">등록 원칙</a><a href="#/about" onclick="setTimeout(()=>document.getElementById('contactStrip')?.scrollIntoView({behavior:'smooth',block:'start'}),60)">문의</a></div>
-    <div><h4>연락처</h4><a href="mailto:GameSmithLab@gmail.com">GameSmithLab@gmail.com</a></div>
+    <div><h4>연락처</h4><a href="mailto:contact@pnparchive.com">contact@pnparchive.com</a></div>
   </div>
   <div class="foot-bottom">
     © 2026 PnP 아카이브 KOREA · All Rights Reserved. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.
@@ -739,7 +739,7 @@ function renderDetail(id){
         <div class="spec-table">
           ${spec.map(([k,v])=>`<div class="spec-row"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join("")}
         </div>
-        <div class="takedown-note" style="margin-top:10px;font-size:12.5px;color:var(--muted)">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <b>GameSmithLab@gmail.com</b>으로 연락부탁드립니다.</div>
+        <div class="takedown-note" style="margin-top:10px;font-size:12.5px;color:var(--muted)">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <b>contact@pnparchive.com</b>으로 연락부탁드립니다.</div>
       </div>
     </div>
     ${g.desc?`<div class="desc-box reveal in"><h2>🎲 게임 설명</h2><p>${esc(g.desc)}</p></div>`:""}
