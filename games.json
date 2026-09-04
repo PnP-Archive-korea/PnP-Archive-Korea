@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T13:13:58.247Z",
+  "generatedAt": "2026-09-04T15:56:52.245Z",
   "count": 204,
   "facets": {
     "playtime": [
@@ -457,7 +457,7 @@
       "ko": "고양이의 도넛공장",
       "en": "",
       "author": "TAG KONG",
-      "desc": "온 가족이 함께 즐기는 2-4인 공간지각 프로그래밍 협동 게임",
+      "desc": "고양이가 되어 함께 도넛공장을 운영해보세요. 차례대로 도넛을 굴리는 버튼을 누르며 더 높은 점수의 재료, 최상의 조합에 도전해보세요!",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -481,13 +481,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/고양이의-도넛공장-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/고양이의-도넛공장-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/고양이의-도넛공장-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🦊",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-04T15:44:00.000Z"
     },
     {
       "id": "3c1aa7a1591181119871db1241c5eac7",
@@ -636,7 +636,7 @@
       "ko": "요괴 퇴치회 라이트",
       "en": "",
       "author": "이장준",
-      "desc": "요괴 퇴치회 라이트는 각자 주어진 카드를 알맞게 내어 요괴를 물리치는 3인 협동 게임입니다.",
+      "desc": "각자 주어진 카드를 알맞게 내어 요괴를 물리치는 3인 협동 게임입니다. 요괴!라는 말만 하면서 소통해보세요.",
       "players": "3명",
       "playersMin": 3,
       "playersMax": 3,
@@ -658,13 +658,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-04T15:51:00.000Z"
     },
     {
       "id": "3c1aa7a159118138b48bdba117aae79e",
@@ -2512,14 +2512,17 @@
       "slug": "아빠-안-잔다-3baaa7",
       "ko": "아빠 안 잔다",
       "en": "",
-      "author": "접짝",
-      "desc": "플레이어들이 2주 동안 날마다 어떤 채널을 보자고 주장하는 게임. 가장 많이 주장된 채널이 시청되며 자신의 선호 채널이 시청되면 승점을 얻는다. 단, 음량이 너무 크면 아빠가 깨고 아빠의 선호 채널이 시청된다. 규칙서와 PnP 자료를 받을 수 있다.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
-      "mech": [],
+      "author": "접쫑",
+      "desc": "아빠가 자는 동안 Tv 채널을 돌려보세요. 음량이 너무 크면 아빠가 깨고 채널이 돌아갑니다.",
+      "players": "3-6명",
+      "playersMin": 3,
+      "playersMax": 6,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "핸드 관리",
+        "카드 사용"
+      ],
       "theme": [
         "현대"
       ],
@@ -2538,7 +2541,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z"
+      "updatedAt": "2026-09-04T15:55:00.000Z"
     },
     {
       "id": "3baaa7a1591181188ae3c2d5f43e22dd",
@@ -4200,7 +4203,7 @@
       "ko": "7 클로버",
       "en": "SEVEN CLOVER",
       "author": "mind_sweep",
-      "desc": "2025 PnP 공모전 참가작. 펜과 종이 한 장만 있으면 되는 매우 간단한 규칙의 게임. 자신의 차례에 1~3장의 클로버 잎을 그리고, 4개째 잎을 그린 사람이 그 클로버의 주인이 되어 줄기를 그린다. 7개의 네잎 클로버를 모으는 것이 목표.",
+      "desc": "7개의 네잎 클로버를 모아 행운의 주인공이 되어보세요! 4번째 잎을 그린 사람이 그 클로버의 주인이 됩니다.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -4219,13 +4222,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/seven-clover-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/seven-clover-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/seven-clover-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-04T15:47:00.000Z"
     },
     {
       "id": "3baaa7a1591181eeb0c0ea2783debbc0",
