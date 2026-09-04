@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T02:34:11.639Z",
+  "generatedAt": "2026-09-04T02:51:22.271Z",
   "count": 204,
   "facets": {
     "playtime": [
@@ -117,7 +117,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-04T02:28:00.000Z",
-      "updatedAt": "2026-09-04T02:32:00.000Z"
+      "updatedAt": "2026-09-04T02:50:00.000Z"
     },
     {
       "id": "3d0aa7a15911810f9708dee14d54069b",
