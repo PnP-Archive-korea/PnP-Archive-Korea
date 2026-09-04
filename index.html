@@ -590,7 +590,13 @@ function safeUrl(u){
 // 필요 이상으로 큰 이미지를 여러 장 내려받지 않기 위함입니다.
 function thumbStyle(g, large){
   const t = safeUrl(large ? (g.thumbLarge || g.thumb) : g.thumb);
-  return t ? `background-image:url("${esc(t)}")` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
+  // 주의: 이 문자열은 style="${...}" 처럼 큰따옴표로 감싼 HTML 속성 안에 그대로
+  // 삽입된다. url() 안을 큰따옴표로 감싸면서 그 따옴표를 이스케이프하지 않으면
+  // (예전 코드: url("${esc(t)}")) HTML 파서가 style 속성값을 그 따옴표에서
+  // 끊어버려서 실제 이미지가 있는 카드만 배경이 통째로 사라진다 — 폴백(그라디언트)
+  // 카드는 따옴표가 없어서 지금까지 이 버그가 드러나지 않았을 뿐이다.
+  // &quot;로 이스케이프해서 속성값이 끊기지 않게 한다.
+  return t ? `background-image:url(&quot;${esc(t)}&quot;)` : `background:${g.grad||"linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`;
 }
 function cardHTML(g){
   const isTranslated = g.origin === TRANSLATED_ORIGIN;
