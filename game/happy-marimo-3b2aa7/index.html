@@ -33,6 +33,11 @@ a{color:inherit}
 .topnav .brand{font-weight:800;text-decoration:none;color:var(--navy)}
 .topnav .navlinks a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
 .topnav .navlinks a:hover{color:var(--main)}
+.hero{position:relative;overflow:hidden;background:var(--navy);height:340px;display:flex;align-items:center;justify-content:center;margin-top:20px}
+.hero-bg{position:absolute;inset:-48px;background-size:cover;background-position:center;filter:blur(34px) brightness(.66) saturate(1.15);transform:scale(1.08)}
+.hero-art{position:relative;height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 14px 34px rgba(0,0,0,.35))}
+.hero-empty{height:200px;font-size:88px;color:rgba(255,255,255,.9)}
+@media(max-width:600px){.hero{height:240px}.hero-empty{height:150px;font-size:64px}}
 .wrap{max-width:720px;margin:0 auto;padding:24px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:28px}
 .crumb a{color:var(--main);text-decoration:none}
@@ -67,6 +72,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <a href="https://pnparchive.com/#/submit">게임 등록하기</a>
   </div>
 </div>
+<div class="hero hero-empty" style="background:linear-gradient(135deg,#7A5C3E,#A8845C)" aria-hidden="true">🎯</div>
 <div class="wrap">
   <div class="crumb"><a href="https://pnparchive.com/#/archive">게임 아카이브</a> › 행복한 마리모</div>
   <h1>행복한 마리모</h1>
