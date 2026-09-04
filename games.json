@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T02:51:22.271Z",
+  "generatedAt": "2026-09-04T02:53:48.436Z",
   "count": 204,
   "facets": {
     "playtime": [
@@ -112,12 +112,12 @@
       "infoUrl": "https://boardgamegeek.com/thread/3579229/against-the-clock-2025-traditional-deck-game-desig",
       "playUrl": "",
       "origin": "해외 번역",
-      "thumb": null,
-      "thumbLarge": null,
+      "thumb": "/assets/thumbs/against-the-clock-3d1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/against-the-clock-3d1aa7-detail.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-04T02:28:00.000Z",
-      "updatedAt": "2026-09-04T02:50:00.000Z"
+      "updatedAt": "2026-09-04T02:52:00.000Z"
     },
     {
       "id": "3d0aa7a15911810f9708dee14d54069b",
