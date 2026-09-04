@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T08:14:28.060Z",
+  "generatedAt": "2026-09-04T08:36:57.083Z",
   "count": 204,
   "facets": {
     "playtime": [
@@ -39,6 +39,7 @@
       "드래프트",
       "롤 앤 무브",
       "롤플레잉",
+      "리듬",
       "마피아",
       "비공개 이동",
       "세트 수집",
@@ -667,18 +668,19 @@
     },
     {
       "id": "3c1aa7a159118138b48bdba117aae79e",
-      "slug": "슉슈슈슉-약속대련-3c1aa7",
+      "slug": "swish-swish-scripted-shodown-3c1aa7",
       "ko": "슉슈슈슉 약속대련",
-      "en": "",
+      "en": "Swish Swish Scripted Shodown",
       "author": "목성의독서가, 김아늑",
       "desc": "탑 티어 포식자의 수준 높은 공방을 각본대로 연출해야 하는 협력 리듬 액션 게임",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "8세 이상",
+      "age": "",
       "mech": [
-        "협력"
+        "협력",
+        "리듬"
       ],
       "theme": [
         "동물"
@@ -698,7 +700,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🦊",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-04T08:26:00.000Z"
     },
     {
       "id": "3c1aa7a15911814e9544cffbfc79c42a",
@@ -5475,15 +5477,20 @@
       "slug": "taekgyeon-competition-3b2aa7",
       "ko": "택견 겨루기",
       "en": "Taekgyeon Competition",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "라굴",
+      "desc": "이크! 에크! 택견을 배우는 두 명의 수련생이 되어 더욱 강해지기 위해 함께 훈련하고 대전하세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "카드 사용",
+        "핸드 관리"
+      ],
+      "theme": [
+        "스포츠"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -5499,7 +5506,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-04T08:20:00.000Z"
     },
     {
       "id": "3b2aa7a1591181259d2cd28feed478f1",
@@ -5817,13 +5824,15 @@
       "ko": "요가 식스",
       "en": "Yoga Six",
       "author": "판컬처스",
-      "desc": "몸/마음 카드를 오름차순으로 정렬하는 협력 퍼즐 게임.",
+      "desc": "몸과 마음을 정렬하여 다 함께 경지에 이르자!",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
+      "mech": [
+        "협력"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2024,
@@ -5840,7 +5849,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-04T08:22:00.000Z"
     },
     {
       "id": "3b2aa7a15911817e80eaf8dec486e963",
@@ -6842,15 +6851,20 @@
       "slug": "dice-step-3b2aa7",
       "ko": "다이스 스텝",
       "en": "DICE STEP",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "원누스",
+      "desc": "주사위를 기물로 사용하는 기물 행마 게임",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림",
+        "주사위 배치"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -6864,9 +6878,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-04T08:29:00.000Z"
     },
     {
       "id": "3b2aa7a1591181f5a981f1f0e39e5e72",
