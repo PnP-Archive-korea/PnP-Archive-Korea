@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pnparchive.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://pnparchive.com/game/against-the-clock-3d1aa7/</loc><lastmod>2026-09-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/over-13-3d0aa7/</loc><lastmod>2026-09-03</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/sudoku-dual-3d0aa7/</loc><lastmod>2026-09-03</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/kapao-3d0aa7/</loc><lastmod>2026-09-03</lastmod><priority>0.7</priority></url>
@@ -36,7 +37,7 @@
   <url><loc>https://pnparchive.com/game/채널3-과거와-현재를-잇는-주파수-3c1aa7/</loc><lastmod>2026-08-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/deliver-9-3c1aa7/</loc><lastmod>2026-08-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/cut-3c1aa7/</loc><lastmod>2026-08-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/리코셰-차지-3c1aa7/</loc><lastmod>2026-08-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/리코셰-차지-3c1aa7/</loc><lastmod>2026-09-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/journey-of-little-prince-3c1aa7/</loc><lastmod>2026-08-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/마기의-나라-카드게임-3c0aa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/4x4-나이트킹-말왕-3c0aa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
@@ -124,7 +125,6 @@
   <url><loc>https://pnparchive.com/game/sky-spy-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/마법-재판소의-비밀-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/little-chemist-molecule-rush-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/ricochet-charge-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/rats-party-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/어비스-아일랜드-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/stack-6-3baaa7/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
@@ -190,7 +190,7 @@
   <url><loc>https://pnparchive.com/game/game-of-drone-3b2aa7/</loc><lastmod>2026-08-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/rolling-team-project-3b2aa7/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/never-turning-back-3b2aa7/</loc><lastmod>2026-08-04</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/ricochet-dungeon-3b2aa7/</loc><lastmod>2026-08-04</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/ricochet-dungeon-3b2aa7/</loc><lastmod>2026-09-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/dice-tiny-town-3b2aa7/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/rescue-3b2aa7/</loc><lastmod>2026-08-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/treasure-hunt-3b2aa7/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority></url>
