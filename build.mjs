@@ -7,6 +7,7 @@
  *   sitemap.xml, robots.txt     검색엔진용
  *   game/<slug>/index.html      게임별 정적 페이지 (링크 미리보기 + SEO)
  *   assets/thumbs/<slug>-*.webp 게임별 썸네일 (grid 600×450 / detail 1200×900)
+ *   review-queue.json           운영자 검토 큐 (PDF 자동 추출 썸네일 목록) — review.html이 읽음
  *
  * 의존성: sharp(이미지 리사이즈), pdf-to-img(PDF 1페이지 렌더링) — package.json 참고.
  * 2026-08-31 이전에는 의존성이 없었지만, 썸네일 파이프라인 추가로 npm install이
@@ -17,7 +18,7 @@
 import { writeFile, mkdir, rm, readFile, readdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildThumbnails, isFresh } from "./thumbnails.mjs";
+import { buildThumbnails, isFresh, setReviewFlag } from "./thumbnails.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const THUMB_DIR = join(ROOT, "assets", "thumbs");
@@ -231,6 +232,14 @@ function transform(page) {
   const thumbSourceUrl =
     read(p, "썸네일 이미지") || read(p, "썸네일") || read(p, "썸네일 URL") || null;
 
+  // PDF 자동 추출용 원본 파일. 주의: "파일 다운로드 주소"는 여기 쓰면 안 된다 —
+  // 실제 데이터로 확인해보니 그 값은 boardlife.co.kr 게시글(사람이 보는 HTML
+  // 페이지) 링크이지 바로 받을 수 있는 PDF 파일이 아니다. 스크립트가 직접
+  // fetch할 수 있는 진짜 PDF는 운영자가 Notion "PDF 원본 파일"(File 속성)에
+  // 직접 올린 것뿐이다(Boardlife 다운로드는 로그인·JS 처리라 자동화 불가 —
+  // 2026-08-31 자정 무렵 조사 기록 참고).
+  const pdfSourceUrl = read(p, "PDF 원본 파일") || null;
+
   const playersRaw = read(p, "인원수") || "";
   const { min: playersMin, max: playersMax } = parsePlayers(playersRaw);
 
@@ -265,10 +274,18 @@ function transform(page) {
     // 원본 소스 URL (창작자 업로드 이미지). main()에서 다운로드·정규화된 뒤
     // thumb/thumbLarge로 대체되고, 이 필드 자체는 games.json에 나가지 않습니다.
     thumbSourceUrl,
-    // thumb(그리드용, 600×450) / thumbLarge(상세·og:image용, 1200×900) —
+    // PDF 자동 추출용 원본(운영자가 Notion에 직접 올린 File). main()에서
+    // buildThumbnails()에 pdfUrl로 전달된 뒤 games.json에는 나가지 않습니다.
+    pdfSourceUrl,
+    // Notion 페이지 ID(대시 포함 원본). "썸네일 검토 필요" 체크박스를 다시
+    // 써넣을 때만 씁니다 — games.json에는 나가지 않습니다.
+    notionPageId: page.id,
+    // thumb(그리드용, 600×450) / thumbLarge(상세·og:image용, 1200×900) /
+    // thumbRaw(원본 비율 유지, 정적 게임 페이지 히어로 밴드용) —
     // main()의 buildThumbnails() 처리 이후 채워집니다. 처리 실패/미제공 시 null.
     thumb: null,
     thumbLarge: null,
+    thumbRaw: null,
     // 썸네일이 없을 때 카드에 쓸 대체 비주얼
     grad: PALETTE[h % PALETTE.length],
     icon: THEME_ICON[theme[0]] || FALLBACK_ICONS[h % FALLBACK_ICONS.length],
@@ -321,6 +338,37 @@ function pickRelated(games, g, n = 3) {
   });
   scored.sort((a, b) => b.shared - a.shared || a.tie - b.tie);
   return scored.slice(0, n).map((s) => s.x);
+}
+
+// ─────────────────────────────────────────────
+// 히어로 밴드 (정적 게임 페이지 상단, 풀블리드)
+//
+// 흐리게 확대한 표지를 배경으로 깔고, 그 위에 표지 원본을 비율 그대로 얹는다.
+// 창작자가 정사각형을 올리든 세로로 긴 스캔본을 올리든 잘리지도 늘어나지도
+// 않는 배치라, 200건 넘는 이미지를 사람 검수 없이 자동으로 받아야 하는 이
+// 아카이브의 성질에 맞는다.
+//
+// 앞면(hero-art)은 여백을 굽지 않은 raw 판본을 쓴다 — 4:3으로 이미 블러 여백을
+// 구워둔 detail 판본을 얹으면 블러가 두 겹이 된다. raw가 아직 없는 게임(2026-09-04
+// 이전에 만들어진 파일)은 detail로 폴백하므로 화면이 깨지지는 않는다.
+//
+// 썸네일이 아예 없는 게임은 아카이브 카드와 같은 그라디언트+아이콘을 쓰되,
+// 높이를 낮춰(340→200px) 빈 띠가 페이지를 지배하지 않게 한다.
+// ─────────────────────────────────────────────
+function heroHtml(g) {
+  const art = g.thumbRaw || g.thumbLarge;
+  if (!art) {
+    return `<div class="hero hero-empty" style="background:${
+      g.grad || "linear-gradient(135deg,#2E3A4E,#5B6E8C)"
+    }" aria-hidden="true">${escHtml(g.icon || "🎲")}</div>`;
+  }
+  // 배경도 raw를 우선 쓴다 — detail 판본은 이미 블러 여백이 구워져 있어서,
+  // 그걸 다시 블러 처리하면 색이 빠진 뿌연 띠가 된다.
+  const bg = art;
+  return `<div class="hero">
+  <div class="hero-bg" style="background-image:url('${escHtml(bg)}')" aria-hidden="true"></div>
+  <img class="hero-art" src="${escHtml(art)}" alt="${escHtml(g.ko)} 표지 이미지" decoding="async">
+</div>`;
 }
 
 function gamePageHtml(g, related) {
@@ -389,6 +437,11 @@ a{color:inherit}
 .topnav .brand{font-weight:800;text-decoration:none;color:var(--navy)}
 .topnav .navlinks a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
 .topnav .navlinks a:hover{color:var(--main)}
+.hero{position:relative;overflow:hidden;background:var(--navy);height:340px;display:flex;align-items:center;justify-content:center;margin-top:20px}
+.hero-bg{position:absolute;inset:-48px;background-size:cover;background-position:center;filter:blur(34px) brightness(.66) saturate(1.15);transform:scale(1.08)}
+.hero-art{position:relative;height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 14px 34px rgba(0,0,0,.35))}
+.hero-empty{height:200px;font-size:88px;color:rgba(255,255,255,.9)}
+@media(max-width:600px){.hero{height:240px}.hero-empty{height:150px;font-size:64px}}
 .wrap{max-width:720px;margin:0 auto;padding:24px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:28px}
 .crumb a{color:var(--main);text-decoration:none}
@@ -423,6 +476,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <a href="${escHtml(SITE_URL)}/#/submit">게임 등록하기</a>
   </div>
 </div>
+${heroHtml(g)}
 <div class="wrap">
   <div class="crumb"><a href="${escHtml(SITE_URL)}/#/archive">게임 아카이브</a> › ${escHtml(g.ko)}</div>
   <h1>${escHtml(g.ko)}</h1>
@@ -446,7 +500,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
         : `<span class="btn off">다운로드 링크 준비 중</span>`
     }
   </div>
-  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>GameSmithLab@gmail.com</strong>으로 연락부탁드립니다.</div>
+  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
   <div><a class="back" href="${escHtml(SITE_URL)}/#/archive">← 아카이브에서 다른 게임 보기</a></div>
   ${
     related.length
@@ -546,6 +600,7 @@ async function processThumbnails(games) {
     if (await isFresh(g.slug, THUMB_DIR, g.updatedAt, manifest)) {
       g.thumb = `${THUMB_URL_PREFIX}/${g.slug}-grid.webp`;
       g.thumbLarge = `${THUMB_URL_PREFIX}/${g.slug}-detail.webp`;
+      g.thumbRaw = `${THUMB_URL_PREFIX}/${g.slug}-raw.webp`;
       skipped++;
       continue;
     }
@@ -553,28 +608,82 @@ async function processThumbnails(games) {
     const result = await buildThumbnails({
       slug: g.slug,
       imageUrl: g.thumbSourceUrl,
-      pdfUrl: g.url,
+      // 주의: g.url("파일 다운로드 주소")이 아니라 g.pdfSourceUrl("PDF 원본
+      // 파일" Notion File 속성)을 써야 한다 — g.url은 boardlife.co.kr 게시글
+      // 링크라 PDF로 바로 fetch되지 않는다.
+      pdfUrl: g.pdfSourceUrl,
       outDir: THUMB_DIR,
     });
 
     if (result) {
       g.thumb = `${THUMB_URL_PREFIX}/${g.slug}-grid.webp`;
       g.thumbLarge = `${THUMB_URL_PREFIX}/${g.slug}-detail.webp`;
-      manifest[g.slug] = { updatedAt: g.updatedAt };
+      g.thumbRaw = `${THUMB_URL_PREFIX}/${g.slug}-raw.webp`;
+      manifest[g.slug] = { updatedAt: g.updatedAt, source: result.source };
       made++;
+
+      // 운영자 검토 단계 연동 — PDF 자동 추출(사람이 안 고른 이미지)이면
+      // Notion의 "썸네일 검토 필요" 체크박스를 세운다. 창작자가 직접 올린
+      // 이미지라면 반대로 내린다(다시 검토할 필요가 없다는 뜻).
+      await setReviewFlag(g.notionPageId, result.source === "pdf", { token: TOKEN });
     } else {
       // 이 게임은 처리 실패 — g.thumb는 null로 남고 그라디언트 카드로 폴백.
+      // 보여줄 썸네일 자체가 없으니 검토 플래그도 내려둔다.
       delete manifest[g.slug];
+      await setReviewFlag(g.notionPageId, false, { token: TOKEN });
       failed++;
     }
   }
 
   await writeFile(THUMB_MANIFEST_PATH, JSON.stringify(manifest, null, 2), "utf8");
   await pruneOrphanedThumbnails(games, manifest);
+  await writeReviewQueue(games, manifest);
 
   console.log(
     `✓ 썸네일 처리 완료 — 신규/갱신 ${made}건, 캐시 재사용 ${skipped}건, 실패(대체 카드) ${failed}건`
   );
+}
+
+// ─────────────────────────────────────────────
+// 운영자 검토 큐 — Notion API 쓰기 권한(Update content) 없이도 항상 동작한다.
+//
+// 위의 setReviewFlag()는 Notion 체크박스를 되쓰는 "있으면 편한" 보조 수단일
+// 뿐이고, 이 함수가 만드는 review-queue.json이 실제 운영에 필요한 원본이다.
+// PDF에서 자동 추출된(=사람이 안 고른) 썸네일을 가진 게임만 골라 파일로
+// 내보내고, repo 루트의 review.html이 이 파일을 읽어 화면에 그린다.
+//
+// 매시간 games/manifest를 기준으로 통째로 다시 계산하므로(캐시로 스킵된
+// 게임도 manifest[slug].source로 판단), 운영자가 Notion에서 썸네일 이미지를
+// 올려 source가 'upload'로 바뀌면 다음 동기화 때 이 목록에서 자동으로
+// 빠진다 — 별도의 "완료 체크" 조작이 필요 없다.
+// ─────────────────────────────────────────────
+async function writeReviewQueue(games, manifest) {
+  const items = games
+    .filter((g) => manifest[g.slug]?.source === "pdf")
+    .map((g) => ({
+      slug: g.slug,
+      title: g.ko,
+      titleEn: g.en || "",
+      author: g.author,
+      thumb: `${THUMB_URL_PREFIX}/${g.slug}-grid.webp`,
+      pageUrl: `${SITE_URL}/game/${g.slug}/`,
+      // 대시 없는 페이지 ID로 만든 주소 — 로그인된 브라우저에서는 워크스페이스
+      // 이름 없이도 정상적으로 해당 페이지로 리다이렉트된다.
+      notionUrl: g.notionPageId
+        ? `https://www.notion.so/${g.notionPageId.replace(/-/g, "")}`
+        : null,
+    }));
+
+  await writeFile(
+    join(ROOT, "review-queue.json"),
+    JSON.stringify(
+      { generatedAt: new Date().toISOString(), count: items.length, items },
+      null,
+      2
+    ),
+    "utf8"
+  );
+  console.log(`  · 운영자 검토 큐 갱신 — review-queue.json (검토 대상 ${items.length}건)`);
 }
 
 // 반려·삭제 등으로 더 이상 게시되지 않는 게임의 썸네일 파일을 정리한다.
@@ -590,7 +699,7 @@ async function pruneOrphanedThumbnails(games, manifest) {
   let removed = 0;
   for (const file of files) {
     if (file === ".manifest.json") continue;
-    const slug = file.replace(/-(grid|detail)\.webp$/, "");
+    const slug = file.replace(/-(grid|detail|raw)\.webp$/, "");
     if (!activeSlugs.has(slug)) {
       await rm(join(THUMB_DIR, file), { force: true });
       removed++;
@@ -630,7 +739,11 @@ async function main() {
 
   // 내부 처리용 필드는 games.json에 내보내지 않습니다(제출자 이메일 등과 같은 원칙).
   // 특히 thumbSourceUrl은 Notion의 임시 서명 URL일 수 있어 그대로 노출하면 안 됩니다.
-  for (const g of games) delete g.thumbSourceUrl;
+  for (const g of games) {
+    delete g.thumbSourceUrl;
+    delete g.pdfSourceUrl;
+    delete g.notionPageId;
+  }
 
   // 필터 UI에 쓸 옵션 목록을 실제 데이터에서 추출
   const uniq = (arr) => [...new Set(arr.filter(Boolean))].sort();
