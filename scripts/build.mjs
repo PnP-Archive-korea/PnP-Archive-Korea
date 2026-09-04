@@ -280,10 +280,12 @@ function transform(page) {
     // Notion 페이지 ID(대시 포함 원본). "썸네일 검토 필요" 체크박스를 다시
     // 써넣을 때만 씁니다 — games.json에는 나가지 않습니다.
     notionPageId: page.id,
-    // thumb(그리드용, 600×450) / thumbLarge(상세·og:image용, 1200×900) —
+    // thumb(그리드용, 600×450) / thumbLarge(상세·og:image용, 1200×900) /
+    // thumbRaw(원본 비율 유지, 정적 게임 페이지 히어로 밴드용) —
     // main()의 buildThumbnails() 처리 이후 채워집니다. 처리 실패/미제공 시 null.
     thumb: null,
     thumbLarge: null,
+    thumbRaw: null,
     // 썸네일이 없을 때 카드에 쓸 대체 비주얼
     grad: PALETTE[h % PALETTE.length],
     icon: THEME_ICON[theme[0]] || FALLBACK_ICONS[h % FALLBACK_ICONS.length],
@@ -336,6 +338,37 @@ function pickRelated(games, g, n = 3) {
   });
   scored.sort((a, b) => b.shared - a.shared || a.tie - b.tie);
   return scored.slice(0, n).map((s) => s.x);
+}
+
+// ─────────────────────────────────────────────
+// 히어로 밴드 (정적 게임 페이지 상단, 풀블리드)
+//
+// 흐리게 확대한 표지를 배경으로 깔고, 그 위에 표지 원본을 비율 그대로 얹는다.
+// 창작자가 정사각형을 올리든 세로로 긴 스캔본을 올리든 잘리지도 늘어나지도
+// 않는 배치라, 200건 넘는 이미지를 사람 검수 없이 자동으로 받아야 하는 이
+// 아카이브의 성질에 맞는다.
+//
+// 앞면(hero-art)은 여백을 굽지 않은 raw 판본을 쓴다 — 4:3으로 이미 블러 여백을
+// 구워둔 detail 판본을 얹으면 블러가 두 겹이 된다. raw가 아직 없는 게임(2026-09-04
+// 이전에 만들어진 파일)은 detail로 폴백하므로 화면이 깨지지는 않는다.
+//
+// 썸네일이 아예 없는 게임은 아카이브 카드와 같은 그라디언트+아이콘을 쓰되,
+// 높이를 낮춰(340→200px) 빈 띠가 페이지를 지배하지 않게 한다.
+// ─────────────────────────────────────────────
+function heroHtml(g) {
+  const art = g.thumbRaw || g.thumbLarge;
+  if (!art) {
+    return `<div class="hero hero-empty" style="background:${
+      g.grad || "linear-gradient(135deg,#2E3A4E,#5B6E8C)"
+    }" aria-hidden="true">${escHtml(g.icon || "🎲")}</div>`;
+  }
+  // 배경도 raw를 우선 쓴다 — detail 판본은 이미 블러 여백이 구워져 있어서,
+  // 그걸 다시 블러 처리하면 색이 빠진 뿌연 띠가 된다.
+  const bg = art;
+  return `<div class="hero">
+  <div class="hero-bg" style="background-image:url('${escHtml(bg)}')" aria-hidden="true"></div>
+  <img class="hero-art" src="${escHtml(art)}" alt="${escHtml(g.ko)} 표지 이미지" decoding="async">
+</div>`;
 }
 
 function gamePageHtml(g, related) {
@@ -404,6 +437,11 @@ a{color:inherit}
 .topnav .brand{font-weight:800;text-decoration:none;color:var(--navy)}
 .topnav .navlinks a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
 .topnav .navlinks a:hover{color:var(--main)}
+.hero{position:relative;overflow:hidden;background:var(--navy);height:340px;display:flex;align-items:center;justify-content:center;margin-top:20px}
+.hero-bg{position:absolute;inset:-48px;background-size:cover;background-position:center;filter:blur(34px) brightness(.66) saturate(1.15);transform:scale(1.08)}
+.hero-art{position:relative;height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 14px 34px rgba(0,0,0,.35))}
+.hero-empty{height:200px;font-size:88px;color:rgba(255,255,255,.9)}
+@media(max-width:600px){.hero{height:240px}.hero-empty{height:150px;font-size:64px}}
 .wrap{max-width:720px;margin:0 auto;padding:24px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:28px}
 .crumb a{color:var(--main);text-decoration:none}
@@ -438,6 +476,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <a href="${escHtml(SITE_URL)}/#/submit">게임 등록하기</a>
   </div>
 </div>
+${heroHtml(g)}
 <div class="wrap">
   <div class="crumb"><a href="${escHtml(SITE_URL)}/#/archive">게임 아카이브</a> › ${escHtml(g.ko)}</div>
   <h1>${escHtml(g.ko)}</h1>
@@ -561,6 +600,7 @@ async function processThumbnails(games) {
     if (await isFresh(g.slug, THUMB_DIR, g.updatedAt, manifest)) {
       g.thumb = `${THUMB_URL_PREFIX}/${g.slug}-grid.webp`;
       g.thumbLarge = `${THUMB_URL_PREFIX}/${g.slug}-detail.webp`;
+      g.thumbRaw = `${THUMB_URL_PREFIX}/${g.slug}-raw.webp`;
       skipped++;
       continue;
     }
@@ -578,6 +618,7 @@ async function processThumbnails(games) {
     if (result) {
       g.thumb = `${THUMB_URL_PREFIX}/${g.slug}-grid.webp`;
       g.thumbLarge = `${THUMB_URL_PREFIX}/${g.slug}-detail.webp`;
+      g.thumbRaw = `${THUMB_URL_PREFIX}/${g.slug}-raw.webp`;
       manifest[g.slug] = { updatedAt: g.updatedAt, source: result.source };
       made++;
 
@@ -658,7 +699,7 @@ async function pruneOrphanedThumbnails(games, manifest) {
   let removed = 0;
   for (const file of files) {
     if (file === ".manifest.json") continue;
-    const slug = file.replace(/-(grid|detail)\.webp$/, "");
+    const slug = file.replace(/-(grid|detail|raw)\.webp$/, "");
     if (!activeSlugs.has(slug)) {
       await rm(join(THUMB_DIR, file), { force: true });
       removed++;

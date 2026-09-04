@@ -10,7 +10,8 @@
  * 출력 규격 (assets/thumbs/<slug>-{grid,detail}.webp)
  * ----------------------------------------------------
  *   grid   600×450  (4:3) — 아카이브/홈 그리드 카드, 상세페이지 "관련 게임" 미니카드
- *   detail 1200×900 (4:3) — 상세페이지 히어로 이미지 + og:image/twitter:image 겸용
+ *   detail 1200×900 (4:3) — SPA 상세 히어로 + og:image/twitter:image 겸용
+ *   raw    원본 비율 유지, 긴 변 최대 1200 — 정적 게임 페이지의 히어로 밴드용
  *
  * 두 크기 다 4:3인 이유: index.html의 .thumb / .detail-thumb 카드가 이미
  * `aspect-ratio:4/3; background-size:cover`로 고정돼 있다. 서버에서 만드는
@@ -62,6 +63,13 @@ export const SIZES = {
   detail: { width: 1200, height: 900 },
 };
 
+// raw — 여백을 굽지 않은 "원본 비율 그대로" 판본. 정적 게임 페이지(/game/<slug>/)의
+// 히어로 밴드가 쓴다: 흐리게 확대한 배경 위에 표지를 통째로 얹는 배치라, 이미 4:3
+// 캔버스에 블러 여백까지 구워둔 grid/detail을 그대로 얹으면 블러 바가 두 겹으로
+// 겹쳐 보인다. 그래서 "비율은 원본 그대로, 긴 변만 제한"하는 판본을 하나 더 만든다.
+// og:image와 그리드 카드는 지금처럼 4:3 고정 판본(detail/grid)을 계속 쓴다.
+const RAW_MAX_EDGE = 1200;
+
 const MIN_SOURCE_EDGE = 500; // 이보다 작은 원본은 확대하지 않고 폴백
 const FETCH_TIMEOUT_MS = 20_000;
 
@@ -111,6 +119,21 @@ async function renderContainPadded(srcBuf, { width, height }) {
 
   return sharp(background)
     .composite([{ input: foreground }])
+    .webp({ quality: 82 })
+    .toBuffer();
+}
+
+// ─────────────────────────────────────────────
+// raw — 원본 비율 유지, 긴 변만 RAW_MAX_EDGE로 제한 (확대는 하지 않음)
+// ─────────────────────────────────────────────
+async function renderRaw(srcBuf) {
+  const meta = await sharp(srcBuf).metadata();
+  const longEdge = Math.max(meta.width || 0, meta.height || 0);
+  if (longEdge < MIN_SOURCE_EDGE) {
+    throw new Error(`원본 해상도가 너무 작음 (${meta.width}×${meta.height})`);
+  }
+  return sharp(srcBuf)
+    .resize(RAW_MAX_EDGE, RAW_MAX_EDGE, { fit: "inside", withoutEnlargement: true })
     .webp({ quality: 82 })
     .toBuffer();
 }
@@ -171,11 +194,14 @@ export async function buildThumbnails({ slug, imageUrl, pdfUrl, outDir, log = co
 async function writeVariants(slug, srcBuf, renderFn, outDir) {
   const gridBuf = await renderFn(srcBuf, SIZES.grid);
   const detailBuf = await renderFn(srcBuf, SIZES.detail);
+  const rawBuf = await renderRaw(srcBuf);
   const gridPath = join(outDir, `${slug}-grid.webp`);
   const detailPath = join(outDir, `${slug}-detail.webp`);
+  const rawPath = join(outDir, `${slug}-raw.webp`);
   await writeFile(gridPath, gridBuf);
   await writeFile(detailPath, detailBuf);
-  return { gridPath, detailPath };
+  await writeFile(rawPath, rawBuf);
+  return { gridPath, detailPath, rawPath };
 }
 
 // ─────────────────────────────────────────────
@@ -241,6 +267,9 @@ export async function isFresh(slug, outDir, updatedAt, manifest) {
   try {
     await stat(join(outDir, `${slug}-grid.webp`));
     await stat(join(outDir, `${slug}-detail.webp`));
+    // raw는 2026-09-04에 추가된 판본이라, 그 전에 만들어진 게임은 이 파일이
+    // 없다. 없으면 fresh가 아니라고 판단해 한 번만 다시 굽게 한다.
+    await stat(join(outDir, `${slug}-raw.webp`));
     return true;
   } catch {
     return false;
