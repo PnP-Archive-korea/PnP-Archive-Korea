@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T13:43:01.046Z",
-  "count": 204,
+  "generatedAt": "2026-09-05T14:49:34.043Z",
+  "count": 206,
   "facets": {
     "playtime": [
       "30~60분",
@@ -36,6 +36,7 @@
       "기억력",
       "기타",
       "덱빌딩",
+      "덱을 따라 이동",
       "드래프트",
       "롤 앤 무브",
       "롤플레잉",
@@ -45,6 +46,7 @@
       "세트 수집",
       "솔로/솔로테어 게임",
       "스토리텔링",
+      "액션 포인트",
       "액션/이동 프로그래밍",
       "자리 교환",
       "자원 관리",
@@ -63,6 +65,7 @@
       "특정 상품 운송",
       "패턴 인식",
       "퍼즐 풀이",
+      "포인트 이동",
       "푸시 유어 럭",
       "플레이어 제거",
       "플립 앤 라이트/롤 앤 라이트",
@@ -82,6 +85,86 @@
     ]
   },
   "games": [
+    {
+      "id": "3d2aa7a15911802586bce456720e58a3",
+      "slug": "interplanetary-a-giant-hop-for-squeakind-3d2aa7",
+      "ko": "인터플래너터리: 스퀵족을 위한 거대한 도약",
+      "en": "Interplanetary - A giant hop for Squeakind",
+      "author": "Elias Heydrich",
+      "desc": "스퀵족이 고향 행성 너머로 나아가, 평화롭게 태양계를 탐험할 수 있도록 도와주세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "60분~120분",
+      "age": "12세 이상",
+      "mech": [
+        "액션 포인트",
+        "카드 사용",
+        "포인트 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "SF",
+        "현대",
+        "동물"
+      ],
+      "price": "무료",
+      "year": 2021,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=12742&blog=betterlife&bfrom=board",
+      "infoUrl": "https://boardgamegeek.com/boardgame/351714/interplanetary-a-giant-hop-for-squeakind",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
+      "icon": "🛰️",
+      "createdAt": "2026-09-05T14:40:00.000Z",
+      "updatedAt": "2026-09-05T14:48:00.000Z"
+    },
+    {
+      "id": "3d2aa7a1591180928608c4febd84537b",
+      "slug": "one-for-sorrow-3d2aa7",
+      "ko": "원 포 소로우",
+      "en": "One for Sorrow",
+      "author": "Kevin Newman",
+      "desc": "슬픔의 망령이 숲을 파괴하기 전에 까치 카드를 연속된 순서로 배열해보세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
+      "mech": [
+        "핸드 관리",
+        "덱을 따라 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "카드게임",
+        "판타지"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=13115&blog=betterlife&bfrom=board",
+      "infoUrl": "https://boardgamegeek.com/boardgame/441559/one-for-sorrow",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/one-for-sorrow-3d2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/one-for-sorrow-3d2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/one-for-sorrow-3d2aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🎲",
+      "createdAt": "2026-09-05T14:24:00.000Z",
+      "updatedAt": "2026-09-05T14:39:00.000Z"
+    },
     {
       "id": "3d1aa7a1591180198b01f87083986a42",
       "slug": "against-the-clock-3d1aa7",
