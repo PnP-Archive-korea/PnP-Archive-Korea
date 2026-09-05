@@ -75,7 +75,10 @@ header{position:sticky;top:0;z-index:100;background:rgba(250,246,239,.85);backdr
 section{padding:72px 0}
 
 .hero{text-align:center;padding:96px 0 72px;min-height:calc(100vh - 65px);display:flex;flex-direction:column;justify-content:center}
-.how-works,.vh-fill{min-height:calc(100vh - 65px);display:flex;flex-direction:column;justify-content:center}
+/* .container의 padding:0 24px가 section의 padding:72px 0을 덮어써서 세로 여백이 0이 된다.
+   좌우 여백은 .container에 맡기고, 위아래 여백은 여기서 되살린다.
+   (섹션 내용이 길어져 min-height를 넘겨도 다음 섹션 제목과 붙지 않는다.) */
+.how-works,.vh-fill{min-height:calc(100vh - 65px);display:flex;flex-direction:column;justify-content:center;padding-top:72px;padding-bottom:72px}
 .badge-pill{display:inline-flex;align-items:center;border-radius:999px;overflow:hidden;font-size:13px;font-weight:700;box-shadow:var(--shadow);margin-bottom:28px;border:1px solid var(--line)}
 .badge-pill .tag{background:var(--main);color:#fff;padding:7px 14px}
 .badge-pill .txt{background:var(--surface);color:var(--muted);padding:7px 14px}
