@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T22:47:30.822Z",
+  "generatedAt": "2026-09-06T00:02:50.299Z",
   "count": 206,
   "facets": {
     "playtime": [
@@ -16,6 +16,7 @@
     ],
     "theme": [
       "SF",
+      "고양이",
       "기타",
       "동물",
       "레이싱",
@@ -43,6 +44,7 @@
       "리듬",
       "마피아",
       "비공개 이동",
+      "비대칭",
       "세트 수집",
       "솔로/솔로테어 게임",
       "스토리텔링",
@@ -1134,13 +1136,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/5원소-모험-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/5원소-모험-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/5원소-모험-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-05T23:52:00.000Z"
     },
     {
       "id": "3c1aa7a15911817fa988c8c0e6bfe3ed",
@@ -1348,13 +1350,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/고스트-404-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/고스트-404-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/고스트-404-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:35:00.000Z"
+      "updatedAt": "2026-09-05T23:56:00.000Z"
     },
     {
       "id": "3c1aa7a1591181ca9fcad20bdd70a09d",
@@ -3733,7 +3735,7 @@
       "ko": "세븐 다이스",
       "en": "sevendice",
       "author": "소울",
-      "desc": "2025 PnP 공모전 참가작. 주사위를 굴려 최종 숫자가 높은 사람이 승리하고 칩을 3개 모으면 최종 승리하는 1대1 대결 게임. 공용 주사위 공개 후 선플레이어가 숫자 조정 혹은 재굴림을 선택하고, 후플레이어는 비공개 주사위로 효과를 강탈하는 구조. 본문 표기 플레이타임 5~15분.",
+      "desc": "주사위를 굴려 최종 숫자가 높은 사람이 승리합니다. 칩을 3개 모으면 최종 승리합니다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -3759,7 +3761,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:23:00.000Z"
+      "updatedAt": "2026-09-06T00:01:00.000Z"
     },
     {
       "id": "3baaa7a159118173b248d7f08399fa3d",
@@ -4421,16 +4423,18 @@
       "ko": "스카이 스파이",
       "en": "SKY SPY",
       "author": "liegom",
-      "desc": "BGG 2026 9-Card Nanogame Print and Play Design Contest 제출작. NMR(핵자기공명) 분광학의 원리를 차용해, 건물에 배치된 요원 수(n)과 인접 신호 세기(S)를 조합해 구름에 가려진 적 기지의 연결망을 추론하는 논리 퍼즐 게임. '모든 건물의 n+L=4' 제약이 핵심 규칙.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
+      "desc": "화학자들이 분자의 신호를 분석해 보이지 않는 구조를 찾아내는 NMR 분광학의 원리를 사용하세요. 구름에 가려진 적 기지의 연결망을 추론하는 논리 퍼즐 게임.",
+      "players": "1-2명",
+      "playersMin": 1,
+      "playersMax": 2,
+      "playtime": "30~60분",
+      "age": "12세 이상",
       "mech": [
         "퍼즐 풀이"
       ],
-      "theme": [],
+      "theme": [
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -4440,13 +4444,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/sky-spy-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/sky-spy-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/sky-spy-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-06T00:00:00.000Z"
     },
     {
       "id": "3baaa7a15911811daf10da45be59b144",
@@ -5408,15 +5412,21 @@
       "slug": "humans-vs-cats-alley-wars-3b2aa7",
       "ko": "사람 vs 고양이 : 골목전쟁",
       "en": "Humans vs Cats: Alley Wars",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "초승하우스",
+      "desc": "요리사는 품평회에 나갈 요리를 만들고, 고양이는 요리사의 물고기를 훔쳐 먹으세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "",
+      "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 배치",
+        "비대칭"
+      ],
+      "theme": [
+        "유머/파티",
+        "고양이"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5432,7 +5442,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-05T23:49:00.000Z"
     },
     {
       "id": "3b2aa7a1591181d1b3c3c86fb1c60a54",
