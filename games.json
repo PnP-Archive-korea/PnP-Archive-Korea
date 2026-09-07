@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T02:01:31.249Z",
+  "generatedAt": "2026-09-07T02:05:17.479Z",
   "count": 205,
   "facets": {
     "playtime": [
@@ -5994,8 +5994,13 @@
       "playersMax": 3,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "마피아",
+        "추리"
+      ],
+      "theme": [
+        "동물"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -6005,13 +6010,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/casting-vote-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/casting-vote-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/casting-vote-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🦊",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-07T02:04:00.000Z"
     },
     {
       "id": "3b2aa7a15911819babebcf9e0944d5cb",
