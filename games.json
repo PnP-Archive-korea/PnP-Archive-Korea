@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:02:30.815Z",
-  "count": 204,
+  "generatedAt": "2026-09-07T02:01:31.249Z",
+  "count": 205,
   "facets": {
     "playtime": [
       "30~60분",
@@ -86,6 +86,83 @@
     ]
   },
   "games": [
+    {
+      "id": "3d4aa7a15911800e9e2ed329b6b65c46",
+      "slug": "galdor-s-grip-3d4aa7",
+      "ko": "갈도르스 그립",
+      "en": "Galdor’s Grip",
+      "author": "Gregg Jewell",
+      "desc": "광기 어린 텔레파시 능력자가 오래전 당신이 정신 속에 가두어 둔 고대의 악을 풀어주려는 의도로 당신의 마음속에\n침입했습니다. 막을 수 있는 모든 정신적 위협을 회피하면서, 주변의 환영들로부터 충분한 힘을 모아 침입자를 환영 감옥에 가두세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "핸드 관리",
+        "덱을 따라 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2022,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=12626&bfrom=series",
+      "infoUrl": "https://greggjewell.itch.io/galdors-grip",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/galdor-s-grip-3d4aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/galdor-s-grip-3d4aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/galdor-s-grip-3d4aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🏰",
+      "createdAt": "2026-09-07T01:48:00.000Z",
+      "updatedAt": "2026-09-07T01:56:00.000Z"
+    },
+    {
+      "id": "3d4aa7a159118058a2acc637aab5ca85",
+      "slug": "alea-s-garden-3d4aa7",
+      "ko": "알레아의 정원",
+      "en": "Alea's garden",
+      "author": "Brave James",
+      "desc": "정원 속에서 아름다움과 부패의 균형을 맞춰보세요. 영원하지 않기에, 더 아름답습니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "덱빌딩",
+        "퍼즐 풀이",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "퍼즐"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=12918&blog=betterlife&bfrom=board",
+      "infoUrl": "https://boardgamegeek.com/thread/3530593/aleas-garden-cosy-polyomino-deckbuilding-game-winn",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/alea-s-garden-3d4aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/alea-s-garden-3d4aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/alea-s-garden-3d4aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🗺️",
+      "createdAt": "2026-09-07T01:36:00.000Z",
+      "updatedAt": "2026-09-07T01:53:00.000Z"
+    },
     {
       "id": "3d2aa7a15911802586bce456720e58a3",
       "slug": "interplanetary-a-giant-hop-for-squeakind-3d2aa7",
@@ -944,7 +1021,8 @@
       "age": "14세 이상",
       "mech": [
         "협력",
-        "카드 사용"
+        "카드 사용",
+        "타일 놓기"
       ],
       "theme": [
         "역사"
@@ -964,7 +1042,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-07T00:32:00.000Z"
     },
     {
       "id": "3c1aa7a1591181699243d1f7e1e47540",
@@ -4646,40 +4724,6 @@
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
-      "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:27:00.000Z"
-    },
-    {
-      "id": "3baaa7a1591181bba667ede50e3a0ab7",
-      "slug": "pengraoh-code-3baaa7",
-      "ko": "펭라오 코드",
-      "en": "Pengraoh Code",
-      "author": "KY81",
-      "desc": "2026년 두 장 짜리 협력 게임 PnP 공모전 출품작. 시설 카드를 상하좌우로 맞닿게 배치하는 협력 게임. Ver 1.1은 용어 통일·문양 설명·예시 도면을 보강한 매뉴얼 개정판. playingcards.io에서 설치 없이 플레이 가능.",
-      "players": "1-4명",
-      "playersMin": 1,
-      "playersMax": 4,
-      "playtime": "30분 이하",
-      "age": "14세 이상",
-      "mech": [
-        "협력",
-        "타일 놓기"
-      ],
-      "theme": [],
-      "price": "무료",
-      "year": 2026,
-      "lang": [
-        "한국어"
-      ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2001",
-      "infoUrl": "",
-      "playUrl": "",
-      "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
-      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
       "createdAt": "2026-08-12T01:53:00.000Z",
       "updatedAt": "2026-08-18T01:27:00.000Z"
     },
