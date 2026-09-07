@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T23:34:47.994Z",
-  "count": 206,
+  "generatedAt": "2026-09-07T00:02:30.815Z",
+  "count": 204,
   "facets": {
     "playtime": [
       "30~60분",
@@ -55,7 +55,6 @@
       "주사위 관리",
       "주사위 굴림",
       "주사위 배치",
-      "주식 조종",
       "지역 장악",
       "추리",
       "카드 사용",
@@ -578,7 +577,7 @@
       "id": "3c1aa7a1591181119871db1241c5eac7",
       "slug": "last-torch-3c1aa7",
       "ko": "Last Torch",
-      "en": "",
+      "en": "Last Torch",
       "author": "gamemakerKJ",
       "desc": "마지막 횃불 하나에 의지해 제한된 시야 속에서 협력하며 탈출하는 전략 보드게임",
       "players": "2-3명",
@@ -602,13 +601,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/last-torch-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/last-torch-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/last-torch-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-06T23:39:00.000Z"
     },
     {
       "id": "3c1aa7a159118118804af6c29e747e3b",
@@ -1646,43 +1645,6 @@
       "updatedAt": "2026-08-18T04:34:00.000Z"
     },
     {
-      "id": "3c0aa7a15911813ca588f6ae5e3da7ab",
-      "slug": "속성장기-3c0aa7",
-      "ko": "속성장기",
-      "en": "",
-      "author": "Euleeer",
-      "desc": "동물장기와 비슷하되 기물마다 속성이 붙어 상성 싸움을 하는 2인용 추상 전략 게임.",
-      "players": "2명",
-      "playersMin": 2,
-      "playersMax": 2,
-      "playtime": "",
-      "age": "",
-      "mech": [
-        "그리드 이동",
-        "기타"
-      ],
-      "theme": [
-        "추상",
-        "동물"
-      ],
-      "price": "무료",
-      "year": 2025,
-      "lang": [
-        "한국어"
-      ],
-      "url": "https://arca.live/b/boardgame/139197510",
-      "infoUrl": "",
-      "playUrl": "",
-      "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
-      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "🔷",
-      "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:34:00.000Z"
-    },
-    {
       "id": "3c0aa7a15911814e9916f9403af7f064",
       "slug": "솔리테어-타워-3c0aa7",
       "ko": "솔리테어 타워",
@@ -2012,17 +1974,20 @@
       "slug": "dieson-crusoe-3baaa7",
       "ko": "다이슨 크루소",
       "en": "Dieson Crusoe",
-      "author": "레이지니",
-      "desc": "보드게임긱 2021년 1인플 PnP 게임 콘테스트 출품작의 v.16 업데이트 버전. 1인용 PnP 게임.",
+      "author": "한진희",
+      "desc": "무인도에 표류된 당신! 섬 반대편 해안가에서 뗏목을 만들고 맑은 날씨를 기다려보세요.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30~60분",
       "age": "",
-      "mech": [],
+      "mech": [
+        "주사위 배치",
+        "주사위 굴림"
+      ],
       "theme": [],
       "price": "무료",
-      "year": 2022,
+      "year": 2021,
       "lang": [
         "한국어"
       ],
@@ -2036,7 +2001,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-09-06T23:58:00.000Z"
     },
     {
       "id": "3baaa7a1591181be8639f49447f6cfa3",
@@ -2695,42 +2660,6 @@
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
-      "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z"
-    },
-    {
-      "id": "3baaa7a159118126926bdf7e814fc9e8",
-      "slug": "in-my-pocket-3baaa7",
-      "ko": "인마이포켓",
-      "en": "In My Pocket",
-      "author": "훈돌이",
-      "desc": "2023 PnP 공모전 참가작. 스페이드 인더스트리, 하트푸드, 클로버 테크, 다이아몬드 컴처 등 투자하고 싶은 분야의 생산시설을 구입해 마켓에서 자본을 끌어오는 게임. 설비가 많을수록 돈을 끌어오지만 리스크도 함께 가져온다. 플레이 가능한 최신 PnP 자료와 규칙서 포함.",
-      "players": "2-3명",
-      "playersMin": 2,
-      "playersMax": 3,
-      "playtime": "30분 이하",
-      "age": "14세 이상",
-      "mech": [
-        "주식 조종",
-        "자원 관리"
-      ],
-      "theme": [
-        "현대"
-      ],
-      "price": "무료",
-      "year": 2023,
-      "lang": [
-        "한국어"
-      ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1062",
-      "infoUrl": "",
-      "playUrl": "",
-      "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
-      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🏙️",
       "createdAt": "2026-08-12T02:10:00.000Z",
       "updatedAt": "2026-08-18T01:18:00.000Z"
     },
@@ -4216,7 +4145,7 @@
       "ko": "히든 피스 체스",
       "en": "hidden piece chess",
       "author": "cardandboard",
-      "desc": "2025 PnP 공모전 참가작. 전통적인 체스에 추리와 블러핑 요소를 결합한 전략 보드게임. 자신의 말 정체를 숨기고 때로는 거짓말로 속임수를 시도하며 상대의 전략을 읽어내야 한다. 구성물은 흑백 각각 폰 8·비숨 2·나이트 2·룩 2·킹 1.",
+      "desc": "전통적인 체스에 추리와 블러핑 요소를 결합한 전략 보드게임입니다. 자신의 말 정체를 숨기고 때로는 거짓말로 속임수를 시도하며 상대의 전략을 읽어내보세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -4244,7 +4173,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:25:00.000Z"
+      "updatedAt": "2026-09-07T00:00:00.000Z"
     },
     {
       "id": "3baaa7a1591181ce88dcda3e5f77f04b",
@@ -6575,7 +6504,7 @@
       "slug": "ricochet-dungeon-3b2aa7",
       "ko": "리코셰 던전",
       "en": "Ricochet Dungeon",
-      "author": "레이지니",
+      "author": "한진희",
       "desc": "던전을 탐험하는 리코셰 용사가 되자!",
       "players": "1명",
       "playersMin": 1,
@@ -6599,7 +6528,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-09-04T02:20:00.000Z"
+      "updatedAt": "2026-09-06T23:55:00.000Z"
     },
     {
       "id": "3b2aa7a159118150aa9adc8b7f51d8cd",
@@ -6607,20 +6536,25 @@
       "ko": "다이스 타이니 타운",
       "en": "Dice Tiny Town",
       "author": "Jinhee Han",
-      "desc": "",
+      "desc": "멋진 마을을 만들고, 방문객을 초대하자!",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "age": "12세 이상",
+      "mech": [
+        "주사위 배치",
+        "타일 놓기"
+      ],
+      "theme": [
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=8857&game=16613",
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1121&game=16613",
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
@@ -6630,7 +6564,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T07:44:00.000Z"
+      "updatedAt": "2026-09-06T23:46:00.000Z"
     },
     {
       "id": "3b2aa7a159118151a548ec9811387ad7",
