@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T22:36:08.574Z",
+  "generatedAt": "2026-09-08T00:58:45.917Z",
   "count": 205,
   "facets": {
     "playtime": [
@@ -1081,11 +1081,11 @@
     },
     {
       "id": "3c1aa7a15911817085b4e455b3b80a0f",
-      "slug": "데스티니-하이파이브-3c1aa7",
+      "slug": "destiny-high-five-3c1aa7",
       "ko": "데스티니 하이파이브!",
-      "en": "",
+      "en": "Destiny High-Five!",
       "author": "Curie",
-      "desc": "실제 손금을 사용하는 커플 게임입니다!",
+      "desc": "실제 손금을 사용하는 커플 게임!",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -1094,7 +1094,9 @@
       "mech": [
         "플립 앤 라이트/롤 앤 라이트"
       ],
-      "theme": [],
+      "theme": [
+        "기타"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -1104,13 +1106,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/destiny-high-five-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/destiny-high-five-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/destiny-high-five-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-08T00:31:00.000Z"
     },
     {
       "id": "3c1aa7a159118170be14d5817a074a6a",
@@ -3606,7 +3608,7 @@
       "ko": "꽃을 피워요",
       "en": "bloom",
       "author": "sojin7550",
-      "desc": "2025 PnP 공모전 참가작. 6면체 주사위를 자원 토큰으로 사용해 화분에 필요한 요소를 채우는 게임. 두 페이지 공모전 조건에 맞춰 자원을 주사위로 제한해 화분 입양에 제약을 둔 버전(ver.1.2). ※ 원문 권장연령 표기가 1세 이상으로 되어 있어 신뢰하기 어려워 공란.",
+      "desc": "6면체 주사위를 자원 토큰으로 사용해 화분에 필요한 요소를 채워보세요.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -3632,7 +3634,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:23:00.000Z"
+      "updatedAt": "2026-09-08T00:33:00.000Z"
     },
     {
       "id": "3baaa7a159118129a8dbd167016c2620",
@@ -4700,7 +4702,7 @@
       "ko": "트웰브",
       "en": "TWELVE",
       "author": "몽둥게임즈",
-      "desc": "리플레이성이 좋은 2인용 경매 보드게임. 배우는 데 1분, 한 판에 10분으로 가볍게 즐길 수 있으나 전략성이 큰 게임이라고 작가가 소개. 테이블탑 시뮬레이터 창작마당에 무료 배포되어 있으며, 게시글에 인게임 룰 설명 자료가 포함되어 있다. 별도로 텀블벅 펀딩 진행 중.",
+      "desc": "리플레이성이 좋은 2인용 경매 보드게임. PnP 자료는 없으나 테이블탑 시뮬레이터 창작마당에 무료 배포되어 있다.",
       "players": "2인",
       "playersMin": 2,
       "playersMax": 2,
@@ -4715,8 +4717,8 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
-      "infoUrl": "",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3632596861",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
       "playUrl": "",
       "origin": "",
       "thumb": null,
@@ -4725,7 +4727,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:27:00.000Z"
+      "updatedAt": "2026-09-08T00:24:00.000Z"
     },
     {
       "id": "3baaa7a1591181d6923cc53f33bfdba1",
@@ -5169,14 +5171,19 @@
       "ko": "일리온 타불라",
       "en": "Ilium Tabula",
       "author": "Eusus",
-      "desc": "왕을 호위하고 전선을 지배하세요! 군단을 편성하고 주사위 수를 바꾸어 운명을 뒤틀어버리십쇼.",
+      "desc": "왕을 호위하고 전선을 지배하세요! 군단을 편성하고 주사위 수를 바꾸어 운명을 뒤틀어버리세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "age": "12세 이상",
+      "mech": [
+        "액션/이동 프로그래밍"
+      ],
+      "theme": [
+        "역사",
+        "전쟁/전투"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5190,9 +5197,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🏯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T07:42:00.000Z"
+      "updatedAt": "2026-09-08T00:46:00.000Z"
     },
     {
       "id": "3b2aa7a1591181a5a11cd209a9e259fa",
@@ -5862,14 +5869,18 @@
       "ko": "컴뱃 쉽 4",
       "en": "Combat ship 4",
       "author": "거보게",
-      "desc": "",
+      "desc": "네모, 세모, 동그라미, 마름모 기호를 통해 상대방을 침몰시키거나, 점수를 획득하세요.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "타일 놓기"
+      ],
+      "theme": [
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -5885,7 +5896,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-08T00:32:00.000Z"
     },
     {
       "id": "3b2aa7a1591181729d1bde5ed9a261a8",
