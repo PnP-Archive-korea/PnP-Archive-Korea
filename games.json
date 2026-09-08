@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T00:58:45.917Z",
-  "count": 205,
+  "generatedAt": "2026-09-08T05:50:36.875Z",
+  "count": 206,
   "facets": {
     "playtime": [
       "30~60분",
@@ -86,6 +86,45 @@
     ]
   },
   "games": [
+    {
+      "id": "3d5aa7a159118028bfdae4fe612879ec",
+      "slug": "galdor-s-grip-3d5aa7",
+      "ko": "갈도르스 그립 Knowbscure",
+      "en": "Galdor’s Grip",
+      "author": "Freakinger",
+      "desc": "광기 어린 텔레파시 능력자가 오래전 당신이 정신 속에 가두어 둔 고대의 악을 풀어주려는 의도로 당신의 마음속에침입했습니다. 막을 수 있는 모든 정신적 위협을 회피하면서, 주변의 환영들로부터 충분한 힘을 모아 침입자를 환영 감옥에 가두세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "핸드 관리",
+        "덱을 따라 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=12649&blog=betterlife&bfrom=board",
+      "infoUrl": "https://boardgamegeek.com/thread/3712106/knowbscure-35-34-card-expansion-version-40",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/galdor-s-grip-3d5aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/galdor-s-grip-3d5aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/galdor-s-grip-3d5aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏰",
+      "createdAt": "2026-09-08T04:30:00.000Z",
+      "updatedAt": "2026-09-08T04:32:00.000Z"
+    },
     {
       "id": "3d4aa7a15911800e9e2ed329b6b65c46",
       "slug": "galdor-s-grip-3d4aa7",
@@ -5193,13 +5232,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/ilium-tabula-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/ilium-tabula-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/ilium-tabula-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-08T00:46:00.000Z"
+      "updatedAt": "2026-09-08T02:31:00.000Z"
     },
     {
       "id": "3b2aa7a1591181a5a11cd209a9e259fa",
