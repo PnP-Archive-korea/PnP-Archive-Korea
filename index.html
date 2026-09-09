@@ -541,6 +541,27 @@ function trackPageview(){
   });
 }
 
+/* GA4 — 링크 버튼(파일 다운로드 / 온라인 플레이 / 원문·게임 정보) 클릭 집계.
+   화면에는 아무 변화도 없습니다. 방문자에게 보이는 숫자를 만들지 않고,
+   클릭 사실만 GA4로 보내 운영자만 보고서에서 확인합니다.
+   카드가 innerHTML로 매번 다시 그려지므로 개별 버튼에 리스너를 붙이지 않고
+   document 한 곳에서 위임(delegation) 처리합니다. */
+function trackLinkClick(a){
+  if(typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
+  gtag("event", "download_click", {
+    link_type:  a.getAttribute("data-link-type") || "",
+    game_slug:  a.getAttribute("data-game-slug") || "",
+    game_title: (a.getAttribute("data-game-title") || "").slice(0, 100),
+    link_url:   (a.getAttribute("href") || "").slice(0, 100),
+    transport_type: "beacon"
+  });
+}
+document.addEventListener("click", function(e){
+  const t = e.target;
+  const a = t && t.closest ? t.closest("a[data-link-type]") : null;
+  if(a) trackLinkClick(a);
+}, true);
+
 /* ══════════════════════════════════════════════
    데이터 로딩
    ══════════════════════════════════════════════ */
@@ -742,16 +763,16 @@ function pickRandomExcluding(games, excludeId, n){
    전부 비어 있을 때만 '준비 중' 회색 버튼이 나옵니다. */
 function gameLinks(g){
   return [
-    { url: safeUrl(g.url),     label: "⬇ 파일 다운로드" },
-    { url: safeUrl(g.playUrl), label: "▶ 온라인으로 플레이" },
-    { url: safeUrl(g.infoUrl), label: "🔗 원문·게임 정보" }
+    { url: safeUrl(g.url),     label: "⬇ 파일 다운로드",   kind: "download" },
+    { url: safeUrl(g.playUrl), label: "▶ 온라인으로 플레이", kind: "play" },
+    { url: safeUrl(g.infoUrl), label: "🔗 원문·게임 정보",  kind: "info" }
   ].filter(l => l.url);
 }
 function linkButtonsHTML(g){
   const links = gameLinks(g);
   if(!links.length) return `<div class="btn-row"><span class="btn btn-ghost btn-lg" style="cursor:default;opacity:.6">다운로드 링크 준비 중</span></div>`;
   return `<div class="btn-row">${links.map((l,i)=>
-    `<a class="btn ${i===0?"btn-primary":"btn-ghost"} btn-lg" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${l.label}</a>`
+    `<a class="btn ${i===0?"btn-primary":"btn-ghost"} btn-lg" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer" data-link-type="${l.kind}" data-game-slug="${esc(g.slug||"")}" data-game-title="${esc(g.ko||"")}">${l.label}</a>`
   ).join("")}</div>`;
 }
 
