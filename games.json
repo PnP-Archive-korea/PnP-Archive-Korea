@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T23:54:08.561Z",
+  "generatedAt": "2026-09-09T03:38:48.591Z",
   "count": 206,
   "facets": {
     "playtime": [
@@ -67,6 +67,7 @@
       "패턴 인식",
       "퍼즐 풀이",
       "포인트 이동",
+      "포커족보",
       "푸시 유어 럭",
       "플레이어 제거",
       "플립 앤 라이트/롤 앤 라이트",
@@ -738,7 +739,8 @@
       "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
-        "협력"
+        "협력",
+        "카드 사용"
       ],
       "theme": [
         "판타지"
@@ -752,13 +754,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/새벽-전에-만나-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/새벽-전에-만나-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/새벽-전에-만나-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-09T00:39:00.000Z"
     },
     {
       "id": "3c1aa7a15911811fa518de5d5cb392c3",
@@ -3092,7 +3094,7 @@
       "ko": "알래스카 롤럼",
       "en": "Alaska Roll'em",
       "author": "sdsnc",
-      "desc": "2023 PnP 공모전 참가작. 알래스카 썰매개 레이싱을 테마로 주사위를 사용한 가족용 홀덤 게임. 규칙서 수정본과 프린트물 자료를 재업로드한 버전.",
+      "desc": "알래스카 썰매개 레이싱을 즐겨보세요. 주사위를 사용한 가족용 홀덤 게임.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -3100,10 +3102,12 @@
       "age": "",
       "mech": [
         "주사위 굴림",
-        "경매/입찰"
+        "경매/입찰",
+        "포커족보"
       ],
       "theme": [
-        "동물"
+        "동물",
+        "레이싱"
       ],
       "price": "무료",
       "year": 2023,
@@ -3120,7 +3124,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🦊",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z"
+      "updatedAt": "2026-09-09T00:28:00.000Z"
     },
     {
       "id": "3baaa7a1591181878be6eb6aa2d7916e",
@@ -3852,17 +3856,20 @@
       "ko": "피트 스탑",
       "en": "PIT STOP",
       "author": "신나는월요일",
-      "desc": "2025 PnP 공모전 참가작(v1.5). 자동차 레이싱의 피트 스탑 순간을 전략적으로 담아낸 다이스 롤링 레이싱 보드게임. 노면·날씨 변화, 타이어 선택, 추월 타이밍, DRS 활용 등 레이싱 전략 요소를 담았다.",
+      "desc": "자동차 레이싱의 피트 스탑 순간을 전략적으로 담아낸 다이스 롤링 레이싱. 노면·날씨 변화, 타이어 선택, 추월 타이밍, DRS 활용 등의 전략 요소를 활용해보세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30~60분",
       "age": "8세 이상",
       "mech": [
-        "주사위 굴림"
+        "주사위 굴림",
+        "주사위 배치",
+        "카드 사용"
       ],
       "theme": [
-        "현대"
+        "현대",
+        "레이싱"
       ],
       "price": "무료",
       "year": 2025,
@@ -3879,7 +3886,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:24:00.000Z"
+      "updatedAt": "2026-09-09T01:01:00.000Z"
     },
     {
       "id": "3baaa7a159118182a5eedd2d6dff085b",
@@ -5659,14 +5666,16 @@
       "slug": "king-of-landscaping-3b2aa7",
       "ko": "조경의 왕",
       "en": "King Of Landscaping",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "김기만",
+      "desc": "트럼프 왕국의 조경의 왕이 되어라!",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "",
       "age": "",
-      "mech": [],
+      "mech": [
+        "주사위 굴림"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2023,
@@ -5683,7 +5692,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-09T00:35:00.000Z"
     },
     {
       "id": "3b2aa7a159118133a9f5f479e87ae104",
@@ -7054,8 +7063,14 @@
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "판타지",
+        "전쟁/전투"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -7069,9 +7084,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🧩",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-09T00:25:00.000Z"
     }
   ]
 }
