@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T03:38:48.591Z",
-  "count": 206,
+  "generatedAt": "2026-09-09T07:42:05.718Z",
+  "count": 207,
   "facets": {
     "playtime": [
       "30~60분",
@@ -87,6 +87,43 @@
     ]
   },
   "games": [
+    {
+      "id": "3d6aa7a1591180078e18f1971de037f2",
+      "slug": "flock-rocks-sheep-vs-wolves-3d6aa7",
+      "ko": "양떼VS늑대",
+      "en": "Flock Rocks: Sheep vs. Wolves",
+      "author": "Richard Lenherr",
+      "desc": "늑대 떼로부터 소중한 양 떼를 지켜내야 하는 협력형 트릭테이킹 게임.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "트릭테이킹",
+        "협력"
+      ],
+      "theme": [
+        "동물"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/htrvommvk8k851eo76oud/AMmAY_ItoDxdrfwJaW-hujU?rlkey=0gneg27lze7psmnkmlvh6scav&st=h0ryzimw&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3576804/wip-flock-rocks-sheep-vs-wolves-2025-traditional-g",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🦊",
+      "createdAt": "2026-09-09T07:17:00.000Z",
+      "updatedAt": "2026-09-09T07:37:00.000Z"
+    },
     {
       "id": "3d5aa7a159118028bfdae4fe612879ec",
       "slug": "galdor-s-grip-3d5aa7",
