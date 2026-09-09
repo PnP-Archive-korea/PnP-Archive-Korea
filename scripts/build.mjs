@@ -382,9 +382,9 @@ function gamePageHtml(g, related) {
   // 값이 있는 링크만 버튼으로 만듭니다 — 1개면 버튼 1개, 2개면 2개.
   // 맨 앞 버튼이 주 버튼(주황), 나머지는 보조 버튼(테두리)입니다.
   const links = [
-    { url: safeHttpUrl(g.url), label: "⬇ 파일 다운로드" },
-    { url: safeHttpUrl(g.playUrl), label: "▶ 온라인으로 플레이" },
-    { url: safeHttpUrl(g.infoUrl), label: "🔗 원문·게임 정보" },
+    { url: safeHttpUrl(g.url), label: "⬇ 파일 다운로드", kind: "download" },
+    { url: safeHttpUrl(g.playUrl), label: "▶ 온라인으로 플레이", kind: "play" },
+    { url: safeHttpUrl(g.infoUrl), label: "🔗 원문·게임 정보", kind: "info" },
   ].filter((l) => l.url);
 
   const spec = [
@@ -494,7 +494,7 @@ ${heroHtml(g)}
         ? links
             .map(
               (l, i) =>
-                `<a class="btn${i ? " sub" : ""}" href="${escHtml(l.url)}" rel="noopener noreferrer">${escHtml(l.label)}</a>`
+                `<a class="btn${i ? " sub" : ""}" href="${escHtml(l.url)}" rel="noopener noreferrer" data-link-type="${escHtml(l.kind)}" data-game-slug="${escHtml(g.slug)}" data-game-title="${escHtml(g.ko)}">${escHtml(l.label)}</a>`
             )
             .join("\n    ")
         : `<span class="btn off">다운로드 링크 준비 중</span>`
@@ -525,6 +525,22 @@ ${heroHtml(g)}
   }
   <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
 </div>
+<script>
+/* GA4 — 링크 버튼 클릭 집계. 화면에는 아무 변화도 없습니다.
+   같은 탭에서 이동해도 유실되지 않도록 beacon 전송을 사용합니다. */
+document.addEventListener("click", function(e){
+  var t = e.target;
+  var a = t && t.closest ? t.closest("a[data-link-type]") : null;
+  if(!a || typeof gtag !== "function") return;
+  gtag("event", "download_click", {
+    link_type:  a.getAttribute("data-link-type") || "",
+    game_slug:  a.getAttribute("data-game-slug") || "",
+    game_title: (a.getAttribute("data-game-title") || "").slice(0, 100),
+    link_url:   (a.getAttribute("href") || "").slice(0, 100),
+    transport_type: "beacon"
+  });
+}, true);
+</script>
 </body>
 </html>
 `;
