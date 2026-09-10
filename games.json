@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T23:00:52.256Z",
+  "generatedAt": "2026-09-10T03:36:11.419Z",
   "count": 207,
   "facets": {
     "playtime": [
@@ -39,6 +39,7 @@
       "덱빌딩",
       "덱을 따라 이동",
       "드래프트",
+      "레이스",
       "롤 앤 무브",
       "롤플레잉",
       "리듬",
@@ -2097,12 +2098,12 @@
       "ko": "롤링 던전스 - 제1던전 고블린의 본거지",
       "en": "Rolling Dungeons",
       "author": "드로우애니",
-      "desc": "취미로 간단한 보드게임을 만드는 작가가 공개한 제1던전 프로토타입. 준비물은 전투 주사위 3개와 플레이어 수만큼의 펜·주사위(플레이어 말)·던전시트. 플레이테스트 횟수가 많지 않아 규칙에 오류가 있을 수 있다고 밝힘.",
+      "desc": "제 1던전 프로토타입 게임. 준비물은 전투 주사위 3개와 플레이어 수만큼의 펜·주사위(플레이어 말)·던전시트.",
       "players": "1-9명",
       "playersMin": 1,
       "playersMax": 9,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "12세 이상",
       "mech": [
         "주사위 굴림",
         "플립 앤 라이트/롤 앤 라이트"
@@ -2125,7 +2126,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-09-10T01:19:00.000Z"
     },
     {
       "id": "3baaa7a159118193b860f74a41928d49",
@@ -3617,18 +3618,21 @@
       "id": "3baaa7a15911810ea9f2ef35d4d67610",
       "slug": "떼굴떼굴-슬라임-3baaa7",
       "ko": "떼굴떼굴 슬라임",
-      "en": "",
+      "en": "Rolling Slimes",
       "author": "드로우애니",
-      "desc": "BGG 2024 Roll and Write Game Design Contest 참가작. 라이트 게임을 지향하는 작가가 해외 공모전에 출품한 롤 앤 라이트 게임.",
+      "desc": "대마법사 슬라이무스트라다무스가 전설의 럭키 7 슬라임을 창조하다가 의문의 사고로 죽었습니다. 스승의 뒤를 이어 전설의 럭키 7 슬라임을 만들어보세요.\n\nBGG 2024 Roll and Write Game Design Contest 참가작.",
       "players": "",
       "playersMin": null,
       "playersMax": null,
       "playtime": "",
       "age": "",
       "mech": [
-        "플립 앤 라이트/롤 앤 라이트"
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 굴림"
       ],
-      "theme": [],
+      "theme": [
+        "판타지"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -3638,13 +3642,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏰",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:22:00.000Z"
+      "updatedAt": "2026-09-10T01:16:00.000Z"
     },
     {
       "id": "3baaa7a159118114a5cde61187ed7e92",
@@ -4857,8 +4861,14 @@
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림",
+        "레이스"
+      ],
+      "theme": [
+        "레이싱",
+        "동물"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -4874,7 +4884,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-10T01:09:00.000Z"
     },
     {
       "id": "3b2aa7a1591181188e6eed0230f37cc9",
@@ -5892,14 +5902,19 @@
       "ko": "끄적끄적 유적단",
       "en": "Scribble Diggers",
       "author": "drawanything",
-      "desc": "고고학자가 되어 폴리오미노 형태로 땅을 파내 화석을 발굴한다.",
+      "desc": "광적인 고고학자가 되어 화석을 닥치는 대로 발굴하고 박물관에 팔아넘기세요.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "14세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "그리드 이동",
+        "플립 앤 라이트/롤 앤 라이트"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -5915,7 +5930,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-10T01:06:00.000Z"
     },
     {
       "id": "3b2aa7a15911815eb4bcc4600d5f2370",
