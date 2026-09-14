@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T05:54:13.750Z",
+  "generatedAt": "2026-09-14T07:44:35.113Z",
   "count": 208,
   "facets": {
     "playtime": [
@@ -2482,7 +2482,7 @@
       "ko": "숨겨진 손",
       "en": "Hidden Hand",
       "author": "아리랑",
-      "desc": "2023 PnP 공모전 참가작. 스파이를 테마로 한 보드게임으로, 플레이어는 다른 플레이어로부터 자신의 행동을 숨기고 비밀 조직원을 투입해 승리로 이끈다. 스파이는 양날의 검이 될 수 있다. 게임 룰과 게임판이 크게 변경된 업데이트 버전. 테이블탑 시뮬레이터 활용.",
+      "desc": "다른 플레이어로부터 자신의 행동을 숨기고 승리를 달성하기 위해 함께 일하는 비밀 조직원을 투입하여 승리로 이끌어 보세요.",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
@@ -2502,15 +2502,15 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=995",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2933652054",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/hidden-hand-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/hidden-hand-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/hidden-hand-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:17:00.000Z"
+      "updatedAt": "2026-09-14T07:25:00.000Z"
     },
     {
       "id": "3baaa7a1591181a99abde2b0cd16dfc6",
@@ -4597,16 +4597,18 @@
       "ko": "마법 재판소의 비밀",
       "en": "",
       "author": "1등 견제해",
-      "desc": "다인원이 모였을 때 간단하게 즐길 수 있는 마피아 게임을 목표로 제작한 자작물. 자료가 게시글에 첨부되어 있음. ※ 게임 명칭이 명시되지 않아 제목 확인 불가.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
+      "desc": "다인원이 모였을 때 간단하게 즐길 수 있는 마피아 게임. 사회자 1인 필수!",
+      "players": "9-12명",
+      "playersMin": 9,
+      "playersMax": 12,
+      "playtime": "30~60분",
+      "age": "14세 이상",
       "mech": [
         "마피아"
       ],
-      "theme": [],
+      "theme": [
+        "판타지"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -4620,9 +4622,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🏰",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-14T07:17:00.000Z"
     },
     {
       "id": "3baaa7a159118125b4c4f76c668ffa2b",
@@ -5255,8 +5257,12 @@
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "12세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림"
+      ],
+      "theme": [
+        "역사"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5264,15 +5270,15 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1774&game=20652",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/rmut44",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🏯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-14T07:21:00.000Z"
     },
     {
       "id": "3b2aa7a15911818bb030fbfa9aafcc58",
@@ -6558,15 +6564,19 @@
       "slug": "do-not-bust-3b2aa7",
       "ko": "두 낫 버스트",
       "en": "Do not bust",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "Flood",
+      "desc": "여러분의 운을 이 카지노에서 시험해보세요",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "푸시 유어 럭"
+      ],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -6580,9 +6590,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-14T07:23:00.000Z"
     },
     {
       "id": "3b2aa7a15911812589abc970cb3bc9bb",
