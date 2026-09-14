@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T12:06:27.609Z",
+  "generatedAt": "2026-09-14T18:24:26.076Z",
   "count": 208,
   "facets": {
     "playtime": [
@@ -74,6 +74,7 @@
       "플레이어 제거",
       "플립 앤 라이트/롤 앤 라이트",
       "핸드 관리",
+      "헥스",
       "협력"
     ],
     "lang": [
@@ -720,7 +721,7 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/79904a80-24b3-4255-a993-4687d2ef62ed",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/q4dm7r",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -728,7 +729,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-14T12:47:00.000Z"
     },
     {
       "id": "3c1aa7a1591181088a15e795e76ed2e5",
@@ -900,7 +901,7 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/fd8c8811-a60d-4ded-a1e9-171f228d39cb",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/7tbcmd",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -908,7 +909,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:33:00.000Z"
+      "updatedAt": "2026-09-14T12:50:00.000Z"
     },
     {
       "id": "3c1aa7a1591181329eb4efde69491965",
@@ -1153,15 +1154,15 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/4056d5a9-df90-44f2-9b71-fbbd789bec26",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/39v9u7",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/pengraoh-code-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/pengraoh-code-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/pengraoh-code-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-09-07T00:32:00.000Z"
+      "updatedAt": "2026-09-14T12:53:00.000Z"
     },
     {
       "id": "3c1aa7a1591181699243d1f7e1e47540",
@@ -1188,15 +1189,15 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/c07339aa-b188-4689-befd-728b9626d3f0",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/jrbw9u",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/푸시유어장맛-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/푸시유어장맛-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/푸시유어장맛-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-14T12:55:00.000Z"
     },
     {
       "id": "3c1aa7a15911817085b4e455b3b80a0f",
@@ -1260,7 +1261,7 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/338e3fa1-5006-46ea-aa87-01552492678b",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://chonaldinho.github.io/classroom/",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -1268,7 +1269,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-14T12:56:00.000Z"
     },
     {
       "id": "3c1aa7a1591181738fccdc8faf5cb9cd",
@@ -1687,15 +1688,15 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/6056534e-6d67-4976-a58b-de1d5d4c228d",
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2004",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/a9ejnp",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/리코셰-차지-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/리코셰-차지-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/리코셰-차지-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-09-04T02:20:00.000Z"
+      "updatedAt": "2026-09-14T12:57:00.000Z"
     },
     {
       "id": "3c1aa7a1591181e78684faf59f7ee18f",
@@ -1723,15 +1724,15 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/29084840-11cd-4dcf-94c1-de412864a706",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/nwhrk6",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/journey-of-little-prince-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/journey-of-little-prince-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/journey-of-little-prince-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:35:00.000Z"
+      "updatedAt": "2026-09-14T12:59:00.000Z"
     },
     {
       "id": "3c0aa7a159118103a6a7e92e9a5bb9c7",
@@ -1906,7 +1907,7 @@
       ],
       "url": "https://arca.live/b/boardgame/174017067",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://end-of-arts-online.onrender.com/",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -1914,7 +1915,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:35:00.000Z"
+      "updatedAt": "2026-09-14T13:00:00.000Z"
     },
     {
       "id": "3c0aa7a159118196938bc67eb0e33fde",
@@ -1942,7 +1943,7 @@
       ],
       "url": "https://arca.live/b/boardgame/179217429",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://tactics-discord-bot.onrender.com/",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -1950,7 +1951,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:35:00.000Z"
+      "updatedAt": "2026-09-14T13:01:00.000Z"
     },
     {
       "id": "3c0aa7a1591181c9b7c7dab3ea4c6f00",
@@ -2016,7 +2017,7 @@
       ],
       "url": "https://arca.live/b/boardgame/118104674",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3344159065",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -2024,7 +2025,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:35:00.000Z"
+      "updatedAt": "2026-09-14T13:01:00.000Z"
     },
     {
       "id": "3baaa7a15911811984eafee0b9e4eaf4",
@@ -4735,9 +4736,9 @@
       "en": "Stack 6",
       "author": "포도당",
       "desc": "오목을 입체로 확장한 추상전략 게임. 15×15 보드 위에 가로·세로·대각선 한 방향으로 칩 6개를 먼저 연결하면 승리. 매 턴 [1층 확장 3개] [2층 점유 2개] [3층 쓐기 1개] 중 하나만 선택하는 3·2·1 시스템. 준비물은 보드와 색상별 칩 각 40개 내외.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
       "playtime": "",
       "age": "",
       "mech": [],
@@ -4751,7 +4752,7 @@
       ],
       "url": "https://stack6.netlify.app",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://stack6.netlify.app",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -4759,7 +4760,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:27:00.000Z"
+      "updatedAt": "2026-09-14T12:32:00.000Z"
     },
     {
       "id": "3baaa7a15911816f87a3d14d4dc977d5",
@@ -4848,9 +4849,9 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3632596861",
+      "url": "",
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3632596861",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -4858,7 +4859,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-08T00:24:00.000Z"
+      "updatedAt": "2026-09-14T12:33:00.000Z"
     },
     {
       "id": "3baaa7a1591181d6923cc53f33bfdba1",
@@ -5675,8 +5676,16 @@
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "액션 포인트",
+        "주사위 굴림",
+        "패턴 인식"
+      ],
+      "theme": [
+        "판타지",
+        "건설"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -5684,15 +5693,15 @@
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#7fc266d6a99548778515d87375b953dd",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/a2dynx",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-14T12:37:00.000Z"
     },
     {
       "id": "3b2aa7a15911811c83dff2b2cfb0b4a1",
@@ -5835,10 +5844,15 @@
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
-      "playtime": "",
+      "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림",
+        "주사위 관리"
+      ],
+      "theme": [
+        "판타지"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -5846,15 +5860,15 @@
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#c1a2ef23498f4e09b87b1e93f7eadf05",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/b5a37g",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🧩",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-14T12:41:00.000Z"
     },
     {
       "id": "3b2aa7a1591181379badf53bfe16e057",
@@ -6098,7 +6112,9 @@
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "14세 이상",
-      "mech": [],
+      "mech": [
+        "액션 포인트"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2024,
@@ -6107,7 +6123,7 @@
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#e9f66fee83574433a065b3c6d0fc1e41",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/3g2aa8",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -6115,7 +6131,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-14T12:36:00.000Z"
     },
     {
       "id": "3b2aa7a15911817fb6aacb9ee22df2fc",
@@ -6196,8 +6212,13 @@
       "playersMax": 5,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 굴림",
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -6205,7 +6226,7 @@
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#0cc215e266424b4881b64eb35b604be1",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/6amurz",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -6213,7 +6234,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-14T12:35:00.000Z"
     },
     {
       "id": "3b2aa7a1591181ad82d0eb700be6d694",
@@ -6348,14 +6369,22 @@
       "ko": "작전명: 귀향",
       "en": "Operation: Homecoming",
       "author": "제라드",
-      "desc": "적 포탄을 피해 고립된 부대원을 구출하는 1인 솔리테어 게임.",
+      "desc": "적 포탄을 피해 고립된 부대원을 구출하세요.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "헥스",
+        "주사위 굴림",
+        "솔로/솔로테어 게임",
+        "액션 포인트"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "현대"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -6363,7 +6392,7 @@
       ],
       "url": "https://skillful-mountain-f9f.notion.site/p/f7464f5170104970898f8a594604200f#10507a27373641a5a669425b330199d2",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/5wwtfu",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -6371,7 +6400,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-14T12:44:00.000Z"
     },
     {
       "id": "3b2aa7a1591181e693faf185eb6c702d",
