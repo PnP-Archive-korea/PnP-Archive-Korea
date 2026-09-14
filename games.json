@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T00:55:01.496Z",
-  "count": 207,
+  "generatedAt": "2026-09-14T02:41:59.235Z",
+  "count": 208,
   "facets": {
     "playtime": [
       "30~60분",
@@ -89,6 +89,45 @@
     ]
   },
   "games": [
+    {
+      "id": "3dbaa7a159118073a503e2c84d4b0a6e",
+      "slug": "s-o-l-six-orbit-lockdown-3dbaa7",
+      "ko": "S.O.L - 여섯 궤도 봉쇄",
+      "en": "S.O.L - Six Orbit Lockdown",
+      "author": "Alexandre ‘Alex’ Serpa",
+      "desc": "지지리도 운 없는 영웅 무리를 이끄는 당신은 이 여섯 궤도 행성의 유일한 희망입니다. 빌 정권의 사악한 군세를 플레잉 카드로 무찔러보세요.",
+      "players": "1-2명",
+      "playersMin": 1,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "카드 사용",
+        "포커족보",
+        "핸드 관리"
+      ],
+      "theme": [
+        "SF",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/lw35gk8fn5n8jtz7p0z3l/AEe0pPbKjdGWNtuM7-ahvVY?rlkey=2bxwt4i26x534zkdebhcujt4k&st=3d0s48j2&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3576314/sol-six-orbit-lockdown-2025-traditional-deck-game",
+      "playUrl": "https://playingcards.io/7gr9rz",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🛰️",
+      "createdAt": "2026-09-14T02:34:00.000Z",
+      "updatedAt": "2026-09-14T02:41:00.000Z"
+    },
     {
       "id": "3d6aa7a1591180078e18f1971de037f2",
       "slug": "flock-rocks-sheep-vs-wolves-3d6aa7",
@@ -2341,7 +2380,7 @@
       "ko": "디펜스다이스",
       "en": "Defence dice",
       "author": "투플러스원",
-      "desc": "2023 PnP 공모전 참가작. 플레이어는 한 성의 기사가 되어 몰려오는 적들을 막고, 적을 파괴해 경험치를 모아 여러 스킬을 배워 끝까지 살아남아야 한다. 구성은 조커 2장 포함 54장의 트럼프 카드, 캐릭터 시트, 스킬 카드, 두 가지 색상의 주사위, 경험치 토큰. 테스트플레이를 위한 룰북과 인쇄자료 제공.",
+      "desc": "한 성의 기사가 되어 몰려오는 적들을 막아야 합니다. 적을 파괴하고 경험치를 모아 여러 스킬들을 배워 끝까지 살아 남으세요!\n54장의 트럼프 카드, 캐릭터 시트, 스킬 카드, 두 가지 색상의 주사위, 경험치 토큰.",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
@@ -2363,13 +2402,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/defence-dice-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/defence-dice-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/defence-dice-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-09-14T01:18:00.000Z"
     },
     {
       "id": "3baaa7a159118191a5eadc64af9373ac",
@@ -3864,7 +3903,7 @@
       "ko": "다이묘의 노름판",
       "en": "Gambling board of Daimyo",
       "author": "삐리빼라뽀",
-      "desc": "2025 PnP 공모전 참가작. 서로 카드 더미를 두고 경매를 진행해 가장 마지막에 가장 높은 수의 조합을 완성하는 쪽이 이기는 카드게임. 일본 센고쿠 시대 대표 다이묘 8가문 중 하나를 선택해 부흥을 노린다. 추가 구성물 주사위 1개.",
+      "desc": "일본의 센고쿠시대 다이묘가 되어 가문 간의 패권을 다퉈보세요. 추가 구성물 주사위 1개.",
       "players": "2-8명",
       "playersMin": 2,
       "playersMax": 8,
@@ -3891,7 +3930,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏯",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:23:00.000Z"
+      "updatedAt": "2026-09-14T01:15:00.000Z"
     },
     {
       "id": "3baaa7a15911817e858cc55b58864adb",
@@ -4488,13 +4527,15 @@
       "ko": "덧셈 스트레이트",
       "en": "",
       "author": "체념",
-      "desc": "장기판 위에서 말을 이동시켜 합 14를 만들어 상대방 말을 제거하는 2인용 게임. 각자 1~8 말 8개를 비공개로 배치하고 시작하며, 한 턴에 말 하나를 최대 2칸 이동·2층 쌓기 가능. 상대 말 6개를 먼저 소멸시키면 승리. 착수 시간 1분. 규칙서 PDF 공유.",
+      "desc": "장기판 위에서 말을 이동시켜 합 14를 만들고, 상대방 말을 제거해보세요. 상대 말 6개를 먼저 소멸시키면 승리합니다.",
       "players": "2인",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "",
       "age": "",
-      "mech": [],
+      "mech": [
+        "그리드 이동"
+      ],
       "theme": [
         "추상"
       ],
@@ -4513,7 +4554,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-14T01:11:00.000Z"
     },
     {
       "id": "3baaa7a15911811bac22e44b1d147f18",
@@ -5943,14 +5984,16 @@
       "slug": "jupjong-card-game-classic-cards-3b2aa7",
       "ko": "접쫑카드게임-클래식카드",
       "en": "jupjong card game-classic cards",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "접쫑",
+      "desc": "카드를 탐색, 이송, 처분하여 나만의 조합을 만들어보세요.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "",
-      "mech": [],
+      "mech": [
+        "핸드 관리"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2023,
@@ -5967,7 +6010,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-14T01:14:00.000Z"
     },
     {
       "id": "3b2aa7a159118167a513e474fe8cdb83",
