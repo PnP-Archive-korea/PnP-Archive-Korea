@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T01:14:43.116Z",
-  "count": 208,
+  "generatedAt": "2026-09-15T05:02:15.600Z",
+  "count": 209,
   "facets": {
     "playtime": [
       "30~60분",
@@ -93,6 +93,45 @@
   },
   "games": [
     {
+      "id": "3dcaa7a15911805b9b8ef3f76741f0e5",
+      "slug": "the-four-winds-3dcaa7",
+      "ko": "사방에 부는 바람",
+      "en": "The Four Winds",
+      "author": "Ian Karasz",
+      "desc": "거친 파도와 변덕스러운 바람을 헤치고 모든 보물섬에 배를 대야 하는 팀 항해 협력 게임. 매 라운드마다 모든 플레이어가 카드를 한 장씩 내고, 네 장의 카드가 합쳐진 힘이 배가 움직일지 결정해보세요. 신뢰와 실력을 함께 발휘하여 도전을 이겨내보세요.",
+      "players": "3-4명",
+      "playersMin": 3,
+      "playersMax": 4,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
+      "mech": [
+        "협력",
+        "핸드 관리",
+        "특정 상품 운송"
+      ],
+      "theme": [
+        "모험/탐험",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/uuhttikd7fjvunu0itcdk/ANxBetMNlZQU1DBiKTweD5M?rlkey=j01wapr3lzg9g8eqhtuwnl01s&st=s681tyax&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3595594/the-four-winds-2025-traditional-deck-game-design-c",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/the-four-winds-3dcaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/the-four-winds-3dcaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/the-four-winds-3dcaa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-09-15T04:44:00.000Z",
+      "updatedAt": "2026-09-15T04:58:00.000Z"
+    },
+    {
       "id": "3dbaa7a159118073a503e2c84d4b0a6e",
       "slug": "s-o-l-six-orbit-lockdown-3dbaa7",
       "ko": "S.O.L - 여섯 궤도 봉쇄",
@@ -148,7 +187,8 @@
         "협력"
       ],
       "theme": [
-        "동물"
+        "동물",
+        "카드게임"
       ],
       "price": "무료",
       "year": 2025,
@@ -166,7 +206,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🦊",
       "createdAt": "2026-09-09T07:17:00.000Z",
-      "updatedAt": "2026-09-09T07:37:00.000Z"
+      "updatedAt": "2026-09-15T04:56:00.000Z"
     },
     {
       "id": "3d5aa7a159118028bfdae4fe612879ec",
@@ -613,13 +653,13 @@
       "infoUrl": "https://boardgamegeek.com/thread/3571024/wip-rules-of-engagement-2025-traditional-deck-desi",
       "playUrl": "",
       "origin": "해외 번역",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/rules-of-engagement-3c9aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/rules-of-engagement-3c9aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/rules-of-engagement-3c9aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-08-31T00:58:00.000Z"
+      "updatedAt": "2026-09-15T04:28:00.000Z"
     },
     {
       "id": "3c9aa7a15911804ba739d4ad7a358453",
