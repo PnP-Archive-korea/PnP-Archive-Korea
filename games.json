@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:02:15.600Z",
+  "generatedAt": "2026-09-15T07:21:51.446Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -5016,15 +5016,20 @@
       "slug": "doodadada-3b2aa7",
       "ko": "두다다다",
       "en": "Doodadada",
-      "author": "Gerrard",
-      "desc": "",
+      "author": "제라드",
+      "desc": "도시에 불어온 재건축의 바람. 그 여파로 평화롭던 두더지 땅굴 마을에 큰 소동이 벌어졌습니다. \n용감한 두더지들은 각 층에 흩어진 식량을 챙기며, 빠르고 안전하게 탈출해야만 합니다.\n\n하지만 조심하세요. 무시무시한 굴착기로 인해 갑작스러운 지각 변동이 일어날 수 있습니다. 그렇다고 마구 움직여서도 안 됩니다. 움직임이 많아질수록, 드릴의 표적이 될 가능성도 그만큼 높아지니까요.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "푸시 유어 럭",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "동물"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5034,13 +5039,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/doodadada-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/doodadada-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/doodadada-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🦊",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-15T05:18:00.000Z"
     },
     {
       "id": "3b2aa7a159118131955cd5a4c947d22f",
