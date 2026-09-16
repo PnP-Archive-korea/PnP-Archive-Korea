@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:01:26.121Z",
+  "generatedAt": "2026-09-16T05:42:48.468Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -4052,7 +4052,7 @@
       "ko": "C&M",
       "en": "C&M",
       "author": "허니버터칩",
-      "desc": "2025 PnP 공모전 참가작. C(시안)과 M(마젠타)가 영역 다툼을 한다는 테마의 2인 영향력 게임. 자신의 차례에 주사위 3개를 굴려 그중 2개를 선택해 보드의 알맞은 위치에 타일을 놓고, 한 줄이 차면 타일 합을 비교해 점수 타일을 얻는다. 각자 11번씩 차례를 진행하면 종료.",
+      "desc": "C(시안)과 M(마젠타)가 영역 다툼을 한다는 테마의 2인 영향력 게임. 자신의 차례에 주사위 3개를 굴려 그중 2개를 선택해 보드의 알맞은 위치에 타일을 놓고, 한 줄이 차면 타일 합을 비교해 점수 타일을 얻는다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -4081,7 +4081,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:24:00.000Z"
+      "updatedAt": "2026-09-16T00:38:00.000Z"
     },
     {
       "id": "3baaa7a159118189abe9c8f8672385ba",
@@ -5560,14 +5560,20 @@
       "ko": "비밀의 좌표",
       "en": "Secret Coordinates",
       "author": "데굴",
-      "desc": "",
+      "desc": "주사위와 트릭테이킹이 결합된 게임입니다. 두 주사위로 보물을 찾아보세요.",
       "players": "3-4명",
       "playersMin": 3,
       "playersMax": 4,
-      "playtime": "",
+      "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "트릭테이킹",
+        "주사위 굴림",
+        "주사위 관리"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5575,7 +5581,7 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1775&game=20663",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/gsp72p",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -5583,7 +5589,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-16T00:35:00.000Z"
     },
     {
       "id": "3b2aa7a1591181c2b021ed41ecdd6370",
@@ -5659,13 +5665,16 @@
       "ko": "주사위 대결",
       "en": "Dice duel",
       "author": "Narsarang",
-      "desc": "",
+      "desc": "주사위 대결은 주사위 10개로 즐기는 2인 전용 대결 게임입니다. 자신의 주사위는 낮게, 상대의 주사위는 높게 만들어야 합니다. 주사위를 굴려 상대를 공격하고, 다가오는 공격에 대비하세요. 자신의 공격을 상대가 받아내지 못한다면 승리합니다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "",
+      "playtime": "30분 이하",
       "age": "",
-      "mech": [],
+      "mech": [
+        "주사위 관리",
+        "푸시 유어 럭"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2025,
@@ -5682,7 +5691,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-16T00:48:00.000Z"
     },
     {
       "id": "3b2aa7a1591181fe91eeff0a50935997",
@@ -6817,7 +6826,11 @@
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 배치",
+        "솔로/솔로테어 게임"
+      ],
       "theme": [],
       "price": "무료",
       "year": 2022,
@@ -6834,7 +6847,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-09-06T23:55:00.000Z"
+      "updatedAt": "2026-09-16T00:37:00.000Z"
     },
     {
       "id": "3b2aa7a159118150aa9adc8b7f51d8cd",
@@ -6878,14 +6891,20 @@
       "ko": "레스큐",
       "en": "RESCUE",
       "author": "Jethro",
-      "desc": "극지방 동물 구조팀원이 되어 죽어가는 동물들을 구조하고 치료하자",
+      "desc": "극지방 동물 구조팀원이 되어 죽어가는 동물들을 구조하고 치료하자.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30~60분",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 배치",
+        "주사위 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "동물"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -6899,9 +6918,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🦊",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-16T00:34:00.000Z"
     },
     {
       "id": "3b2aa7a159118153b035d1f9d2941ed3",
