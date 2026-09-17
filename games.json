@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:42:27.679Z",
+  "generatedAt": "2026-09-17T01:07:54.625Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -3363,7 +3363,7 @@
       "ko": "다이체이스",
       "en": "DIChassE",
       "author": "suuperchiken",
-      "desc": "2024 PnP 공모전 참가작. 다이스(Dice)+체스(Chess)+체이스(Chase)를 결합해 주사위를 굴려 기물을 잡기 위해 쪽는 1대1 게임. 준비물은 육각주사위 12개(3종류 4개씩), 8x8 체스판, 마커 12개. 필드 주사위·핸드 주사위·추가 주사위 개념 사용.",
+      "desc": "체스(Chess)+체이스(Chase)를 결합해 주사위를 굴려 기물을 잡기 위해 쪽는 1대1 게임. 준비물은 육각주사위 12개(3종류 4개씩), 8x8 체스판, 마커 12개.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -3391,7 +3391,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z"
+      "updatedAt": "2026-09-17T00:22:00.000Z"
     },
     {
       "id": "3baaa7a1591181b6b6c3e0fc0047874c",
@@ -3640,16 +3640,19 @@
       "ko": "믿는 자를 위한 나라는 없다",
       "en": "no country for truster",
       "author": "qhshqhsh 20",
-      "desc": "2023 한 장짜리 보드게임 공모전 참가작. 고등학교 때 친구들과 3인이서 마피아 게임을 하는 방법을 고민하다 만들어낸 룰을 구체화한 사회자 없는 3인 마피아 게임. 픽토그램 사이트를 통해 테스트플레이 자료를 제작.",
-      "players": "3-4명",
+      "desc": "사회자 없는 3인 마피아 게임.  미국 스파이, 소련 스파이, 타겟으로 승부하세요.",
+      "players": "3명",
       "playersMin": 3,
-      "playersMax": 4,
+      "playersMax": 3,
       "playtime": "",
       "age": "",
       "mech": [
-        "추리"
+        "추리",
+        "마피아"
       ],
-      "theme": [],
+      "theme": [
+        "역사"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -3663,9 +3666,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🏯",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:22:00.000Z"
+      "updatedAt": "2026-09-17T00:23:00.000Z"
     },
     {
       "id": "3baaa7a1591181038595ce49e8a87f75",
@@ -4712,8 +4715,8 @@
       "ko": "랫츠 파티",
       "en": "Rats Party",
       "author": "박현준",
-      "desc": "질병으로 붕괴된 포스트 아포칼립스 세계관의 러시안 룰렛 생존 보드게임. 플레이어는 생존자가 되어 다른 플레이어를 탈락시키고 마지막까지 살아남자!  테이블탑 시뮬레이터 버전만 존재.",
-      "players": "2-7명(권장 3-5명)",
+      "desc": "질병으로 붕괴된 포스트 아포칼립스 세계관의 러시안 룰렛 생존 보드게임. 플레이어는 생존자가 되어 다른 플레이어를 탈락시키고 마지막까지 살아남자!  (권장인원 3~5명)",
+      "players": "2-7명",
       "playersMin": 2,
       "playersMax": 7,
       "playtime": "30~60분",
@@ -4732,15 +4735,15 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1833",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572033151",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/rats-party-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/rats-party-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/rats-party-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🎲",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-11T01:17:00.000Z"
+      "updatedAt": "2026-09-17T00:25:00.000Z"
     },
     {
       "id": "3baaa7a159118168aafad25b9e41a706",
@@ -5633,15 +5636,21 @@
       "slug": "dice-kingmaker-3b2aa7",
       "ko": "다이스 킹메이커",
       "en": "Dice Kingmaker",
-      "author": "Jinhee Han(한진희)",
+      "author": "한진희",
       "desc": "대선 정당을 지휘하는 솔로 주사위 전략 게임.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "14세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "자원 관리",
+        "주사위 굴림",
+        "주사위 관리"
+      ],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5649,15 +5658,15 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1764&game=20589",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/j82xmz",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dice-kingmaker-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dice-kingmaker-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dice-kingmaker-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-17T00:21:00.000Z"
     },
     {
       "id": "3b2aa7a1591181f19c20f3b4a2403da4",
@@ -6789,14 +6798,19 @@
       "ko": "후퇴는 없다",
       "en": "Never turning back",
       "author": "Dajang",
-      "desc": "탐험가가 되어 던전을 탐험한다",
+      "desc": "탐험가가 되어 동굴을 탐험해보세요. 던전 맵을 직접 구성하고, 시작지점에서 시작지점으로 길을 이어 나갑니다. 단 후퇴란 없습니다.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "타일 놓기",
+        "자원 관리"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -6812,7 +6826,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-17T00:27:00.000Z"
     },
     {
       "id": "3b2aa7a159118145bedee2756965583d",
