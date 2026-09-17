@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:07:54.625Z",
+  "generatedAt": "2026-09-17T07:18:08.410Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -4542,13 +4542,15 @@
       "ko": "매스 크로스",
       "en": "Math Cross",
       "author": "liegom",
-      "desc": "숫자 타일과 연산 타일을 조합해 수식을 만들고 스크래블처럼 보드 위에 교차 배치하는 사칙연산 전략 게임. 자신의 숫자 타일을 모두 소진하는 것이 목표이며, 파랑/노랑/빨간 특수 칸과 1분(숙련자 30초) 제한 시간이 변수로 작용. 테이블탑 시뮬레이터(TTS) 플레이 환경 구축 완료.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
-      "mech": [],
+      "desc": "숫자 타일과 연산 타일을 조합해 수식을 만들고 스크래블처럼 보드 위에 교차 배치하는 사칙연산 전략 게임. 자신의 숫자 타일을 모두 소진하는 것이 목표입니다.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30~60분",
+      "age": "8세 이상",
+      "mech": [
+        "타일 놓기"
+      ],
       "theme": [
         "추상"
       ],
@@ -4559,7 +4561,7 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1894",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646182619",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -4567,7 +4569,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-17T02:11:00.000Z"
     },
     {
       "id": "3baaa7a15911811b99f3d807e76c46b5",
@@ -4610,7 +4612,7 @@
       "ko": "스카이 스파이",
       "en": "SKY SPY",
       "author": "liegom",
-      "desc": "화학자들이 분자의 신호를 분석해 보이지 않는 구조를 찾아내는 NMR 분광학의 원리를 사용하세요. 구름에 가려진 적 기지의 연결망을 추론하는 논리 퍼즐 게임.",
+      "desc": "NMR 분광학의 원리로 구름에 가려진 적 기지의 연결망을 추론해보세요.",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
@@ -4637,7 +4639,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-06T00:00:00.000Z"
+      "updatedAt": "2026-09-17T02:12:00.000Z"
     },
     {
       "id": "3baaa7a15911811daf10da45be59b144",
@@ -4680,8 +4682,8 @@
       "ko": "리틀 케미스트: 몰리큐 러쉬",
       "en": "Little Chemist: Molecule Rush",
       "author": "liegom",
-      "desc": "화학과 빙고를 결합한 자작 보드게임. 2번의 액션으로 카드를 뽑거나 분자를 만들며, 토큰을 먼저 다 쓰면 승리하되 고득점을 위해 빙고를 노려야 한다. 멘톨 등 고득점 분자는 한 명만 제작 가능한 선점 시스템과, 원소가 넘쳐도 합성되는 대신 감점되는 불량 화합물 시스템을 보유. 구성품은 원소 카드 80장 등.",
-      "players": "2-4인(2-3인 최적)",
+      "desc": "화학과 빙고를 결합한 보드게임. 2번의 액션으로 카드를 뽑거나 분자를 만들며, 토큰을 먼저 다 쓰고, 고득점을 노려보세요. (2-3인 최적)",
+      "players": "2-4인",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
@@ -4707,7 +4709,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-17T02:14:00.000Z"
     },
     {
       "id": "3baaa7a159118139b080edb7a6026ba3",
@@ -4832,9 +4834,9 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1886",
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1920&blog=leigom&bfrom=board",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://capybara.tiiny.site/",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -4842,7 +4844,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🦊",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:27:00.000Z"
+      "updatedAt": "2026-09-17T02:15:00.000Z"
     },
     {
       "id": "3baaa7a159118181a91ee92db75ea954",
