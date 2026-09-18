@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T23:58:01.149Z",
+  "generatedAt": "2026-09-18T00:51:01.283Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -8,6 +8,7 @@
       "60분~120분"
     ],
     "age": [
+      "10세 이상",
       "12세 이상",
       "14세 이상",
       "18세 이상",
@@ -2252,11 +2253,11 @@
       "ko": "포켓 문명",
       "en": "",
       "author": "에리콩(홍승재)",
-      "desc": "40장의 카드로 2명 또는 혼자 할 수 있는 문명 게임. 카드는 각각 역사를 바꾼 발명발견을 나타내며, 카드 위에 카드를 겹쳐쌓는 방식으로 비용만큼 돈을 가려 지불과 배치를 동시에 한다. 카드 47장, A4 4장 분량으로 PnP 배포되었으며(#767), 1인플 규칙과 테이블탑 시뮬레이터 버전도 공개되어 있다(#771). 프린트 외 플레이어 토큰은 별도 구비 필요.",
-      "players": "1-2인",
-      "playersMin": 1,
+      "desc": "40장의 카드로 2명 또는 혼자 할 수 있는 문명 게임. 카드는 각각 역사를 바꾼 발명발견을 나타내며, 카드 위에 카드를 겹쳐쌓는 방식으로 비용만큼 돈을 가려 지불과 배치를 동시에 한다.",
+      "players": "2명",
+      "playersMin": 2,
       "playersMax": 2,
-      "playtime": "",
+      "playtime": "30~60분",
       "age": "",
       "mech": [
         "타일 놓기",
@@ -2280,7 +2281,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏯",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-09-18T00:47:00.000Z"
     },
     {
       "id": "3baaa7a1591181dbb8cbcc0eb93014af",
@@ -2563,12 +2564,14 @@
       "en": "Pocket Farm",
       "author": "에리콩(홍승재)",
       "desc": "구성물이 간소한 농장 테마 게임. '포켓 문명'의 호응에 힘입어 실물 제작해 한국 보드게임 작가 협회(KTDA) 부스로 2022년 10월 도쿄 게임 마켓에 참가했다. 게시글에 규칙 자료가 포함되어 있으며 테이블탑 시뮬레이터가 언급되어 있다.",
-      "players": "1-4명",
+      "players": "1-2명",
       "playersMin": 1,
-      "playersMax": 4,
-      "playtime": "30분 이하",
-      "age": "",
-      "mech": [],
+      "playersMax": 2,
+      "playtime": "30~60분",
+      "age": "10세 이상",
+      "mech": [
+        "타일 놓기"
+      ],
       "theme": [
         "현대"
       ],
@@ -2579,7 +2582,7 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=860",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2878075875",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -2587,7 +2590,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:17:00.000Z"
+      "updatedAt": "2026-09-18T00:47:00.000Z"
     },
     {
       "id": "3baaa7a1591181b497f7f966c12e7603",
@@ -3154,7 +3157,7 @@
       "playersMin": 2,
       "playersMax": 3,
       "playtime": "30~60분",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "트릭테이킹",
         "퍼즐 풀이"
@@ -3190,7 +3193,7 @@
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30~60분",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [
         "현대"
@@ -3223,7 +3226,7 @@
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "주사위 굴림",
         "경매/입찰",
@@ -3404,7 +3407,7 @@
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "30~60분",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "카드 사용",
         "주사위 굴림"
@@ -4442,7 +4445,7 @@
       "playersMin": 2,
       "playersMax": 5,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "추리",
         "카드 사용"
@@ -4478,7 +4481,7 @@
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "플립 앤 라이트/롤 앤 라이트"
       ],
@@ -5125,7 +5128,7 @@
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
@@ -5746,7 +5749,7 @@
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "플립 앤 라이트/롤 앤 라이트",
         "액션 포인트",
@@ -5933,13 +5936,13 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/b5a37g",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/30-days-in-dungeon-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/30-days-in-dungeon-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/30-days-in-dungeon-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-14T12:41:00.000Z"
+      "updatedAt": "2026-09-18T00:42:00.000Z"
     },
     {
       "id": "3b2aa7a1591181379badf53bfe16e057",
@@ -6009,14 +6012,20 @@
       "ko": "철도 연결",
       "en": "Railway Connection",
       "author": "snanlog",
-      "desc": "대륙횡단 철도를 건설해 상대 정거장까지 먼저 도착하는 게임.",
-      "players": "2-4명",
+      "desc": "철도를 연결하고 열차 이동 경로를 확보하라!",
+      "players": "2명",
       "playersMin": 2,
-      "playersMax": 4,
+      "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "레이스",
+        "플립 앤 라이트/롤 앤 라이트",
+        "액션/이동 프로그래밍"
+      ],
+      "theme": [
+        "역사"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -6026,13 +6035,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/railway-connection-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/railway-connection-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/railway-connection-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
+      "icon": "🏯",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-18T00:50:00.000Z"
     },
     {
       "id": "3b2aa7a159118156a007e3c6ed6904cd",
@@ -6352,7 +6361,7 @@
       "playersMin": 4,
       "playersMax": 4,
       "playtime": "30~60분",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
@@ -6515,7 +6524,7 @@
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
@@ -6646,7 +6655,7 @@
       "playersMin": 2,
       "playersMax": 3,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
@@ -6841,7 +6850,7 @@
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [
         "플립 앤 라이트/롤 앤 라이트",
         "주사위 배치",
@@ -7104,7 +7113,7 @@
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
@@ -7197,7 +7206,7 @@
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "10세 이상",
       "mech": [],
       "theme": [],
       "price": "무료",
