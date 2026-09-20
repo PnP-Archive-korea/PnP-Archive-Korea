@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:13:52.559Z",
+  "generatedAt": "2026-09-20T23:55:42.594Z",
   "count": 209,
   "facets": {
     "playtime": [
@@ -3295,14 +3295,15 @@
       "ko": "나무 위의 고양이",
       "en": "Cats on trees",
       "author": "Narsarang",
-      "desc": "2023 PnP 공모전 참가작. 가벼운 협력 파티 게임.",
+      "desc": "가벼운 협력 파티 게임. 고양이의 야옹 소리를 듣고, 고양이가 많은 곳을 찾아보세요.",
       "players": "4-9명",
       "playersMin": 4,
       "playersMax": 9,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
-        "협력"
+        "협력",
+        "추리"
       ],
       "theme": [
         "동물"
@@ -3322,7 +3323,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🦊",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z"
+      "updatedAt": "2026-09-20T23:38:00.000Z"
     },
     {
       "id": "3baaa7a15911819f9997e853e01702c0",
@@ -4787,13 +4788,16 @@
       "ko": "삼층육목",
       "en": "Stack 6",
       "author": "포도당",
-      "desc": "오목을 입체로 확장한 추상전략 게임. 15×15 보드 위에 가로·세로·대각선 한 방향으로 칩 6개를 먼저 연결하면 승리. 매 턴 [1층 확장 3개] [2층 점유 2개] [3층 쓐기 1개] 중 하나만 선택하는 3·2·1 시스템. 준비물은 보드와 색상별 칩 각 40개 내외.",
+      "desc": "오목을 입체로 확장한 추상전략 게임. 15×15 보드 위에 가로·세로·대각선 한 방향으로 칩 6개를 먼저 연결하면 승리. 매 턴 [1층 확장 3개] [2층 점유 2개] [3층 쐐기 1개] 중 하나만 선택하는 3·2·1 시스템. 준비물은 보드와 색상별 칩 각 40개 내외.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "",
+      "playtime": "30분 이하",
       "age": "",
-      "mech": [],
+      "mech": [
+        "패턴 인식",
+        "타일 놓기"
+      ],
       "theme": [
         "추상"
       ],
@@ -4802,7 +4806,7 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://stack6.netlify.app",
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1898",
       "infoUrl": "",
       "playUrl": "https://stack6.netlify.app",
       "origin": "",
@@ -4812,7 +4816,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-14T12:32:00.000Z"
+      "updatedAt": "2026-09-20T23:45:00.000Z"
     },
     {
       "id": "3baaa7a15911816f87a3d14d4dc977d5",
