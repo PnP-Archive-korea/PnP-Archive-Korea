@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:21:16.350Z",
+  "generatedAt": "2026-09-21T09:44:20.394Z",
   "count": 210,
   "facets": {
     "playtime": [
@@ -99,7 +99,7 @@
       "ko": "극성",
       "en": "Polarité",
       "author": "Vincent Bugica",
-      "desc": "양자 필드 안에 전하를 띤 입자들을 신중하게 배치하면서, 상대의 입자를 밀어내세요. 클래식한 완전 정보 추상 게임을 즐겨보세요.",
+      "desc": "양자 필드 안에 전하를 띤 입자들을 신중하게 배치하면서, 상대의 입자를 밀어내세요. \n클래식 완전 정보 추상 게임",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -129,7 +129,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-09-21T01:41:00.000Z",
-      "updatedAt": "2026-09-21T09:14:00.000Z"
+      "updatedAt": "2026-09-21T09:22:00.000Z"
     },
     {
       "id": "3dcaa7a15911805b9b8ef3f76741f0e5",
