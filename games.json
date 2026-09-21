@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:50:50.212Z",
+  "generatedAt": "2026-09-21T23:54:10.289Z",
   "count": 210,
   "facets": {
     "playtime": [
@@ -950,13 +950,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🛰️",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-21T23:12:00.000Z"
     },
     {
       "id": "3c1aa7a15911811fae2ec193981b7e1d",
@@ -1592,15 +1592,15 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/aacafb73-a322-42e2-a7ba-720235678f36",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/bb5vvn",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/롤더마인드-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/롤더마인드-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/롤더마인드-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-21T23:16:00.000Z"
     },
     {
       "id": "3c1aa7a15911818f912bf173641299d6",
@@ -2601,7 +2601,7 @@
       "ko": "포켓 팜",
       "en": "Pocket Farm",
       "author": "에리콩(홍승재)",
-      "desc": "구성물이 간소한 농장 테마 게임. '포켓 문명'의 호응에 힘입어 실물 제작해 한국 보드게임 작가 협회(KTDA) 부스로 2022년 10월 도쿄 게임 마켓에 참가했다. 게시글에 규칙 자료가 포함되어 있으며 테이블탑 시뮬레이터가 언급되어 있다.",
+      "desc": "구성물이 간소한 농장 테마 게임. '포켓 문명'의 호응에 힘입어 실물 제작한 게임으로, 테이블탑 시뮬레이터에서 플레이할 수 있다.",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
@@ -2628,7 +2628,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-09-18T00:47:00.000Z"
+      "updatedAt": "2026-09-21T23:18:00.000Z"
     },
     {
       "id": "3baaa7a1591181b497f7f966c12e7603",
