@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:50:44.277Z",
+  "generatedAt": "2026-09-21T03:54:48.463Z",
   "count": 210,
   "facets": {
     "playtime": [
@@ -104,7 +104,7 @@
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
-      "age": "",
+      "age": "12세 이상",
       "mech": [
         "지역 장악",
         "핸드 관리"
@@ -129,7 +129,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-09-21T01:41:00.000Z",
-      "updatedAt": "2026-09-21T01:48:00.000Z"
+      "updatedAt": "2026-09-21T01:51:00.000Z"
     },
     {
       "id": "3dcaa7a15911805b9b8ef3f76741f0e5",
