@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T09:08:39.736Z",
-  "count": 211,
+  "generatedAt": "2026-09-22T14:26:15.114Z",
+  "count": 212,
   "facets": {
     "playtime": [
       "30~60분",
@@ -94,6 +94,41 @@
     ]
   },
   "games": [
+    {
+      "id": "3e3aa7a1591181f8bbbed622658564c1",
+      "slug": "scandinavia-3e3aa7",
+      "ko": "스칸디나비아",
+      "en": "SCANDINAVIA",
+      "author": "프리덤",
+      "desc": "체스에서 착안했지만 규칙을 크게 바꾼 2인 추상전략 게임. 수륙 양용 체스를 경험해보세요.\n\n7×14 보드에서 드레키·스케이드·스네카·잠수함·보트 등 해상 기물과 크루·킹 등 육상 기물을 운용하며, 물류 단계에서 크루를 모집하거나 이송한다. 자신의 킹을 상대 최종 열에 도달시키면 승리한다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "그리드 이동"
+      ],
+      "theme": [
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=613359",
+      "playUrl": "https://scandinavia.today/index.html",
+      "origin": "국내 창작",
+      "thumb": "/assets/thumbs/scandinavia-3e3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/scandinavia-3e3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/scandinavia-3e3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-09-22T14:10:00.000Z",
+      "updatedAt": "2026-09-22T14:24:00.000Z"
+    },
     {
       "id": "3e2aa7a1591180e191d3f201ea4dae7b",
       "slug": "river-black-3e2aa7",
