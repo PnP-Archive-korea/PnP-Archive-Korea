@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T14:26:15.114Z",
-  "count": 212,
+  "generatedAt": "2026-09-22T14:30:07.001Z",
+  "count": 213,
   "facets": {
     "playtime": [
       "30~60분",
@@ -94,6 +94,41 @@
     ]
   },
   "games": [
+    {
+      "id": "3e3aa7a15911816e9b19e9a854f44a87",
+      "slug": "십자-땅따먹기-3e3aa7",
+      "ko": "십자 땅따먹기",
+      "en": "",
+      "author": "작자 미상",
+      "desc": "12×12 보드의 빈 칸을 골라 그 칸과 상하좌우 1칸씩, 최대 5칸의 십자 모양으로 영역을 넓히는 2인 땅따먹기 게임. 상대 칸 덩어리를 완전히 둘러싸면 통째로 내 영역이 되며, 보드 벽 3곳 이상에 닿은 덩어리는 포획되지 않는다. 보드가 다 차면 더 많은 칸을 차지한 쪽이 이긴다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "지역 장악"
+      ],
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=605480",
+      "playUrl": "https://gridcrossgame.onrender.com",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔷",
+      "createdAt": "2026-09-22T14:10:00.000Z",
+      "updatedAt": "2026-09-22T14:28:00.000Z"
+    },
     {
       "id": "3e3aa7a1591181f8bbbed622658564c1",
       "slug": "scandinavia-3e3aa7",
