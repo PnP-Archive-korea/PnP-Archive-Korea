@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T23:54:10.289Z",
-  "count": 210,
+  "generatedAt": "2026-09-22T00:10:52.380Z",
+  "count": 211,
   "facets": {
     "playtime": [
       "30~60분",
@@ -38,6 +38,7 @@
       "그리드 이동",
       "기억력",
       "기타",
+      "다중 사용 카드",
       "덱빌딩",
       "덱을 따라 이동",
       "드래프트",
@@ -94,6 +95,44 @@
   },
   "games": [
     {
+      "id": "3e2aa7a1591180e191d3f201ea4dae7b",
+      "slug": "river-black-3e2aa7",
+      "ko": "리버 블랙",
+      "en": "River Black",
+      "author": "Luiz Mendes",
+      "desc": "문양 능력을 사용해 카드를 21로 재배열하세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "다중 사용 카드",
+        "푸시 유어 럭"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/tq598i72em4d37c39o2t3/AMdm1CsrBQCvnpdOOyRnYHA?rlkey=quve1f2co50vry0kxp2kj8gem&st=oj716l1r&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3569557/wip-river-black-solo-blackjack-style-game-2025-tra",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/river-black-3e2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/river-black-3e2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/river-black-3e2aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-09-21T23:56:00.000Z",
+      "updatedAt": "2026-09-22T00:10:00.000Z"
+    },
+    {
       "id": "3e2aa7a159118016bfbdc1b1c8311874",
       "slug": "polarit-3e2aa7",
       "ko": "극성",
@@ -111,7 +150,8 @@
       ],
       "theme": [
         "현대",
-        "추상"
+        "추상",
+        "카드게임"
       ],
       "price": "무료",
       "year": 2025,
@@ -129,7 +169,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-09-21T01:41:00.000Z",
-      "updatedAt": "2026-09-21T09:22:00.000Z"
+      "updatedAt": "2026-09-22T00:05:00.000Z"
     },
     {
       "id": "3dcaa7a15911805b9b8ef3f76741f0e5",
