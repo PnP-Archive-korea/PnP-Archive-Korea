@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:06:00.210Z",
-  "count": 213,
+  "generatedAt": "2026-09-23T04:04:29.538Z",
+  "count": 214,
   "facets": {
     "playtime": [
       "30~60분",
@@ -94,6 +94,45 @@
     ]
   },
   "games": [
+    {
+      "id": "3e4aa7a15911808797c3c77025be17de",
+      "slug": "alchemy-3e4aa7",
+      "ko": "연금술",
+      "en": "Alchemy",
+      "author": "Mark",
+      "desc": "폐하께서 병에 걸려 살날이 40일밖에 남지 않았습니다. 왕실 연금술사인 당신은 야생 지대로 떠납니다. 폐하를 구하기 위해 제때 생명의 비약을 만들어야 합니다. 하지만 정신을 바짝 차리십시오… 그곳은 위험합니다!",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "세트 수집",
+        "자원 관리"
+      ],
+      "theme": [
+        "판타지",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/os28m9ne2o5n76dppy16y/ACP7H7aVjD4UBgKoqpes1co?rlkey=gk3d5hk8jnp5jogwc2tp9dp8w&st=ox4odeg0&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3574744/wip-alchemy-2025-traditional-deck-game-design-cont",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/alchemy-3e4aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/alchemy-3e4aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/alchemy-3e4aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🏰",
+      "createdAt": "2026-09-23T03:34:00.000Z",
+      "updatedAt": "2026-09-23T03:56:00.000Z"
+    },
     {
       "id": "3e3aa7a15911816e9b19e9a854f44a87",
       "slug": "십자-땅따먹기-3e3aa7",
@@ -1239,13 +1278,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/손가rock클라이밍-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/손가rock클라이밍-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/손가rock클라이밍-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-09-23T01:31:00.000Z"
     },
     {
       "id": "3c1aa7a15911815ba424c74caee1433a",
@@ -3967,7 +4006,7 @@
       "ko": "테트리스 쿠킹",
       "en": "Tetris cooking",
       "author": "보드박스",
-      "desc": "2025 두 장 짜리 보드게임 PnP 공모전 참가작. 한 개의 테이블을 두 명의 요리사가 나눠 쓰며 누가 더 많은 요리를 선보이는지 겨루는 게임. 아이디어 구상 후 피드백을 반영해 테스트플레이 가능 버전으로 수정한 단계.",
+      "desc": "한 개의 테이블을 두 명의 요리사가 나눠 쓰며 누가 더 많은 요리를 선보이는지 겨루어보세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -3992,7 +4031,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:23:00.000Z"
+      "updatedAt": "2026-09-23T02:00:00.000Z"
     },
     {
       "id": "3baaa7a159118141b34adc0274e99933",
@@ -5656,14 +5695,20 @@
       "ko": "몽타주 아티스트",
       "en": "Montage Artist",
       "author": "탤미",
-      "desc": "",
-      "players": "3-8명",
-      "playersMin": 3,
+      "desc": "목격자의 진술을 바탕으로 다른 지부 형사팀보다 먼저 용의자를 특정해라!",
+      "players": "4-8명",
+      "playersMin": 4,
       "playersMax": 8,
-      "playtime": "",
+      "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "추리",
+        "주사위 굴림",
+        "패턴 인식"
+      ],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5677,9 +5722,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z"
+      "updatedAt": "2026-09-23T01:59:00.000Z"
     },
     {
       "id": "3b2aa7a1591181b385f0da6b53a7c4ea",
@@ -7197,15 +7242,22 @@
       "slug": "through-the-meteors-3b2aa7",
       "ko": "운석 사이로",
       "en": "Through the Meteors",
-      "author": "한결, OnairQ",
+      "author": "한결",
       "desc": "우주선을 조종하여 밀려오는 운석을 격추하고 살아남아라",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "솔로/솔로테어 게임",
+        "액션/이동 프로그래밍"
+      ],
+      "theme": [
+        "SF",
+        "모험/탐험",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -7219,9 +7271,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-09-23T01:40:00.000Z"
     },
     {
       "id": "3b2aa7a15911817682f9f58a274ad03f",
