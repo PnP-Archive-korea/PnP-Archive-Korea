@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:47:15.955Z",
+  "generatedAt": "2026-09-24T01:11:46.638Z",
   "count": 214,
   "facets": {
     "playtime": [
@@ -1991,16 +1991,16 @@
         "한국어"
       ],
       "url": "https://drive.google.com/file/d/1MHcZZZ10LZO0S1_kicieyjg9jrYQwYXD/view?usp=sharing",
-      "infoUrl": "",
+      "infoUrl": "https://arca.live/b/boardgame/177923314?category=%EC%9E%90%EC%9E%91&target=all&keyword=%EB%A7%88%EA%B8%B0&p=1",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏰",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:34:00.000Z"
+      "updatedAt": "2026-09-24T00:34:00.000Z"
     },
     {
       "id": "3c0aa7a159118108957ef9aa2bc9b626",
@@ -3134,8 +3134,8 @@
       "slug": "lupin-3baaa7",
       "ko": "루팡",
       "en": "LUPIN",
-      "author": "에리콩(홍승재)",
-      "desc": "마이티·블로트 계열의 팀전 트릭테이킹 게임. 모리스 르블랑의 소설 <기암성>의 인물이 모티브이며, 플레이어들은 루팡 팀 대 탐정 팀 구도로 보석을 훔치고 지키기 위해 대결한다. 루팡 역할을 맡은 플레이어가 먼저 색깔의 서열과 숫자를 정한다. BGG 등록작(boardgame/385800).",
+      "author": "홍승재",
+      "desc": "마이티·블로트 계열의 팀전 트릭테이킹 게임. 모리스 르블랑의 소설 <기암성>의 인물이 모티브이며, 플레이어들은 루팡 팀 대 탐정 팀 구도로 보석을 훔치고 지키기 위해 대결한다.",
       "players": "3-5명",
       "playersMin": 3,
       "playersMax": 5,
@@ -3157,13 +3157,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/lupin-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/lupin-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/lupin-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z"
+      "updatedAt": "2026-09-24T00:31:00.000Z"
     },
     {
       "id": "3baaa7a15911814d912ac3c4b5f3a67e",
@@ -7318,8 +7318,14 @@
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "10세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "패턴 인식",
+        "주사위 배치",
+        "주사위 관리"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -7333,9 +7339,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-09-24T00:47:00.000Z"
     },
     {
       "id": "3b2aa7a1591181afbc9bccce80fa34ae",
