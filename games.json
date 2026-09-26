@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T01:15:09.610Z",
-  "count": 214,
+  "generatedAt": "2026-09-26T07:11:43.280Z",
+  "count": 215,
   "facets": {
     "playtime": [
       "30~60분",
@@ -94,6 +94,45 @@
     ]
   },
   "games": [
+    {
+      "id": "3e4aa7a159118004bf37efea275dcc10",
+      "slug": "beanstalks-3e4aa7",
+      "ko": "콩나무",
+      "en": "Beanstalks",
+      "author": "Mark",
+      "desc": "잭이 엄마의 소를 마법 콩 몇 알에 팔았을 때 모두 잭을 비웃었습니다. 하지만, 마지막에 웃은 건 잭이었습니다. 이제 잭은 마을에서 가장 부유한 사람이 되었습니다. 당신도 거기서 한몫을 차지하려고 합니다. 안타깝게도 당신의 이웃도 마찬가지입니다. 그는 한 번도 뜻이 맞아본 적 없는 심술궂은 바보입니다.\n거인이 죽은 지금 그의 성은 약탈하기에 무르익었고, 당신은 마법 콩이 더 있다는 이야기를 들었습니다. 당신은 잭의 뒤를 이어 자격 없는 이웃보다 먼저 마법의 콩나무를 키워낼 수 있을까요?",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "레이스",
+        "핸드 관리",
+        "카드 사용"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/edthts2drkgf5vcmvu3uc/AE6E62V9oj052XdKVatu_Uc?rlkey=9gra592jhgtuiz39hpdeq6kvc&st=pkqg87xf&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3570031/wip-beanstalks-2025-traditional-deck-game-design-c",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏰",
+      "createdAt": "2026-09-23T03:48:00.000Z",
+      "updatedAt": "2026-09-26T01:22:00.000Z"
+    },
     {
       "id": "3e4aa7a15911808797c3c77025be17de",
       "slug": "alchemy-3e4aa7",
