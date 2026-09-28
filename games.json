@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T00:21:58.969Z",
+  "generatedAt": "2026-09-28T02:29:12.736Z",
   "count": 215,
   "facets": {
     "playtime": [
@@ -41,6 +41,7 @@
       "다중 사용 카드",
       "덱빌딩",
       "덱을 따라 이동",
+      "동시 액션 선택",
       "드래프트",
       "레이스",
       "롤 앤 무브",
@@ -2584,16 +2585,20 @@
       "en": "",
       "author": "물빵",
       "desc": "하드워크 개발 초기에 트럼프카드로 진행했던 테스트 규칙을 다듬어 공개한 Demo 규칙서와 DIY 사장명패 파일. 트럼프 카드와 동전(또는 토큰) 20개만 있으면 플레이해볼 수 있으며, 본판 대비 약 75% 수준을 즐길 수 있다고 작가가 설명.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
+      "players": "3-4명",
+      "playersMin": 3,
+      "playersMax": 4,
+      "playtime": "30~60분",
       "age": "",
       "mech": [
+        "블러핑",
+        "핸드 관리",
         "카드 사용"
       ],
       "theme": [
-        "현대"
+        "현대",
+        "카드게임",
+        "유머/파티"
       ],
       "price": "무료",
       "year": 2020,
@@ -2610,7 +2615,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-09-28T02:24:00.000Z"
     },
     {
       "id": "3baaa7a1591181008278c3513e401971",
@@ -4981,9 +4986,9 @@
       "id": "3baaa7a159118168aafad25b9e41a706",
       "slug": "어비스-아일랜드-3baaa7",
       "ko": "어비스 아일랜드",
-      "en": "",
+      "en": "Abyss Island",
       "author": "있주",
-      "desc": "작가의 꿈속 세계관을 바탕으로 만든 자작 보드게임. 이미지와 룰만으로는 이해가 어려워 테이블탑 시뮬레이터(TTS)에 맵을 제작해 공개했다. 규칙상 D4를 1~4 주사위로 대체 사용.",
+      "desc": "작가의 꿈속 세계관을 바탕으로 만든 자작 보드게임. 테이블탑 시뮬레이터(TTS)에 맵을 제작해 공개했다.",
       "players": "",
       "playersMin": null,
       "playersMax": null,
@@ -4996,9 +5001,9 @@
       "lang": [
         "한국어"
       ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
-      "infoUrl": "",
-      "playUrl": "",
+      "url": "",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1946&pg=1",
+      "playUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
       "origin": "",
       "thumb": null,
       "thumbLarge": null,
@@ -5006,7 +5011,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:26:00.000Z"
+      "updatedAt": "2026-09-28T02:20:00.000Z"
     },
     {
       "id": "3baaa7a15911816aa345dccf57e92b94",
@@ -5353,14 +5358,22 @@
       "ko": "묘몽",
       "en": "Cat and Monsters",
       "author": "틴들, TH",
-      "desc": "",
+      "desc": "약육강식의 몬스터 세계에서 조물주가 된 두 사람이 카드 대결의 승패를 함께 예측하며 힘의 균형을 맞추는 협력 게임",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "10세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "협력",
+        "동시 액션 선택",
+        "추리"
+      ],
+      "theme": [
+        "고양이",
+        "판타지",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5376,7 +5389,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z"
+      "updatedAt": "2026-09-28T02:22:00.000Z"
     },
     {
       "id": "3b2aa7a15911816e84d6cbd37806ae6a",
@@ -7420,13 +7433,20 @@
       "en": "Propose",
       "author": "라굴",
       "desc": "사랑하는 애인에게 청혼하기 위한 한 사람의 여정",
-      "players": "1명",
+      "players": "1-2명",
       "playersMin": 1,
-      "playersMax": 1,
+      "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "덱빌딩",
+        "솔로/솔로테어 게임",
+        "자원 관리"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -7440,9 +7460,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-04T06:16:00.000Z"
+      "updatedAt": "2026-09-28T02:18:00.000Z"
     },
     {
       "id": "3b2aa7a1591181e2a3b7ede76c4134dc",
@@ -7516,15 +7536,23 @@
       "slug": "my-perfect-orchard-express-3b2aa7",
       "ko": "나의 완벽한 과수원 익스프레스",
       "en": "My Perfect Orchard Express",
-      "author": "작자 미상",
-      "desc": "",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "author": "드로우애니",
+      "desc": "주사위로 정한 펜토미노 모양대로 과일나무를 그려 넣고, 과일을 팔아 전문가를 고용하며 가장 완벽한 과수원을 가꾸는 롤 앤 라이트 게임",
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 관리",
+        "자원 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "기타",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -7538,9 +7566,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🎲",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-18T01:07:00.000Z"
+      "updatedAt": "2026-09-28T02:28:00.000Z"
     },
     {
       "id": "3b2aa7a1591181fdaac8cd7ce0cfddb5",
