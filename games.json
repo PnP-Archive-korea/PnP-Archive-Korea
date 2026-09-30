@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:29:38.458Z",
+  "generatedAt": "2026-09-30T00:06:08.196Z",
   "count": 215,
   "facets": {
     "playtime": [
@@ -4017,14 +4017,15 @@
       "en": "bloom",
       "author": "sojin7550",
       "desc": "6면체 주사위를 자원 토큰으로 사용해 화분에 필요한 요소를 채워보세요.",
-      "players": "2-4명",
+      "players": "2-3명",
       "playersMin": 2,
-      "playersMax": 4,
+      "playersMax": 3,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
         "주사위 굴림",
-        "자원 관리"
+        "자원 관리",
+        "다중 사용 카드"
       ],
       "theme": [],
       "price": "무료",
@@ -4042,7 +4043,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-08T00:33:00.000Z"
+      "updatedAt": "2026-09-30T00:06:00.000Z"
     },
     {
       "id": "3baaa7a159118129a8dbd167016c2620",
