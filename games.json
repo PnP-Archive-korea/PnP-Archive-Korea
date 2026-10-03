@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T03:16:45.294Z",
+  "generatedAt": "2026-10-03T06:08:19.063Z",
   "count": 218,
   "facets": {
     "playtime": [
@@ -5978,13 +5978,13 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/gsp72p",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/secret-coordinates-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/secret-coordinates-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/secret-coordinates-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-16T00:35:00.000Z"
+      "updatedAt": "2026-10-03T03:20:00.000Z"
     },
     {
       "id": "3b2aa7a1591181c2b021ed41ecdd6370",
@@ -7019,14 +7019,23 @@
       "ko": "보늬당의 다람쥐들",
       "en": "The Adventure of Chipmunks",
       "author": "PAAN Cultures",
-      "desc": "인간 세상으로 온 다람쥐들의 여정",
+      "desc": "낯선 인간의 도시에서 가족을 잃어버린 다람쥐 '바삐'가 되어, 가방 속 단서를 따라 가족을 찾아 나서는 1인용 스토리 어드벤처 게임.\n\n타일을 한 장씩 펼쳐 도시를 탐험하고, 하루 8AP로 자원을 줍고 저장하며 '보늬당' 레시피북의 도구를 만들어 시나리오 카드의 미션을 정해진 시간 안에 해결한다. 동물들과의 상호작용에 따라 평판이 오르내리고, 곳곳의 흔적을 모을수록 '보늬당'의 비밀이 드러난다. 밤마다 찾아오는 건망증으로 타일이 회전해 길이 바뀌는 것이 특징. 튜토리얼 EP. 0부터 이어지는 에피소드 구성.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "탐험",
+        "액션 포인트",
+        "스토리텔링",
+        "자원 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "동물",
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -7040,9 +7049,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🦊",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z"
+      "updatedAt": "2026-10-03T03:25:00.000Z"
     },
     {
       "id": "3b2aa7a159118113a902d4e7564eb0dd",
