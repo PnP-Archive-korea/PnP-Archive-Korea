@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:13:23.242Z",
-  "count": 216,
+  "generatedAt": "2026-10-03T03:04:11.299Z",
+  "count": 218,
   "facets": {
     "playtime": [
       "30~60분",
@@ -19,6 +19,7 @@
       "SF",
       "건설",
       "고양이",
+      "공포",
       "기타",
       "동물",
       "레이싱",
@@ -95,6 +96,80 @@
     ]
   },
   "games": [
+    {
+      "id": "3eeaa7a1591181739257d2e9920204bb",
+      "slug": "photographer-shot-3eeaa7",
+      "ko": "포토그래퍼 샷",
+      "en": "Photographer Shot",
+      "author": "보드박스",
+      "desc": "시간은 변하고, 동물은 움직이며, 최고의 구도는 한순간에 사라집니다.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30~60분",
+      "age": "8세 이상",
+      "mech": [
+        "액션 포인트",
+        "패턴 인식",
+        "핸드 관리"
+      ],
+      "theme": [
+        "동물"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2054",
+      "playUrl": "https://photographer-shot-playtest.symag.chatgpt.site/",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
+      "icon": "🦊",
+      "createdAt": "2026-10-03T01:30:00.000Z",
+      "updatedAt": "2026-10-03T01:57:00.000Z"
+    },
+    {
+      "id": "3eeaa7a1591181bbbdbdc847a7f3b159",
+      "slug": "pioneer-3eeaa7",
+      "ko": "파이오니어",
+      "en": "PIONEER",
+      "author": "ruleeZ",
+      "desc": "자원을 확보하고 문명을 발전시키며 카드와 불가사의를 활용해 가장 높은 승점을 노리는 보드게임",
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "카드 사용",
+        "핸드 관리",
+        "자원 관리"
+      ],
+      "theme": [
+        "건설"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://arca.live/b/boardgame/183712054",
+      "playUrl": "https://pioneer-boardgame.pages.dev/",
+      "origin": "국내 창작",
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🗺️",
+      "createdAt": "2026-10-03T01:30:00.000Z",
+      "updatedAt": "2026-10-03T01:58:00.000Z"
+    },
     {
       "id": "3e4aa7a159118004bf37efea275dcc10",
       "slug": "beanstalks-3e4aa7",
@@ -1723,9 +1798,9 @@
     },
     {
       "id": "3c1aa7a15911818c9917cf3bf3ee0f53",
-      "slug": "데드-사일런스-얼라이언스-3c1aa7",
+      "slug": "dead-silence-alliance-3c1aa7",
       "ko": "데드 사일런스: 얼라이언스",
-      "en": "",
+      "en": "Dead Silence: Alliance",
       "author": "snanlog",
       "desc": "침묵이 곧 생존이다.",
       "players": "2-4명",
@@ -1735,11 +1810,12 @@
       "age": "14세 이상",
       "mech": [
         "협력",
-        "드래프트",
-        "푸시 유어 럭"
+        "주사위 배치",
+        "푸시 유어 럭",
+        "주사위 관리"
       ],
       "theme": [
-        "SF"
+        "공포"
       ],
       "price": "무료",
       "year": 2026,
@@ -1754,9 +1830,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🛰️",
+      "icon": "👻",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z"
+      "updatedAt": "2026-10-03T00:59:00.000Z"
     },
     {
       "id": "3c1aa7a15911818d955fe5f3cb98a427",
@@ -2668,9 +2744,14 @@
       "playtime": "",
       "age": "",
       "mech": [
-        "카드 사용"
+        "동시 액션 선택",
+        "핸드 관리",
+        "경매/입찰"
       ],
-      "theme": [],
+      "theme": [
+        "카드게임",
+        "추상"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -2686,7 +2767,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z"
+      "updatedAt": "2026-10-03T01:05:00.000Z"
     },
     {
       "id": "3baaa7a1591181468143c46e8ecd43e8",
@@ -6704,8 +6785,16 @@
       "playersMax": 1,
       "playtime": "30~60분",
       "age": "12세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "솔로/솔로테어 게임",
+        "주사위 배치",
+        "자원 관리"
+      ],
+      "theme": [
+        "SF",
+        "건설"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -6719,9 +6808,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-18T01:10:00.000Z"
+      "updatedAt": "2026-10-03T01:00:00.000Z"
     },
     {
       "id": "3b2aa7a1591181cf965dc3551de38995",
