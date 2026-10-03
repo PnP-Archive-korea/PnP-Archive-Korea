@@ -68,6 +68,19 @@ header{position:sticky;top:0;z-index:100;background:rgba(250,246,239,.85);backdr
 .btn-ghost{background:var(--surface);color:var(--text);border:1px solid var(--line)}
 .btn-ghost:hover{border-color:var(--text);transform:translateY(-1px)}
 .btn-lg{padding:14px 30px;font-size:16px}
+/* 헤더 디스코드 버튼 — 데스크톱은 아이콘+글자, 모바일은 아이콘만 */
+.nav-community{display:inline-flex;align-items:center;gap:7px;height:42px;padding:0 16px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--text);font-size:14px;font-weight:700;white-space:nowrap;transition:all .22s}
+.nav-community:hover{border-color:var(--text);transform:translateY(-1px)}
+@media(max-width:900px){.nav-community{width:42px;padding:0;justify-content:center}.nav-community span{display:none}}
+/* 좁은 휴대폰(≤480px): 로고·디스코드·'게임 둘러보기'가 한 줄에 들어가도록 헤더를 조금 압축 */
+@media(max-width:480px){
+  .nav{padding:12px 14px;gap:8px}
+  .logo{font-size:15px;gap:8px}
+  .logo-mark{width:32px;height:32px;border-radius:10px;font-size:15px}
+  .nav-cta{gap:6px}
+  .nav-cta-mobile{padding:10px 13px;font-size:13.5px}
+  .nav-community{width:38px;height:38px}
+}
 @media(max-width:900px){.nav-search{display:none}.nav-links{display:none}}
 
 .page{display:none}.page.active{display:block}
@@ -205,7 +218,8 @@ select{font-family:inherit;font-size:14px;font-weight:600;color:var(--text);back
 .about-card p{color:#5B5148;font-size:15px;line-height:1.75}
 .contact-strip{text-align:center;padding:48px;background:var(--surface2);border-radius:var(--radius);scroll-margin-top:100px}
 .contact-strip h3{font-size:20px;font-weight:800;margin-bottom:8px}
-.contact-strip a{color:var(--main);font-weight:700;font-size:17px}
+.contact-strip .contact-mail{color:var(--main);font-weight:700;font-size:17px}
+.contact-or{margin:22px auto 14px;font-size:14.5px;color:var(--muted);word-break:keep-all}
 
 .foot-cta{text-align:center;padding:80px 24px 64px}
 .foot-cta .logo-mark{margin:0 auto 24px;width:52px;height:52px;border-radius:15px;font-size:24px}
@@ -215,7 +229,7 @@ select{font-family:inherit;font-size:14px;font-weight:600;color:var(--text);back
 .foot-cta .checks span{display:flex;align-items:center;gap:7px}
 .foot-cta .checks svg{color:var(--main)}
 footer{border-top:1px solid var(--line);background:var(--bg)}
-.foot-grid{max-width:1280px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.foot-grid{max-width:1280px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:40px}
 @media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.foot-grid{grid-template-columns:1fr}}
 .foot-grid h4{font-size:13.5px;font-weight:800;margin-bottom:16px}
@@ -275,6 +289,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
       <input id="navSearch" placeholder="게임 검색" />
     </div>
     <div class="nav-cta">
+      <a class="nav-community" href="/discord" target="_blank" rel="noopener" data-discord="nav" title="디스코드 커뮤니티 (새 창)" aria-label="PnP 아카이브 디스코드 커뮤니티 (새 창)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg><span>디스코드</span></a>
       <a class="btn btn-primary nav-cta-mobile" href="#/archive">게임 둘러보기</a>
       <a class="btn btn-dark nav-cta-desktop" href="#/submit">게임 등록하기</a>
     </div>
@@ -443,7 +458,9 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     <div class="contact-strip reveal in" id="contactStrip">
       <h3>궁금한 점이 있으신가요?</h3>
       <p style="color:var(--muted);margin-bottom:10px">제휴·등록·기타 문의</p>
-      <a href="mailto:contact@pnparchive.com">contact@pnparchive.com</a>
+      <a class="contact-mail" href="mailto:contact@pnparchive.com">contact@pnparchive.com</a>
+      <p class="contact-or">또는 디스코드에서 창작자·플레이어들과 편하게 이야기해요</p>
+      <a class="btn btn-dark" href="/discord" target="_blank" rel="noopener" data-discord="about"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg>디스코드 참여하기</a>
     </div>
   </section>
 </div>
@@ -456,6 +473,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
     </div>
     <div><h4>페이지</h4><a href="#/home">홈</a><a href="#/archive">게임 아카이브</a><a href="#/translated">해외 번역 PnP</a><a href="#/submit">게임 등록하기</a><a href="#/about">소개</a></div>
     <div><h4>안내</h4><a href="#/submit">등록 원칙</a><a href="#/about" onclick="setTimeout(()=>document.getElementById('contactStrip')?.scrollIntoView({behavior:'smooth',block:'start'}),60)">문의</a></div>
+    <div><h4>커뮤니티</h4><a href="/discord" target="_blank" rel="noopener" data-discord="footer">디스코드 참여하기</a></div>
     <div><h4>연락처</h4><a href="mailto:contact@pnparchive.com">contact@pnparchive.com</a></div>
   </div>
   <div class="foot-bottom">
@@ -495,7 +513,7 @@ const PAGE_TITLES = {
 };
 
 /* ══════════════════════════════════════════════
-   오늘의 랜덤 PnP — 날짜 시드 결정론적 셔플
+   오늘의 랜덤 PnP — 날짜 시드 결정론적 선택
    같은 날에는 누가 어디서 접속해도 같은 순서가 나오고,
    한국시간(KST) 기준 아침 8시가 지나면 다른 조합이 나옵니다.
    ══════════════════════════════════════════════ */
@@ -506,26 +524,31 @@ function todaySeed(){
   const shifted = new Date(Date.now() + (9 - RESET_HOUR_KST) * 3600 * 1000);
   return `${shifted.getUTCFullYear()}-${shifted.getUTCMonth()+1}-${shifted.getUTCDate()}`;
 }
-// mulberry32 스타일 PRNG — 문자열 시드를 32비트 정수로 접어 사용합니다.
-function seededShuffle(arr, seedStr){
-  let h = 1779033703 ^ seedStr.length;
-  for(let i=0;i<seedStr.length;i++){
-    h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353);
-    h = (h << 13) | (h >>> 19);
+// cyrb53 — 문자열을 53비트 정수로 바꾸는 가벼운 해시.
+function cyrb53(str, seed = 0){
+  let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+  for(let i = 0, ch; i < str.length; i++){
+    ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
   }
-  let a = h >>> 0;
-  const rand = () => {
-    a |= 0; a = (a + 0x6D2B79F5) | 0;
-    let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-  const out = arr.slice();
-  for(let i = out.length - 1; i > 0; i--){
-    const j = Math.floor(rand() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
+  h1  = Math.imul(h1 ^ (h1 >>> 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2  = Math.imul(h2 ^ (h2 >>> 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+}
+// 게임마다 "날짜시드|게임 id"로 독립 점수를 매기고, 점수가 낮은 순으로 n개를 고릅니다.
+// (예전 방식은 배열 전체를 셔플해서, 게임이 1개만 추가·삭제돼도 그날 조합이 통째로 바뀌었습니다.)
+// 이제 각 게임의 점수는 다른 게임과 무관하므로, 하루 중 새 게임이 게시돼도
+// 그 게임이 그날 상위 n개에 들 때만 한 칸이 바뀝니다.
+// 점수 순서가 고정이므로 폰의 3개는 항상 데스크톱 6개의 앞부분입니다.
+function seededPick(arr, seedStr, n){
+  return arr
+    .map(g => ({ g, score: cyrb53(seedStr + "|" + (g.id ?? g.slug ?? g.title ?? "")) }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, n)
+    .map(x => x.g);
 }
 function pickCount(){
   return window.innerWidth <= MOBILE_BREAKPOINT ? RANDOM_PICK_COUNT.mobile : RANDOM_PICK_COUNT.desktop;
@@ -556,10 +579,21 @@ function trackLinkClick(a){
     transport_type: "beacon"
   });
 }
+/* GA4 — 디스코드 링크 클릭 집계. link_location = nav(헤더) / about(소개·문의) / footer(푸터) */
+function trackDiscordClick(a){
+  if(typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
+  gtag("event", "discord_click", {
+    link_location: a.getAttribute("data-discord") || "",
+    transport_type: "beacon"
+  });
+}
 document.addEventListener("click", function(e){
   const t = e.target;
-  const a = t && t.closest ? t.closest("a[data-link-type]") : null;
+  if(!t || !t.closest) return;
+  const a = t.closest("a[data-link-type]");
   if(a) trackLinkClick(a);
+  const d = t.closest("a[data-discord]");
+  if(d) trackDiscordClick(d);
 }, true);
 
 /* ══════════════════════════════════════════════
@@ -644,8 +678,8 @@ const skeletons = n => Array.from({length:n},()=>`<div class="skeleton"><div cla
    ══════════════════════════════════════════════ */
 function renderHome(){
   const g = DATA.games;
-  // 같은 셔플 순서를 슬라이스만 다르게 하므로, 폰의 3개는 데스크톱 6개의 앞부분이 됩니다.
-  const picks = seededShuffle(g, todaySeed()).slice(0, pickCount());
+  // 게임별 독립 점수로 고르므로, 폰의 3개는 데스크톱 6개의 앞부분이 됩니다.
+  const picks = seededPick(g, todaySeed(), pickCount());
   document.getElementById("popularGrid").innerHTML = picks.map(cardHTML).join("");
   document.getElementById("latestGrid").innerHTML = g.slice(0,3).map(cardHTML).join("");
   observeReveals();
