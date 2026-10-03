@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T03:04:11.299Z",
+  "generatedAt": "2026-10-03T03:15:43.076Z",
   "count": 218,
   "facets": {
     "playtime": [
@@ -1826,13 +1826,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dead-silence-alliance-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dead-silence-alliance-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dead-silence-alliance-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "👻",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-03T00:59:00.000Z"
+      "updatedAt": "2026-10-03T03:09:00.000Z"
     },
     {
       "id": "3c1aa7a15911818d955fe5f3cb98a427",
