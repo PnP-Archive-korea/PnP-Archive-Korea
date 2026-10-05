@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:03:29.198Z",
+  "generatedAt": "2026-10-05T23:43:53.663Z",
   "count": 219,
   "facets": {
     "playtime": [
@@ -58,6 +58,7 @@
       "스토리텔링",
       "액션 포인트",
       "액션/이동 프로그래밍",
+      "인핸드",
       "자리 교환",
       "자원 관리",
       "조립 보드",
@@ -4087,14 +4088,20 @@
       "ko": "개와 늑대의 시간",
       "en": "Union",
       "author": "파나숲",
-      "desc": "2023 PnP 공모전 참가작인 블러핑 게임. 칩 대신 점수 계산표에 점수를 적는 방식으로 구성물을 단순화한 게임판·규칙 수정 버전.",
-      "players": "3-5명",
-      "playersMin": 3,
-      "playersMax": 5,
+      "desc": "숨긴 숫자로 허세를 부리며 혼자 맞설지, 손잡을지 고르는 2~4인 블러핑 게임. 믿었던 동료가 언제 배신할지 모르는 가운데 꼴찌만 피하면 된다.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "블러핑",
+        "기타"
+      ],
+      "theme": [
+        "유머/파티",
+        "추상"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -4110,7 +4117,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:22:00.000Z",
+      "updatedAt": "2026-10-05T23:35:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -5795,14 +5802,23 @@
       "ko": "드래곤x드래곤",
       "en": "Dragon X Dragon",
       "author": "이시현!",
-      "desc": "",
+      "desc": "드래곤이 세상 끝에 닿기 전에, 동양과 서양이 뒤섞인 카드 9장을 한쪽 세계로 정리하는 1인용 퍼즐 게임.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
-      "age": "12세 이상",
-      "mech": [],
-      "theme": [],
+      "age": "14세 이상",
+      "mech": [
+        "퍼즐 풀이",
+        "솔로/솔로테어 게임",
+        "카드 사용",
+        "인핸드"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5812,13 +5828,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dragon-x-dragon-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dragon-x-dragon-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dragon-x-dragon-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z",
+      "updatedAt": "2026-10-05T23:42:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6838,15 +6854,22 @@
       "slug": "harmonious-dice-3b2aa7",
       "ko": "조화로운 주사위",
       "en": "Harmonious dice",
-      "author": "작자 미상",
-      "desc": "",
-      "players": "4명",
-      "playersMin": 4,
+      "author": "아삼",
+      "desc": "주사위를 눈금만큼 굴려 옮기며 가로·세로·대각선으로 숫자와 색의 조합을 만드는 2~4인 추상 퍼즐 게임. 조합으로 모은 트럼프 카드로 포커 족보까지 맞춰야 이긴다.",
+      "players": "2-4명",
+      "playersMin": 2,
       "playersMax": 4,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "패턴 인식",
+        "그리드 이동",
+        "포커족보"
+      ],
+      "theme": [
+        "추상",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -6860,9 +6883,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z",
+      "updatedAt": "2026-10-05T23:37:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
