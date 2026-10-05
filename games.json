@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T22:51:15.216Z",
-  "count": 218,
+  "generatedAt": "2026-10-05T01:01:23.168Z",
+  "count": 219,
   "facets": {
     "playtime": [
       "30~60분",
@@ -22,6 +22,7 @@
       "공포",
       "기타",
       "동물",
+      "동화",
       "레이싱",
       "모험/탐험",
       "스포츠",
@@ -96,6 +97,45 @@
     ]
   },
   "games": [
+    {
+      "id": "3f0aa7a1591180dfbf84ecf823ef174c",
+      "slug": "edgar-shovelhands-3f0aa7",
+      "ko": "삽손",
+      "en": "Edgar Shovelhands",
+      "author": "Kendall Woffinden",
+      "desc": "트럼프 카드로 플레이하는 고딕 우화.\n가위손의 분위기를 느껴보세요.\n\nOverview 비디오: https://www.youtube.com/watch?v=tjpJp0p6jYI\n플레이스루 비디오: \nhttps://www.youtube.com/watch?v=2Y8OH0p7u7Q",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "스토리텔링",
+        "퍼즐 풀이"
+      ],
+      "theme": [
+        "카드게임",
+        "동화"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/11vkqbb6iy0r32k58pti3/AMe-ErHah-NwFaUM6EsU-vw?rlkey=891ovnbnz4d7397wdpuhglr95&st=2whnwvc6&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3569329/wip-edgar-shovelhands-1p-video-avail-2025-traditio",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "thumb": "/assets/thumbs/edgar-shovelhands-3f0aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/edgar-shovelhands-3f0aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/edgar-shovelhands-3f0aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔖",
+      "createdAt": "2026-10-05T00:49:00.000Z",
+      "updatedAt": "2026-10-05T01:00:00.000Z"
+    },
     {
       "id": "3eeaa7a1591181739257d2e9920204bb",
       "slug": "photographer-shot-3eeaa7",
@@ -3409,17 +3449,20 @@
       "ko": "드로우 포커",
       "en": "Draw Poker",
       "author": "닭털 (ChickenFeather)",
-      "desc": "2023 PnP 공모전 참가작. 카드의 일부를 직접 그려서 완성하는 포커 게임. 1차 룰북 및 게임판의 오류를 수정한 개정판으로, 테스트 플레이 2회를 더 거친 예시가 포함되어 있다.",
+      "desc": "카드의 일부를 직접 그려서 완성하는 포커 게임",
       "players": "4-8명",
       "playersMin": 4,
       "playersMax": 8,
       "playtime": "30~60분",
       "age": "12세 이상",
       "mech": [
-        "카드 사용",
+        "포커족보",
+        "자원 관리",
         "푸시 유어 럭"
       ],
-      "theme": [],
+      "theme": [
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -3435,7 +3478,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z"
+      "updatedAt": "2026-10-04T23:53:00.000Z"
     },
     {
       "id": "3baaa7a15911815eaa6acef351bf8b50",
@@ -5384,13 +5427,13 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/drawing-city-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/drawing-city-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/drawing-city-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-11T01:16:00.000Z"
+      "updatedAt": "2026-10-04T23:49:00.000Z"
     },
     {
       "id": "3b2aa7a15911811abab3d90669220975",
