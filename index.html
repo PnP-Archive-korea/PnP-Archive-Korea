@@ -799,7 +799,7 @@ footer{margin-top:clamp(72px,10vw,128px);border-top:1px solid var(--line);paddin
       <div class="mat" aria-labelledby="newTitle">
         <div class="ruler" aria-hidden="true"><span>0</span><span>5</span><span>10</span><span>15</span><span>20</span></div>
         <div class="mat-head">
-          <h2 id="newTitle">이번 주 새로 들어온 게임<b id="newCount"></b></h2>
+          <h2 id="newTitle">최근 일주일 동안 새로 들어온 게임<b id="newCount"></b></h2>
           <div class="tally" id="tally" data-dyn></div>
         </div>
         <div class="deal" id="deal" data-dyn></div>
@@ -1071,7 +1071,7 @@ const EN = {
   // home
   "당신의 보드게임을":"Find your next", "탐색하세요":"board game",
   "한국어로 된 PnP 게임을 한 곳에서":"Korean print-and-play games, all in one place.", "찾고, 인쇄하고, 플레이하세요.":"Find them, print them, play them.",
-  "게임 둘러보기":"Browse games", "이번 주 새로 들어온 게임":"New this week",
+  "게임 둘러보기":"Browse games", "최근 일주일 동안 새로 들어온 게임":"New in the past 7 days",
   "아카이브 현황":"Archive stats", "개":"", "아카이브에 있는 게임":"Games in the archive", "2026년 10월 4일 기준":"As of Oct 4, 2026",
   "국내 창작":"Korean originals", "해외 번역":"Translated",
   "오늘의 랜덤 PnP":"Today’s Random PnP", "매일 아침 8시(한국시간)에 새로운 조합으로 바뀝니다.":"A fresh mix every morning at 8 AM KST.",
@@ -1240,7 +1240,7 @@ const L = {
   noResultP: () => LANG === "en" ? "Try fewer filters or a different search." : "필터를 줄이거나 다른 검색어로 찾아보세요.",
   q: q => (LANG === "en" ? "Search: " : "검색: ") + q,
   remove: l => LANG === "en" ? `Remove ${l} filter` : `${l} 필터 해제`,
-  emptyT: () => LANG === "en" ? "No new games yet this week" : "이번 주에는 아직 새 게임이 없어요",
+  emptyT: () => LANG === "en" ? "No new games in the past 7 days" : "최근 일주일 동안 새로 들어온 게임이 없어요",
   emptyS: () => LANG === "en" ? "New games will be laid out here as cards once they’re added." : "새 게임이 등록되면 여기에 카드로 놓여요.",
   emptyA: () => LANG === "en" ? "See recently added games" : "최근 등록된 게임 보기",
   allNew: () => LANG === "en" ? "See all new games" : "신작 모두 보기",
@@ -1306,7 +1306,7 @@ const TRANSLATED_ORIGIN = "해외 번역";
 // '오늘의 랜덤 PnP' 개수. 640px 이하는 mobile 값(폰의 3개 = 데스크톱 6개의 앞부분)
 const RANDOM_PICK_COUNT = { mobile: 3, desktop: 6 };
 const MOBILE_BREAKPOINT = 640;
-// '이번 주 새로 들어온 게임' 기준(일)
+// '최근 일주일 동안 새로 들어온 게임' 기준(일) — 게시일 기준
 const NEW_DAYS = 7;
 
 /* ══════════════════════════════════════════════
@@ -1360,7 +1360,7 @@ function adapt(r){
     id: r.id, slug: r.slug || "", t: r.ko || "", en: r.en || "", a: r.author || "", p: r.price || "무료",
     tr: r.origin === TRANSLATED_ORIGIN, pl: r.players || "", plMin: r.playersMin, plMax: r.playersMax ?? r.playersMin,
     tm: r.playtime || "", age: r.age ? [r.age] : [], th: r.theme || [], me: r.mech || [], lg: r.lang || [],
-    e: r.icon || "🎲", thumb: r.thumb || "", createdAt: r.createdAt || "", year: r.year || 0
+    e: r.icon || "🎲", thumb: r.thumb || "", createdAt: r.createdAt || "", publishedAt: r.publishedAt || "", year: r.year || 0
   };
 }
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -1408,10 +1408,14 @@ window.addEventListener("resize", () => {
   resizeTimer = setTimeout(() => { const n = pickCount(); if (n !== lastPickCount){ lastPickCount = n; renderHomeGrids(); } }, 200);
 });
 
-/* ---------- Home: 이번 주 새로 들어온 게임 (매트 위 카드) ---------- */
+/* ---------- Home: 최근 일주일 동안 새로 들어온 게임 (매트 위 카드) ----------
+   기준: 게시일(publishedAt) — build.mjs가 '게시완료'로 처음 사이트에 올라간 시각을 기록.
+   지금 시각에서 7×24시간 안에 게시된 게임을 최신 게시순으로 보여 준다.
+   publishedAt이 없는 예전 games.json이면 등록일(createdAt)로 대신한다. */
+const publishedTime = g => Date.parse(g.publishedAt || g.createdAt || "");
 function newThisWeek(){
   const since = Date.now() - NEW_DAYS * 864e5;
-  return GAMES.filter(g => g.createdAt && Date.parse(g.createdAt) >= since);
+  return GAMES.filter(g => publishedTime(g) >= since).sort((a, b) => publishedTime(b) - publishedTime(a));
 }
 function ncard(g){
   const chips = [["users", g.pl], ["clock", g.tm], ["shapes", g.th[0]], ["puzzle", g.me[0]]].filter(r => r[1]);
