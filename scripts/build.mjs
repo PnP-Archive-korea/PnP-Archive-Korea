@@ -737,6 +737,45 @@ async function pruneOrphanedThumbnails(games, manifest) {
 }
 
 // ─────────────────────────────────────────────
+// 게시일(publishedAt) — 홈 '최근 일주일 동안 새로 들어온 게임'의 기준
+//
+// Notion API로는 '검토상태가 게시완료로 바뀐 시각'을 읽을 수 없어서,
+// 직전에 커밋된 games.json과 비교해 "처음 사이트에 올라간 시각"을 정한다.
+//  - 직전 games.json에 이미 있던 게임 → 그때 기록된 publishedAt을 그대로 유지
+//    (publishedAt 필드가 생기기 전 데이터라 값이 없으면 createdAt으로 한 번 채운다)
+//  - 직전 games.json에 없던 게임(이번에 새로 게시완료) → 이번 빌드 시각.
+//    동기화가 매시 정각이라 실제로 게시완료로 바꾼 뒤 최대 약 1시간 늦게 찍힌다.
+//    게시를 내렸다가 다시 올리면 다시 올린 시각이 새 게시일이 된다.
+//  - games.json을 읽지 못하면(최초 빌드 등) 모두 createdAt으로 채운다.
+// 운영자가 따로 입력할 것은 없고, games.json이 매번 커밋되므로 별도 파일도 필요 없다.
+// ─────────────────────────────────────────────
+async function loadPrevPublished() {
+  try {
+    const prev = JSON.parse(await readFile(join(ROOT, "games.json"), "utf8"));
+    const map = new Map();
+    for (const g of prev.games || []) map.set(g.id, g.publishedAt || g.createdAt || null);
+    return map;
+  } catch {
+    return null;
+  }
+}
+
+function assignPublishedAt(games, prevPublished, buildTime) {
+  let fresh = 0;
+  for (const g of games) {
+    if (!prevPublished) {
+      g.publishedAt = g.createdAt;
+    } else if (prevPublished.has(g.id)) {
+      g.publishedAt = prevPublished.get(g.id) || g.createdAt;
+    } else {
+      g.publishedAt = buildTime;
+      fresh++;
+    }
+  }
+  return fresh;
+}
+
+// ─────────────────────────────────────────────
 // 실행
 // ─────────────────────────────────────────────
 async function main() {
@@ -746,8 +785,19 @@ async function main() {
 
   const games = pages.map(transform).filter(Boolean);
 
-  // 최신 등록순 정렬
-  games.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+  // 게시일 기록 후 최신 게시순 정렬(같으면 최신 등록순)
+  const prevPublished = await loadPrevPublished();
+  const freshCount = assignPublishedAt(games, prevPublished, new Date().toISOString());
+  console.log(
+    prevPublished
+      ? `  새로 게시된 게임 ${freshCount}건 (게시일 = 이번 동기화 시각)`
+      : "  직전 games.json 없음 — 게시일을 등록일(createdAt)로 채움"
+  );
+  games.sort(
+    (a, b) =>
+      new Date(b.publishedAt) - new Date(a.publishedAt) ||
+      new Date(b.createdAt) - new Date(a.createdAt)
+  );
 
   // 슬러그 확정 — 이미 레지스트리에 있으면 그 값을 쓰고(제목이 바뀌어도 URL 유지),
   // 처음 보는 게임이면 지금 계산한 슬러그를 레지스트리에 등록해 이후로 고정합니다.
