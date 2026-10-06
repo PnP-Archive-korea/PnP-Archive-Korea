@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T01:23:10.034Z",
+  "generatedAt": "2026-10-06T02:10:44.763Z",
   "count": 219,
   "facets": {
     "playtime": [
@@ -95,6 +95,12 @@
     "origin": [
       "국내 창작",
       "해외 번역"
+    ],
+    "components": [
+      "주사위",
+      "큐브·토큰·미플",
+      "트럼프 카드",
+      "필기구"
     ]
   },
   "games": [
@@ -129,13 +135,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569329/wip-edgar-shovelhands-1p-video-avail-2025-traditio",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/edgar-shovelhands-3f0aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/edgar-shovelhands-3f0aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/edgar-shovelhands-3f0aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-10-05T00:49:00.000Z",
-      "updatedAt": "2026-10-05T01:00:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-10-05T00:49:00.000Z"
     },
     {
@@ -167,13 +176,14 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2054",
       "playUrl": "https://photographer-shot-playtest.symag.chatgpt.site/",
       "origin": "국내 창작",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🦊",
       "createdAt": "2026-10-03T01:30:00.000Z",
-      "updatedAt": "2026-10-03T01:57:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-10-03T01:30:00.000Z"
     },
     {
@@ -205,13 +215,14 @@
       "infoUrl": "https://arca.live/b/boardgame/183712054",
       "playUrl": "https://pioneer-boardgame.pages.dev/",
       "origin": "국내 창작",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-10-03T01:30:00.000Z",
-      "updatedAt": "2026-10-03T01:58:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-10-03T01:30:00.000Z"
     },
     {
@@ -245,13 +256,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3570031/wip-beanstalks-2025-traditional-deck-game-design-c",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-09-23T03:48:00.000Z",
-      "updatedAt": "2026-09-26T01:22:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-23T03:48:00.000Z"
     },
     {
@@ -285,13 +299,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3574744/wip-alchemy-2025-traditional-deck-game-design-cont",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/alchemy-3e4aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/alchemy-3e4aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/alchemy-3e4aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏰",
       "createdAt": "2026-09-23T03:34:00.000Z",
-      "updatedAt": "2026-09-23T03:56:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-23T03:34:00.000Z"
     },
     {
@@ -321,13 +338,16 @@
       "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=605480",
       "playUrl": "https://gridcrossgame.onrender.com",
       "origin": "국내 창작",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
       "createdAt": "2026-09-22T14:10:00.000Z",
-      "updatedAt": "2026-09-22T14:28:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-09-22T14:10:00.000Z"
     },
     {
@@ -357,13 +377,14 @@
       "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=613359",
       "playUrl": "https://scandinavia.today/index.html",
       "origin": "국내 창작",
+      "components": [],
       "thumb": "/assets/thumbs/scandinavia-3e3aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/scandinavia-3e3aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/scandinavia-3e3aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-09-22T14:10:00.000Z",
-      "updatedAt": "2026-09-22T14:24:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-09-22T14:10:00.000Z"
     },
     {
@@ -396,13 +417,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3615827/soluna-a-solo-divination-game-2025-traditional-dec",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/soluna-3e3aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/soluna-3e3aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/soluna-3e3aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏯",
       "createdAt": "2026-09-22T04:33:00.000Z",
-      "updatedAt": "2026-09-30T00:13:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-22T04:33:00.000Z"
     },
     {
@@ -435,13 +459,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569557/wip-river-black-solo-blackjack-style-game-2025-tra",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/river-black-3e2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/river-black-3e2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/river-black-3e2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-09-21T23:56:00.000Z",
-      "updatedAt": "2026-09-22T00:10:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-21T23:56:00.000Z"
     },
     {
@@ -475,13 +502,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569377/wip-polarite-play-with-particles-in-this-perfect-i",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/polarit-3e2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/polarit-3e2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/polarit-3e2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-09-21T01:41:00.000Z",
-      "updatedAt": "2026-09-22T00:05:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-21T01:41:00.000Z"
     },
     {
@@ -515,13 +545,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3595594/the-four-winds-2025-traditional-deck-game-design-c",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/the-four-winds-3dcaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/the-four-winds-3dcaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/the-four-winds-3dcaa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-09-15T04:44:00.000Z",
-      "updatedAt": "2026-09-15T04:58:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-15T04:44:00.000Z"
     },
     {
@@ -555,13 +588,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3576314/sol-six-orbit-lockdown-2025-traditional-deck-game",
       "playUrl": "https://playingcards.io/7gr9rz",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/s-o-l-six-orbit-lockdown-3dbaa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🛰️",
       "createdAt": "2026-09-14T02:34:00.000Z",
-      "updatedAt": "2026-09-14T02:41:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-14T02:34:00.000Z"
     },
     {
@@ -594,13 +630,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3576804/wip-flock-rocks-sheep-vs-wolves-2025-traditional-g",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/flock-rocks-sheep-vs-wolves-3d6aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🦊",
       "createdAt": "2026-09-09T07:17:00.000Z",
-      "updatedAt": "2026-09-15T04:56:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-09T07:17:00.000Z"
     },
     {
@@ -634,13 +673,14 @@
       "infoUrl": "https://boardgamegeek.com/thread/3712106/knowbscure-35-34-card-expansion-version-40",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-09-08T04:30:00.000Z",
-      "updatedAt": "2026-10-05T06:04:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-08T04:30:00.000Z"
     },
     {
@@ -674,13 +714,14 @@
       "infoUrl": "https://greggjewell.itch.io/galdors-grip",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-3d4aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-3d4aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/galdor-s-grip-3d4aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-09-07T01:48:00.000Z",
-      "updatedAt": "2026-09-07T02:12:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-07T01:48:00.000Z"
     },
     {
@@ -713,13 +754,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3530593/aleas-garden-cosy-polyomino-deckbuilding-game-winn",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": "/assets/thumbs/alea-s-garden-3d4aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/alea-s-garden-3d4aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/alea-s-garden-3d4aa7-raw.webp",
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-09-07T01:36:00.000Z",
-      "updatedAt": "2026-09-07T01:53:00.000Z",
+      "updatedAt": "2026-10-06T01:48:00.000Z",
       "publishedAt": "2026-09-07T01:36:00.000Z"
     },
     {
@@ -755,13 +799,17 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/351714/interplanetary-a-giant-hop-for-squeakind",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/interplanetary-a-giant-hop-for-squeakind-3d2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🛰️",
       "createdAt": "2026-09-05T14:40:00.000Z",
-      "updatedAt": "2026-09-05T14:48:00.000Z",
+      "updatedAt": "2026-10-06T01:48:00.000Z",
       "publishedAt": "2026-09-05T14:40:00.000Z"
     },
     {
@@ -795,13 +843,14 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/441559/one-for-sorrow",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [],
       "thumb": "/assets/thumbs/one-for-sorrow-3d2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/one-for-sorrow-3d2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/one-for-sorrow-3d2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-09-05T14:24:00.000Z",
-      "updatedAt": "2026-09-05T14:39:00.000Z",
+      "updatedAt": "2026-10-06T01:48:00.000Z",
       "publishedAt": "2026-09-05T14:24:00.000Z"
     },
     {
@@ -835,13 +884,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3579229/against-the-clock-2025-traditional-deck-game-desig",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/against-the-clock-3d1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/against-the-clock-3d1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/against-the-clock-3d1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-04T02:28:00.000Z",
-      "updatedAt": "2026-09-04T02:52:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-04T02:28:00.000Z"
     },
     {
@@ -871,13 +923,16 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2032",
       "playUrl": "",
       "origin": "국내 창작",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-03T02:55:00.000Z",
-      "updatedAt": "2026-09-03T03:09:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-09-03T02:55:00.000Z"
     },
     {
@@ -908,13 +963,16 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2038",
       "playUrl": "",
       "origin": "국내 창작",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-09-03T02:55:00.000Z",
-      "updatedAt": "2026-09-03T03:05:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-09-03T02:55:00.000Z"
     },
     {
@@ -946,6 +1004,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2010",
       "playUrl": "",
       "origin": "국내 창작",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -984,13 +1043,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3617857/wip-shadow-market-cutthroat-auction-game-2025-trad",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-09-02T01:15:00.000Z",
-      "updatedAt": "2026-09-02T01:29:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-09-02T01:15:00.000Z"
     },
     {
@@ -1020,13 +1082,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569651/wiphocken-2025-traditional-deck-game-design-contes",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-31T11:50:00.000Z",
-      "updatedAt": "2026-08-31T12:02:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-08-31T11:50:00.000Z"
     },
     {
@@ -1059,13 +1124,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3571024/wip-rules-of-engagement-2025-traditional-deck-desi",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": "/assets/thumbs/rules-of-engagement-3c9aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/rules-of-engagement-3c9aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/rules-of-engagement-3c9aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-09-15T04:28:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-08-27T02:16:00.000Z"
     },
     {
@@ -1097,13 +1165,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569308/rules-ready-candles-and-cannons-light-candles-igni",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-27T02:16:00.000Z",
-      "updatedAt": "2026-08-31T01:23:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-08-27T02:16:00.000Z"
     },
     {
@@ -1137,13 +1208,16 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569304/rules-available-sept-5-updated-swamp-manage-a-hung",
       "playUrl": "",
       "origin": "해외 번역",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🦊",
       "createdAt": "2026-08-27T02:10:00.000Z",
-      "updatedAt": "2026-08-31T00:56:00.000Z",
+      "updatedAt": "2026-10-06T01:47:00.000Z",
       "publishedAt": "2026-08-27T02:10:00.000Z"
     },
     {
@@ -1174,13 +1248,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/q4dm7r",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-09-14T12:47:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -1213,6 +1290,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/고양이의-도넛공장-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/고양이의-도넛공장-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/고양이의-도넛공장-3c1aa7-raw.webp",
@@ -1250,6 +1328,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/last-torch-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/last-torch-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/last-torch-3c1aa7-raw.webp",
@@ -1287,6 +1366,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/새벽-전에-만나-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/새벽-전에-만나-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/새벽-전에-만나-3c1aa7-raw.webp",
@@ -1324,6 +1404,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-raw.webp",
@@ -1359,6 +1440,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/7tbcmd",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1396,6 +1478,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-raw.webp",
@@ -1433,6 +1516,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1471,6 +1555,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1508,6 +1593,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/손가rock클라이밍-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/손가rock클라이밍-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/손가rock클라이밍-3c1aa7-raw.webp",
@@ -1545,13 +1631,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -1581,6 +1670,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1619,6 +1709,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/39v9u7",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/pengraoh-code-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/pengraoh-code-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/pengraoh-code-3c1aa7-raw.webp",
@@ -1655,6 +1746,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/jrbw9u",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/푸시유어장맛-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/푸시유어장맛-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/푸시유어장맛-3c1aa7-raw.webp",
@@ -1691,6 +1783,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/destiny-high-five-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/destiny-high-five-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/destiny-high-five-3c1aa7-raw.webp",
@@ -1729,6 +1822,7 @@
       "infoUrl": "",
       "playUrl": "https://chonaldinho.github.io/classroom/",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1766,6 +1860,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1803,6 +1898,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/5원소-모험-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/5원소-모험-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/5원소-모험-3c1aa7-raw.webp",
@@ -1839,6 +1935,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1875,6 +1972,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -1914,13 +2012,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/dead-silence-alliance-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dead-silence-alliance-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/dead-silence-alliance-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "👻",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-03T03:09:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -1952,13 +2053,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -1987,6 +2091,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/bb5vvn",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/롤더마인드-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/롤더마인드-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/롤더마인드-3c1aa7-raw.webp",
@@ -2024,6 +2129,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/고스트-404-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/고스트-404-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/고스트-404-3c1aa7-raw.webp",
@@ -2061,6 +2167,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2097,6 +2204,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2132,6 +2240,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2169,13 +2278,16 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2004",
       "playUrl": "https://playingcards.io/a9ejnp",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/리코셰-차지-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/리코셰-차지-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/리코셰-차지-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-09-14T12:57:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -2206,6 +2318,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/nwhrk6",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/journey-of-little-prince-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/journey-of-little-prince-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/journey-of-little-prince-3c1aa7-raw.webp",
@@ -2245,6 +2358,7 @@
       "infoUrl": "https://arca.live/b/boardgame/177923314?category=%EC%9E%90%EC%9E%91&target=all&keyword=%EB%A7%88%EA%B8%B0&p=1",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-raw.webp",
@@ -2282,6 +2396,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2319,13 +2434,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:34:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-18T01:42:00.000Z"
     },
     {
@@ -2356,6 +2475,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2394,6 +2514,7 @@
       "infoUrl": "",
       "playUrl": "https://end-of-arts-online.onrender.com/",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2431,6 +2552,7 @@
       "infoUrl": "",
       "playUrl": "https://tactics-discord-bot.onrender.com/",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2469,13 +2591,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-08-18T04:35:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-18T01:42:00.000Z"
     },
     {
@@ -2508,13 +2633,18 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3344159065",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-09-14T23:50:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-18T01:42:00.000Z"
     },
     {
@@ -2545,6 +2675,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2579,6 +2710,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2617,6 +2749,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2654,13 +2787,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-09-10T01:19:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -2689,6 +2826,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2726,6 +2864,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2760,13 +2899,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -2796,6 +2939,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2836,13 +2980,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-09-28T02:24:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -2875,6 +3023,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -2912,13 +3061,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/defence-dice-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/defence-dice-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/defence-dice-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-09-14T01:18:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -2946,13 +3099,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:14:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -2980,6 +3136,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3017,6 +3174,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2933652054",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/hidden-hand-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/hidden-hand-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/hidden-hand-3baaa7-raw.webp",
@@ -3053,6 +3211,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2878075875",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3089,13 +3248,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:17:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3126,13 +3288,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3161,13 +3327,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3202,6 +3371,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3238,13 +3408,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3275,6 +3448,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3312,6 +3486,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3349,6 +3524,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3384,13 +3560,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3418,6 +3598,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3455,6 +3636,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/lupin-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/lupin-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/lupin-3baaa7-raw.webp",
@@ -3489,6 +3671,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3527,6 +3710,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/liar-cats-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/liar-cats-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/liar-cats-3baaa7-raw.webp",
@@ -3565,13 +3749,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-04T23:53:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3597,6 +3784,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3631,6 +3819,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3668,6 +3857,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3702,6 +3892,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3741,13 +3932,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🦊",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-09-09T00:28:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3778,6 +3972,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3815,6 +4010,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -3852,13 +4048,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🎲",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3889,13 +4088,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-09-17T00:22:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3926,13 +4129,18 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z",
+      "updatedAt": "2026-10-06T01:51:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -3963,6 +4171,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4000,13 +4209,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏯",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -4034,13 +4246,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -4073,6 +4288,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/jzcmxy",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/cbg-run-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/cbg-run-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/cbg-run-3baaa7-raw.webp",
@@ -4111,6 +4327,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4145,6 +4362,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4182,6 +4400,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4216,13 +4435,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:22:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4253,13 +4475,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/떼굴떼굴-슬라임-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏰",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-10T01:16:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4290,6 +4515,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4326,13 +4552,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-30T00:06:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4360,6 +4589,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4398,6 +4628,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4436,6 +4667,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4471,13 +4703,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-06T00:01:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4507,13 +4742,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏯",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-14T01:15:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4546,13 +4784,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-09T01:01:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4584,6 +4825,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4622,13 +4864,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-16T00:38:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4657,13 +4902,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:24:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4692,13 +4940,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:24:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4726,13 +4978,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:24:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4763,6 +5018,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4797,13 +5053,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🦊",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-08-18T01:25:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -4831,6 +5090,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4868,6 +5128,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4904,6 +5165,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4940,6 +5202,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -4977,6 +5240,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5014,6 +5278,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5048,13 +5313,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": "/assets/thumbs/seven-clover-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/seven-clover-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/seven-clover-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-09-04T15:47:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5085,6 +5353,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5121,6 +5390,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646182619",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5157,6 +5427,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5193,6 +5464,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/sky-spy-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/sky-spy-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/sky-spy-3baaa7-raw.webp",
@@ -5229,6 +5501,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5265,6 +5538,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5302,6 +5576,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572033151",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/rats-party-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/rats-party-3baaa7-detail.webp",
       "thumbRaw": "/assets/thumbs/rats-party-3baaa7-raw.webp",
@@ -5334,6 +5609,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1946&pg=1",
       "playUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5371,13 +5647,16 @@
       "infoUrl": "",
       "playUrl": "https://stack6.netlify.app",
       "origin": "",
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-20T23:45:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -5407,6 +5686,7 @@
       "infoUrl": "",
       "playUrl": "https://capybara.tiiny.site/",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5439,6 +5719,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5473,13 +5754,14 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3632596861",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-09-14T12:33:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -5507,6 +5789,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5545,13 +5828,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-10T01:09:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -5582,13 +5868,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": "/assets/thumbs/drawing-city-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/drawing-city-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/drawing-city-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-04T23:49:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -5619,6 +5909,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/doodadada-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/doodadada-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/doodadada-3b2aa7-raw.webp",
@@ -5651,6 +5942,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5683,6 +5975,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5723,6 +6016,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5755,6 +6049,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5787,6 +6082,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5828,6 +6124,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/dragon-x-dragon-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dragon-x-dragon-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/dragon-x-dragon-3b2aa7-raw.webp",
@@ -5860,6 +6157,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5892,6 +6190,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5928,6 +6227,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/rmut44",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-raw.webp",
@@ -5960,6 +6260,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -5997,13 +6298,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/ilium-tabula-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/ilium-tabula-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/ilium-tabula-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-08T02:31:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6029,6 +6333,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6061,6 +6366,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6093,6 +6399,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6131,6 +6438,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6165,6 +6473,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/koala-party-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/koala-party-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/koala-party-3b2aa7-raw.webp",
@@ -6203,13 +6512,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/gsp72p",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/secret-coordinates-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/secret-coordinates-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/secret-coordinates-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-03T03:20:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6241,6 +6553,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6279,13 +6592,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/j82xmz",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/dice-kingmaker-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dice-kingmaker-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/dice-kingmaker-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-17T00:21:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6314,13 +6630,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-09-16T00:48:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6346,13 +6665,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6386,6 +6708,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/a2dynx",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6423,6 +6746,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6455,6 +6779,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6489,6 +6814,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6521,6 +6847,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6558,13 +6885,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/b5a37g",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": "/assets/thumbs/30-days-in-dungeon-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/30-days-in-dungeon-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/30-days-in-dungeon-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-18T00:42:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6594,6 +6924,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6626,6 +6957,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6664,6 +6996,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/railway-connection-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/railway-connection-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/railway-connection-3b2aa7-raw.webp",
@@ -6701,13 +7034,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-30T00:10:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6735,6 +7071,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6772,13 +7109,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-29T00:01:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6806,6 +7146,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -6840,13 +7181,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/3g2aa8",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-14T12:36:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6879,13 +7223,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-05T23:48:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6916,6 +7264,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/casting-vote-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/casting-vote-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/casting-vote-3b2aa7-raw.webp",
@@ -6953,13 +7302,16 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/6amurz",
       "origin": "",
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-14T12:35:00.000Z",
+      "updatedAt": "2026-10-06T01:52:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6988,13 +7340,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-18T01:11:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -7020,6 +7376,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7060,13 +7417,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🛰️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-03T01:00:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -7092,6 +7453,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7132,6 +7494,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/5wwtfu",
       "origin": "",
+      "components": [],
       "thumb": "/assets/thumbs/operation-homecoming-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/operation-homecoming-3b2aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/operation-homecoming-3b2aa7-raw.webp",
@@ -7164,6 +7527,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7196,13 +7560,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "트럼프 카드",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z",
+      "updatedAt": "2026-10-06T01:53:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -7235,6 +7603,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7267,6 +7636,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7308,6 +7678,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7340,13 +7711,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -7376,6 +7750,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7408,13 +7783,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T07:35:00.000Z",
+      "updatedAt": "2026-10-06T01:55:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -7440,6 +7818,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7472,13 +7851,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -7509,6 +7891,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7545,6 +7928,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7582,6 +7966,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7620,6 +8005,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7652,6 +8038,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7684,6 +8071,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7722,6 +8110,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7761,6 +8150,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7793,6 +8183,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7831,6 +8222,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7863,13 +8255,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-08-12T06:58:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -7902,6 +8297,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7941,6 +8337,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
@@ -7978,13 +8375,16 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🔷",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-09-04T08:29:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8018,13 +8418,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-09-28T02:28:00.000Z",
+      "updatedAt": "2026-10-06T01:54:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8056,6 +8460,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "components": [],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
