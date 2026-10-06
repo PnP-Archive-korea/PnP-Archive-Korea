@@ -1131,6 +1131,7 @@ const EN = {
   "마지막 동기화: 2026. 10. 4. 오전 8:34 · 총 218개 게임 · 국내 창작 199개 · 해외 번역 19개":"Last synced: Oct 4, 2026, 8:34 AM KST · 218 games · 199 Korean originals · 19 translated",
   // facets
   "인원수":"Players", "플레이타임":"Play time", "권장연령":"Age", "메인 메커니즘":"Main mechanism", "테마":"Theme", "가격":"Price", "언어":"Language",
+  "공용 기물":"Common components", "트럼프 카드":"Playing cards", "주사위":"Dice", "큐브·토큰·미플":"Cubes, tokens & meeples", "필기구":"Pen or pencil",
   "인원수 찾기":"Search player counts", "메인 메커니즘 찾기":"Search mechanisms", "테마 찾기":"Search themes",
   "1인":"1 player", "2인":"2 players", "3-4인":"3–4 players", "5인 이상":"5+ players",
   "1명":"1 player", "2명":"2 players", "2-4명":"2–4 players", "3-5명":"3–5 players", "5명 이상":"5+ players",
@@ -1359,7 +1360,7 @@ function adapt(r){
   return {
     id: r.id, slug: r.slug || "", t: r.ko || "", en: r.en || "", a: r.author || "", p: r.price || "무료",
     tr: r.origin === TRANSLATED_ORIGIN, pl: r.players || "", plMin: r.playersMin, plMax: r.playersMax ?? r.playersMin,
-    tm: r.playtime || "", age: r.age ? [r.age] : [], th: r.theme || [], me: r.mech || [], lg: r.lang || [],
+    tm: r.playtime || "", age: r.age ? [r.age] : [], th: r.theme || [], me: r.mech || [], lg: r.lang || [], cp: r.components || [],
     e: r.icon || "🎲", thumb: r.thumb || "", createdAt: r.createdAt || "", publishedAt: r.publishedAt || "", year: r.year || 0
   };
 }
@@ -1482,17 +1483,18 @@ function renderCounts(){
 function plOne(g, v){ if (g.plMin == null) return false; const lo = g.plMin, hi = g.plMax ?? g.plMin; return v==="1" ? lo<=1 : v==="2" ? lo<=2&&hi>=2 : v==="34" ? lo<=4&&hi>=3 : hi>=5; }
 const uniq = k => [...new Set(GAMES.flatMap(g=>g[k]))].sort((a,b)=>a==="기타"?1:b==="기타"?-1:a.localeCompare(b,"ko"));
 let FACETS = [];
-const ORDER = { tm: ["30분 이하","30~60분","60분~120분","120분 이상"], age: ["전 연령","8세 이상","10세 이상","12세 이상","14세 이상","18세 이상"] };
+const ORDER = { tm: ["30분 이하","30~60분","60분~120분","120분 이상"], age: ["전 연령","8세 이상","10세 이상","12세 이상","14세 이상","18세 이상"], cp: ["트럼프 카드","주사위","큐브·토큰·미플","필기구"] };
 const present = (k, order) => { const have = new Set(GAMES.flatMap(g => k === "tm" ? [g.tm] : g[k]).filter(Boolean)); return order.filter(v => have.has(v)).concat([...have].filter(v => !order.includes(v))); };
 function buildFacets(){ FACETS = [
   { k:"pl",  label:"인원수",     open:true, search:true, opts:[["1","1인"],["2","2인"],["34","3-4인"],["5","5인 이상"]], test:(g,v)=>plOne(g,v) },
   { k:"tm",  label:"플레이타임", open:true, opts:present("tm", ORDER.tm).map(v=>[v, v === "60분~120분" ? "60~120분" : v]), test:(g,v)=>g.tm===v },
   { k:"age", label:"권장연령",   opts:present("age", ORDER.age).map(v=>[v,v]), test:(g,v)=>g.age.includes(v) },
+  { k:"cp",  label:"공용 기물",  opts:present("cp", ORDER.cp).map(v=>[v,v]), test:(g,v)=>g.cp.includes(v) },
   { k:"me",  label:"메인 메커니즘", search:true, sortable:true, opts:uniq("me").map(v=>[v,v]), test:(g,v)=>g.me.includes(v) },
   { k:"th",  label:"테마",       search:true, sortable:true, opts:uniq("th").map(v=>[v,v]), test:(g,v)=>g.th.includes(v) },
   { k:"price", label:"가격",     opts:[["무료","무료"],["유료","유료"]], test:(g,v)=>g.p===v },
   { k:"lg",  label:"언어",       opts:present("lg", ["한국어","영어","기타"]).map(v=>[v,v]), test:(g,v)=>g.lg.includes(v) },
-]; }
+].filter(f => f.k !== "cp" || f.opts.length); } // 공용 기물 값이 하나도 없으면 필터 칸 자체를 숨김
 const PAGE = 24;
 function makeBrowser(root, base, pid){
   const $ = sel => root.querySelector(sel);
