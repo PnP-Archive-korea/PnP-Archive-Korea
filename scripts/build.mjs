@@ -271,6 +271,10 @@ function transform(page) {
     playUrl: read(p, "온라인 플레이 링크") || "",
     // 출처: "국내 창작" / "해외 번역" (비어 있으면 필터·배지에 나타나지 않음)
     origin: read(p, "출처") || "",
+    // 공용 기물: 인쇄물 외에 따로 준비해야 하는 시판 기물(트럼프 카드/주사위/
+    // 큐브·토큰·미플/필기구). 비어 있으면 필터·스펙 표에 나타나지 않습니다.
+    // 주의: "공용 기물 근거"는 운영용 내부 메모라 내보내지 않습니다.
+    components: read(p, "공용 기물") || [],
     // 원본 소스 URL (창작자 업로드 이미지). main()에서 다운로드·정규화된 뒤
     // thumb/thumbLarge로 대체되고, 이 필드 자체는 games.json에 나가지 않습니다.
     thumbSourceUrl,
@@ -394,6 +398,7 @@ function gamePageHtml(g, related) {
     ["언어", (g.lang || []).join(", ")],
     ["테마", (g.theme || []).join(", ")],
     ["메인 메커니즘", (g.mech || []).join(", ")],
+    ["공용 기물", (g.components || []).join(", ")],
     ["가격", g.price],
     ["출처", g.origin],
   ].filter(([, v]) => v !== null && v !== undefined && v !== "");
@@ -833,6 +838,7 @@ async function main() {
     lang: uniq(games.flatMap((g) => g.lang)),
     price: uniq(games.map((g) => g.price)),
     origin: uniq(games.map((g) => g.origin)),
+    components: uniq(games.flatMap((g) => g.components)),
   };
 
   const out = {
