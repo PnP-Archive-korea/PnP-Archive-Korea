@@ -374,6 +374,89 @@ function heroHtml(g) {
 </div>`;
 }
 
+// ─────────────────────────────────────────────
+// 상단 메뉴 (정적 게임 페이지) — index.html의 <header class="nav">와 같은 구성
+//
+// 로고·메뉴 5개·KO/EN·검색·디스코드·게임 등록하기·모바일 메뉴까지 그대로 옮긴다.
+// 로고는 index.html에 인라인된 이미지를 빌드 때 읽어 와서, 메인에서 로고를 바꾸면
+// 다음 동기화 때 게임 페이지에도 자동으로 반영된다(못 찾으면 글자만 표시).
+// 아이콘은 lucide 스크립트를 불러오지 않도록 같은 모양의 SVG를 직접 넣는다.
+// ─────────────────────────────────────────────
+let LOGO_SRC = "";
+async function loadLogo() {
+  try {
+    const html = await readFile(join(ROOT, "index.html"), "utf8");
+    const m = html.match(/class="brand"[^>]*>\s*<img src="(data:image\/[a-z+]+;base64,[A-Za-z0-9+/=]+)"/);
+    LOGO_SRC = m ? m[1] : "";
+    if (!LOGO_SRC) console.warn("⚠️ index.html에서 로고 이미지를 찾지 못해 게임 페이지 로고를 글자만 표시합니다.");
+  } catch (e) {
+    console.warn("⚠️ index.html을 읽지 못해 게임 페이지 로고를 생략합니다:", e.message);
+  }
+}
+
+const svgIcon = (body) =>
+  `<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${body}</svg>`;
+const ICON = {
+  search: svgIcon('<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>'),
+  message: svgIcon('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),
+  menu: svgIcon('<line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>'),
+};
+
+const NAV_ITEMS = [
+  ["home", "홈", "Home"],
+  ["archive", "게임 아카이브", "Game Archive"],
+  ["translated", "해외 번역 PnP", "Translated PnP"],
+  ["submit", "게임 등록하기", "Submit a Game"],
+  ["about", "소개 · 문의", "About · Contact"],
+];
+
+// 정적 페이지 고정 문구의 영문 (index.html의 EN 사전과 같은 표현)
+const EN_LABEL = {
+  인원수: "Players", 플레이타임: "Play time", 권장연령: "Age", 발표연도: "Release year",
+  언어: "Language", 테마: "Theme", "메인 메커니즘": "Main mechanism", "공용 기물": "Common components",
+  가격: "Price", 출처: "Source",
+};
+// data-en: 영어로 볼 때 바꿔 넣을 글자 (textContent로만 넣으므로 게임 제목도 안전)
+const enAttr = (en) => (en ? ` data-en="${escHtml(en)}"` : "");
+
+function siteHeaderHtml(g) {
+  // 게임 페이지에서는 해당 목록 메뉴를 현재 위치로 표시 (번역작 → 해외 번역 PnP)
+  const current = g.origin === "해외 번역" ? "translated" : "archive";
+  const navLinks = NAV_ITEMS.map(
+    ([k, ko, en]) =>
+      `<a href="/#/${k}"${k === current ? ' aria-current="page"' : ""}${enAttr(en)}>${escHtml(ko)}</a>`
+  );
+  const lang = (cls) =>
+    `<div class="lang${cls}" role="group" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>`;
+  return `<header class="nav">
+  <div class="nav-wrap nav-bar">
+    <a class="brand" href="/#/home">
+      ${LOGO_SRC ? `<img src="${LOGO_SRC}" alt="" width="36" height="36">` : ""}
+      <span>PnP 아카이브 <span class="kr">KOREA</span></span>
+    </a>
+    <nav class="links" aria-label="주요 메뉴">
+      ${navLinks.join("\n      ")}
+    </nav>
+    <div class="nav-right">
+      ${lang("")}
+      <form class="search" role="search" id="navSearch">
+        <label class="sr" for="q"${enAttr("Search games")}>게임 검색</label>
+        ${ICON.search}
+        <input id="q" type="search" placeholder="게임 이름, 작가로 검색" data-en-ph="Search by title or designer">
+      </form>
+      <a class="btn-discord" href="/discord" target="_blank" rel="noopener">${ICON.message}<span${enAttr("Discord")}>디스코드</span></a>
+      <a class="btn-brand" href="/#/submit"${enAttr("Submit a Game")}>게임 등록하기</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="메뉴 열기">${ICON.menu}</button>
+    </div>
+  </div>
+  <div class="nav-wrap mobile-menu" id="mobileMenu" hidden>
+    ${navLinks.join("\n    ")}
+    <a href="/discord" target="_blank" rel="noopener"${enAttr("Discord")}>디스코드</a>
+    ${lang(" m-lang")}
+  </div>
+</header>`;
+}
+
 function gamePageHtml(g, related) {
   const title = `${g.ko}${g.en ? ` (${g.en})` : ""} · PnP 아카이브 KOREA`;
   const desc =
@@ -385,9 +468,9 @@ function gamePageHtml(g, related) {
   // 값이 있는 링크만 버튼으로 만듭니다 — 1개면 버튼 1개, 2개면 2개.
   // 맨 앞 버튼이 주 버튼(주황), 나머지는 보조 버튼(테두리)입니다.
   const links = [
-    { url: safeHttpUrl(g.url), label: "⬇ 파일 다운로드", kind: "download" },
-    { url: safeHttpUrl(g.playUrl), label: "▶ 온라인으로 플레이", kind: "play" },
-    { url: safeHttpUrl(g.infoUrl), label: "🔗 원문·게임 정보", kind: "info" },
+    { url: safeHttpUrl(g.url), label: "⬇ 파일 다운로드", en: "⬇ Download files", kind: "download" },
+    { url: safeHttpUrl(g.playUrl), label: "▶ 온라인으로 플레이", en: "▶ Play online", kind: "play" },
+    { url: safeHttpUrl(g.infoUrl), label: "🔗 원문·게임 정보", en: "🔗 Original post & info", kind: "info" },
   ].filter((l) => l.url);
 
   const spec = [
@@ -437,21 +520,65 @@ gtag("config", "${GA_MEASUREMENT_ID}");
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;600;700&display=swap">
 <style>
 /* 사이트(index.html)와 같은 브랜드 토큰 — 골드 메인 + 그린 보조, 커팅 매트 모티프 */
+/* 사이트(index.html)와 같은 브랜드 토큰 — 골드 메인 + 그린 보조, 커팅 매트 모티프 */
 :root{--bg:#F1F3E8;--surface:#FBFCF5;--surface-2:#E6EBD6;--ink:#1B2410;--muted:#5C6747;--line:#D9DEC8;--brand:#314D03;--brand-mid:#476814;--gold:#F9B365;--gold-hi:#FCC175;--gold-deep:#A85F1A;--on-gold:#26360A;--mat:#2D4708;--mat-line:rgb(243 238 220 / .09);--mat-line-strong:rgb(243 238 220 / .2)}
 @media (prefers-color-scheme:dark){:root{--bg:#10160B;--surface:#182112;--surface-2:#222D19;--ink:#ECEFE0;--muted:#A3AD8C;--line:#2C3823;--brand:#9DC45A;--brand-mid:#B5D57E;--gold-deep:#F2A65A;--mat:#1E3205}}
+/* 상단 메뉴에서만 쓰는 추가 토큰 (index.html 값) — 아래 본문 색에는 영향 없음 */
+:root{--line-strong:#B9C2A0;--ink-soft:#3F4A2B;--brand-hi:#5F8426;--on-brand:#F6F1E2;--nav-bg:rgba(241,243,232,.84)}
+@media (prefers-color-scheme:dark){:root{--line-strong:#43532C;--ink-soft:#C6CEB0;--brand-hi:#B3D47A;--on-brand:#14200A;--nav-bg:rgba(16,22,10,.82)}}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"Noto Sans KR",system-ui,-apple-system,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased;word-break:keep-all}
 a{color:inherit}
-.topnav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;max-width:880px;margin:0 auto;padding:18px 24px;font-size:14.5px}
-.topnav .brand{font-weight:700;text-decoration:none;letter-spacing:-.02em;font-size:16.5px}
-.topnav .navlinks{display:flex;gap:4px;flex-wrap:wrap}
-.topnav .navlinks a{padding:7px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:500}
-.topnav .navlinks a:hover{background:var(--surface-2);color:var(--ink)}
-.hero{position:relative;overflow:hidden;height:360px;display:flex;align-items:center;justify-content:center;max-width:880px;margin:4px auto 0;border-radius:28px;background-color:var(--mat);background-image:linear-gradient(var(--mat-line) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line) 1px,transparent 1px),linear-gradient(var(--mat-line-strong) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line-strong) 1px,transparent 1px);background-size:20px 20px,20px 20px,100px 100px,100px 100px}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ic{width:1em;height:1em;display:inline-block;flex:none;vertical-align:-.125em}
+/* ---------- 상단 메뉴: index.html의 .nav와 같은 모양 (클래스·수치 그대로) ---------- */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--nav-bg);backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--line);line-height:1.65}
+.nav a{text-decoration:none}
+.nav-wrap{max-width:1240px;margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+.nav-bar{height:68px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.02em;font-size:17px;white-space:nowrap}
+.brand img{width:36px;height:36px;border-radius:50%;display:block}
+.links{display:flex;gap:2px}
+.links a{padding:8px 12px;border-radius:999px;font-size:15px;font-weight:500;color:var(--ink-soft);white-space:nowrap;transition:background .2s,color .2s}
+.links a:hover{background:var(--surface-2);color:var(--ink)}
+.links a[aria-current="page"]{color:var(--ink);font-weight:700;background:var(--surface-2)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.lang{display:inline-flex;height:40px;padding:3px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+.lang button{min-width:38px;padding:0 10px;border:0;border-radius:999px;background:transparent;color:var(--muted);font:600 13px/1 Outfit,sans-serif;letter-spacing:.04em;cursor:pointer;transition:background .2s,color .2s}
+.lang button[aria-pressed="true"]{background:var(--brand);color:var(--on-brand)}
+.lang button:not([aria-pressed="true"]):hover{color:var(--ink)}
+.search{position:relative;display:flex;align-items:center}
+.search .ic{position:absolute;left:14px;color:var(--muted);font-size:16px;pointer-events:none}
+.search input{width:200px;height:40px;border-radius:999px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);padding:0 16px 0 38px;font:inherit;font-size:14px}
+.search input::placeholder{color:var(--muted)}
+.search input:focus{outline:none;border-color:var(--brand-mid);box-shadow:0 0 0 3px color-mix(in srgb,var(--brand-hi) 25%,transparent)}
+.btn-discord{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
+.btn-discord:hover{background:var(--gold-hi)}
+.btn-discord .ic{font-size:16px}
+.btn-brand{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;border:1px solid var(--brand);background:var(--brand);color:var(--on-brand);transition:background .2s,border-color .2s,transform .15s}
+.btn-brand:hover{background:var(--brand-mid);border-color:var(--brand-mid)}
+.btn-discord:active,.btn-brand:active{transform:scale(.98)}
+.menu-btn{display:none;width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);align-items:center;justify-content:center;font-size:18px;cursor:pointer}
+.mobile-menu{border-top:1px solid var(--line);padding-block:8px 16px}
+.mobile-menu a{display:block;padding:12px 4px;font-weight:500;color:var(--ink-soft)}
+.mobile-menu a[aria-current="page"]{color:var(--ink);font-weight:700}
+.m-lang{display:none}
+@media (max-width:1480px){.search{display:none}}
+@media (max-width:1060px){.links a{padding:8px 9px;font-size:14px}.brand{font-size:16px}}
+@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-discord,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
+@media (max-width:1040px){.nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}.links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}.links::-webkit-scrollbar{display:none}}
+@media (max-width:1720px){html[lang="en"] .search{display:none}}
+@media (max-width:1270px){html[lang="en"] .nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}html[lang="en"] .links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}}
+@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-discord{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
+@media (max-width:540px){.nav-right .lang{display:none}.m-lang{display:inline-flex;margin-top:8px}}
+@media (max-width:420px){.brand .kr{display:none}}
+.hero{position:relative;overflow:hidden;height:360px;display:flex;align-items:center;justify-content:center;max-width:880px;margin:28px auto 0;border-radius:28px;background-color:var(--mat);background-image:linear-gradient(var(--mat-line) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line) 1px,transparent 1px),linear-gradient(var(--mat-line-strong) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line-strong) 1px,transparent 1px);background-size:20px 20px,20px 20px,100px 100px,100px 100px}
 .hero-bg{position:absolute;inset:-48px;background-size:cover;background-position:center;filter:blur(34px) brightness(.62) saturate(1.1);transform:scale(1.08)}
 .hero-art{position:relative;height:calc(100% - 48px);width:auto;max-width:calc(100% - 48px);object-fit:contain;border-radius:6px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
 .hero-empty{height:220px;font-size:84px}
-@media(max-width:920px){.hero{margin:4px 16px 0}}
+@media(max-width:920px){.hero{margin:20px 16px 0}}
 @media(max-width:600px){.hero{height:250px;border-radius:20px}.hero-empty{height:160px;font-size:60px}}
 .wrap{max-width:880px;margin:0 auto;padding:28px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:24px}
@@ -484,25 +611,17 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
 </style>
 </head>
 <body>
-<div class="topnav">
-  <a class="brand" href="${escHtml(SITE_URL)}/">PnP 아카이브 KOREA</a>
-  <div class="navlinks">
-    <a href="${escHtml(SITE_URL)}/#/home">홈</a>
-    <a href="${escHtml(SITE_URL)}/#/archive">게임 아카이브</a>
-    <a href="${escHtml(SITE_URL)}/#/translated">해외 번역 PnP</a>
-    <a href="${escHtml(SITE_URL)}/#/submit">게임 등록하기</a>
-  </div>
-</div>
+${siteHeaderHtml(g)}
 ${heroHtml(g)}
 <div class="wrap">
-  <div class="crumb"><a href="${escHtml(SITE_URL)}/#/archive">게임 아카이브</a> › ${escHtml(g.ko)}</div>
-  <h1>${escHtml(g.ko)}</h1>
-  ${g.en ? `<div class="en">${escHtml(g.en)}</div>` : ""}
-  <div class="by">작가 · <strong>${escHtml(g.author || "작자 미상")}</strong></div>
+  <div class="crumb"><a href="${escHtml(SITE_URL)}/#/archive"${enAttr("Game Archive")}>게임 아카이브</a> › <span${enAttr(g.en)}>${escHtml(g.ko)}</span></div>
+  <h1${enAttr(g.en)}>${escHtml(g.ko)}</h1>
+  ${g.en ? `<div class="en"${enAttr(g.ko)}>${escHtml(g.en)}</div>` : ""}
+  <div class="by"><span${enAttr("Designer")}>작가</span> · <strong${g.author ? "" : enAttr("Unknown")}>${escHtml(g.author || "작자 미상")}</strong></div>
   ${g.desc ? `<div class="desc">${escHtml(g.desc)}</div>` : ""}
   <table>
     ${spec
-      .map(([k, v]) => `<tr><th>${escHtml(k)}</th><td>${escHtml(v)}</td></tr>`)
+      .map(([k, v]) => `<tr><th${enAttr(EN_LABEL[k])}>${escHtml(k)}</th><td>${escHtml(v)}</td></tr>`)
       .join("\n    ")}
   </table>
   <div>
@@ -511,18 +630,18 @@ ${heroHtml(g)}
         ? links
             .map(
               (l, i) =>
-                `<a class="btn${i ? " sub" : ""}" href="${escHtml(l.url)}" rel="noopener noreferrer" data-link-type="${escHtml(l.kind)}" data-game-slug="${escHtml(g.slug)}" data-game-title="${escHtml(g.ko)}">${escHtml(l.label)}</a>`
+                `<a class="btn${i ? " sub" : ""}" href="${escHtml(l.url)}" rel="noopener noreferrer" data-link-type="${escHtml(l.kind)}" data-game-slug="${escHtml(g.slug)}" data-game-title="${escHtml(g.ko)}"${enAttr(l.en)}>${escHtml(l.label)}</a>`
             )
             .join("\n    ")
-        : `<span class="btn off">다운로드 링크 준비 중</span>`
+        : `<span class="btn off"${enAttr("Download link coming soon")}>다운로드 링크 준비 중</span>`
     }
   </div>
-  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
-  <div><a class="back" href="${escHtml(SITE_URL)}/#/archive">← 아카이브에서 다른 게임 보기</a></div>
+  <div class="takedown-note" data-en-html="🔒 Are you the rights holder of this game? For corrections, takedown requests or other inquiries, please contact &lt;strong&gt;contact@pnparchive.com&lt;/strong&gt;.">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
+  <div><a class="back" href="${escHtml(SITE_URL)}/#/archive"${enAttr("← Browse more games in the archive")}>← 아카이브에서 다른 게임 보기</a></div>
   ${
     related.length
       ? `<div class="related">
-    <h2>이런 게임은 어때요?</h2>
+    <h2${enAttr("You might also like")}>이런 게임은 어때요?</h2>
     <div class="related-grid">
       ${related
         .map(
@@ -532,7 +651,7 @@ ${heroHtml(g)}
             ? `background-image:url('${escHtml(r.thumb)}')`
             : `background:${r.grad || "linear-gradient(135deg,#2E3A4E,#5B6E8C)"}`
         }">${r.thumb ? "" : escHtml(r.icon || "🎲")}</div>
-        <div class="related-title">${escHtml(r.ko)}</div>
+        <div class="related-title"${enAttr(r.en)}>${escHtml(r.ko)}</div>
       </a>`
         )
         .join("\n      ")}
@@ -540,8 +659,62 @@ ${heroHtml(g)}
   </div>`
       : ""
   }
-  <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
+  <footer${enAttr("© 2026 PnP Archive KOREA · All rights to each game belong to its creator. Listings are non-exclusive, and creators may request removal at any time. Submitting games that infringe third-party copyrights, and bulk collecting or redistributing information from this site, are prohibited.")}>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
 </div>
+<script>
+/* 상단 메뉴 동작 — 모바일 메뉴 열기, 검색(아카이브로 이동), KO/EN 전환.
+   언어 선택은 메인 사이트와 같은 키(pnp-lang)에 저장해 페이지를 오가도 유지됩니다.
+   영어로 보면 메뉴·항목 이름·버튼과 게임 제목(영문 제목이 있을 때)만 바뀌고,
+   소개 글·태그 값 등 Notion 데이터는 한국어 그대로입니다. */
+(function(){
+  var LANG = "ko";
+  try { if (localStorage.getItem("pnp-lang") === "en") LANG = "en"; } catch (e) {}
+  var KO = new Map();
+  function apply(){
+    document.documentElement.lang = LANG;
+    document.querySelectorAll("[data-en]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.textContent);
+      el.textContent = LANG === "en" ? el.getAttribute("data-en") : KO.get(el);
+    });
+    document.querySelectorAll("[data-en-html]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.innerHTML);
+      el.innerHTML = LANG === "en" ? el.getAttribute("data-en-html") : KO.get(el);
+    });
+    document.querySelectorAll("[data-en-ph]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.placeholder);
+      el.placeholder = LANG === "en" ? el.getAttribute("data-en-ph") : KO.get(el);
+    });
+    document.querySelectorAll(".lang button").forEach(function(b){
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === LANG));
+    });
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){
+    b.addEventListener("click", function(){
+      var l = b.getAttribute("data-lang");
+      if (l === LANG) return;
+      LANG = l; try { localStorage.setItem("pnp-lang", l); } catch (e) {}
+      apply();
+    });
+  });
+  if (LANG === "en") apply();
+
+  var btn = document.getElementById("menuBtn"), mm = document.getElementById("mobileMenu");
+  btn.addEventListener("click", function(){
+    var open = mm.hidden; mm.hidden = !open; btn.setAttribute("aria-expanded", String(open));
+  });
+
+  document.getElementById("navSearch").addEventListener("submit", function(e){
+    e.preventDefault();
+    var q = document.getElementById("q").value.trim();
+    location.href = "/#/archive" + (q ? "?q=" + encodeURIComponent(q) : "");
+  });
+
+  document.addEventListener("click", function(e){
+    var a = e.target && e.target.closest ? e.target.closest('a[href="/discord"]') : null;
+    if (a && typeof gtag === "function") gtag("event", "discord_click", { link_location: "nav", transport_type: "beacon" });
+  }, true);
+})();
+</script>
 <script>
 /* GA4 — 링크 버튼 클릭 집계. 화면에는 아무 변화도 없습니다.
    같은 탭에서 이동해도 유실되지 않도록 beacon 전송을 사용합니다. */
@@ -566,6 +739,7 @@ document.addEventListener("click", function(e){
 async function writeStaticSEO(games) {
   // 삭제된 게임의 페이지가 남지 않도록 game/ 디렉터리를 매번 새로 만듭니다.
   await rm(join(ROOT, "game"), { recursive: true, force: true });
+  await loadLogo();
 
   for (const g of games) {
     const dir = join(ROOT, "game", g.slug);
