@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:25:48.263Z",
+  "generatedAt": "2026-10-07T02:11:21.369Z",
   "count": 219,
   "facets": {
     "playtime": [
@@ -3345,7 +3345,7 @@
       "ko": "퍼즐 나라의 앨리스",
       "en": "Alice in PuzzleLand",
       "author": "김샤썬",
-      "desc": "2023 PnP 공모전 참가작. 앨리스가 되어 퍼즐을 풀고 카드 J·Q·K를 정복하는 1인용 게임. 설명서가 완성되었으며 테스트 가능한 캐릭터 앨리스 1개와 스페이드·하트 난이도를 공개. 추가 캐릭터와 무기는 후속 업데이트 예정. AI 생성 그림 사용.",
+      "desc": "앨리스가 되어 퍼즐을 풀고 카드 J·Q·K를 정복하는 1인용 게임.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
@@ -3358,7 +3358,7 @@
         "패턴 인식"
       ],
       "theme": [
-        "판타지",
+        "동화",
         "퍼즐",
         "카드게임"
       ],
@@ -3371,14 +3371,17 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
-      "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/alice-in-puzzleland-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/alice-in-puzzleland-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/alice-in-puzzleland-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🏰",
+      "icon": "🧩",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-10-01T00:40:00.000Z",
+      "updatedAt": "2026-10-07T01:33:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3433,11 +3436,14 @@
       "playtime": "30~60분",
       "age": "",
       "mech": [
-        "주사위 굴림",
-        "협력"
+        "협력",
+        "주사위 관리",
+        "패턴 인식",
+        "주사위 굴림"
       ],
       "theme": [
-        "판타지"
+        "판타지",
+        "전쟁/전투"
       ],
       "price": "무료",
       "year": 2023,
@@ -3455,7 +3461,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:18:00.000Z",
+      "updatedAt": "2026-10-07T01:27:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -4227,16 +4233,21 @@
       "ko": "룰 메이킹 포커",
       "en": "Rule Making Poker",
       "author": "릿",
-      "desc": "2023 PnP 공모전 참가작. 트럼프 카드에 코믹적인 룰을 곁들여 즐기는 전략 카드게임. 구성품은 조커 포함 트럼프 카드 54장과 점수 관련 룰 카드 등. 룰 카드는 실선을 따라 잘라야 한다.",
+      "desc": "트럼프 카드에 코믹적인 룰을 곁들여 누구나 쉽고 재밌게 즐길 수 있는 전략 카드게임",
       "players": "3-5명",
       "playersMin": 3,
       "playersMax": 5,
       "playtime": "",
       "age": "",
       "mech": [
+        "드래프트",
+        "타일 놓기",
         "카드 사용"
       ],
-      "theme": [],
+      "theme": [
+        "카드게임",
+        "유머/파티"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -4255,7 +4266,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-06T01:52:00.000Z",
+      "updatedAt": "2026-10-07T01:31:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
