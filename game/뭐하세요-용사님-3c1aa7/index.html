@@ -29,21 +29,65 @@ gtag("config", "G-NJDJMDKBE0");
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;600;700&display=swap">
 <style>
 /* 사이트(index.html)와 같은 브랜드 토큰 — 골드 메인 + 그린 보조, 커팅 매트 모티프 */
+/* 사이트(index.html)와 같은 브랜드 토큰 — 골드 메인 + 그린 보조, 커팅 매트 모티프 */
 :root{--bg:#F1F3E8;--surface:#FBFCF5;--surface-2:#E6EBD6;--ink:#1B2410;--muted:#5C6747;--line:#D9DEC8;--brand:#314D03;--brand-mid:#476814;--gold:#F9B365;--gold-hi:#FCC175;--gold-deep:#A85F1A;--on-gold:#26360A;--mat:#2D4708;--mat-line:rgb(243 238 220 / .09);--mat-line-strong:rgb(243 238 220 / .2)}
 @media (prefers-color-scheme:dark){:root{--bg:#10160B;--surface:#182112;--surface-2:#222D19;--ink:#ECEFE0;--muted:#A3AD8C;--line:#2C3823;--brand:#9DC45A;--brand-mid:#B5D57E;--gold-deep:#F2A65A;--mat:#1E3205}}
+/* 상단 메뉴에서만 쓰는 추가 토큰 (index.html 값) — 아래 본문 색에는 영향 없음 */
+:root{--line-strong:#B9C2A0;--ink-soft:#3F4A2B;--brand-hi:#5F8426;--on-brand:#F6F1E2;--nav-bg:rgba(241,243,232,.84)}
+@media (prefers-color-scheme:dark){:root{--line-strong:#43532C;--ink-soft:#C6CEB0;--brand-hi:#B3D47A;--on-brand:#14200A;--nav-bg:rgba(16,22,10,.82)}}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"Noto Sans KR",system-ui,-apple-system,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased;word-break:keep-all}
 a{color:inherit}
-.topnav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;max-width:880px;margin:0 auto;padding:18px 24px;font-size:14.5px}
-.topnav .brand{font-weight:700;text-decoration:none;letter-spacing:-.02em;font-size:16.5px}
-.topnav .navlinks{display:flex;gap:4px;flex-wrap:wrap}
-.topnav .navlinks a{padding:7px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:500}
-.topnav .navlinks a:hover{background:var(--surface-2);color:var(--ink)}
-.hero{position:relative;overflow:hidden;height:360px;display:flex;align-items:center;justify-content:center;max-width:880px;margin:4px auto 0;border-radius:28px;background-color:var(--mat);background-image:linear-gradient(var(--mat-line) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line) 1px,transparent 1px),linear-gradient(var(--mat-line-strong) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line-strong) 1px,transparent 1px);background-size:20px 20px,20px 20px,100px 100px,100px 100px}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ic{width:1em;height:1em;display:inline-block;flex:none;vertical-align:-.125em}
+/* ---------- 상단 메뉴: index.html의 .nav와 같은 모양 (클래스·수치 그대로) ---------- */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--nav-bg);backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--line);line-height:1.65}
+.nav a{text-decoration:none}
+.nav-wrap{max-width:1240px;margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+.nav-bar{height:68px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.02em;font-size:17px;white-space:nowrap}
+.brand img{width:36px;height:36px;border-radius:50%;display:block}
+.links{display:flex;gap:2px}
+.links a{padding:8px 12px;border-radius:999px;font-size:15px;font-weight:500;color:var(--ink-soft);white-space:nowrap;transition:background .2s,color .2s}
+.links a:hover{background:var(--surface-2);color:var(--ink)}
+.links a[aria-current="page"]{color:var(--ink);font-weight:700;background:var(--surface-2)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.lang{display:inline-flex;height:40px;padding:3px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+.lang button{min-width:38px;padding:0 10px;border:0;border-radius:999px;background:transparent;color:var(--muted);font:600 13px/1 Outfit,sans-serif;letter-spacing:.04em;cursor:pointer;transition:background .2s,color .2s}
+.lang button[aria-pressed="true"]{background:var(--brand);color:var(--on-brand)}
+.lang button:not([aria-pressed="true"]):hover{color:var(--ink)}
+.search{position:relative;display:flex;align-items:center}
+.search .ic{position:absolute;left:14px;color:var(--muted);font-size:16px;pointer-events:none}
+.search input{width:200px;height:40px;border-radius:999px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);padding:0 16px 0 38px;font:inherit;font-size:14px}
+.search input::placeholder{color:var(--muted)}
+.search input:focus{outline:none;border-color:var(--brand-mid);box-shadow:0 0 0 3px color-mix(in srgb,var(--brand-hi) 25%,transparent)}
+.btn-discord{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
+.btn-discord:hover{background:var(--gold-hi)}
+.btn-discord .ic{font-size:16px}
+.btn-brand{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;border:1px solid var(--brand);background:var(--brand);color:var(--on-brand);transition:background .2s,border-color .2s,transform .15s}
+.btn-brand:hover{background:var(--brand-mid);border-color:var(--brand-mid)}
+.btn-discord:active,.btn-brand:active{transform:scale(.98)}
+.menu-btn{display:none;width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);align-items:center;justify-content:center;font-size:18px;cursor:pointer}
+.mobile-menu{border-top:1px solid var(--line);padding-block:8px 16px}
+.mobile-menu a{display:block;padding:12px 4px;font-weight:500;color:var(--ink-soft)}
+.mobile-menu a[aria-current="page"]{color:var(--ink);font-weight:700}
+.m-lang{display:none}
+@media (max-width:1480px){.search{display:none}}
+@media (max-width:1060px){.links a{padding:8px 9px;font-size:14px}.brand{font-size:16px}}
+@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-discord,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
+@media (max-width:1040px){.nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}.links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}.links::-webkit-scrollbar{display:none}}
+@media (max-width:1720px){html[lang="en"] .search{display:none}}
+@media (max-width:1270px){html[lang="en"] .nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}html[lang="en"] .links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}}
+@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-discord{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
+@media (max-width:540px){.nav-right .lang{display:none}.m-lang{display:inline-flex;margin-top:8px}}
+@media (max-width:420px){.brand .kr{display:none}}
+.hero{position:relative;overflow:hidden;height:360px;display:flex;align-items:center;justify-content:center;max-width:880px;margin:28px auto 0;border-radius:28px;background-color:var(--mat);background-image:linear-gradient(var(--mat-line) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line) 1px,transparent 1px),linear-gradient(var(--mat-line-strong) 1px,transparent 1px),linear-gradient(90deg,var(--mat-line-strong) 1px,transparent 1px);background-size:20px 20px,20px 20px,100px 100px,100px 100px}
 .hero-bg{position:absolute;inset:-48px;background-size:cover;background-position:center;filter:blur(34px) brightness(.62) saturate(1.1);transform:scale(1.08)}
 .hero-art{position:relative;height:calc(100% - 48px);width:auto;max-width:calc(100% - 48px);object-fit:contain;border-radius:6px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
 .hero-empty{height:220px;font-size:84px}
-@media(max-width:920px){.hero{margin:4px 16px 0}}
+@media(max-width:920px){.hero{margin:20px 16px 0}}
 @media(max-width:600px){.hero{height:250px;border-radius:20px}.hero-empty{height:160px;font-size:60px}}
 .wrap{max-width:880px;margin:0 auto;padding:28px 24px 72px}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:24px}
@@ -76,41 +120,67 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
 </style>
 </head>
 <body>
-<div class="topnav">
-  <a class="brand" href="https://pnparchive.com/">PnP 아카이브 KOREA</a>
-  <div class="navlinks">
-    <a href="https://pnparchive.com/#/home">홈</a>
-    <a href="https://pnparchive.com/#/archive">게임 아카이브</a>
-    <a href="https://pnparchive.com/#/translated">해외 번역 PnP</a>
-    <a href="https://pnparchive.com/#/submit">게임 등록하기</a>
+<header class="nav">
+  <div class="nav-wrap nav-bar">
+    <a class="brand" href="/#/home">
+      <img src="data:image/webp;base64,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" alt="" width="36" height="36">
+      <span>PnP 아카이브 <span class="kr">KOREA</span></span>
+    </a>
+    <nav class="links" aria-label="주요 메뉴">
+      <a href="/#/home" data-en="Home">홈</a>
+      <a href="/#/archive" aria-current="page" data-en="Game Archive">게임 아카이브</a>
+      <a href="/#/translated" data-en="Translated PnP">해외 번역 PnP</a>
+      <a href="/#/submit" data-en="Submit a Game">게임 등록하기</a>
+      <a href="/#/about" data-en="About · Contact">소개 · 문의</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+      <form class="search" role="search" id="navSearch">
+        <label class="sr" for="q" data-en="Search games">게임 검색</label>
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="search" placeholder="게임 이름, 작가로 검색" data-en-ph="Search by title or designer">
+      </form>
+      <a class="btn-discord" href="/discord" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg><span data-en="Discord">디스코드</span></a>
+      <a class="btn-brand" href="/#/submit" data-en="Submit a Game">게임 등록하기</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="메뉴 열기"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button>
+    </div>
   </div>
-</div>
+  <div class="nav-wrap mobile-menu" id="mobileMenu" hidden>
+    <a href="/#/home" data-en="Home">홈</a>
+    <a href="/#/archive" aria-current="page" data-en="Game Archive">게임 아카이브</a>
+    <a href="/#/translated" data-en="Translated PnP">해외 번역 PnP</a>
+    <a href="/#/submit" data-en="Submit a Game">게임 등록하기</a>
+    <a href="/#/about" data-en="About · Contact">소개 · 문의</a>
+    <a href="/discord" target="_blank" rel="noopener" data-en="Discord">디스코드</a>
+    <div class="lang m-lang" role="group" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+  </div>
+</header>
 <div class="hero hero-empty" aria-hidden="true">🏰</div>
 <div class="wrap">
-  <div class="crumb"><a href="https://pnparchive.com/#/archive">게임 아카이브</a> › 뭐하세요, 용사님?!</div>
+  <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>뭐하세요, 용사님?!</span></div>
   <h1>뭐하세요, 용사님?!</h1>
   
-  <div class="by">작가 · <strong>카이즈</strong></div>
+  <div class="by"><span data-en="Designer">작가</span> · <strong>카이즈</strong></div>
   <div class="desc">둘이서 협력하여 주사위 던전을 클리어해보세요!</div>
   <table>
-    <tr><th>인원수</th><td>1-2명</td></tr>
-    <tr><th>플레이타임</th><td>30분 이하</td></tr>
-    <tr><th>권장연령</th><td>12세 이상</td></tr>
-    <tr><th>발표연도</th><td>2026</td></tr>
-    <tr><th>언어</th><td>한국어</td></tr>
-    <tr><th>테마</th><td>판타지</td></tr>
-    <tr><th>메인 메커니즘</th><td>주사위 굴림, 협력</td></tr>
-    <tr><th>공용 기물</th><td>주사위</td></tr>
-    <tr><th>가격</th><td>무료</td></tr>
+    <tr><th data-en="Players">인원수</th><td>1-2명</td></tr>
+    <tr><th data-en="Play time">플레이타임</th><td>30분 이하</td></tr>
+    <tr><th data-en="Age">권장연령</th><td>12세 이상</td></tr>
+    <tr><th data-en="Release year">발표연도</th><td>2026</td></tr>
+    <tr><th data-en="Language">언어</th><td>한국어</td></tr>
+    <tr><th data-en="Theme">테마</th><td>판타지</td></tr>
+    <tr><th data-en="Main mechanism">메인 메커니즘</th><td>주사위 굴림, 협력</td></tr>
+    <tr><th data-en="Common components">공용 기물</th><td>주사위</td></tr>
+    <tr><th data-en="Price">가격</th><td>무료</td></tr>
   </table>
   <div>
-    <a class="btn" href="https://www.wemakeplay.co.kr/entry/79904a80-24b3-4255-a993-4687d2ef62ed" rel="noopener noreferrer" data-link-type="download" data-game-slug="뭐하세요-용사님-3c1aa7" data-game-title="뭐하세요, 용사님?!">⬇ 파일 다운로드</a>
-    <a class="btn sub" href="https://playingcards.io/q4dm7r" rel="noopener noreferrer" data-link-type="play" data-game-slug="뭐하세요-용사님-3c1aa7" data-game-title="뭐하세요, 용사님?!">▶ 온라인으로 플레이</a>
+    <a class="btn" href="https://www.wemakeplay.co.kr/entry/79904a80-24b3-4255-a993-4687d2ef62ed" rel="noopener noreferrer" data-link-type="download" data-game-slug="뭐하세요-용사님-3c1aa7" data-game-title="뭐하세요, 용사님?!" data-en="⬇ Download files">⬇ 파일 다운로드</a>
+    <a class="btn sub" href="https://playingcards.io/q4dm7r" rel="noopener noreferrer" data-link-type="play" data-game-slug="뭐하세요-용사님-3c1aa7" data-game-title="뭐하세요, 용사님?!" data-en="▶ Play online">▶ 온라인으로 플레이</a>
   </div>
-  <div class="takedown-note">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
-  <div><a class="back" href="https://pnparchive.com/#/archive">← 아카이브에서 다른 게임 보기</a></div>
+  <div class="takedown-note" data-en-html="🔒 Are you the rights holder of this game? For corrections, takedown requests or other inquiries, please contact &lt;strong&gt;contact@pnparchive.com&lt;/strong&gt;.">🔒 이 게임의 저작권자이신가요? 정보 수정, 게시 중단, 기타 문의 사항은 <strong>contact@pnparchive.com</strong>으로 연락부탁드립니다.</div>
+  <div><a class="back" href="https://pnparchive.com/#/archive" data-en="← Browse more games in the archive">← 아카이브에서 다른 게임 보기</a></div>
   <div class="related">
-    <h2>이런 게임은 어때요?</h2>
+    <h2 data-en="You might also like">이런 게임은 어때요?</h2>
     <div class="related-grid">
       <a class="related-card" href="https://pnparchive.com/game/곱하고-더하고-빼서-공격-3c1aa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#8C4A5B,#C4818F)">🏰</div>
@@ -118,16 +188,70 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
       </a>
       <a class="related-card" href="https://pnparchive.com/game/dice-saga-3baaa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#E0A83C,#F3D08A)">🏰</div>
-        <div class="related-title">다이스사가</div>
+        <div class="related-title" data-en="Dice saga">다이스사가</div>
       </a>
       <a class="related-card" href="https://pnparchive.com/game/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#E0A83C,#F3D08A)">🏰</div>
-        <div class="related-title">외로운 모험가는 던전에 가고 싶어서</div>
+        <div class="related-title" data-en="Because the Lonely Novice Hope to Enter the Dungeon">외로운 모험가는 던전에 가고 싶어서</div>
       </a>
     </div>
   </div>
-  <footer>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
+  <footer data-en="© 2026 PnP Archive KOREA · All rights to each game belong to its creator. Listings are non-exclusive, and creators may request removal at any time. Submitting games that infringe third-party copyrights, and bulk collecting or redistributing information from this site, are prohibited.">© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
 </div>
+<script>
+/* 상단 메뉴 동작 — 모바일 메뉴 열기, 검색(아카이브로 이동), KO/EN 전환.
+   언어 선택은 메인 사이트와 같은 키(pnp-lang)에 저장해 페이지를 오가도 유지됩니다.
+   영어로 보면 메뉴·항목 이름·버튼과 게임 제목(영문 제목이 있을 때)만 바뀌고,
+   소개 글·태그 값 등 Notion 데이터는 한국어 그대로입니다. */
+(function(){
+  var LANG = "ko";
+  try { if (localStorage.getItem("pnp-lang") === "en") LANG = "en"; } catch (e) {}
+  var KO = new Map();
+  function apply(){
+    document.documentElement.lang = LANG;
+    document.querySelectorAll("[data-en]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.textContent);
+      el.textContent = LANG === "en" ? el.getAttribute("data-en") : KO.get(el);
+    });
+    document.querySelectorAll("[data-en-html]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.innerHTML);
+      el.innerHTML = LANG === "en" ? el.getAttribute("data-en-html") : KO.get(el);
+    });
+    document.querySelectorAll("[data-en-ph]").forEach(function(el){
+      if (!KO.has(el)) KO.set(el, el.placeholder);
+      el.placeholder = LANG === "en" ? el.getAttribute("data-en-ph") : KO.get(el);
+    });
+    document.querySelectorAll(".lang button").forEach(function(b){
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === LANG));
+    });
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){
+    b.addEventListener("click", function(){
+      var l = b.getAttribute("data-lang");
+      if (l === LANG) return;
+      LANG = l; try { localStorage.setItem("pnp-lang", l); } catch (e) {}
+      apply();
+    });
+  });
+  if (LANG === "en") apply();
+
+  var btn = document.getElementById("menuBtn"), mm = document.getElementById("mobileMenu");
+  btn.addEventListener("click", function(){
+    var open = mm.hidden; mm.hidden = !open; btn.setAttribute("aria-expanded", String(open));
+  });
+
+  document.getElementById("navSearch").addEventListener("submit", function(e){
+    e.preventDefault();
+    var q = document.getElementById("q").value.trim();
+    location.href = "/#/archive" + (q ? "?q=" + encodeURIComponent(q) : "");
+  });
+
+  document.addEventListener("click", function(e){
+    var a = e.target && e.target.closest ? e.target.closest('a[href="/discord"]') : null;
+    if (a && typeof gtag === "function") gtag("event", "discord_click", { link_location: "nav", transport_type: "beacon" });
+  }, true);
+})();
+</script>
 <script>
 /* GA4 — 링크 버튼 클릭 집계. 화면에는 아무 변화도 없습니다.
    같은 탭에서 이동해도 유실되지 않도록 beacon 전송을 사용합니다. */
