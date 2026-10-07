@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T09:57:57.252Z",
-  "count": 219,
+  "generatedAt": "2026-10-07T10:56:02.152Z",
+  "count": 220,
   "facets": {
     "playtime": [
       "30~60분",
@@ -104,6 +104,51 @@
     ]
   },
   "games": [
+    {
+      "id": "3f2aa7a1591180e182a0dc572161b39b",
+      "slug": "zapanhak-3f2aa7",
+      "ko": "자판학",
+      "en": "Zapanhak",
+      "author": "Adam Obren",
+      "desc": "바바리안의 아레나에 끌려온 마법사가 되어, 트럼프 카드로 크리처를 소환하고 주문을 걸어 몰려오는 괴물과 싸우는 1인용 카드게임",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "핸드 관리",
+        "다중 사용 카드"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2019,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6853",
+      "infoUrl": "https://boardgamegeek.com/boardgame/287823/zapanhak",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/zapanhak-3f2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/zapanhak-3f2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/zapanhak-3f2aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🏰",
+      "createdAt": "2026-10-07T10:50:00.000Z",
+      "updatedAt": "2026-10-07T10:55:00.000Z",
+      "publishedAt": "2026-10-07T10:55:58.682Z"
+    },
     {
       "id": "3f0aa7a1591180dfbf84ecf823ef174c",
       "slug": "edgar-shovelhands-3f0aa7",
