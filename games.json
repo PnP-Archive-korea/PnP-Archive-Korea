@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:47:25.755Z",
+  "generatedAt": "2026-10-08T02:19:49.792Z",
   "count": 229,
   "facets": {
     "playtime": [
@@ -499,7 +499,7 @@
     {
       "id": "3f2aa7a1591180e182a0dc572161b39b",
       "slug": "zapanhak-3f2aa7",
-      "ko": "자판학",
+      "ko": "Zapanhak",
       "en": "Zapanhak",
       "author": "Adam Obren",
       "desc": "바바리안의 아레나에 끌려온 마법사가 되어, 트럼프 카드로 크리처를 소환하고 주문을 걸어 몰려오는 괴물과 싸우는 1인용 카드게임",
@@ -539,7 +539,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏰",
       "createdAt": "2026-10-07T10:50:00.000Z",
-      "updatedAt": "2026-10-08T00:50:00.000Z",
+      "updatedAt": "2026-10-08T02:18:00.000Z",
       "publishedAt": "2026-10-07T10:55:58.682Z"
     },
     {
