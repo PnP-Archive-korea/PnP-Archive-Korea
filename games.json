@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:46:20.526Z",
+  "generatedAt": "2026-10-08T00:52:08.815Z",
   "count": 220,
   "facets": {
     "playtime": [
@@ -135,7 +135,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/287823/zapanhak",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "굉장해",
       "components": [
         "트럼프 카드",
         "큐브·토큰·미플",
@@ -147,7 +147,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏰",
       "createdAt": "2026-10-07T10:50:00.000Z",
-      "updatedAt": "2026-10-07T10:55:00.000Z",
+      "updatedAt": "2026-10-08T00:50:00.000Z",
       "publishedAt": "2026-10-07T10:55:58.682Z"
     },
     {
@@ -732,7 +732,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3712106/knowbscure-35-34-card-expansion-version-40",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "ingg",
       "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-detail.webp",
@@ -740,7 +740,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-09-08T04:30:00.000Z",
-      "updatedAt": "2026-10-06T01:47:00.000Z",
+      "updatedAt": "2026-10-08T00:48:00.000Z",
       "publishedAt": "2026-09-08T04:30:00.000Z"
     },
     {
@@ -774,7 +774,7 @@
       "infoUrl": "https://greggjewell.itch.io/galdors-grip",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "ingg",
       "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-3d4aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-3d4aa7-detail.webp",
@@ -782,7 +782,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-09-07T01:48:00.000Z",
-      "updatedAt": "2026-10-06T01:47:00.000Z",
+      "updatedAt": "2026-10-08T00:48:00.000Z",
       "publishedAt": "2026-09-07T01:48:00.000Z"
     },
     {
@@ -815,7 +815,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3530593/aleas-garden-cosy-polyomino-deckbuilding-game-winn",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "ingg",
       "components": [
         "큐브·토큰·미플"
       ],
@@ -825,7 +825,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-09-07T01:36:00.000Z",
-      "updatedAt": "2026-10-06T01:48:00.000Z",
+      "updatedAt": "2026-10-08T00:48:00.000Z",
       "publishedAt": "2026-09-07T01:36:00.000Z"
     },
     {
@@ -861,7 +861,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/351714/interplanetary-a-giant-hop-for-squeakind",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "ingg",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -872,7 +872,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🛰️",
       "createdAt": "2026-09-05T14:40:00.000Z",
-      "updatedAt": "2026-10-06T01:48:00.000Z",
+      "updatedAt": "2026-10-08T00:48:00.000Z",
       "publishedAt": "2026-09-05T14:40:00.000Z"
     },
     {
@@ -906,7 +906,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/441559/one-for-sorrow",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "ingg",
       "components": [],
       "thumb": "/assets/thumbs/one-for-sorrow-3d2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/one-for-sorrow-3d2aa7-detail.webp",
@@ -914,7 +914,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-09-05T14:24:00.000Z",
-      "updatedAt": "2026-10-06T01:48:00.000Z",
+      "updatedAt": "2026-10-08T00:48:00.000Z",
       "publishedAt": "2026-09-05T14:24:00.000Z"
     },
     {
