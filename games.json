@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:06:00.948Z",
+  "generatedAt": "2026-10-08T23:40:51.663Z",
   "count": 229,
   "facets": {
     "playtime": [
@@ -40,6 +40,7 @@
       "그리드 이동",
       "기억력",
       "기타",
+      "네트워크 및 경로 구축",
       "다중 사용 카드",
       "덱빌딩",
       "덱을 따라 이동",
@@ -3282,10 +3283,13 @@
       "age": "12세 이상",
       "mech": [
         "주사위 굴림",
-        "플립 앤 라이트/롤 앤 라이트"
+        "플립 앤 라이트/롤 앤 라이트",
+        "포인트 이동",
+        "레이스"
       ],
       "theme": [
-        "판타지"
+        "판타지",
+        "모험/탐험"
       ],
       "price": "무료",
       "year": 2022,
@@ -3307,7 +3311,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-06T01:52:00.000Z",
+      "updatedAt": "2026-10-08T23:31:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -6684,8 +6688,15 @@
       "playersMax": 3,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "세트 수집",
+        "드래프트",
+        "액션/이동 프로그래밍"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -6697,13 +6708,13 @@
       "origin": "",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/sasasaturday-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/sasasaturday-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/sasasaturday-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z",
+      "updatedAt": "2026-10-08T23:28:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -8437,15 +8448,21 @@
       "slug": "taming-slime-3b2aa7",
       "ko": "슬라임 길들이기",
       "en": "Taming Slime",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "레비테일",
+      "desc": "슬라임을 길들여 협회와 겨루는 1~4인 롤 앤 라이트 게임.",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 굴림",
+        "주사위 관리"
+      ],
+      "theme": [
+        "판타지"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8463,9 +8480,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-06T01:55:00.000Z",
+      "updatedAt": "2026-10-08T23:38:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8882,8 +8899,8 @@
       "slug": "dice-mok-3b2aa7",
       "ko": "다이스목",
       "en": "dice mok",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "이세라",
+      "desc": "주사위로 두는 2인 추상전략 4목 게임.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -8914,7 +8931,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🔷",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-09-24T00:47:00.000Z",
+      "updatedAt": "2026-10-08T23:38:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8922,15 +8939,21 @@
       "slug": "grand-surfers-3b2aa7",
       "ko": "그랜드 서퍼즈",
       "en": "Grand Surfers",
-      "author": "River Kang",
-      "desc": "",
+      "author": "리버강(River Kang)",
+      "desc": "주사위를 튕겨 파도를 넘고 물길을 타는 2~4인 서핑 레이스. 물길을 그려 내 길은 열고 경쟁자는 견제하며 가장 위대한 서퍼에 도전하세요.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "롤 앤 무브",
+        "레이스",
+        "네트워크 및 경로 구축"
+      ],
+      "theme": [
+        "스포츠"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8944,13 +8967,13 @@
       "components": [
         "필기구"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/grand-surfers-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/grand-surfers-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/grand-surfers-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-06T01:54:00.000Z",
+      "updatedAt": "2026-10-08T23:40:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
