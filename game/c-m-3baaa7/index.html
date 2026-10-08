@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="C&amp;M">C&amp;M</span></div>
   <h1 data-en="C&amp;M">C&amp;M</h1>
   <div class="en" data-en="C&amp;M">C&amp;M</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>허니버터칩</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>허니버터칩</strong></span></div>
   <div class="desc">C(시안)과 M(마젠타)가 영역 다툼을 한다는 테마의 2인 영향력 게임. 자신의 차례에 주사위 3개를 굴려 그중 2개를 선택해 보드의 알맞은 위치에 타일을 놓고, 한 줄이 차면 타일 합을 비교해 점수 타일을 얻는다.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2명</td></tr>

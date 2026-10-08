@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="Dice duel">주사위 대결</span></div>
   <h1 data-en="Dice duel">주사위 대결</h1>
   <div class="en" data-en="주사위 대결">Dice duel</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>Narsarang</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>Narsarang</strong></span></div>
   <div class="desc">주사위 대결은 주사위 10개로 즐기는 2인 전용 대결 게임입니다. 자신의 주사위는 낮게, 상대의 주사위는 높게 만들어야 합니다. 주사위를 굴려 상대를 공격하고, 다가오는 공격에 대비하세요. 자신의 공격을 상대가 받아내지 못한다면 승리합니다.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2명</td></tr>

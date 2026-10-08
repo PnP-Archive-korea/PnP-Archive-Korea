@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="a4deonjeon">a4던전</span></div>
   <h1 data-en="a4deonjeon">a4던전</h1>
   <div class="en" data-en="a4던전">a4deonjeon</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>envy_fantasy</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>envy_fantasy</strong></span></div>
   <div class="desc">2023 PnP 공모전 참가작. 던전 탐험대와 던전 관리자의 대결 구도. 탐험대는 던전 클리어, 던전관리자는 탐험대 전멸이 목표이며 둘 다 살아남은 경우 전투 후 남은 카드 합을 비교해 높은 쪽이 승리. 준비물은 A4(던전맵), 주사위 6개, 인당 생명칩 5개, 트럼프카드 한 벌.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>1-4명</td></tr>

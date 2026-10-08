@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>미궁 탈출 포커</span></div>
   <h1>미궁 탈출 포커</h1>
   
-  <div class="by"><span data-en="Designer">작가</span> · <strong>쿠쿨자</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>쿠쿨자</strong></span></div>
   <div class="desc">2023 한장짜리 PnP 공모전 제출작. 간단하면서도 랜덤성과 전략성, 협잡이 가능한 파티게임을 목표로 했으며, 플레잉 카드 한 세트만 있으면 사무공간에서도 즉각 만들어 즐길 수 있는 게임을 지향했다고 작가가 설명.</div>
   <table>
     <tr><th data-en="Release year">발표연도</th><td>2023</td></tr>

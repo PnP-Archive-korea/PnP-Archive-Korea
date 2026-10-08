@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -163,7 +165,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>고스트 404</span></div>
   <h1>고스트 404</h1>
   
-  <div class="by"><span data-en="Designer">작가</span> · <strong>실버건</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>실버건</strong></span></div>
   <div class="desc">야근으로 과부하에 걸린 선생님은 &#39;Ghost 404&#39;가 되어 버렸습니다. 선생님을 원래 모습으로 되돌릴 수 있는 방법은 단 하나, 무지개를 보여주는 것!</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2명</td></tr>
@@ -184,7 +186,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <h2 data-en="You might also like">이런 게임은 어때요?</h2>
     <div class="related-grid">
       <a class="related-card" href="https://pnparchive.com/game/등대의-밤-3c1aa7/">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#8C4A5B,#C4818F)">🔖</div>
+        <div class="related-thumb" style="background-image:url('/assets/thumbs/등대의-밤-3c1aa7-grid.webp')"></div>
         <div class="related-title">등대의 밤</div>
       </a>
       <a class="related-card" href="https://pnparchive.com/game/wayout-3baaa7/">

@@ -12,11 +12,11 @@
 <meta property="og:title" content="벽라(壁羅) · PnP 아카이브 KOREA">
 <meta property="og:description" content="3D 컴포넌트를 활용하는 점령 스타일의 2인용 RTS형 보드게임. 룰 이미지와 보드 예상 3D 이미지가 공개되어 있음.">
 <meta property="og:url" content="https://pnparchive.com/game/벽라-3baaa7/">
-<meta property="og:image" content="https://pnparchive.com/assets/og-default.png">
+<meta property="og:image" content="https://pnparchive.com/assets/thumbs/벽라-3baaa7-detail.webp">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="벽라(壁羅) · PnP 아카이브 KOREA">
 <meta name="twitter:description" content="3D 컴포넌트를 활용하는 점령 스타일의 2인용 RTS형 보드게임. 룰 이미지와 보드 예상 3D 이미지가 공개되어 있음.">
-<meta name="twitter:image" content="https://pnparchive.com/assets/og-default.png">
+<meta name="twitter:image" content="https://pnparchive.com/assets/thumbs/벽라-3baaa7-detail.webp">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJDJMDKBE0"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -155,18 +157,22 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
     <div class="lang m-lang" role="group" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
   </div>
 </header>
-<div class="hero hero-empty" aria-hidden="true">⚔️</div>
+<div class="hero">
+  <div class="hero-bg" style="background-image:url('/assets/thumbs/벽라-3baaa7-raw.webp')" aria-hidden="true"></div>
+  <img class="hero-art" src="/assets/thumbs/벽라-3baaa7-raw.webp" alt="벽라(壁羅) 표지 이미지" decoding="async">
+</div>
 <div class="wrap">
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>벽라(壁羅)</span></div>
   <h1>벽라(壁羅)</h1>
   
-  <div class="by"><span data-en="Designer">작가</span> · <strong>있주</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>있주</strong></span></div>
   <div class="desc">3D 컴포넌트를 활용하는 점령 스타일의 2인용 RTS형 보드게임. 룰 이미지와 보드 예상 3D 이미지가 공개되어 있음.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2명</td></tr>
     <tr><th data-en="Release year">발표연도</th><td>2026</td></tr>
     <tr><th data-en="Language">언어</th><td>한국어</td></tr>
-    <tr><th data-en="Main mechanism">메인 메커니즘</th><td>지역 장악</td></tr>
+    <tr><th data-en="Theme">테마</th><td>역사, 전쟁/전투, 건설</td></tr>
+    <tr><th data-en="Main mechanism">메인 메커니즘</th><td>지역 장악, 자원 관리, 카드 사용</td></tr>
     <tr><th data-en="Price">가격</th><td>무료</td></tr>
   </table>
   <div>
@@ -177,17 +183,17 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="related">
     <h2 data-en="You might also like">이런 게임은 어때요?</h2>
     <div class="related-grid">
+      <a class="related-card" href="https://pnparchive.com/game/pioneer-3eeaa7/">
+        <div class="related-thumb" style="background:linear-gradient(135deg,#1F2938,#2E3A4E)">🗺️</div>
+        <div class="related-title" data-en="PIONEER">파이오니어</div>
+      </a>
       <a class="related-card" href="https://pnparchive.com/game/dice-dominion-3baaa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#C4593A,#E0A83C)">🏯</div>
         <div class="related-title" data-en="DICE&amp;DOMINION">다이스앤도미니언</div>
       </a>
-      <a class="related-card" href="https://pnparchive.com/game/the-earth-is-ours-3baaa7/">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#2E3A4E,#5B6E8C)">🔷</div>
-        <div class="related-title" data-en="The Earth is ours!">지구는 우리 거야!</div>
-      </a>
-      <a class="related-card" href="https://pnparchive.com/game/polarit-3e2aa7/">
-        <div class="related-thumb" style="background-image:url('/assets/thumbs/polarit-3e2aa7-grid.webp')"></div>
-        <div class="related-title" data-en="Polarité">극성</div>
+      <a class="related-card" href="https://pnparchive.com/game/dice-of-three-kingdoms-3baaa7/">
+        <div class="related-thumb" style="background:linear-gradient(135deg,#1F2938,#2E3A4E)">🏯</div>
+        <div class="related-title" data-en="Dice of Three Kingdoms">삼국지 천하일투</div>
       </a>
     </div>
   </div>

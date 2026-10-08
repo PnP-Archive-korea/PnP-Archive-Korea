@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -163,7 +165,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="The Four Winds">사방에 부는 바람</span></div>
   <h1 data-en="The Four Winds">사방에 부는 바람</h1>
   <div class="en" data-en="사방에 부는 바람">The Four Winds</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>Ian Karasz</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>Ian Karasz</strong></span></div>
   <div class="desc">거친 파도와 변덕스러운 바람을 헤치고 모든 보물섬에 배를 대야 하는 팀 항해 협력 게임. 매 라운드마다 모든 플레이어가 카드를 한 장씩 내고, 네 장의 카드가 합쳐진 힘이 배가 움직일지 결정해보세요. 신뢰와 실력을 함께 발휘하여 도전을 이겨내보세요.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>3-4명</td></tr>

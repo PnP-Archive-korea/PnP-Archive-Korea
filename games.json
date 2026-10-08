@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:27:09.272Z",
+  "generatedAt": "2026-10-08T00:38:10.954Z",
   "count": 220,
   "facets": {
     "playtime": [
@@ -135,6 +135,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/287823/zapanhak",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "큐브·토큰·미플",
@@ -180,6 +181,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569329/wip-edgar-shovelhands-1p-video-avail-2025-traditio",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -221,6 +223,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2054",
       "playUrl": "https://photographer-shot-playtest.symag.chatgpt.site/",
       "origin": "국내 창작",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -260,6 +263,7 @@
       "infoUrl": "https://arca.live/b/boardgame/183712054",
       "playUrl": "https://pioneer-boardgame.pages.dev/",
       "origin": "국내 창작",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -301,6 +305,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3570031/wip-beanstalks-2025-traditional-deck-game-design-c",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -344,6 +349,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3574744/wip-alchemy-2025-traditional-deck-game-design-cont",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -383,6 +389,7 @@
       "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=605480",
       "playUrl": "https://gridcrossgame.onrender.com",
       "origin": "국내 창작",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -422,6 +429,7 @@
       "infoUrl": "https://gall.dcinside.com/mgallery/board/view/?id=bulemarble&no=613359",
       "playUrl": "https://scandinavia.today/index.html",
       "origin": "국내 창작",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/scandinavia-3e3aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/scandinavia-3e3aa7-detail.webp",
@@ -462,6 +470,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3615827/soluna-a-solo-divination-game-2025-traditional-dec",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -504,6 +513,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569557/wip-river-black-solo-blackjack-style-game-2025-tra",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -547,6 +557,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569377/wip-polarite-play-with-particles-in-this-perfect-i",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -590,6 +601,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3595594/the-four-winds-2025-traditional-deck-game-design-c",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -633,6 +645,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3576314/sol-six-orbit-lockdown-2025-traditional-deck-game",
       "playUrl": "https://playingcards.io/7gr9rz",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -675,6 +688,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3576804/wip-flock-rocks-sheep-vs-wolves-2025-traditional-g",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -718,6 +732,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3712106/knowbscure-35-34-card-expansion-version-40",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-knowbscure-3d5aa7-detail.webp",
@@ -759,6 +774,7 @@
       "infoUrl": "https://greggjewell.itch.io/galdors-grip",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/galdor-s-grip-3d4aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/galdor-s-grip-3d4aa7-detail.webp",
@@ -799,6 +815,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3530593/aleas-garden-cosy-polyomino-deckbuilding-game-winn",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "큐브·토큰·미플"
       ],
@@ -844,6 +861,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/351714/interplanetary-a-giant-hop-for-squeakind",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -888,6 +906,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/441559/one-for-sorrow",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/one-for-sorrow-3d2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/one-for-sorrow-3d2aa7-detail.webp",
@@ -929,6 +948,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3579229/against-the-clock-2025-traditional-deck-game-desig",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -968,6 +988,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2032",
       "playUrl": "",
       "origin": "국내 창작",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1008,6 +1029,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2038",
       "playUrl": "",
       "origin": "국내 창작",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -1049,6 +1071,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2010",
       "playUrl": "",
       "origin": "국내 창작",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1088,6 +1111,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3617857/wip-shadow-market-cutthroat-auction-game-2025-trad",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1127,6 +1151,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569651/wiphocken-2025-traditional-deck-game-design-contes",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1169,6 +1194,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3571024/wip-rules-of-engagement-2025-traditional-deck-desi",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1210,6 +1236,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569308/rules-ready-candles-and-cannons-light-candles-igni",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1253,6 +1280,7 @@
       "infoUrl": "https://boardgamegeek.com/thread/3569304/rules-available-sept-5-updated-swamp-manage-a-hung",
       "playUrl": "",
       "origin": "해외 번역",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -1293,6 +1321,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/q4dm7r",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -1335,6 +1364,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/고양이의-도넛공장-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/고양이의-도넛공장-3c1aa7-detail.webp",
@@ -1373,6 +1403,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/last-torch-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/last-torch-3c1aa7-detail.webp",
@@ -1411,6 +1442,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/새벽-전에-만나-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/새벽-전에-만나-3c1aa7-detail.webp",
@@ -1449,6 +1481,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/레디-포-아포칼립스-공동-방공호-3c1aa7-detail.webp",
@@ -1485,6 +1518,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/7tbcmd",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1523,6 +1557,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/요괴-퇴치회-라이트-3c1aa7-detail.webp",
@@ -1561,6 +1596,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1600,6 +1636,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1638,6 +1675,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/손가rock클라이밍-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/손가rock클라이밍-3c1aa7-detail.webp",
@@ -1676,6 +1714,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -1701,10 +1740,14 @@
       "playtime": "30~60분",
       "age": "12세 이상",
       "mech": [
-        "협력"
+        "협력",
+        "비대칭",
+        "그리드 이동",
+        "액션 포인트"
       ],
       "theme": [
-        "모험/탐험"
+        "모험/탐험",
+        "기타"
       ],
       "price": "무료",
       "year": 2026,
@@ -1715,14 +1758,15 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/등대의-밤-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/등대의-밤-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/등대의-밤-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z",
+      "updatedAt": "2026-10-08T00:33:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -1754,6 +1798,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/39v9u7",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/pengraoh-code-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/pengraoh-code-3c1aa7-detail.webp",
@@ -1791,6 +1836,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/jrbw9u",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/푸시유어장맛-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/푸시유어장맛-3c1aa7-detail.webp",
@@ -1828,6 +1874,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/destiny-high-five-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/destiny-high-five-3c1aa7-detail.webp",
@@ -1867,6 +1914,7 @@
       "infoUrl": "",
       "playUrl": "https://chonaldinho.github.io/classroom/",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1905,6 +1953,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -1943,6 +1992,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/5원소-모험-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/5원소-모험-3c1aa7-detail.webp",
@@ -1980,6 +2030,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2017,6 +2068,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2057,6 +2109,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -2098,6 +2151,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -2136,6 +2190,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/bb5vvn",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/롤더마인드-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/롤더마인드-3c1aa7-detail.webp",
@@ -2174,6 +2229,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/고스트-404-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/고스트-404-3c1aa7-detail.webp",
@@ -2212,6 +2268,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2249,6 +2306,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2285,6 +2343,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2323,6 +2382,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2004",
       "playUrl": "https://playingcards.io/a9ejnp",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -2363,6 +2423,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/nwhrk6",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/journey-of-little-prince-3c1aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/journey-of-little-prince-3c1aa7-detail.webp",
@@ -2403,6 +2464,7 @@
       "infoUrl": "https://arca.live/b/boardgame/177923314?category=%EC%9E%90%EC%9E%91&target=all&keyword=%EB%A7%88%EA%B8%B0&p=1",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/마기의-나라-카드게임-3c0aa7-detail.webp",
@@ -2441,6 +2503,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2479,6 +2542,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "필기구"
@@ -2520,6 +2584,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2559,6 +2624,7 @@
       "infoUrl": "",
       "playUrl": "https://end-of-arts-online.onrender.com/",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2597,6 +2663,7 @@
       "infoUrl": "",
       "playUrl": "https://tactics-discord-bot.onrender.com/",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2636,6 +2703,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -2678,6 +2746,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3344159065",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "주사위",
@@ -2720,6 +2789,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2755,6 +2825,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2794,6 +2865,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2832,6 +2904,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "필기구"
@@ -2871,6 +2944,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2909,6 +2983,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -2944,6 +3019,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "큐브·토큰·미플"
@@ -2984,6 +3060,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3025,6 +3102,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "큐브·토큰·미플"
@@ -3068,6 +3146,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3106,6 +3185,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "주사위"
@@ -3144,6 +3224,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -3181,6 +3262,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3219,6 +3301,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2933652054",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/hidden-hand-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/hidden-hand-3baaa7-detail.webp",
@@ -3256,6 +3339,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2878075875",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3293,6 +3377,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -3333,6 +3418,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "주사위"
@@ -3372,6 +3458,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -3416,6 +3503,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "큐브·토큰·미플"
@@ -3456,6 +3544,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -3499,6 +3588,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3537,6 +3627,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3575,6 +3666,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3611,6 +3703,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -3649,6 +3742,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3687,6 +3781,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/lupin-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/lupin-3baaa7-detail.webp",
@@ -3722,6 +3817,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3761,6 +3857,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/liar-cats-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/liar-cats-3baaa7-detail.webp",
@@ -3800,6 +3897,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -3835,6 +3933,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3870,6 +3969,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3908,6 +4008,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3943,6 +4044,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -3983,6 +4085,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4023,6 +4126,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4061,6 +4165,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4099,6 +4204,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4139,6 +4245,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -4180,6 +4287,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "주사위",
@@ -4222,6 +4330,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4260,6 +4369,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4302,6 +4412,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -4344,6 +4455,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/jzcmxy",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/cbg-run-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/cbg-run-3baaa7-detail.webp",
@@ -4383,6 +4495,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4418,6 +4531,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4456,6 +4570,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4491,6 +4606,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4531,6 +4647,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -4571,6 +4688,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4608,6 +4726,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4645,6 +4764,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4684,6 +4804,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4723,6 +4844,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4759,6 +4881,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4798,6 +4921,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4840,6 +4964,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4881,6 +5006,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -4920,6 +5046,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4958,6 +5085,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -4996,6 +5124,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -5034,6 +5163,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "큐브·토큰·미플"
       ],
@@ -5074,6 +5204,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5109,6 +5240,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -5146,6 +5278,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5184,6 +5317,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5221,6 +5355,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5258,6 +5393,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5296,6 +5432,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5334,6 +5471,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5369,6 +5507,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -5409,6 +5548,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5446,6 +5586,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646182619",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5483,6 +5624,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5520,6 +5662,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/sky-spy-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/sky-spy-3baaa7-detail.webp",
@@ -5557,6 +5700,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5594,6 +5738,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5632,6 +5777,7 @@
       "infoUrl": "",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572033151",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/rats-party-3baaa7-grid.webp",
       "thumbLarge": "/assets/thumbs/rats-party-3baaa7-detail.webp",
@@ -5665,6 +5811,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1946&pg=1",
       "playUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5703,6 +5850,7 @@
       "infoUrl": "",
       "playUrl": "https://stack6.netlify.app",
       "origin": "",
+      "translator": "",
       "components": [
         "큐브·토큰·미플"
       ],
@@ -5742,6 +5890,7 @@
       "infoUrl": "",
       "playUrl": "https://capybara.tiiny.site/",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5775,6 +5924,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5810,6 +5960,7 @@
       "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1875",
       "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3632596861",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -5833,9 +5984,15 @@
       "playtime": "",
       "age": "",
       "mech": [
-        "지역 장악"
+        "지역 장악",
+        "자원 관리",
+        "카드 사용"
       ],
-      "theme": [],
+      "theme": [
+        "역사",
+        "전쟁/전투",
+        "건설"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -5845,14 +6002,15 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/벽라-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/벽라-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/벽라-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🏯",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-08-18T01:27:00.000Z",
+      "updatedAt": "2026-10-08T00:30:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -5884,6 +6042,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -5924,6 +6083,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "필기구"
@@ -5965,6 +6125,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/doodadada-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/doodadada-3b2aa7-detail.webp",
@@ -5998,6 +6159,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6031,6 +6193,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6072,6 +6235,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6105,6 +6269,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6138,6 +6303,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6180,6 +6346,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/dragon-x-dragon-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dragon-x-dragon-3b2aa7-detail.webp",
@@ -6213,6 +6380,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6235,8 +6403,15 @@
       "playersMax": 3,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "푸시 유어 럭",
+        "세트 수집"
+      ],
+      "theme": [
+        "유머/파티",
+        "카드게임",
+        "기타"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -6244,16 +6419,17 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1771&game=20629",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/qh9vgm",
       "origin": "",
+      "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/hide-n-seek-world-champ-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/hide-n-seek-world-champ-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/hide-n-seek-world-champ-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-12T06:57:00.000Z",
+      "updatedAt": "2026-10-08T00:34:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6283,6 +6459,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/rmut44",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/dragon-mountain-dungeon-3b2aa7-detail.webp",
@@ -6316,6 +6493,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6354,6 +6532,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -6389,6 +6568,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6422,6 +6602,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6455,6 +6636,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6494,6 +6676,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6529,6 +6712,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/koala-party-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/koala-party-3b2aa7-detail.webp",
@@ -6568,6 +6752,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/gsp72p",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -6609,6 +6794,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6648,6 +6834,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/j82xmz",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -6686,6 +6873,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -6721,6 +6909,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -6764,6 +6953,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/a2dynx",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6802,6 +6992,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6835,6 +7026,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6852,15 +7044,21 @@
       "en": "King Of Landscaping",
       "author": "김기만",
       "desc": "트럼프 왕국의 조경의 왕이 되어라!",
-      "players": "2명",
-      "playersMin": 2,
-      "playersMax": 2,
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
       "playtime": "",
       "age": "",
       "mech": [
-        "주사위 굴림"
+        "플립 앤 라이트/롤 앤 라이트",
+        "드래프트",
+        "주사위 굴림",
+        "솔로/솔로테어 게임"
       ],
-      "theme": [],
+      "theme": [
+        "퍼즐",
+        "기타"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -6870,6 +7068,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6877,7 +7076,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-09-09T00:35:00.000Z",
+      "updatedAt": "2026-10-08T00:26:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -6903,6 +7102,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -6941,6 +7141,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/b5a37g",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -6980,6 +7181,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7013,6 +7215,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7052,6 +7255,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/railway-connection-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/railway-connection-3b2aa7-detail.webp",
@@ -7090,6 +7294,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -7127,6 +7332,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7165,6 +7371,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -7202,6 +7409,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7237,6 +7445,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/3g2aa8",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -7279,6 +7488,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "트럼프 카드"
@@ -7320,6 +7530,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/casting-vote-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/casting-vote-3b2aa7-detail.webp",
@@ -7358,6 +7569,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/6amurz",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드"
       ],
@@ -7396,6 +7608,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "필기구"
@@ -7432,6 +7645,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7473,6 +7687,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "필기구"
@@ -7509,6 +7724,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7550,6 +7766,7 @@
       "infoUrl": "",
       "playUrl": "https://playingcards.io/5wwtfu",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": "/assets/thumbs/operation-homecoming-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/operation-homecoming-3b2aa7-detail.webp",
@@ -7583,6 +7800,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7616,6 +7834,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "트럼프 카드",
         "필기구"
@@ -7659,6 +7878,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7692,6 +7912,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7734,6 +7955,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7767,6 +7989,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -7806,6 +8029,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7839,6 +8063,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -7874,6 +8099,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7907,6 +8133,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -7947,6 +8174,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -7984,6 +8212,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8022,6 +8251,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8061,6 +8291,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8094,6 +8325,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8127,6 +8359,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8166,6 +8399,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8206,6 +8440,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8239,6 +8474,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8278,6 +8514,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8311,6 +8548,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "필기구"
       ],
@@ -8353,6 +8591,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8393,6 +8632,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,
@@ -8431,6 +8671,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위"
       ],
@@ -8474,6 +8715,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [
         "주사위",
         "필기구"
@@ -8516,6 +8758,7 @@
       "infoUrl": "",
       "playUrl": "",
       "origin": "",
+      "translator": "",
       "components": [],
       "thumb": null,
       "thumbLarge": null,

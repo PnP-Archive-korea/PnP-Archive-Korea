@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>참거짓 셋둘하나</span></div>
   <h1>참거짓 셋둘하나</h1>
   
-  <div class="by"><span data-en="Designer">작가</span> · <strong>접짝</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>접짝</strong></span></div>
   <div class="desc">원래 명칭은 &#39;탐정의 후계자&#39; 및 &#39;네가 키라다&#39;. 어느 명탐정이 죽고 그 후계자를 정하기 위해 겨루는 배경의 추리 게임. 검증 막대 4인분을 만들 수 있는 PnP 자료가 추가되었으며, 지속적으로 용의자 이름과 설정이 개정되고 있다. 0718 판본은 서울 회기 미플 보드게임 카페에 비치.</div>
   <table>
     <tr><th data-en="Release year">발표연도</th><td>2023</td></tr>

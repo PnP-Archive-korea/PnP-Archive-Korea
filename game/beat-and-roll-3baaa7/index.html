@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="Beat and Roll">비트 엔 롤</span></div>
   <h1 data-en="Beat and Roll">비트 엔 롤</h1>
   <div class="en" data-en="비트 엔 롤">Beat and Roll</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>천문부 서부지부</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>천문부 서부지부</strong></span></div>
   <div class="desc">2025 PnP 공모전 참가작. 요트 다이스 룰을 이용한 심리전 게임. 플레이어들은 협력해 주사위 족보를 만들어가며 자신이 선택한 족보가 만들어지도록 유도하되, 모두 같은 족보를 골랐을 경우 &#39;비트 선언&#39;으로 혼자 점수를 독식할 수 있다. 준비물은 인쇄한 족보 안내서·점수판과 육면체 주사위 5개 등.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>3-4명</td></tr>

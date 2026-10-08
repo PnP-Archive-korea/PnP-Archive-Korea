@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="Hocken">호켄</span></div>
   <h1 data-en="Hocken">호켄</h1>
   <div class="en" data-en="호켄">Hocken</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>Iffix Y Santaph</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>Iffix Y Santaph</strong></span></div>
   <div class="desc">점수를 적게 모아야 이기는 카드 수집 게임. 이미 모은 같은 슈트의 카드보다 낮거나 높은 카드를 모아야해서, 고를 수 있는 범위가 점점 좁아진다. 라운드가 끝나면 슈트 별 가장 낮은 카드의 합이 그대로 벌점이 된다.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2-6명</td></tr>
@@ -186,13 +188,13 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
         <div class="related-thumb" style="background:linear-gradient(135deg,#2E3A4E,#5B6E8C)">🏙️</div>
         <div class="related-title" data-en="Lord of Korean food">한식의 대왕</div>
       </a>
+      <a class="related-card" href="https://pnparchive.com/game/벽라-3baaa7/">
+        <div class="related-thumb" style="background-image:url('/assets/thumbs/벽라-3baaa7-grid.webp')"></div>
+        <div class="related-title">벽라(壁羅)</div>
+      </a>
       <a class="related-card" href="https://pnparchive.com/game/rule-making-poker-3baaa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#C4593A,#E0A83C)">🃏</div>
         <div class="related-title" data-en="Rule Making Poker">룰 메이킹 포커</div>
-      </a>
-      <a class="related-card" href="https://pnparchive.com/game/candles-cannons-3c9aa7/">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#7A5C3E,#A8845C)">🎯</div>
-        <div class="related-title" data-en="Candles&amp;Cannons">양초 &amp; 대포</div>
       </a>
     </div>
   </div>

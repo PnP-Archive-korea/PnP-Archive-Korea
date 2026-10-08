@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="PIONEER">파이오니어</span></div>
   <h1 data-en="PIONEER">파이오니어</h1>
   <div class="en" data-en="파이오니어">PIONEER</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>ruleeZ</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>ruleeZ</strong></span></div>
   <div class="desc">자원을 확보하고 문명을 발전시키며 카드와 불가사의를 활용해 가장 높은 승점을 노리는 보드게임</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>1-4명</td></tr>
@@ -180,6 +182,10 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="related">
     <h2 data-en="You might also like">이런 게임은 어때요?</h2>
     <div class="related-grid">
+      <a class="related-card" href="https://pnparchive.com/game/벽라-3baaa7/">
+        <div class="related-thumb" style="background-image:url('/assets/thumbs/벽라-3baaa7-grid.webp')"></div>
+        <div class="related-title">벽라(壁羅)</div>
+      </a>
       <a class="related-card" href="https://pnparchive.com/game/rules-of-engagement-3c9aa7/">
         <div class="related-thumb" style="background-image:url('/assets/thumbs/rules-of-engagement-3c9aa7-grid.webp')"></div>
         <div class="related-title" data-en="Rules of Engagement">교전규칙</div>
@@ -187,10 +193,6 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
       <a class="related-card" href="https://pnparchive.com/game/하드워크-트럼프카드-버전-3baaa7/">
         <div class="related-thumb" style="background:linear-gradient(135deg,#5B6E8C,#8A9BB8)">🏙️</div>
         <div class="related-title">하드워크(트럼프카드 버전)</div>
-      </a>
-      <a class="related-card" href="https://pnparchive.com/game/taekgyeon-competition-3b2aa7/">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#8C4A5B,#C4818F)">🔖</div>
-        <div class="related-title" data-en="Taekgyeon Competition">택견 겨루기</div>
       </a>
     </div>
   </div>

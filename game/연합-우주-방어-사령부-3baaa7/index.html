@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span>연합 우주 방어 사령부</span></div>
   <h1>연합 우주 방어 사령부</h1>
   
-  <div class="by"><span data-en="Designer">작가</span> · <strong>조이헌터(조재형)</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>조이헌터(조재형)</strong></span></div>
   <div class="desc">1~3인 플레이 가능한 협력 RPG 디펜스 게임. 플레이어들은 우주방어 사령부의 지휘관으로서 인류 거주 행성이 공격받을 때 전투 지역에 파견되어 요원을 이끌고 침략자를 막는다. 규칙서와 1인플 Print n Play 자료가 보드라이프 자료실에 게재되어 있다고 작가가 안내. 작가의 전작은 &#39;크리드&#39;.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>1-3인</td></tr>

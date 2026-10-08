@@ -94,7 +94,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -160,7 +162,7 @@ footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-si
   <div class="crumb"><a href="https://pnparchive.com/#/archive" data-en="Game Archive">게임 아카이브</a> › <span data-en="Battle of Small Land">작은 땅 전투</span></div>
   <h1 data-en="Battle of Small Land">작은 땅 전투</h1>
   <div class="en" data-en="작은 땅 전투">Battle of Small Land</div>
-  <div class="by"><span data-en="Designer">작가</span> · <strong>구룡이</strong></div>
+  <div class="by"><span class="by-item"><span data-en="Designer">작가</span> · <strong>구룡이</strong></span></div>
   <div class="desc">2023 PnP 공모전 참가작. 병사를 뽑아 전투하고 상대의 성채 체력을 0으로 만들어 파괴하면 승리하는 게임. 준비물은 게임판, 모든 무늬 A·2~6 플레잉 카드 2세트, 빨간색·파란색 주사위 각 8개.</div>
   <table>
     <tr><th data-en="Players">인원수</th><td>2명</td></tr>
