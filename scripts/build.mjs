@@ -100,6 +100,15 @@ async function fetchAllPages() {
 // ─────────────────────────────────────────────
 const plain = (rich) => (rich || []).map((t) => t.plain_text).join("").trim();
 
+// "A,B ,  C" → "A, B, C" (빈 이름·공백 정리)
+function normalizeNames(v) {
+  return String(v || "")
+    .split(/[,，、]/)
+    .map((x) => x.trim())
+    .filter(Boolean)
+    .join(", ");
+}
+
 function read(props, name) {
   const p = props[name];
   if (!p) return null;
@@ -271,6 +280,10 @@ function transform(page) {
     playUrl: read(p, "온라인 플레이 링크") || "",
     // 출처: "국내 창작" / "해외 번역" (비어 있으면 필터·배지에 나타나지 않음)
     origin: read(p, "출처") || "",
+    // 번역자: 해외 번역작의 한국어 번역자(Notion '번역자', 텍스트). 여러 명이면
+    // 쉼표로 구분해 입력 → "A, B"로 정리. 출처가 '해외 번역'인 게임만 내보내고,
+    // 비어 있으면 카드·상세 페이지에 번역자 표기가 나오지 않습니다.
+    translator: read(p, "출처") === "해외 번역" ? normalizeNames(read(p, "번역자")) : "",
     // 공용 기물: 인쇄물 외에 따로 준비해야 하는 시판 기물(트럼프 카드/주사위/
     // 큐브·토큰·미플/필기구). 비어 있으면 필터·스펙 표에 나타나지 않습니다.
     // 주의: "공용 기물 근거"는 운영용 내부 메모라 내보내지 않습니다.
@@ -460,7 +473,10 @@ function siteHeaderHtml(g) {
 function gamePageHtml(g, related) {
   const title = `${g.ko}${g.en ? ` (${g.en})` : ""} · PnP 아카이브 KOREA`;
   const desc =
-    g.desc || `${g.ko} — ${g.author || "작자 미상"}의 한국 창작 PnP 보드게임.`;
+    g.desc ||
+    (g.origin === "해외 번역"
+      ? `${g.ko} — ${g.author || "작자 미상"}의 PnP 보드게임 한국어판${g.translator ? `(번역: ${g.translator})` : ""}.`
+      : `${g.ko} — ${g.author || "작자 미상"}의 한국 창작 PnP 보드게임.`);
   const canonical = `${SITE_URL}/game/${g.slug}/`;
   // og:image는 카드용(그리드, 600×450)보다 해상도가 큰 상세용(1200×900)을 우선 사용.
   const image =
@@ -585,7 +601,9 @@ a{color:inherit}
 .crumb a{color:var(--gold-deep);text-decoration:none;font-weight:700}
 h1{font-size:clamp(30px,5vw,46px);font-weight:900;letter-spacing:-.045em;line-height:1.2}
 .en{color:var(--muted);font-family:Outfit,"Noto Sans KR",sans-serif;font-weight:600;font-size:17px;margin-top:6px}
-.by{margin-top:12px;font-size:15px;color:var(--muted)}
+.by{margin-top:12px;font-size:15px;color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:4px 0}
+.by-tr::before{content:"";display:inline-block;width:1px;height:12px;background:var(--line-strong);margin:0 12px;vertical-align:-1px}
+@media(max-width:600px){.by{flex-direction:column;align-items:flex-start}.by-tr::before{display:none}}
 .desc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;margin:28px 0;white-space:pre-wrap}
 table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 th,td{text-align:left;padding:13px 20px;font-size:15px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -617,7 +635,11 @@ ${heroHtml(g)}
   <div class="crumb"><a href="${escHtml(SITE_URL)}/#/archive"${enAttr("Game Archive")}>게임 아카이브</a> › <span${enAttr(g.en)}>${escHtml(g.ko)}</span></div>
   <h1${enAttr(g.en)}>${escHtml(g.ko)}</h1>
   ${g.en ? `<div class="en"${enAttr(g.ko)}>${escHtml(g.en)}</div>` : ""}
-  <div class="by"><span${enAttr("Designer")}>작가</span> · <strong${g.author ? "" : enAttr("Unknown")}>${escHtml(g.author || "작자 미상")}</strong></div>
+  <div class="by"><span class="by-item"><span${enAttr("Designer")}>작가</span> · <strong${g.author ? "" : enAttr("Unknown")}>${escHtml(g.author || "작자 미상")}</strong></span>${
+    g.translator
+      ? `<span class="by-item by-tr"><span${enAttr("Translator")}>번역</span> · <strong>${escHtml(g.translator)}</strong></span>`
+      : ""
+  }</div>
   ${g.desc ? `<div class="desc">${escHtml(g.desc)}</div>` : ""}
   <table>
     ${spec
