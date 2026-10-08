@@ -1084,7 +1084,7 @@ const EN = {
   "시안 확인용 · 신작 개수":"Preview only · new game count", "시안 확인용 신작 개수":"Preview: new game count",
   // archive / translated
   "한국어 PnP 게임을 검색하고 발견해 보세요.":"Search and discover Korean-language PnP games.",
-  "게임 이름, 작가로 검색":"Search by title or designer", "번역 게임 이름, 원작자, 번역자로 검색":"Search by title, designer or translator", "번역":"Translated by",
+  "게임 이름, 작가로 검색":"Search by title or designer", "번역 게임 이름, 원작자, 번역자로 검색":"Search by title, designer or translator", "번역자":"Translator",
   "개의 게임":" games", "개의 번역 게임":" translated games", "필터":"Filters", "정렬":"Sort", "검색 결과":"Search results",
   "최신 등록순":"Newest first", "발표연도순":"By release year", "이름순":"By name",
   "해외 창작자의 허가를 받아 한국어로 옮긴 PnP 게임만 모았어요.":"Only PnP games translated into Korean with permission from their original creators.",
@@ -1379,11 +1379,11 @@ const hash = s => [...String(s)].reduce((h,c)=> (h*31 + c.codePointAt(0)) >>> 0,
 const ic = n => `<i data-lucide="${n}" class="ic"></i>`;
 const icons = () => { try { lucide.createIcons({ attrs: { "stroke-width": 1.75 } }); } catch (e) {} };
 
-// 작가 줄: "작가 · 번역 번역자" (번역자는 해외 번역작에 Notion '번역자' 값이 있을 때만)
+// 작가 줄: "작가 · 번역자 이름" (번역자는 해외 번역작에 Notion '번역자' 값이 있을 때만)
 // .author에는 작가 이름만 넣는다 — 데일리 소개 스킬이 .author 텍스트를 작가로 읽음
 function byLine(g){
-  const tl = g.tl ? `<span class="tl"> · ${T("번역")} ${esc(g.tl)}</span>` : "";
-  const full = g.tl ? `${g.a} · ${T("번역")} ${g.tl}` : g.a;
+  const tl = g.tl ? `<span class="tl"> · ${T("번역자")} ${esc(g.tl)}</span>` : "";
+  const full = g.tl ? `${g.a} · ${T("번역자")} ${g.tl}` : g.a;
   return `<p class="by" title="${esc(full)}"><span class="author">${esc(g.a)}</span>${tl}</p>`;
 }
 // game-card / author 클래스는 운영 도구(데일리 소개 스킬)가 홈에서 카드를 읽을 때 쓰므로 유지
