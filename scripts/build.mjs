@@ -475,7 +475,7 @@ function gamePageHtml(g, related) {
   const desc =
     g.desc ||
     (g.origin === "해외 번역"
-      ? `${g.ko} — ${g.author || "작자 미상"}의 PnP 보드게임 한국어판${g.translator ? `(번역: ${g.translator})` : ""}.`
+      ? `${g.ko} — ${g.author || "작자 미상"}의 PnP 보드게임 한국어판${g.translator ? `(번역자: ${g.translator})` : ""}.`
       : `${g.ko} — ${g.author || "작자 미상"}의 한국 창작 PnP 보드게임.`);
   const canonical = `${SITE_URL}/game/${g.slug}/`;
   // og:image는 카드용(그리드, 600×450)보다 해상도가 큰 상세용(1200×900)을 우선 사용.
@@ -637,7 +637,7 @@ ${heroHtml(g)}
   ${g.en ? `<div class="en"${enAttr(g.ko)}>${escHtml(g.en)}</div>` : ""}
   <div class="by"><span class="by-item"><span${enAttr("Designer")}>작가</span> · <strong${g.author ? "" : enAttr("Unknown")}>${escHtml(g.author || "작자 미상")}</strong></span>${
     g.translator
-      ? `<span class="by-item by-tr"><span${enAttr("Translator")}>번역</span> · <strong>${escHtml(g.translator)}</strong></span>`
+      ? `<span class="by-item by-tr"><span${enAttr("Translator")}>번역자</span> · <strong>${escHtml(g.translator)}</strong></span>`
       : ""
   }</div>
   ${g.desc ? `<div class="desc">${escHtml(g.desc)}</div>` : ""}
