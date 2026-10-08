@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T00:59:30.863Z",
-  "count": 220,
+  "generatedAt": "2026-10-08T01:47:25.755Z",
+  "count": 229,
   "facets": {
     "playtime": [
       "30~60분",
@@ -59,6 +59,7 @@
       "액션 포인트",
       "액션/이동 프로그래밍",
       "인핸드",
+      "일꾼 놓기",
       "자리 교환",
       "자원 관리",
       "조립 보드",
@@ -104,6 +105,397 @@
     ]
   },
   "games": [
+    {
+      "id": "3f3aa7a159118120afe2db532c3444cd",
+      "slug": "barbarian-vince-3f3aa7",
+      "ko": "바바리안 빈스",
+      "en": "Barbarian Vince",
+      "author": "Rocco Privetera",
+      "desc": "아버지를 떠나 홀로 서게 된 바바리안 빈스가 되어 대륙을 떠도는 1인용 카드 모험 게임.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "탐험",
+        "솔로/솔로테어 게임",
+        "핸드 관리"
+      ],
+      "theme": [
+        "판타지",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2012,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6867",
+      "infoUrl": "https://boardgamegeek.com/boardgame/244502/barbarian-vince",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [],
+      "thumb": "/assets/thumbs/barbarian-vince-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/barbarian-vince-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/barbarian-vince-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🏰",
+      "createdAt": "2026-10-08T01:29:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a15911815a9bcafbae86d76370",
+      "slug": "unsuspected-3f3aa7",
+      "ko": "Unsuspected",
+      "en": "Unsuspected",
+      "author": "Iffix Y. Santaph",
+      "desc": "사건을 맡은 탐정이 되어 용의자 7명 중 범인을 찾아내는 1인용 추리 카드게임. 범인은 덱 맨 아래 카드이고, 손패를 내고 본 카드를 기억하며 용의자를 하나씩 지워 나갑니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "추리",
+        "핸드 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2020,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6965",
+      "infoUrl": "https://boardgamegeek.com/thread/2477734/wipunsuspected2020-solitaire-pnp-design-contestpla",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [
+        "큐브·토큰·미플"
+      ],
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🏙️",
+      "createdAt": "2026-10-08T01:29:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181ae9c7ce44c9e113c18",
+      "slug": "9-card-siege-3f3aa7",
+      "ko": "9 카드 공성전",
+      "en": "9 Card Siege",
+      "author": "Chris Hansen II",
+      "desc": "포위된 요새의 수비대장이 되어 지원군이 도착할 때까지 사흘을 버티는 1인용 마이크로 워게임. 카드 9장과 큐브, 주사위 하나로 행동 포인트를 나눠 사용합니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "주사위 굴림",
+        "액션 포인트",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "역사",
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2017,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6847",
+      "infoUrl": "https://boardgamegeek.com/boardgame/224596/9-card-siege",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [
+        "큐브·토큰·미플",
+        "주사위"
+      ],
+      "thumb": "/assets/thumbs/9-card-siege-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/9-card-siege-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/9-card-siege-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🏯",
+      "createdAt": "2026-10-08T01:29:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181389cf3d03711f1aa37",
+      "slug": "maverick-3f3aa7",
+      "ko": "Maverick",
+      "en": "Maverick",
+      "author": "Gregg Jewell",
+      "desc": "마을 사람들에게 고용된 몬스터 사냥꾼이 되어 던전 복도에 줄지어 선 몬스터 13마리를 소탕하는 1인용 카드게임.",
+      "players": "1-2명",
+      "playersMin": 1,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "핸드 관리",
+        "솔로/솔로테어 게임",
+        "다중 사용 카드"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2020,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6857",
+      "infoUrl": "https://boardgamegeek.com/boardgame/311319/maverick",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [],
+      "thumb": "/assets/thumbs/maverick-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/maverick-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/maverick-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🏰",
+      "createdAt": "2026-10-08T01:27:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181d08267e308cb2ee194",
+      "slug": "bury-me-in-the-rift-3f3aa7",
+      "ko": "Bury Me in the Rift",
+      "en": "Bury Me in the Rift",
+      "author": "Matthew Bishop",
+      "desc": "메카 두 대로 거대 괴수에게서 도시를 지키는 1인용 전술 게임.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "12세 이상",
+      "mech": [
+        "그리드 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "SF",
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2019,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6835",
+      "infoUrl": "https://boardgamegeek.com/boardgame/298359/bury-me-in-the-rift",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/bury-me-in-the-rift-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/bury-me-in-the-rift-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/bury-me-in-the-rift-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🛰️",
+      "createdAt": "2026-10-08T01:27:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181de93c0e2cd144cc55e",
+      "slug": "ragemore-3f3aa7",
+      "ko": "Ragemore",
+      "en": "Ragemore",
+      "author": "Bojan Prakljacic",
+      "desc": "마을을 덮친 악에 맞서 일행을 이끌고 마지막 퀘스트에 나섭니다. 카드 18장으로 적과 싸우거나 퀘스트를 풀어 동료를 모으세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "세트 수집",
+        "솔로/솔로테어 게임",
+        "다중 사용 카드"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2020,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6816",
+      "infoUrl": "https://boardgamegeek.com/boardgame/269420/ragemore",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [],
+      "thumb": "/assets/thumbs/ragemore-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/ragemore-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/ragemore-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🏰",
+      "createdAt": "2026-10-08T01:27:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a159118117a371e01ff31108a4",
+      "slug": "a-rusty-throne-3f3aa7",
+      "ko": "녹슨 왕좌",
+      "en": "A Rusty Throne",
+      "author": "Barny Skinner",
+      "desc": "아버지를 처형한 미치광이 왕에게 맞서 반란을 일으킨 북부 영주가 되는 1인용 카드 워게임.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "지역 장악",
+        "솔로/솔로테어 게임",
+        "다중 사용 카드",
+        "핸드 관리"
+      ],
+      "theme": [
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2019,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6848",
+      "infoUrl": "https://boardgamegeek.com/boardgame/306906/a-rusty-throne",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/a-rusty-throne-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/a-rusty-throne-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/a-rusty-throne-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-10-08T01:26:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181cfbc14e4dbf1db6a91",
+      "slug": "count-of-nine-3f3aa7",
+      "ko": "Count of Nine",
+      "en": "Count of Nine",
+      "author": "Scott Allen Czysz",
+      "desc": "작은 영지 '나인'의 백작이 되어 9장의 양면 카드로 영지를 키우는 1인용 카드게임.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "자원 관리",
+        "솔로/솔로테어 게임",
+        "다중 사용 카드"
+      ],
+      "theme": [
+        "건설",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2019,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6825",
+      "infoUrl": "https://boardgamegeek.com/boardgame/247778/count-of-nine",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "굉장해",
+      "components": [],
+      "thumb": "/assets/thumbs/count-of-nine-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/count-of-nine-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/count-of-nine-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-10-08T01:26:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
+    {
+      "id": "3f3aa7a1591181d98b09d737a10962f4",
+      "slug": "your-name-here-and-the-argonauts-3f3aa7",
+      "ko": "(당신의 이름)과 아르고노트",
+      "en": "(Your Name Here) and the Argonauts",
+      "author": "Mike Arlington",
+      "desc": "그리스 신화의 영웅이 되어 괴물을 물리치고 보물을 찾는 1인용 모험 카드게임.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "주사위 굴림",
+        "솔로/솔로테어 게임",
+        "일꾼 놓기"
+      ],
+      "theme": [
+        "판타지",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2012,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=10927",
+      "infoUrl": "https://boardgamegeek.com/boardgame/128568/your-name-here-and-the-argonauts",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "Tararra",
+      "components": [
+        "주사위",
+        "필기구",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/your-name-here-and-the-argonauts-3f3aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/your-name-here-and-the-argonauts-3f3aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/your-name-here-and-the-argonauts-3f3aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🏰",
+      "createdAt": "2026-10-08T01:26:00.000Z",
+      "updatedAt": "2026-10-08T01:46:00.000Z",
+      "publishedAt": "2026-10-08T01:47:14.057Z"
+    },
     {
       "id": "3f2aa7a1591180e182a0dc572161b39b",
       "slug": "zapanhak-3f2aa7",
