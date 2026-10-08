@@ -890,9 +890,9 @@ footer{margin-top:clamp(72px,10vw,128px);border-top:1px solid var(--line);paddin
       <div class="title-row"><h1>해외 번역 PnP</h1><span class="title-count"><b id="trCount">–</b>개의 번역 게임</span></div>
       <p>해외 창작자의 허가를 받아 한국어로 옮긴 PnP 게임만 모았어요.</p>
       <div class="arch-search">
-        <label class="sr" for="tQ">번역 게임 이름, 원작자로 검색</label>
+        <label class="sr" for="tQ">번역 게임 이름, 원작자, 번역자로 검색</label>
         <i data-lucide="search" class="ic"></i>
-        <input class="field b-q" id="tQ" type="search" placeholder="번역 게임 이름, 원작자로 검색">
+        <input class="field b-q" id="tQ" type="search" placeholder="번역 게임 이름, 원작자, 번역자로 검색">
       </div>
     </header>
     <div class="arch">
@@ -1084,7 +1084,7 @@ const EN = {
   "시안 확인용 · 신작 개수":"Preview only · new game count", "시안 확인용 신작 개수":"Preview: new game count",
   // archive / translated
   "한국어 PnP 게임을 검색하고 발견해 보세요.":"Search and discover Korean-language PnP games.",
-  "게임 이름, 작가로 검색":"Search by title or designer", "번역 게임 이름, 원작자로 검색":"Search by title or original designer",
+  "게임 이름, 작가로 검색":"Search by title or designer", "번역 게임 이름, 원작자, 번역자로 검색":"Search by title, designer or translator", "번역":"Translated by",
   "개의 게임":" games", "개의 번역 게임":" translated games", "필터":"Filters", "정렬":"Sort", "검색 결과":"Search results",
   "최신 등록순":"Newest first", "발표연도순":"By release year", "이름순":"By name",
   "해외 창작자의 허가를 받아 한국어로 옮긴 PnP 게임만 모았어요.":"Only PnP games translated into Korean with permission from their original creators.",
@@ -1358,7 +1358,7 @@ document.addEventListener("click", e => {
 let GAMES = [], TR = [], META = { generatedAt: null }, LOADED = false, LOAD_ERROR = false;
 function adapt(r){
   return {
-    id: r.id, slug: r.slug || "", t: r.ko || "", en: r.en || "", a: r.author || "", p: r.price || "무료",
+    id: r.id, slug: r.slug || "", t: r.ko || "", en: r.en || "", a: r.author || "", tl: r.translator || "", p: r.price || "무료",
     tr: r.origin === TRANSLATED_ORIGIN, pl: r.players || "", plMin: r.playersMin, plMax: r.playersMax ?? r.playersMin,
     tm: r.playtime || "", age: r.age ? [r.age] : [], th: r.theme || [], me: r.mech || [], lg: r.lang || [], cp: r.components || [],
     e: r.icon || "🎲", thumb: r.thumb || "", createdAt: r.createdAt || "", publishedAt: r.publishedAt || "", year: r.year || 0
@@ -1379,6 +1379,13 @@ const hash = s => [...String(s)].reduce((h,c)=> (h*31 + c.codePointAt(0)) >>> 0,
 const ic = n => `<i data-lucide="${n}" class="ic"></i>`;
 const icons = () => { try { lucide.createIcons({ attrs: { "stroke-width": 1.75 } }); } catch (e) {} };
 
+// 작가 줄: "작가 · 번역 번역자" (번역자는 해외 번역작에 Notion '번역자' 값이 있을 때만)
+// .author에는 작가 이름만 넣는다 — 데일리 소개 스킬이 .author 텍스트를 작가로 읽음
+function byLine(g){
+  const tl = g.tl ? `<span class="tl"> · ${T("번역")} ${esc(g.tl)}</span>` : "";
+  const full = g.tl ? `${g.a} · ${T("번역")} ${g.tl}` : g.a;
+  return `<p class="by" title="${esc(full)}"><span class="author">${esc(g.a)}</span>${tl}</p>`;
+}
 // game-card / author 클래스는 운영 도구(데일리 소개 스킬)가 홈에서 카드를 읽을 때 쓰므로 유지
 function gameCard(g){
   const [c1,c2,ci] = COVERS[hash(g.id || g.t) % COVERS.length];
@@ -1389,7 +1396,7 @@ function gameCard(g){
   return `<a class="gc game-card" href="${esc(href(g))}">
     <div class="cover${img?" has-img":""}" style="--c1:${c1};--c2:${c2};--ci:${ci}${coverStyle}">${cover}</div>
     <div class="gc-body"><div class="gc-top"><h3>${esc(TT(g))}</h3><span class="price">${esc(TG(g.p))}</span></div>
-    <p class="by author">${esc(g.a)}</p>${tags ? `<div class="tags">${tags}</div>` : ""}</div></a>`;
+    ${byLine(g)}${tags ? `<div class="tags">${tags}</div>` : ""}</div></a>`;
 }
 const skeletons = n => Array.from({length:n}, () => `<div class="gc sk" aria-hidden="true"><div class="cover"></div><div class="gc-body"><i></i><i></i></div></div>`).join("");
 
@@ -1421,7 +1428,7 @@ function newThisWeek(){
 function ncard(g){
   const chips = [["users", g.pl], ["clock", g.tm], ["shapes", g.th[0]], ["puzzle", g.me[0]]].filter(r => r[1]);
   return `<a class="ncard" href="${esc(href(g))}">
-    <h3>${esc(TT(g))}</h3><p class="by">${esc(g.a)}</p>
+    <h3>${esc(TT(g))}</h3>${byLine(g)}
     <div class="nchips">${chips.map(([i,v])=>`<span class="nchip">${ic(i)}<span class="nt">${esc(TG(v))}</span></span>`).join("")}</div></a>`;
 }
 function renderDeal(){
@@ -1521,7 +1528,7 @@ function makeBrowser(root, base, pid){
 
   const passes = (g, skip) => {
     const q = st.q.trim().toLowerCase();
-    if (q && ![g.t, g.en||"", g.a].some(x=>x.toLowerCase().includes(q))) return false;
+    if (q && ![g.t, g.en||"", g.a, g.tl||""].some(x=>x.toLowerCase().includes(q))) return false;
     return FACETS.every(f => f.k===skip || !st.sel[f.k].size || [...st.sel[f.k]].some(v=>f.test(g,v)));
   };
   function list(){
