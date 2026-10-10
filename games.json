@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:21:02.266Z",
+  "generatedAt": "2026-10-10T18:16:08.132Z",
   "count": 230,
   "facets": {
     "playtime": [
@@ -124,8 +124,7 @@
       ],
       "theme": [
         "카드게임",
-        "퍼즐",
-        "동화"
+        "퍼즐"
       ],
       "price": "무료",
       "year": 2025,
@@ -147,7 +146,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-10-10T01:07:00.000Z",
-      "updatedAt": "2026-10-10T01:23:00.000Z",
+      "updatedAt": "2026-10-10T15:00:00.000Z",
       "publishedAt": "2026-10-10T01:25:33.692Z"
     },
     {
