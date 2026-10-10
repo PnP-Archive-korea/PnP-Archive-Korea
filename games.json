@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T00:32:03.942Z",
-  "count": 229,
+  "generatedAt": "2026-10-10T01:25:40.382Z",
+  "count": 230,
   "facets": {
     "playtime": [
       "30~60분",
@@ -106,6 +106,50 @@
     ]
   },
   "games": [
+    {
+      "id": "3f5aa7a15911803296cbfe41e4519273",
+      "slug": "jack-s-dream-3f5aa7",
+      "ko": "잭의 꿈",
+      "en": "Jack’s Dream",
+      "author": "Ákos Plesznivy",
+      "desc": "밤이 깊어도 잠들 줄 모르는 잭들! 같은 숫자 카드 네 장을 모아 베개를 만들고, 잭의 위아래에 이불을 덮어주세요. 1인 솔리테어 퍼즐",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "퍼즐 풀이"
+      ],
+      "theme": [
+        "카드게임",
+        "퍼즐",
+        "동화"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://deck.unlessgames.com/ko/jacks-dream/",
+      "infoUrl": "https://boardgamegeek.com/thread/3583045/jacks-dream-sleepy-solitaire-2025-traditional-deck",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드"
+      ],
+      "thumb": "/assets/thumbs/jack-s-dream-3f5aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/jack-s-dream-3f5aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/jack-s-dream-3f5aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🎲",
+      "createdAt": "2026-10-10T01:07:00.000Z",
+      "updatedAt": "2026-10-10T01:23:00.000Z",
+      "publishedAt": "2026-10-10T01:25:33.692Z"
+    },
     {
       "id": "3f3aa7a159118120afe2db532c3444cd",
       "slug": "barbarian-vince-3f3aa7",
@@ -2320,22 +2364,25 @@
     },
     {
       "id": "3c1aa7a1591181738fccdc8faf5cb9cd",
-      "slug": "도트-던전-3c1aa7",
+      "slug": "dot-dungeon-3c1aa7",
       "ko": "도트 던전",
-      "en": "",
+      "en": "Dot Dungeon",
       "author": "빈, 벙튀기",
       "desc": "도트로 이루어진 미궁에서 도트로 만들어진 몬스터를 잡아 도트로 생성된 전리품을 얻어 미궁을 공략하는 게임",
-      "players": "2-4명",
-      "playersMin": 2,
-      "playersMax": 4,
+      "players": "1-3명",
+      "playersMin": 1,
+      "playersMax": 3,
       "playtime": "60분~120분",
       "age": "12세 이상",
       "mech": [
         "협력",
-        "롤플레잉"
+        "롤플레잉",
+        "탐험",
+        "주사위 굴림"
       ],
       "theme": [
-        "판타지"
+        "판타지",
+        "모험/탐험"
       ],
       "price": "무료",
       "year": 2026,
@@ -2348,13 +2395,13 @@
       "origin": "",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dot-dungeon-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dot-dungeon-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dot-dungeon-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-08-19T04:34:00.000Z",
+      "updatedAt": "2026-10-10T01:11:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -4427,9 +4474,14 @@
       "playersMax": 2,
       "playtime": "30~60분",
       "age": "10세 이상",
-      "mech": [],
+      "mech": [
+        "그리드 이동",
+        "핸드 관리",
+        "주사위 굴림",
+        "액션 포인트"
+      ],
       "theme": [
-        "현대"
+        "스포츠"
       ],
       "price": "무료",
       "year": 2023,
@@ -4446,9 +4498,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🏙️",
+      "icon": "🎯",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-08-18T01:21:00.000Z",
+      "updatedAt": "2026-10-10T01:09:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -6772,8 +6824,17 @@
       "playersMax": 2,
       "playtime": "30~60분",
       "age": "12세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "일꾼 놓기",
+        "자원 관리",
+        "다중 사용 카드",
+        "세트 수집"
+      ],
+      "theme": [
+        "SF",
+        "판타지",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -6785,13 +6846,13 @@
       "origin": "",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/chimimoryo-cyber-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/chimimoryo-cyber-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/chimimoryo-cyber-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-08-04T06:15:00.000Z",
+      "updatedAt": "2026-10-10T01:09:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
