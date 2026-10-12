@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T03:12:40.332Z",
+  "generatedAt": "2026-10-12T03:40:06.381Z",
   "count": 233,
   "facets": {
     "playtime": [
@@ -139,7 +139,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/54201/the-d6-shooters",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "굉장해",
       "components": [
         "주사위",
         "필기구"
@@ -150,7 +150,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-10-12T03:01:00.000Z",
-      "updatedAt": "2026-10-12T03:08:00.000Z",
+      "updatedAt": "2026-10-12T03:39:00.000Z",
       "publishedAt": "2026-10-12T03:12:35.559Z"
     },
     {
@@ -159,7 +159,7 @@
       "ko": "Adamastor",
       "en": "Adamastor",
       "author": "Orlando Lopes de Sá",
-      "desc": "(2025년에 Adamastor 개정판이 정식출시되었습니다.) \n15세기에서 17세기까지 포르투갈은 발전된 과학, 지도 제작술, 천문학을 바탕으로 바다를 항해하며 새로운 대륙을 발견하였습니다. 이른바 대항해시대가 시작된 것입니다.\n당신은 대항해시대의 포르투갈 함대 선장입니다.",
+      "desc": "(2025년에 Adamastor 개정판이 정식출시되었습니다. https://boardgamegeek.com/boardgame/448435/adamastor) \n15세기에서 17세기까지 포르투갈은 발전된 과학, 지도 제작술, 천문학을 바탕으로 바다를 항해하며 새로운 대륙을 발견하였습니다. 이른바 대항해시대가 시작된 것입니다.\n당신은 대항해시대의 포르투갈 함대 선장입니다.",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
@@ -167,9 +167,10 @@
       "age": "",
       "mech": [
         "탐험",
-        "조립 보드",
         "핸드 관리",
-        "솔로/솔로테어 게임"
+        "솔로/솔로테어 게임",
+        "포인트 이동",
+        "드래프트"
       ],
       "theme": [
         "역사",
@@ -184,7 +185,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/228452/adamastor",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "굉장해",
       "components": [
         "큐브·토큰·미플"
       ],
@@ -194,7 +195,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏯",
       "createdAt": "2026-10-12T03:01:00.000Z",
-      "updatedAt": "2026-10-12T03:11:00.000Z",
+      "updatedAt": "2026-10-12T03:39:00.000Z",
       "publishedAt": "2026-10-12T03:12:35.559Z"
     },
     {
@@ -203,7 +204,7 @@
       "ko": "글래디에이터 건틀렛",
       "en": "Gladiator Gauntlet",
       "author": "Michael Sewall",
-      "desc": "글레디에이터 건틀릿(GLADIATOR GAUNTLET)은 1인용 게임으로 건틀릿 게임에 도전하여 승리를 얻는 게임입니다. 훈련용 검으로 승리보다 값진 자유를 얻으세요.",
+      "desc": "글레디에이터 건틀렛(GLADIATOR GAUNTLET)은 1인용 게임으로 건틀릿 게임에 도전하여 승리를 얻는 게임입니다. 훈련용 검으로 승리보다 값진 자유를 얻으세요.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
@@ -228,7 +229,7 @@
       "infoUrl": "https://boardgamegeek.com/boardgame/226502/gladiator-gauntlet",
       "playUrl": "",
       "origin": "해외 번역",
-      "translator": "",
+      "translator": "굉장해",
       "components": [
         "주사위",
         "큐브·토큰·미플"
@@ -239,7 +240,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-10-12T02:31:00.000Z",
-      "updatedAt": "2026-10-12T03:08:00.000Z",
+      "updatedAt": "2026-10-12T03:39:00.000Z",
       "publishedAt": "2026-10-12T03:12:35.559Z"
     },
     {
