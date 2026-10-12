@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T03:40:06.381Z",
-  "count": 233,
+  "generatedAt": "2026-10-12T03:54:23.705Z",
+  "count": 234,
   "facets": {
     "playtime": [
       "30~60분",
@@ -107,6 +107,49 @@
     ]
   },
   "games": [
+    {
+      "id": "3f7aa7a159118072b278f4a1f02102b4",
+      "slug": "the-four-musketeers-3f7aa7",
+      "ko": "사총사",
+      "en": "The Four Musketeers",
+      "author": "David Atkinson",
+      "desc": "일반 트럼프 카드로 즐기는 푸시 유어 럭 방식의 블랙잭 스타일 1 인 활극.\n\n총사들이 너무 많은 부상을 입기 전에 추기경 근위대 8 명을 모두 격파하세요… 하지만 하수인을 조심하세요! 증원군이 오기 전에 목표를 완수해야 합니다!",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "푸시 유어 럭",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "역사",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/l8m48dxa6ip2az5mr2okq/AB-HOhOHSX4V10tqQZLIcDs?rlkey=sjmtzdt7emgi605qzwtf8vkbx&st=7qjq6bxw&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3575515/wip-the-four-musketeers-2025-traditional-deck-game",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드"
+      ],
+      "thumb": "/assets/thumbs/the-four-musketeers-3f7aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/the-four-musketeers-3f7aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/the-four-musketeers-3f7aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-10-12T03:28:00.000Z",
+      "updatedAt": "2026-10-12T03:53:00.000Z",
+      "publishedAt": "2026-10-12T03:54:19.971Z"
+    },
     {
       "id": "3f7aa7a1591180b9bf96cc672af9d046",
       "slug": "the-d6-shooters-3f7aa7",
