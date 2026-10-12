@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T23:35:29.108Z",
-  "count": 230,
+  "generatedAt": "2026-10-12T03:12:40.332Z",
+  "count": 233,
   "facets": {
     "playtime": [
       "30~60분",
@@ -107,6 +107,141 @@
     ]
   },
   "games": [
+    {
+      "id": "3f7aa7a1591180b9bf96cc672af9d046",
+      "slug": "the-d6-shooters-3f7aa7",
+      "ko": "주사위 총잡이들",
+      "en": "The d6 Shooters",
+      "author": "Eric Herman (Grudunza)",
+      "desc": "당신은 \"주사위 총잡이\" 패거리의 리더로 악명높은 무법자 빌리 그리그를 운송하는 일에 고용되었습니다.\n당신은 그 무법자를 캘리포니아 파이라이트 교도소에서부터 법원 청사가 있는 리노로 데려가 몇 년간 그가 저지른 악행과 범죄에 대해 심판을 받게 해야 합니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "주사위 굴림",
+        "플립 앤 라이트/롤 앤 라이트",
+        "자원 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "모험/탐험",
+        "전쟁/전투",
+        "기타"
+      ],
+      "price": "무료",
+      "year": 2009,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6912",
+      "infoUrl": "https://boardgamegeek.com/boardgame/54201/the-d6-shooters",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/the-d6-shooters-3f7aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/the-d6-shooters-3f7aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/the-d6-shooters-3f7aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🎲",
+      "createdAt": "2026-10-12T03:01:00.000Z",
+      "updatedAt": "2026-10-12T03:08:00.000Z",
+      "publishedAt": "2026-10-12T03:12:35.559Z"
+    },
+    {
+      "id": "3f7aa7a159118092b9a4e21749bea809",
+      "slug": "adamastor-3f7aa7",
+      "ko": "Adamastor",
+      "en": "Adamastor",
+      "author": "Orlando Lopes de Sá",
+      "desc": "(2025년에 Adamastor 개정판이 정식출시되었습니다.) \n15세기에서 17세기까지 포르투갈은 발전된 과학, 지도 제작술, 천문학을 바탕으로 바다를 항해하며 새로운 대륙을 발견하였습니다. 이른바 대항해시대가 시작된 것입니다.\n당신은 대항해시대의 포르투갈 함대 선장입니다.",
+      "players": "1-2명",
+      "playersMin": 1,
+      "playersMax": 2,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "탐험",
+        "조립 보드",
+        "핸드 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "역사",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2016,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6963",
+      "infoUrl": "https://boardgamegeek.com/boardgame/228452/adamastor",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "",
+      "components": [
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/adamastor-3f7aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/adamastor-3f7aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/adamastor-3f7aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏯",
+      "createdAt": "2026-10-12T03:01:00.000Z",
+      "updatedAt": "2026-10-12T03:11:00.000Z",
+      "publishedAt": "2026-10-12T03:12:35.559Z"
+    },
+    {
+      "id": "3f7aa7a1591180be961bc67d865e6989",
+      "slug": "gladiator-gauntlet-3f7aa7",
+      "ko": "글래디에이터 건틀렛",
+      "en": "Gladiator Gauntlet",
+      "author": "Michael Sewall",
+      "desc": "글레디에이터 건틀릿(GLADIATOR GAUNTLET)은 1인용 게임으로 건틀릿 게임에 도전하여 승리를 얻는 게임입니다. 훈련용 검으로 승리보다 값진 자유를 얻으세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "주사위 굴림",
+        "주사위 관리",
+        "자원 관리",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "기타"
+      ],
+      "price": "무료",
+      "year": 2017,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=6799",
+      "infoUrl": "https://boardgamegeek.com/boardgame/226502/gladiator-gauntlet",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/gladiator-gauntlet-3f7aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/gladiator-gauntlet-3f7aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/gladiator-gauntlet-3f7aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-10-12T02:31:00.000Z",
+      "updatedAt": "2026-10-12T03:08:00.000Z",
+      "publishedAt": "2026-10-12T03:12:35.559Z"
+    },
     {
       "id": "3f5aa7a15911803296cbfe41e4519273",
       "slug": "jack-s-dream-3f5aa7",

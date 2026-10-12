@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pnparchive.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://pnparchive.com/game/the-d6-shooters-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/adamastor-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/gladiator-gauntlet-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/jack-s-dream-3f5aa7/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/barbarian-vince-3f3aa7/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/unsuspected-3f3aa7/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
