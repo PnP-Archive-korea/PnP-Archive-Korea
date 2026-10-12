@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T04:54:12.224Z",
-  "count": 234,
+  "generatedAt": "2026-10-12T06:01:19.989Z",
+  "count": 235,
   "facets": {
     "playtime": [
       "30~60분",
@@ -107,6 +107,48 @@
     ]
   },
   "games": [
+    {
+      "id": "3f7aa7a1591181908f88f6cb17d1c4b9",
+      "slug": "깊은-곳의-부름-3f7aa7",
+      "ko": "깊은 곳의 부름",
+      "en": "",
+      "author": "민트초코쇼콜라",
+      "desc": "1924년, 인스머스 남쪽의 작은 어항. 바다 밑의 그것이 깨어나기 전에 저택들의 진상을 밝혀라.",
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
+      "playtime": "60분~120분",
+      "age": "",
+      "mech": [
+        "협력",
+        "탐험",
+        "추리",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "공포",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://arca.live/b/boardgame/185570575",
+      "playUrl": "https://playmincho.com/",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "👻",
+      "createdAt": "2026-10-12T05:58:00.000Z",
+      "updatedAt": "2026-10-12T05:59:00.000Z",
+      "publishedAt": "2026-10-12T06:01:17.399Z"
+    },
     {
       "id": "3f7aa7a159118072b278f4a1f02102b4",
       "slug": "the-four-musketeers-3f7aa7",
