@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T23:28:19.475Z",
-  "count": 235,
+  "generatedAt": "2026-10-14T23:38:35.852Z",
+  "count": 236,
   "facets": {
     "playtime": [
       "30~60분",
@@ -107,6 +107,51 @@
     ]
   },
   "games": [
+    {
+      "id": "3f9aa7a1591180fb901ece36146bb55a",
+      "slug": "royal-rescue-3f9aa7",
+      "ko": "로열 레스큐",
+      "en": "Royal Rescue",
+      "author": "Richard Lenherr",
+      "desc": "(2022년 트레디셔널 덱 게임 콘테스트 종합 1위)\n추악한 움바르가 왕국의 국왕 부부를 납치하여 악명 높은 죽음의 감옥에 가두고 있습니다. 왕실 군대의 충성스러운 신하로서, 무슨 수를 써서라도 여왕과 왕을 구출하는 것이 당신의 신성한 의무입니다. 군대를 일으켜 전력을 기르고, 장교를 배치하고, 민병대를 소집하고, 함께 공격 계획을 세워야 합니다. 구출 작전이 실패하면 백성들은 추악한 움바르 아래에서 무자비한 지배에 시달리게 될 것입니다.",
+      "players": "1-4명",
+      "playersMin": 1,
+      "playersMax": 4,
+      "playtime": "30~60분",
+      "age": "10세 이상",
+      "mech": [
+        "협력",
+        "주사위 굴림",
+        "세트 수집"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2022,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/ahrh8atd9ugis6r4l21gw/AGSueNY8WJLUcNbikuAqQwI?rlkey=5puinrok5xhnqtk598dc9lgg2&st=sfqm07ad&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/2964000/wip-royal-rescue-traditional-deck-game-contest-202",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드",
+        "주사위"
+      ],
+      "thumb": "/assets/thumbs/royal-rescue-3f9aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/royal-rescue-3f9aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/royal-rescue-3f9aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔖",
+      "createdAt": "2026-10-14T23:28:00.000Z",
+      "updatedAt": "2026-10-14T23:37:00.000Z",
+      "publishedAt": "2026-10-14T23:38:32.204Z"
+    },
     {
       "id": "3f7aa7a1591181908f88f6cb17d1c4b9",
       "slug": "깊은-곳의-부름-3f7aa7",
