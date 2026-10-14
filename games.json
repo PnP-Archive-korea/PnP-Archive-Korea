@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T23:38:35.852Z",
-  "count": 236,
+  "generatedAt": "2026-10-14T23:58:23.178Z",
+  "count": 237,
   "facets": {
     "playtime": [
       "30~60분",
@@ -59,6 +59,7 @@
       "스토리텔링",
       "액션 포인트",
       "액션/이동 프로그래밍",
+      "액션/이벤트",
       "인핸드",
       "일꾼 놓기",
       "자리 교환",
@@ -69,11 +70,13 @@
       "주사위 배치",
       "지역 장악",
       "추리",
+      "치트풀 시스템",
       "카드 사용",
       "클라이밍",
       "타일 놓기",
       "타일 재배열",
       "탐험",
+      "트랙 이동",
       "트릭테이킹",
       "특정 상품 운송",
       "패턴 인식",
@@ -107,6 +110,52 @@
     ]
   },
   "games": [
+    {
+      "id": "3f9aa7a1591180159a40d0c07f285c51",
+      "slug": "super-robo-jetkaiser-z-3f9aa7",
+      "ko": "슈퍼 로보 제트카이저 Z!",
+      "en": "Super Robo Jetkaiser Z!",
+      "author": "Martin Gonzalvez",
+      "desc": "슈퍼로봇 제트카이저 Z를 조종하고 업그레이드하여 외계의 비스트 파이터로부터 인류를 지켜내세요!",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30~60분",
+      "age": "10세 이상",
+      "mech": [
+        "덱빌딩",
+        "다중 사용 카드",
+        "타일 놓기",
+        "액션/이벤트",
+        "치트풀 시스템",
+        "트랙 이동"
+      ],
+      "theme": [
+        "SF",
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://boardlife.co.kr/bbs_detail.php?tb=info_files&bbs_num=13419&blog=betterlife&bfrom=board",
+      "infoUrl": "https://boardgamegeek.com/boardgame/473159/super-robo-jetkaiser-z",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "ingg",
+      "components": [
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/super-robo-jetkaiser-z-3f9aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/super-robo-jetkaiser-z-3f9aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/super-robo-jetkaiser-z-3f9aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🛰️",
+      "createdAt": "2026-10-14T23:44:00.000Z",
+      "updatedAt": "2026-10-14T23:57:00.000Z",
+      "publishedAt": "2026-10-14T23:58:18.045Z"
+    },
     {
       "id": "3f9aa7a1591180fb901ece36146bb55a",
       "slug": "royal-rescue-3f9aa7",
