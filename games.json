@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:59:42.931Z",
+  "generatedAt": "2026-10-16T00:03:25.158Z",
   "count": 237,
   "facets": {
     "playtime": [
@@ -2052,8 +2052,8 @@
       "en": "",
       "author": "카이즈",
       "desc": "둘이서 협력하여 주사위 던전을 클리어해보세요!",
-      "players": "1-2명",
-      "playersMin": 1,
+      "players": "2명",
+      "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "12세 이상",
@@ -2083,7 +2083,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-16T00:02:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -4640,8 +4640,8 @@
       "slug": "draw-poker-3baaa7",
       "ko": "드로우 포커",
       "en": "Draw Poker",
-      "author": "닭털 (ChickenFeather)",
-      "desc": "카드의 일부를 직접 그려서 완성하는 포커 게임",
+      "author": "박민후(닭털)",
+      "desc": "내가 받은 카드 및 공용으로 공개된 카드를 보고, 내가 원하는 카드를 그려 승부하는 포커입니다.\n4번의 라운드가 진행되는 동안, 총 7번의 카드를 그릴 기회가 주어지며, 적절한 타이밍에 카드를 그려 승리를 챙취 해야 합니다.",
       "players": "4-8명",
       "playersMin": 4,
       "playersMax": 8,
@@ -4650,7 +4650,7 @@
       "mech": [
         "포커족보",
         "자원 관리",
-        "푸시 유어 럭"
+        "핸드 관리"
       ],
       "theme": [
         "카드게임"
@@ -4666,6 +4666,8 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플",
         "필기구"
       ],
       "thumb": null,
@@ -4674,7 +4676,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-15T23:38:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
