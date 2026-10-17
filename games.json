@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T21:18:29.129Z",
+  "generatedAt": "2026-10-17T23:49:55.414Z",
   "count": 237,
   "facets": {
     "playtime": [
@@ -6938,14 +6938,20 @@
       "ko": "다이스 포커",
       "en": "Dice Poker",
       "author": "정성인",
-      "desc": "",
-      "players": "2-4명",
+      "desc": "4개의 색 주사위와 개인 주사위를 통해 더 많은 점수를 얻는 포커 기반의 게임입니다.",
+      "players": "2명",
       "playersMin": 2,
-      "playersMax": 4,
+      "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "포커족보",
+        "주사위 배치",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -6956,14 +6962,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -6972,14 +6981,19 @@
       "ko": "롤링 체스",
       "en": "Rolling Chess",
       "author": "마쉬마룡",
-      "desc": "",
+      "desc": "이 게임은 폰이 상대방 진영에서 퀸이 되면서 강화하는 부분을 좀 더 캐주얼 하면서 운적인 요소로도 즐길 수 있는 보드게임성이 짙은 부분을 강조하는 게임입니다",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "그리드 이동",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -6995,9 +7009,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T23:27:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7048,14 +7062,22 @@
       "ko": "방화벽",
       "en": "Firewall",
       "author": "| Rabbit |",
-      "desc": "사이버 공격으로부터 메인 컴퓨터를 보호하는 1인용 게임.",
+      "desc": "<방화벽>은 디지털 세계에서 사이버 공격으로부터 중요한 메인 컴퓨터를 보호하는 1인용 게임입니다.\n게임의 진행 과정에서 사이버 공격이 점점 강력해지고, 그 순간을 틈타 메인 시스템에 대한 해킹을 시도하려고 합니다.\n이에 맞서 플레이어는 주사위를 굴려 기능을 활성화하고, 해커의 공격을 저지하기 위한 전략을 세워야 합니다.\n모든 사이버 공격을 방어하고, 6라운드를 버티면 플레이어가 승리합니다.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "14세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 배치",
+        "솔로/솔로테어 게임",
+        "조립 보드",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "현대",
+        "SF"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -7066,14 +7088,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🧩",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T23:27:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7369,14 +7394,21 @@
       "ko": "롤 서바이버",
       "en": "Roll Survivor",
       "author": "Heto",
-      "desc": "",
+      "desc": "무인도에 표류된 두 사람이 되어 주사위를 굴려 자원을 얻고 새로운 액션을 해금하세요.\n먼저 승점 타일 2장을 모으면 승리합니다!",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "세트 수집",
+        "주사위 배치",
+        "자원 관리",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -7384,17 +7416,19 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1772&game=20657",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/svcwrr",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:16:00.000Z",
+      "updatedAt": "2026-10-17T23:27:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7403,14 +7437,20 @@
       "ko": "스페이스 트리",
       "en": "Space Tree",
       "author": "판컬처스",
-      "desc": "",
-      "players": "2명",
+      "desc": "거대한 우주의 주인은 누구? 드디어 우주에서도 치열한 경쟁이 시작되었습니다. 치밀한 수를 고려하여 경쟁자보다 더 먼저 모든 우주선을 배치하고, 우주의 주인이 되어 보세요!",
+      "players": "2-3명",
       "playersMin": 2,
-      "playersMax": 2,
+      "playersMax": 3,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "핸드 관리",
+        "타일 놓기"
+      ],
+      "theme": [
+        "SF",
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -7426,9 +7466,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🧩",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:16:00.000Z",
+      "updatedAt": "2026-10-17T23:27:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -8396,18 +8436,21 @@
       "ko": "낫투데이",
       "en": "Not Today",
       "author": "라임",
-      "desc": "플레잉 카드만으로 즐기는 파티 게임. 높은 합 경쟁으로 표식을 이동시키고 살아남아야 한다.",
+      "desc": "어느 날 밤, 사신이 여러분을 찾아왔습니다.\n죽음 앞에서 모두가 불안하고 초조한 가운데,\n사신은 자비롭게도 ‘단 한 목숨’ 만을 데리고 갈 것이라 합니다.\n여러분은, 각자의 영혼을 걸고 ‘위험한 내기’를 하게 됩니다.\n오늘은 내가 사신과 떠나는 날이 아닐까요?\n아니면, 사신의 낫을 만나는 날일까요?",
       "players": "3-5명",
       "playersMin": 3,
       "playersMax": 5,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
-        "주사위 굴림",
-        "핸드 관리"
+        "동시 액션 선택",
+        "핸드 관리",
+        "블러핑",
+        "플레이어 제거"
       ],
       "theme": [
-        "카드게임"
+        "카드게임",
+        "유머/파티"
       ],
       "price": "무료",
       "year": 2024,
@@ -8428,7 +8471,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-17T01:40:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8477,14 +8520,22 @@
       "ko": "자소설 TRPG",
       "en": "Autobiographical Tabletop RPG",
       "author": "준10",
-      "desc": "기억을 잃은 캐릭터들의 면접 역할극 TRPG.",
-      "players": "4명",
+      "desc": "당신은 면접장에 있습니다.\n너무 당황한 걸까요? 자신이 누군지도 기억나지 않습니다!\n나와 같은 처지의 사람들이 보입니다.\n잠시 후, 수석 엔지니어가 달려와 문제를 파악했습니다\n누군가의 마법적 실패로 인해 기억이 소실되었습니다.\n다행히 이 면접장에서 기억을 살릴 방법이 있습니다.\n바로 면접을 보는 것입니다.\n바닥에는 수많은 소설같은 이야기로 꾸민\n자기소개서들이 가득 채워져 있습니다\n우선 생각나는 기억을 떠올려 보며 자기소개를 시작합니다...",
+      "players": "4-5명",
       "playersMin": 4,
-      "playersMax": 4,
+      "playersMax": 5,
       "playtime": "30~60분",
       "age": "10세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "롤플레잉",
+        "스토리텔링",
+        "주사위 굴림",
+        "마피아"
+      ],
+      "theme": [
+        "판타지",
+        "유머/파티"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -8495,14 +8546,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8556,14 +8610,19 @@
       "ko": "창, 검, 활",
       "en": "Spear, Sword, Bow",
       "author": "영명이(서영수)",
-      "desc": "병사와 아이템을 구매·조합해 상대와 겨루는 병법 대결 게임.",
+      "desc": "고대부터 전해 내려오던 비밀의 병법서에는 병법을 연구하고 겨뤄볼 수 있는 페이지가 존재했다. 하지만 정확하게 이와 관련된 2장의 페이지만 찢겨져 있었고, 아무도 그 행방을 알 수 없었다. 그리고 바로 지금, 행방불명되었던 그 페이지들이 발견되었다!",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "그리드 이동",
+        "기타"
+      ],
+      "theme": [
+        "전쟁/전투"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -8574,14 +8633,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8631,15 +8692,22 @@
       "slug": "winning-five-3b2aa7",
       "ko": "위닝 파이브",
       "en": "Winning Five",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "Gerrard",
+      "desc": "이제 당신은 프로페셔널 풋살팀의 감독이 되었습니다.\n당신만의 전략을 세우고 선수들을 전술적으로 운영하여 팀을 승리로 이끌어 주십시오.\n드리블, 패스, 탈압박, 공 빼앗기, 어시스트, 그리고 슈팅까지… 이 모든 것을 플레잉 카드 54장으로 해낼 수 있습니다.\n우리 구단의 운명은 여러분에게 달려 있습니다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "60분~120분",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "카드 사용",
+        "그리드 이동",
+        "핸드 관리",
+        "동시 액션 선택"
+      ],
+      "theme": [
+        "스포츠"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8650,14 +8718,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8666,14 +8736,22 @@
       "ko": "플레잉 시티",
       "en": "Playing City",
       "author": "dunit",
-      "desc": "플레잉 카드와 펜만으로 도시에 투자해 수입을 얻는 전략 게임.",
+      "desc": "플레이어들은 도시의 ◆, ♥, ♣,♠ 로 표현된 네 지역에 주민을 입주시키고 매 라운드 주민들에게서 수입(점수)을 받게 됩니다. 홍보 능력을 올려 한 번에 많은 주민을 입주시킬지, 광고를 통해 지역의 가치를 올려 더욱 많은 점수를 획득할지 매 차례마다 고민하게 됩니다. 게임이 끝나고 점수가 가장 높은 플레이어가 승리합니다.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "10세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "드래프트",
+        "동시 액션 선택",
+        "플립 앤 라이트/롤 앤 라이트",
+        "지역 장악"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -8692,9 +8770,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:19:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
