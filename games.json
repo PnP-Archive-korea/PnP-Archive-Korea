@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T01:09:00.576Z",
+  "generatedAt": "2026-10-17T06:41:55.547Z",
   "count": 237,
   "facets": {
     "playtime": [
@@ -26,6 +26,7 @@
       "레이싱",
       "모험/탐험",
       "스포츠",
+      "어린이/교육",
       "역사",
       "유머/파티",
       "전쟁/전투",
@@ -7826,14 +7827,21 @@
       "ko": "지구 탈출 대작전",
       "en": "Operation Exodus",
       "author": "PAAN Cultures",
-      "desc": "",
+      "desc": "긴급 상황입니다! 지구에 다량의 운석이 접근해 오고 있다고 합니다! 운석이 충돌하면 지구는 돌이킬 수 없이 파괴될 겁니다. 우리는 개발 단계에 있던 포털 기술의 테스트를 빠르게 마무리하고, 지구가 파괴되기 전에 새로운 행성으로 사람들을 탈출시켜야 합니다!",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "퍼즐 풀이",
+        "솔로/솔로테어 게임",
+        "기타"
+      ],
+      "theme": [
+        "SF",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -7844,14 +7852,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
-      "icon": "🎲",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8031,8 +8041,12 @@
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "14세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "그리드 이동"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8043,14 +8057,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🔷",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8253,16 +8269,21 @@
       "ko": "다이스 플레임 파이터",
       "en": "Dice Flame Fighter",
       "author": "Jinhee Han(한진희)",
-      "desc": "소방관 3명을 지휘해 불길을 억제하고 생존자를 구출하는 주사위 게임.",
+      "desc": "당신은 급박한 화재 현장에 돌입해서 생존자를 구출해야 합니다. 화재를 진화하면서 길을 뚫고, 빠르게 이동해야 합니다. 시간이 갈수록 현장의 온도가 상승하며 화재가 심각해집니다. 세 명의 용감한 소방관의 개성을 살려서 누구도 목숨을 잃지 않게 임무를 완수하세요!",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
-      "playtime": "30분 이하",
+      "playtime": "30~60분",
       "age": "14세 이상",
       "mech": [
-        "액션 포인트"
+        "액션 포인트",
+        "주사위 배치",
+        "솔로/솔로테어 게임",
+        "그리드 이동"
       ],
-      "theme": [],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -8274,15 +8295,16 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "주사위"
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8400,13 +8422,13 @@
       "components": [
         "트럼프 카드"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/not-today-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/not-today-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/not-today-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-12T04:16:00.000Z",
+      "updatedAt": "2026-10-17T01:40:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
@@ -8722,14 +8744,21 @@
       "ko": "빌리지 노다지",
       "en": "village nodaji",
       "author": "작자 미상",
-      "desc": "",
+      "desc": "주사위를 굴리고 마을과 건물을 지어서 자원과 점수를 늘려가는 게임",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "14세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "동시 액션 선택",
+        "자원 관리",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "건설"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8740,14 +8769,18 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8805,8 +8838,15 @@
       "playersMax": 3,
       "playtime": "30분 이하",
       "age": "10세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "헥스",
+        "자원 관리",
+        "주사위 관리"
+      ],
+      "theme": [
+        "SF",
+        "기타"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8818,15 +8858,17 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "필기구"
+        "필기구",
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🛰️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8915,14 +8957,22 @@
       "ko": "게임 오브 드론",
       "en": "Game of Drone",
       "author": "손영익, 이창훈",
-      "desc": "",
+      "desc": "여러분의 드론이 목적지에 잘 도착할 수 있을까요? 플레잉 카드 협동게임",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "협력",
+        "동시 액션 선택",
+        "핸드 관리",
+        "그리드 이동"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -8933,14 +8983,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -8949,14 +9001,21 @@
       "ko": "굴러라! 조별과제",
       "en": "Rolling! Team Project",
       "author": "라굴",
-      "desc": "조장이 되어 교양 과목 조별 과제를 해야 한다",
+      "desc": "교양과목 교수님이 조별과제를 내주셨습니다.\n여러분은 조장이 되어 높은 점수를 받기 위해 노력합니다.\n어떤 조원이 무임승차를 할 지는 아무도 알 수 없습니다.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 배치",
+        "솔로/솔로테어 게임",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -8968,15 +9027,16 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "필기구"
+        "필기구",
+        "주사위"
       ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🏙️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -9141,14 +9201,19 @@
       "ko": "보물찾기",
       "en": "Treasure hunt",
       "author": "작자 미상",
-      "desc": "",
+      "desc": "즐거운 소풍을 왔습니다! 친구들과 함께 보물을 찾고 쪽지를 열어보세요.\n과연 어떤 보물을 찾게 될까요?",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "age": "8세 이상",
+      "mech": [
+        "기억력"
+      ],
+      "theme": [
+        "어린이/교육",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -9166,7 +9231,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -9181,8 +9246,15 @@
       "playersMax": 1,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "추리",
+        "퍼즐 풀이",
+        "스토리텔링"
+      ],
+      "theme": [
+        "판타지",
+        "기타"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -9193,14 +9265,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🏰",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
@@ -9290,14 +9364,22 @@
       "ko": "다이노월드 대탈출",
       "en": "Dino chase",
       "author": "이주화",
-      "desc": "티라노사우르스로부터 가족 모두가 도망쳐야 한다",
+      "desc": "다이노월드의 공룡 중에서 가장 포악한 티라노사우르스가 우리 밖으로 나오는 사고가 생겼습니다. 다이노월드에 방문 중에었던 당신의 가족들에게 티라노 사우르스가 달려오고 있습니다. 당신은 당신의 가족들과 함께 힘껏 달려서 티라노사우르스의 추격을 벗어나야합니다. 주의하십시오. 당신의 가족 중에 누구 하나라도 티라노사우르스에게 잡히면 안됩니다.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
       "playtime": "30분 이하",
       "age": "8세 이상",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "레이스",
+        "롤 앤 무브",
+        "주사위 굴림",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "레이싱",
+        "동물"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -9308,14 +9390,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-10-17T03:24:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
