@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:49:55.414Z",
+  "generatedAt": "2026-10-18T03:33:16.262Z",
   "count": 237,
   "facets": {
     "playtime": [
@@ -4004,15 +4004,21 @@
       "ko": "인생 전쟁",
       "en": "Life War",
       "author": "준우",
-      "desc": "2023 PnP 원페이지 보드게임 공모전 참가작(0311 업데이트). 세종시에서 보드게임 기반 지역공동체 '또다른모험'을 운영하는 작가의 첫 제작작.",
+      "desc": "우리는 매일 희로애락의 감정을 느낍니다. 이 감정은 주변 사람들, 돈, 또는 여러 환경으로부터 느끼죠. 좋은 감정들과 함께 부정적인 영향들도 어우러져 스트레스를 느끼게 합니다. 복합적인 감정들이 한데 모여 전쟁 같은 하루를 만들기도 하지요. 전쟁 같은 인생이 게임으로 풀릴 수 있을까요? 아니면 게임에서도 꼬일 수 있을까요?\n(이 게임은 '러브레터'와 TRPG의 게임패턴에 영감을 얻어 만들어진 전투형 게임입니다.)",
       "players": "1-3명",
       "playersMin": 1,
       "playersMax": 3,
-      "playtime": "30~60분",
+      "playtime": "30분 이하",
       "age": "12세 이상",
-      "mech": [],
+      "mech": [
+        "카드 사용",
+        "플레이어 제거",
+        "주사위 굴림",
+        "자원 관리"
+      ],
       "theme": [
-        "현대"
+        "현대",
+        "전쟁/전투"
       ],
       "price": "무료",
       "year": 2023,
@@ -4024,14 +4030,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T01:25:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -5368,16 +5376,20 @@
       "ko": "제로 다이스",
       "en": "Zero Dice",
       "author": "다이스플래닛",
-      "desc": "2025 PnP 공모전 참가작. 룰 설명 30초를 내세우는 브레인 버닝 주사위 게임. 초기 버전(1.0v) 배포.",
+      "desc": "제로 다이스는 빠른 두뇌회전과 순발력이 필요한 코딩 게임입니다.",
       "players": "1-100명",
       "playersMin": 1,
       "playersMax": 100,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
+        "퍼즐 풀이",
         "주사위 굴림"
       ],
-      "theme": [],
+      "theme": [
+        "퍼즐",
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5397,7 +5409,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5526,16 +5538,22 @@
       "ko": "테트리스 쿠킹",
       "en": "Tetris cooking",
       "author": "보드박스",
-      "desc": "한 개의 테이블을 두 명의 요리사가 나눠 쓰며 누가 더 많은 요리를 선보이는지 겨루어보세요.",
+      "desc": "한 개의 테이블, 두 명의 요리사!\n맛은 모르겠지만, 과연 누구의 요리가 더 큰 주목을 얻을까!\n테트리스 쿠킹은 두 명의 요리사가 한 개의 테이블 위에 더 많은 요리를 선보이고 승점을 얻어야 하는 게임입니다. 더 많은 요리를 선보이기 위해선 주사위를 통해 재료를 수급하고, 음식을 만들고, 좁디 좁은 테이블 위에 자기의 음식이 더 많이 올라가 있으면 되겠죠?",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
-        "타일 놓기"
+        "타일 놓기",
+        "플립 앤 라이트/롤 앤 라이트",
+        "주사위 굴림",
+        "세트 수집"
       ],
-      "theme": [],
+      "theme": [
+        "퍼즐",
+        "기타"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5546,14 +5564,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5642,17 +5663,20 @@
       "ko": "세븐 다이스",
       "en": "sevendice",
       "author": "소울",
-      "desc": "주사위를 굴려 최종 숫자가 높은 사람이 승리합니다. 칩을 3개 모으면 최종 승리합니다.",
+      "desc": "플레이어는 주사위 조합과 전략적 선택을 통해 최종 점수를 높여 상대보다 높은 점수를 획득하고, 최종적으로 칩을 3개 획득하는 것이 목표입니다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
+        "포커족보",
         "주사위 굴림",
         "주사위 관리"
       ],
-      "theme": [],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5664,15 +5688,16 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "주사위"
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
-      "icon": "🧩",
+      "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5721,16 +5746,17 @@
       "ko": "피트 스탑",
       "en": "PIT STOP",
       "author": "신나는월요일",
-      "desc": "자동차 레이싱의 피트 스탑 순간을 전략적으로 담아낸 다이스 롤링 레이싱. 노면·날씨 변화, 타이어 선택, 추월 타이밍, DRS 활용 등의 전략 요소를 활용해보세요.",
+      "desc": "피트 스탑은 자동차 레이싱의 박진감 넘치는 순간을 전력적으로 담아낸 보드게임입니다.\n실제 레이스에서 피트 스탑(Pit Stop)은 단 몇 초 만에 타이어 교체, 기계적 조정, 패널티 소화가 이루어지는 중요한 순간입니다.\n노면과 날씨 변화, 타이어 선택, 추월 타이밍, DRS 활용 등 레이싱 전략의 모든 것이 이곳에서 결정됩니다.\n플레이어들은 최적의 피트 스탑 전략을 구상하고, 레이싱 트랙에서 날씨와 패널티를 극복하며, 강력한 가속과 완벽한 추월로 승리를 노려야 합니다!\n이제, 당신의 팀을 챔피언으로 이끌 준비가 되었나요?",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "30~60분",
+      "playtime": "30분 이하",
       "age": "8세 이상",
       "mech": [
-        "주사위 굴림",
+        "레이스",
         "주사위 배치",
-        "카드 사용"
+        "카드 사용",
+        "주사위 굴림"
       ],
       "theme": [
         "현대",
@@ -5747,7 +5773,8 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "주사위"
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": null,
       "thumbLarge": null,
@@ -5755,7 +5782,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5846,17 +5873,20 @@
       "ko": "비트 엔 롤",
       "en": "Beat and Roll",
       "author": "천문부 서부지부",
-      "desc": "2025 PnP 공모전 참가작. 요트 다이스 룰을 이용한 심리전 게임. 플레이어들은 협력해 주사위 족보를 만들어가며 자신이 선택한 족보가 만들어지도록 유도하되, 모두 같은 족보를 골랐을 경우 '비트 선언'으로 혼자 점수를 독식할 수 있다. 준비물은 인쇄한 족보 안내서·점수판과 육면체 주사위 5개 등.",
+      "desc": "'비트 엔 롤'은 요트 다이스룰을 이용해서 즐기는 심리전 게임입니다, 플레이어들은 협력해서 요트 게임의 주사위 족보를 만들어가며, 자신이 선택한 족보가 만들어지도록 유도해야 합니다. 하지만 다른 사람들이 모두 같은 족보를 선택했을 경우 '비트 선언'을 통해 혼자서 점수를 독식할 수도 있습니다.",
       "players": "3-4명",
       "playersMin": 3,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
+        "동시 액션 선택",
         "주사위 굴림",
-        "협력"
+        "포커족보"
       ],
-      "theme": [],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5864,19 +5894,20 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1673",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/xk832p",
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "주사위"
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5937,9 +5968,13 @@
       "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
-        "트릭테이킹"
+        "트릭테이킹",
+        "동시 액션 선택",
+        "세트 수집"
       ],
-      "theme": [],
+      "theme": [
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -5959,7 +5994,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -5968,7 +6003,7 @@
       "ko": "한식의 대왕",
       "en": "Lord of Korean food",
       "author": "노수",
-      "desc": "2025 PnP 공모전 참가작. 턴 플레이어들이 돌아가며 다양한 한식을 상에 차리고 서로 나눠먹으며 점수를 얻는 게임. 구성요소는 식탁 1개, 한식카드 64장, 특수카드 4장, 상차림 점수 토큰 12개.",
+      "desc": "한식의 관심이 전세계적으로 확장되는 이 순간!! 보드게임 역시 그 열풍에 함께 나아가야합니다!!!\n턴 플레이어들이 돌아가면서 다양한 한식을 상에 차리면서 서로 나눠먹으면서 점수를 얻는 방식의 게임입니다.",
       "players": "3-5명",
       "playersMin": 3,
       "playersMax": 5,
@@ -5976,10 +6011,12 @@
       "age": "",
       "mech": [
         "세트 수집",
-        "카드 사용"
+        "카드 사용",
+        "드래프트"
       ],
       "theme": [
-        "현대"
+        "현대",
+        "카드게임"
       ],
       "price": "무료",
       "year": 2025,
@@ -5998,7 +6035,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -6051,15 +6088,20 @@
       "ko": "공정한 결투",
       "en": "Fair single combat",
       "author": "정주원",
-      "desc": "2025 PnP 공모전 참가작. 영지전을 걸고 두 기사가 결투하는 2인 게임. 구성물은 카드 30장, 기사 미플 2개, 기사 체력용 코인 6개. 두 색 중 하나의 기사를 선택해 경기장에 배치하며 시작한다.",
+      "desc": "영지전 그 명예로운 결투를 승리로 이끌기 위해서 당신의 힘이 필요합니다.\n영지에 단 한 번뿐인 기회, 당신의 판단이 영지 전의 승리를 가져올 수도, 패배를 가져올 수도 있습니다.\n망설이지 마세요. 지금 당장 경기장으로 들어가 상대 기사를 해치웁시다!",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
+      "mech": [
+        "액션/이동 프로그래밍",
+        "그리드 이동",
+        "핸드 관리"
+      ],
       "theme": [
-        "판타지"
+        "판타지",
+        "전쟁/전투"
       ],
       "price": "무료",
       "year": 2025,
@@ -6071,14 +6113,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -6129,14 +6173,16 @@
       "ko": "사칙연산 포커",
       "en": "Math Poker",
       "author": "cardandboard",
-      "desc": "2025 PnP 공모전 참가작. 간단한 사칙연산을 이용해 상대의 카드를 예상하고 배팅하는 수학 전략 게임. 구성요소는 숫자 카드 1~9 2세트, 사칙연산 카드 4세트, 코인 24개, 게임판.",
+      "desc": "수학적 사고와 전략을 결합한 새로운 보드게임입니다. 간단한 사칙연산을 통해 상대방을 이기기 위해 배팅하고, 정확한 연산으로 승리하세요! 남녀노소 누구나 즐길 수 있는 이 게임은 계산의 재미와 포커의 긴장감을 동시에 느낄 수 있게 해줍니다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30~60분",
       "age": "12세 이상",
       "mech": [
-        "카드 사용"
+        "기타",
+        "카드 사용",
+        "블러핑"
       ],
       "theme": [
         "추상"
@@ -6158,7 +6204,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -6167,14 +6213,16 @@
       "ko": "지구는 우리 거야!",
       "en": "The Earth is ours!",
       "author": "천문부 서부지부",
-      "desc": "2025 PnP 공모전 참가작. 파트너와 함께 정복한 지구를 나눠 갖는 2인 게임으로, 본인은 많은 영역을, 상대방은 적은 영역을 잘라 가지도록 하는 것이 목적. A4용지 출력이라는 공모전 조건을 제약이 아니라 게임의 특징으로 삼았다고 작가가 설명.",
+      "desc": "당신은 당신의 파트너와 함께 지구를 정복하는데 성공했습니다. 이제 동업자와 함께 지구를 나눠가질 차례입니다. 당신이 원하는 대로 지구를 썽둥썽둥 잘라 나눠가집시다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30분 이하",
       "age": "",
       "mech": [
-        "지역 장악"
+        "지역 장악",
+        "타일 놓기",
+        "주사위 굴림"
       ],
       "theme": [
         "추상"
@@ -6189,14 +6237,18 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플",
+        "주사위",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -6322,15 +6374,17 @@
       "ko": "타짜",
       "en": "Tazza",
       "author": "구이타",
-      "desc": "2025 PnP 공모전 참가작. 참가자는 베팅으로 돈을 따내고, 타짜는 기술로 참가자를 속여 돈을 따내는 베팅 게임. 타짜는 10장의 카드 중 원하는 만큼을 뒷면으로 내고, 참가자는 동전모양 카드를 찾아 배팅해 돈을 딴다. 예리한 참가자는 기술을 간파해 무효화할 수 있다. 가장 많은 돈을 딴 사람이 승리.",
+      "desc": "참가자는 베팅을 통해 돈을 따내고,\n타짜는 타짜의 기술로 참가자를 속여 돈을 따내는 게임!",
       "players": "3-6명",
       "playersMin": 3,
       "playersMax": 6,
       "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
+        "블러핑",
         "카드 사용",
-        "푸시 유어 럭"
+        "푸시 유어 럭",
+        "경매/입찰"
       ],
       "theme": [
         "현대"
@@ -6352,7 +6406,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-18T00:37:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -6591,13 +6645,20 @@
       "en": "Abyss Island",
       "author": "있주",
       "desc": "작가의 꿈속 세계관을 바탕으로 만든 자작 보드게임. 테이블탑 시뮬레이터(TTS)에 맵을 제작해 공개했다.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
+      "players": "4-10명",
+      "playersMin": 4,
+      "playersMax": 10,
       "playtime": "",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "마피아",
+        "그리드 이동",
+        "주사위 굴림",
+        "자원 관리"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -6608,14 +6669,17 @@
       "playUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1950",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔖",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -6703,32 +6767,43 @@
       "ko": "에셋해지",
       "en": "",
       "author": "있주",
-      "desc": "돈을 벌어 부자가 되되, 산업 재해에 대비하는 경제 테마 게임. 플레이어 간 협상과 협잡으로 보험 판매·대출 등 자유로운 경제 활동을 구성한다. 프로토타입 단계이며 테이블탑 시뮬레이터(TTS)에 맵이 올려있음. 실물의 포스트잇을 TTS 메모장으로 대체.",
+      "desc": "냉혹한 자본주의 시장에서 자본을 쟁취하고 재난을 극복하여, 가장 먼저 금괴 3개를 보유하거나 가장 부유한 플레이어가 승리합니다.",
       "players": "",
       "playersMin": null,
       "playersMax": null,
-      "playtime": "",
+      "playtime": "30~60분",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "기타",
+        "자원 관리",
+        "주사위 굴림",
+        "플레이어 제거"
+      ],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
         "한국어"
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1951",
-      "infoUrl": "",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1947",
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "필기구",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🏙️",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -6773,7 +6848,7 @@
       "ko": "벽라(壁羅)",
       "en": "",
       "author": "있주",
-      "desc": "3D 컴포넌트를 활용하는 점령 스타일의 2인용 RTS형 보드게임. 룰 이미지와 보드 예상 3D 이미지가 공개되어 있음.",
+      "desc": "당신은 알 수 없는 이유로 이 시대에 떨어진 호족이다.\n눈을 뜬 곳은 후삼국의 혼란 속.\n질서는 무너졌고, 누구도 왕이라 부를 수 없는 시대.\n각지의 호족들은 스스로의 힘으로\n영지를 넓히고, 서로를 흡수하며 이 땅의 주인이 되려 한다.\n그리고 그들 사이에,당신이 있다.\n이 전쟁에서 살아남는 길은 하나뿐이다. 왕이 되는 것.\n왕은 기다리는 자의 것이 아니다. 만들어내는 자의 것이다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -6782,7 +6857,8 @@
       "mech": [
         "지역 장악",
         "자원 관리",
-        "카드 사용"
+        "카드 사용",
+        "네트워크 및 경로 구축"
       ],
       "theme": [
         "역사",
@@ -6806,7 +6882,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏯",
       "createdAt": "2026-08-12T01:53:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-12T01:53:00.000Z"
     },
     {
@@ -7477,14 +7553,20 @@
       "ko": "석탑",
       "en": "Stone Tower",
       "author": "마쉬마룡",
-      "desc": "",
+      "desc": "여러분은 탑을 쌓는 석공가이며, 다른 사람도 마찬가지입니다\n임금님의 명령으로 훌륭한 3층 석탑을 지어야 합니다\n자신은 훌륭한 삼층 석탑을 짓거나 상대방의 탑을 방해해야 합니다\n설사 석탑이 완성이 안되더라도 외관이 아름다우면 임금님이 용서하겠죠?",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "주사위 배치",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "역사",
+        "건설"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -7495,14 +7577,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🏯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:16:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7550,17 +7634,21 @@
       "slug": "koala-party-3b2aa7",
       "ko": "코알라 파티",
       "en": "Koala Party",
-      "author": "기전세",
+      "author": "디미디움",
       "desc": "색상/숫자를 거짓으로 외치며 살아남는 반응속도 파티 게임.",
-      "players": "3-6명",
+      "players": "3-5명",
       "playersMin": 3,
-      "playersMax": 6,
+      "playersMax": 5,
       "playtime": "30분 이하",
       "age": "8세 이상",
       "mech": [
-        "블러핑"
+        "기타"
       ],
-      "theme": [],
+      "theme": [
+        "유머/파티",
+        "동물",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -7578,7 +7666,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:16:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7587,7 +7675,7 @@
       "ko": "비밀의 좌표",
       "en": "Secret Coordinates",
       "author": "데굴",
-      "desc": "주사위와 트릭테이킹이 결합된 게임입니다. 두 주사위로 보물을 찾아보세요.",
+      "desc": "고고학자 커뮤니티에 보물이 잠든 한 섬에 대한 소식이 전해집니다.\n보물을 원하는 많은 고고학자들이 한 섬에 모이게 되었습니다.\n보물이 숨겨진 비밀의 좌표를 알아내어 다른 이들에게 보물을 빼앗기기 전에 가장 먼저 도착해야할 것입니다.\n섬의 자욱한 안개는 좌표에 대한 확신을 흐리게 만들고 고고학자들을 괴롭게 만들 것입니다.",
       "players": "3-4명",
       "playersMin": 3,
       "playersMax": 4,
@@ -7612,7 +7700,8 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "주사위"
+        "주사위",
+        "큐브·토큰·미플"
       ],
       "thumb": "/assets/thumbs/secret-coordinates-3b2aa7-grid.webp",
       "thumbLarge": "/assets/thumbs/secret-coordinates-3b2aa7-detail.webp",
@@ -7620,7 +7709,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7636,8 +7725,10 @@
       "playtime": "30~60분",
       "age": "",
       "mech": [
+        "비대칭",
         "주사위 배치",
-        "비대칭"
+        "블러핑",
+        "주사위 굴림"
       ],
       "theme": [
         "유머/파티",
@@ -7653,14 +7744,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🎯",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -7750,14 +7844,22 @@
       "ko": "개척의 시대",
       "en": "Age of Exploration",
       "author": "KY81(황기영)",
-      "desc": "롤 앤 라이트로 즐기는 3X 게임.",
+      "desc": "개척의 시대는 전략적인 선택으로 번영하는 국가를 건설하는 게임입니다.\n플레이어는 6가지 색상의 주사위 중 하나를 선택해 영토를 확장하거나, 기술을 개발하고, 건물을 건설하며, 인구를 증가시키거나 명성을 높이는 등 다양한 행동을 통해 국가를 성장시켜 나갑니다.게임은 총 3라운드로 진행되며, 종료 시 가장 많은 승점을 획득한 플레이어가 승리하게 됩니다.",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "60분~120분",
-      "age": "",
-      "mech": [],
-      "theme": [],
+      "age": "14세 이상",
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "드래프트",
+        "지역 장악",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "건설",
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2025,
       "lang": [
@@ -7765,11 +7867,12 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1776&game=20606",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/u7nvdx",
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "필기구"
+        "필기구",
+        "주사위"
       ],
       "thumb": null,
       "thumbLarge": null,
@@ -7777,7 +7880,7 @@
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🎲",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-17T23:54:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
