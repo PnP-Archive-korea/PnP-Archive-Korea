@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T00:54:07.124Z",
-  "count": 237,
+  "generatedAt": "2026-10-19T03:03:34.659Z",
+  "count": 238,
   "facets": {
     "playtime": [
       "30~60분",
@@ -111,6 +111,49 @@
     ]
   },
   "games": [
+    {
+      "id": "3feaa7a1591181c8b13af62ea1737334",
+      "slug": "olm-3feaa7",
+      "ko": "올름",
+      "en": "Olm",
+      "author": "Ákos Plesznivy",
+      "desc": "두 룬슬링어가 충돌하며, 생존하기 위해 불러낸 떠도는 정령과 파멸의 룬으로 저마다의 운명을 새겨 나갑니다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "포커족보",
+        "카드 사용",
+        "자원 관리"
+      ],
+      "theme": [
+        "판타지",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://deck.unlessgames.com/ko/olm/",
+      "infoUrl": "https://boardgamegeek.com/thread/3583037/olm-rune-slingers-combat-2025-traditional-deck-gam",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드"
+      ],
+      "thumb": "/assets/thumbs/olm-3feaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/olm-3feaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/olm-3feaa7-raw.webp",
+      "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
+      "icon": "🏰",
+      "createdAt": "2026-10-19T02:37:00.000Z",
+      "updatedAt": "2026-10-19T03:02:00.000Z",
+      "publishedAt": "2026-10-19T03:03:30.574Z"
+    },
     {
       "id": "3f9aa7a1591180159a40d0c07f285c51",
       "slug": "super-robo-jetkaiser-z-3f9aa7",
@@ -3885,7 +3928,7 @@
       "ko": "고 업 & 고 다운",
       "en": "Go Up & Go Down",
       "author": "김기만",
-      "desc": "2023 PnP 공모전 참가작. 작가의 첫 게임으로, 피드백을 반영해 룰북 시인성을 개선하고 조커같이 너무 큰 이득을 주는 자원을 배제한 1차 룰 개선 버전.",
+      "desc": "2~3인용 플레잉카드로 즐기는 카드 게임.",
       "players": "2-3명",
       "playersMin": 2,
       "playersMax": 3,
@@ -3910,14 +3953,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -3968,16 +4013,22 @@
       "ko": "미궁 탈출 포커",
       "en": "",
       "author": "쿠쿨자",
-      "desc": "2023 한장짜리 PnP 공모전 제출작. 간단하면서도 랜덤성과 전략성, 협잡이 가능한 파티게임을 목표로 했으며, 플레잉 카드 한 세트만 있으면 사무공간에서도 즉각 만들어 즐길 수 있는 게임을 지향했다고 작가가 설명.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
+      "desc": "게임 플레이는 간단하지만, 랜덤성과 전략성을 추구한 파티게임. 플레잉 카드 1세트만으로 언제든지 즐겨보세요.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
       "playtime": "",
       "age": "",
       "mech": [
-        "카드 사용"
+        "레이스",
+        "포커족보",
+        "동시 액션 선택",
+        "그리드 이동"
       ],
-      "theme": [],
+      "theme": [
+        "카드게임",
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -3989,7 +4040,9 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [
-        "트럼프 카드"
+        "트럼프 카드",
+        "큐브·토큰·미플",
+        "필기구"
       ],
       "thumb": null,
       "thumbLarge": null,
@@ -3997,7 +4050,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -4041,7 +4094,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:23:00.000Z",
-      "updatedAt": "2026-10-18T01:25:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:23:00.000Z"
     },
     {
@@ -4579,17 +4632,21 @@
       "slug": "참거짓-셋둘하나-3baaa7",
       "ko": "참거짓 셋둘하나",
       "en": "",
-      "author": "접짝",
-      "desc": "원래 명칭은 '탐정의 후계자' 및 '네가 키라다'. 어느 명탐정이 죽고 그 후계자를 정하기 위해 겨루는 배경의 추리 게임. 검증 막대 4인분을 만들 수 있는 PnP 자료가 추가되었으며, 지속적으로 용의자 이름과 설정이 개정되고 있다. 0718 판본은 서울 회기 미플 보드게임 카페에 비치.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
+      "author": "접쫑",
+      "desc": "범죄 사건이 일어났습니다! 용의자는 가루, 바나나, 탐정, 조수 중 하나! 범인을 찾아보세요.",
+      "players": "2-6명",
+      "playersMin": 2,
+      "playersMax": 6,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
       "mech": [
-        "추리"
+        "추리",
+        "퍼즐 풀이"
       ],
-      "theme": [],
+      "theme": [
+        "현대",
+        "퍼즐"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -4605,9 +4662,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
-      "icon": "🎯",
+      "icon": "🏙️",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-19T02:30:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -4700,14 +4757,20 @@
       "ko": "쿠이쿠이 숫자마작",
       "en": "",
       "author": "mind_sweep(마인드스윗)",
-      "desc": "마작의 테마를 입힌 숫자 빙고 게임. 기초 개념을 마작에서 가져와 마작 용어를 알아야 이해가 가능하나, 실제 마작의 규칙·족보·점수체계와는 상이한 부분이 있다. 익숙해지면 한 판에 5분도 걸리지 않아 20분이면 반장전이 가능하다고 작가가 설명.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
+      "desc": "마작의 테마를 입힌 숫자빙고. 마작에서 가져온 개념들을 토대로 새로운 경험을 즐겨보세요.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30분 이하",
       "age": "",
-      "mech": [],
-      "theme": [],
+      "mech": [
+        "세트 수집",
+        "패턴 인식",
+        "플립 앤 라이트/롤 앤 라이트"
+      ],
+      "theme": [
+        "추상"
+      ],
       "price": "무료",
       "year": 2024,
       "lang": [
@@ -4718,14 +4781,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🔷",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-19T02:28:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -4945,7 +5010,9 @@
         "추리"
       ],
       "theme": [
-        "동물"
+        "동물",
+        "고양이",
+        "유머/파티"
       ],
       "price": "무료",
       "year": 2023,
@@ -4964,7 +5031,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🦊",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-10-19T02:28:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -5014,7 +5081,7 @@
       "ko": "다이체이스",
       "en": "DIChassE",
       "author": "suuperchiken",
-      "desc": "체스(Chess)+체이스(Chase)를 결합해 주사위를 굴려 기물을 잡기 위해 쪽는 1대1 게임. 준비물은 육각주사위 12개(3종류 4개씩), 8x8 체스판, 마커 12개.",
+      "desc": "다이스 (Dice)+ 체스(Chess) + 체이스(Chase)\n주사위를 굴려 기물을 잡기위해 쫓는다.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -5039,7 +5106,8 @@
       "translator": "",
       "components": [
         "주사위",
-        "큐브·토큰·미플"
+        "큐브·토큰·미플",
+        "체스"
       ],
       "thumb": null,
       "thumbLarge": null,
@@ -5047,7 +5115,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🔷",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T02:28:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -5063,11 +5131,14 @@
       "playtime": "30~60분",
       "age": "10세 이상",
       "mech": [
+        "비대칭",
         "카드 사용",
-        "주사위 굴림"
+        "주사위 굴림",
+        "롤플레잉"
       ],
       "theme": [
-        "판타지"
+        "판타지",
+        "모험/탐험"
       ],
       "price": "무료",
       "year": 2023,
@@ -5090,7 +5161,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -5106,8 +5177,9 @@
       "playtime": "30~60분",
       "age": "8세 이상",
       "mech": [
-        "기억력",
-        "그리드 이동"
+        "퍼즐 풀이",
+        "그리드 이동",
+        "주사위 굴림"
       ],
       "theme": [
         "판타지"
@@ -5122,14 +5194,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -5303,16 +5377,21 @@
       "ko": "대농장",
       "en": "The great farm",
       "author": "草록매實",
-      "desc": "2023 PnP 보드게임 공모전 참가작(구 대목장). 한 장으로 끝내는 게임으로 제약이 많았으나 그 안에서 구현한 작품. 2023.4.23 수정본은 호수를 통한 종료 조건이 변경되어, 필드의 호수 5개 중 2개를 누군가 차지했을 때 나머지 플레이어가 한 번씩 하고 게임이 끝난다.",
+      "desc": "카드를 뽑아서 나온 숫자만큼 선을 그어서 구역을 가두어 가둔 땅을 차지하는 게임.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
       "playtime": "30~60분",
       "age": "14세 이상",
       "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "지역 장악",
+        "세트 수집",
         "자원 관리"
       ],
-      "theme": [],
+      "theme": [
+        "동물"
+      ],
       "price": "무료",
       "year": 2023,
       "lang": [
@@ -5323,14 +5402,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "트럼프 카드",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🗺️",
+      "icon": "🦊",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-19T02:29:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
