@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T03:08:47.192Z",
+  "generatedAt": "2026-10-19T05:50:21.234Z",
   "count": 238,
   "facets": {
     "playtime": [
@@ -1764,17 +1764,19 @@
       "ko": "오버 13",
       "en": "Over 13",
       "author": "타비",
-      "desc": "트럼프덱으로 즐기는 하이·로우 예측 게임. 중앙의 비공개 카드가 공개 카드보다 높은지 낮은지 맞히면 바닥의 카드를 모두 가져가고, 먼저 10장을 모으면 승리한다.",
+      "desc": "숨겨진 카드가 공개 카드보다 높을지 낮을지 예측하며 먼저 10장을 모으는 트럼프 카드 게임.",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "",
       "age": "",
       "mech": [
-        "푸시 유어 럭"
+        "푸시 유어 럭",
+        "플레이어 제거"
       ],
       "theme": [
-        "카드게임"
+        "카드게임",
+        "추상"
       ],
       "price": "무료",
       "year": 2026,
@@ -1795,7 +1797,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-03T02:55:00.000Z",
-      "updatedAt": "2026-10-06T01:53:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-09-03T02:55:00.000Z"
     },
     {
@@ -1804,14 +1806,15 @@
       "ko": "스도쿠 듀얼",
       "en": "Sudoku Dual",
       "author": "leehm 0110",
-      "desc": "종이 한 장과 펜 두 자루로 즐기는 2인 대전 스도쿠.",
+      "desc": "상대가 적은 숫자가 내가 채울 구역이 되는, 종이 한 장과 펜 두 자루로 즐기는 2인 대전 스도쿠.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "30~60분",
       "age": "12세 이상",
       "mech": [
-        "퍼즐 풀이"
+        "퍼즐 풀이",
+        "기타"
       ],
       "theme": [
         "퍼즐",
@@ -1836,7 +1839,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-09-03T02:55:00.000Z",
-      "updatedAt": "2026-10-06T01:53:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-09-03T02:55:00.000Z"
     },
     {
@@ -1845,13 +1848,14 @@
       "ko": "카파오",
       "en": "KAPAO",
       "author": "사계절",
-      "desc": "숨겨진 개인 보드와 카드 능력을 활용해 가장 강한 포커 족보를 만드는 게임.",
+      "desc": "카파오는 숨겨진 개인 보드와 카드 능력을 활용해 가장 강한 포커 족보를 만드는 심리전 카드 게임이다.",
       "players": "2-5명",
       "playersMin": 2,
       "playersMax": 5,
       "playtime": "",
       "age": "",
       "mech": [
+        "포커족보",
         "기억력",
         "추리",
         "핸드 관리"
@@ -1869,14 +1873,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "트럼프 카드"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-09-03T02:55:00.000Z",
-      "updatedAt": "2026-09-03T03:21:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-09-03T02:55:00.000Z"
     },
     {
@@ -2496,11 +2502,14 @@
       "playtime": "30~60분",
       "age": "8세 이상",
       "mech": [
+        "주사위 배치",
         "주사위 굴림",
-        "탐험"
+        "탐험",
+        "푸시 유어 럭"
       ],
       "theme": [
-        "판타지"
+        "판타지",
+        "모험/탐험"
       ],
       "price": "무료",
       "year": 2026,
@@ -2521,7 +2530,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:21:00.000Z",
+      "updatedAt": "2026-10-19T03:15:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -2854,12 +2863,14 @@
       "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
+        "타일 놓기",
+        "네트워크 및 경로 구축",
         "협력",
-        "패턴 인식",
-        "타일 놓기"
+        "패턴 인식"
       ],
       "theme": [
-        "현대"
+        "추상",
+        "퍼즐"
       ],
       "price": "무료",
       "year": 2026,
@@ -2876,9 +2887,9 @@
       "thumbLarge": "/assets/thumbs/tangled-up-3c1aa7-detail.webp",
       "thumbRaw": "/assets/thumbs/tangled-up-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "🏙️",
+      "icon": "🔷",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-18T23:55:00.000Z",
+      "updatedAt": "2026-10-19T03:15:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -2930,7 +2941,7 @@
       "ko": "곱하고 더하고 빼서 공격!",
       "en": "",
       "author": "성쵸",
-      "desc": "카드 숫자에 주사위를 곱하고, 모두의 피해를 더하고 빼서 몬스터를 쓰러뜨리는 협력 계산 게임",
+      "desc": "카드 숫자에 주사위 눈을 곱하고 모두의 피해를 합쳐 몬스터의 체력을 넘겨 보세요!",
       "players": "2-3명",
       "playersMin": 2,
       "playersMax": 3,
@@ -2939,7 +2950,8 @@
       "mech": [
         "협력",
         "주사위 굴림",
-        "카드 사용"
+        "카드 사용",
+        "핸드 관리"
       ],
       "theme": [
         "판타지"
@@ -2963,7 +2975,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:21:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -3087,18 +3099,21 @@
       "ko": "Deliver 9",
       "en": "",
       "author": "김승진",
-      "desc": "배달이 성공하도록 지도를 완성하는 1~4인 플레이 가능한 카드 놓기 협력 게임",
+      "desc": "단 9칸의 마을에 도로 카드를 놓아, 배달 기사가 무사히 픽업하고 배달할 수 있는 길을 함께 완성하세요.",
       "players": "1-4명",
       "playersMin": 1,
       "playersMax": 4,
       "playtime": "30분 이하",
-      "age": "8세 이상",
+      "age": "14세 이상",
       "mech": [
         "협력",
         "퍼즐 풀이",
-        "타일 놓기"
+        "타일 놓기",
+        "네트워크 및 경로 구축"
       ],
-      "theme": [],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -3106,7 +3121,7 @@
       ],
       "url": "https://www.wemakeplay.co.kr/entry/9f6a2917-2484-425f-b6c8-12ef199e7d5b",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/8eeptp",
       "origin": "국내 창작",
       "translator": "",
       "components": [],
@@ -3114,9 +3129,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
-      "icon": "🔖",
+      "icon": "🏙️",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:21:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -3125,7 +3140,7 @@
       "ko": "CUT!",
       "en": "",
       "author": "화목",
-      "desc": "동료를 믿고, 올바른 전선을 잘라라! 자신이 잘라야 할 전선은 자신만 모릅니다. 행동으로 힌트를 주고받아 모두 함께 폭탄을 해체하세요.",
+      "desc": "내가 잘라야 할 전선은 나만 모르니, 말 없이 행동만으로 힌트를 주고받으며 함께 폭탄을 해체하세요!",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -3133,9 +3148,12 @@
       "age": "14세 이상",
       "mech": [
         "협력",
-        "트릭테이킹"
+        "트릭테이킹",
+        "추리"
       ],
-      "theme": [],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -3146,14 +3164,17 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
-      "icon": "🃏",
+      "icon": "🏙️",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:21:00.000Z",
+      "updatedAt": "2026-10-19T03:24:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -3325,17 +3346,20 @@
       "en": "Pollution Trump",
       "author": "아야어여우유좋아",
       "desc": "트럼프 카드와 노트만으로 즐기는, 질문과 카드 효과로 정답을 추론하거나 블러프로 방해하는 비대칭 1대1 추리 게임.",
-      "players": "2명(2대2 팀전 가능)",
-      "playersMin": 2,
-      "playersMax": 2,
+      "players": "3-5명",
+      "playersMin": 3,
+      "playersMax": 5,
       "playtime": "",
       "age": "",
       "mech": [
         "추리",
+        "블러핑",
+        "비대칭",
         "카드 사용"
       ],
       "theme": [
-        "추상"
+        "추상",
+        "카드게임"
       ],
       "price": "무료",
       "year": 2026,
@@ -3357,7 +3381,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-18T01:42:00.000Z"
     },
     {
@@ -3571,18 +3595,21 @@
       "ko": "연합 우주 방어 사령부",
       "en": "",
       "author": "조이헌터(조재형)",
-      "desc": "1~3인 플레이 가능한 협력 RPG 디펜스 게임. 플레이어들은 우주방어 사령부의 지휘관으로서 인류 거주 행성이 공격받을 때 전투 지역에 파견되어 요원을 이끌고 침략자를 막는다. 규칙서와 1인플 Print n Play 자료가 보드라이프 자료실에 게재되어 있다고 작가가 안내. 작가의 전작은 '크리드'.",
-      "players": "1-3인",
+      "desc": "연합 우주 방어 사령부 소속의 지휘관으로써 인류가 거주하고 있는 행성의 최후 방어선을 지켜보세요.",
+      "players": "1-3명",
       "playersMin": 1,
       "playersMax": 3,
-      "playtime": "",
-      "age": "",
+      "playtime": "60분~120분",
+      "age": "12세 이상",
       "mech": [
         "협력",
-        "롤플레잉"
+        "액션 포인트",
+        "롤플레잉",
+        "솔로/솔로테어 게임"
       ],
       "theme": [
-        "SF"
+        "SF",
+        "전쟁/전투"
       ],
       "price": "무료",
       "year": 2022,
@@ -3594,14 +3621,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🛰️",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3610,15 +3639,21 @@
       "ko": "던전블럭",
       "en": "",
       "author": "jiten",
-      "desc": "2022 PnP 공모전 출품작. 대마법사가 되기 위해 마나의 경지를 높이는 게임. 개인 사정으로 기한 내 업로드하지 못해 심사 자격은 미달했지만 테스트 자료를 공유한 게시글.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
+      "desc": "대마법사의 길을 걷고 싶은 평범한 마법사\n강해지기위해 모험을 떠나게 되는 데..",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
       "playtime": "",
       "age": "",
-      "mech": [],
+      "mech": [
+        "타일 놓기",
+        "솔로/솔로테어 게임",
+        "그리드 이동",
+        "퍼즐 풀이"
+      ],
       "theme": [
-        "판타지"
+        "판타지",
+        "모험/탐험"
       ],
       "price": "무료",
       "year": 2022,
@@ -3630,14 +3665,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3650,12 +3687,13 @@
       "players": "1-6명(본편 기준)",
       "playersMin": 1,
       "playersMax": 6,
-      "playtime": "60분~120분",
+      "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
         "퍼즐 풀이",
         "협력",
-        "스토리텔링"
+        "스토리텔링",
+        "추리"
       ],
       "theme": [
         "판타지"
@@ -3677,7 +3715,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "🏰",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3730,8 +3768,8 @@
       "slug": "dieson-crusoe-3baaa7",
       "ko": "다이슨 크루소",
       "en": "Dieson Crusoe",
-      "author": "한진희",
-      "desc": "무인도에 표류된 당신! 섬 반대편 해안가에서 뗏목을 만들고 맑은 날씨를 기다려보세요.",
+      "author": "한진희(레이지니), 강희원(해요)",
+      "desc": "당신은 난파되어 무인도에 표류되었다. 무인도의 날씨는 변덕스럽고 점점 사나워진다. 섬 안쪽으로 들어갈수록 사나운 짐승들이 습격해온다. 빨리 이 끔찍한 섬에서 탈출하지 않으면, 문명으로 돌아가지 못할 것만 같다.\n당신의 목표는 무인도 탈출이다! 그러기 위해서는 섬 반대편 해안가로 가서 뗏목을 만들고, 맑은 날씨를 기다려야할 것이다.",
       "players": "1명",
       "playersMin": 1,
       "playersMax": 1,
@@ -3739,9 +3777,14 @@
       "age": "",
       "mech": [
         "주사위 배치",
+        "솔로/솔로테어 게임",
+        "자원 관리",
+        "플립 앤 라이트/롤 앤 라이트",
         "주사위 굴림"
       ],
-      "theme": [],
+      "theme": [
+        "모험/탐험"
+      ],
       "price": "무료",
       "year": 2021,
       "lang": [
@@ -3752,14 +3795,18 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "주사위",
+        "큐브·토큰·미플",
+        "필기구"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🃏",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T03:20:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3772,11 +3819,12 @@
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
-      "playtime": "30~60분",
+      "playtime": "30분 이하",
       "age": "",
       "mech": [
         "타일 놓기",
-        "카드 사용"
+        "카드 사용",
+        "일꾼 놓기"
       ],
       "theme": [
         "역사"
@@ -3791,14 +3839,16 @@
       "playUrl": "",
       "origin": "국내 창작",
       "translator": "",
-      "components": [],
+      "components": [
+        "큐브·토큰·미플"
+      ],
       "thumb": null,
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏯",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:19:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3807,16 +3857,22 @@
       "ko": "타일 밟기",
       "en": "",
       "author": "백더슬(N4M3)",
-      "desc": "플레잉 카드와 두 개의 말로 하는 2인용 보드게임. 시간이 그리 오래 걸리지 않는다고 작가가 설명하며 피드백을 요청한 초기작. ※ 제목은 가칭.",
-      "players": "2인",
+      "desc": "플레잉 카드와 두 개의 말로 하는 2인용 보드게임.",
+      "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
       "playtime": "",
       "age": "",
       "mech": [
+        "그리드 이동",
+        "타일 재배열",
+        "조립 보드",
         "카드 사용"
       ],
-      "theme": [],
+      "theme": [
+        "추상",
+        "카드게임"
+      ],
       "price": "무료",
       "year": 2022,
       "lang": [
@@ -3835,9 +3891,9 @@
       "thumbLarge": null,
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
-      "icon": "📦",
+      "icon": "🔷",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
@@ -3846,14 +3902,16 @@
       "ko": "집현전 학자들",
       "en": "",
       "author": "해요",
-      "desc": "한글 덱빌딩 게임. 한글 자음으로 글자를 유추하는 방식이라 중학생 이상을 권장하며, 애매한 상황은 모든 플레이어가 동의하면 단어로 인정하는 특별조항을 둔다. 작가 지망생이 첫 기록으로 공개한 작품. 인당 10분 정도 소요.",
-      "players": "2-4인",
+      "desc": "세종대왕의 명으로 집현전의 학자들에게 ‘한글 단어를 수집하라.’라는 임무가 주어졌습니다.\n가장 멋진 단어집을 만들어 공적을 세우면 ‘사가독서제’를 하사한다고 합니다.\n(사가독서제 : 몇 달씩 집에서 독서를 할 수 있는 유급휴가)",
+      "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
-      "playtime": "30~60분",
+      "playtime": "30분 이하",
       "age": "14세 이상",
       "mech": [
-        "덱빌딩"
+        "덱빌딩",
+        "핸드 관리",
+        "기타"
       ],
       "theme": [
         "역사"
@@ -3875,7 +3933,7 @@
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏯",
       "createdAt": "2026-08-12T02:25:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-10-19T03:14:00.000Z",
       "publishedAt": "2026-08-12T02:25:00.000Z"
     },
     {
