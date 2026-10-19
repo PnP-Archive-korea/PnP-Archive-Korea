@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T22:50:42.700Z",
+  "generatedAt": "2026-10-19T00:54:07.124Z",
   "count": 237,
   "facets": {
     "playtime": [
@@ -2803,7 +2803,7 @@
       "ko": "얼기설기",
       "en": "Tangled Up",
       "author": "틴들공방",
-      "desc": "",
+      "desc": "평면을 빈틈없이 채울 수 있으면서도, 어떤 방식으로 채워도 반복되는 규칙(주기성)이 나타나지 않는 '모노타일(단일 타일)'인 '모자(hat)' 모양을 수학적으로 증명하고 제시한 논문입니다.\nSmith, D., Myers, J. S., Kaplan, C. S., & Goodman-Strauss, C. (2023). An aperiodic monotile. https://doi.org/10.48550/arxiv.2303.10798\n만약 그렇다면, A4용지 단 두 페이지(단면)만으로도 제법 리플레이성 괜찮은 타일배치 게임을 만들 수 있지 않을까요?",
       "players": "1-2명",
       "playersMin": 1,
       "playersMax": 2,
@@ -2814,7 +2814,9 @@
         "패턴 인식",
         "타일 놓기"
       ],
-      "theme": [],
+      "theme": [
+        "현대"
+      ],
       "price": "무료",
       "year": 2026,
       "lang": [
@@ -2826,13 +2828,13 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/tangled-up-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/tangled-up-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/tangled-up-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
-      "icon": "⚔️",
+      "icon": "🏙️",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-12T04:21:00.000Z",
+      "updatedAt": "2026-10-18T23:55:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
