@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T22:10:59.058Z",
-  "count": 238,
+  "generatedAt": "2026-10-22T01:19:32.761Z",
+  "count": 239,
   "facets": {
     "playtime": [
       "30~60분",
@@ -111,6 +111,50 @@
     ]
   },
   "games": [
+    {
+      "id": "401aa7a159118050aae1eab94850188e",
+      "slug": "ch-teau-mis-re-401aa7",
+      "ko": "비참의 성",
+      "en": "Château Misère",
+      "author": "Jean-Baptiste Lévêque",
+      "desc": "비참의 성은 Jean-Baptiste Lévêque의 미니멀리즘 게임북입니다. 초현실적이고 폐허가 된 성이 당신을 영원히 가두기 전에 그곳을 탈출하세요.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "자원 관리",
+        "주사위 굴림",
+        "탐험",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "모험/탐험",
+        "공포"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/lizq2abvvzuuvdknq4ncp/ABDft5Rif--YJDJ_kguZgQI?rlkey=ucu098raallc1ehnrqj5l7aty&st=cd0ftbw0&dl=0",
+      "infoUrl": "https://zltz.itch.io/chateau-misere",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "주사위"
+      ],
+      "thumb": "/assets/thumbs/ch-teau-mis-re-401aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/ch-teau-mis-re-401aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/ch-teau-mis-re-401aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🗺️",
+      "createdAt": "2026-10-22T00:54:00.000Z",
+      "updatedAt": "2026-10-22T01:16:00.000Z",
+      "publishedAt": "2026-10-22T01:19:28.245Z"
+    },
     {
       "id": "3feaa7a1591181c8b13af62ea1737334",
       "slug": "olm-3feaa7",
@@ -9067,7 +9111,7 @@
       "slug": "village-nodaji-3b2aa7",
       "ko": "빌리지 노다지",
       "en": "village nodaji",
-      "author": "작자 미상",
+      "author": "dreamer90002",
       "desc": "주사위를 굴리고 마을과 건물을 지어서 자원과 점수를 늘려가는 게임",
       "players": "2-4명",
       "playersMin": 2,
@@ -9104,7 +9148,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-17T03:24:00.000Z",
+      "updatedAt": "2026-10-22T00:56:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {

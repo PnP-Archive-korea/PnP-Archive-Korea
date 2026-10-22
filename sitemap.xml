@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pnparchive.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-10-19</lastmod><priority>0.9</priority></url>
+  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-10-22</lastmod><priority>0.9</priority></url>
+  <url><loc>https://pnparchive.com/game/ch-teau-mis-re-401aa7/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/olm-3feaa7/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/super-robo-jetkaiser-z-3f9aa7/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/royal-rescue-3f9aa7/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
@@ -217,7 +218,7 @@
   <url><loc>https://pnparchive.com/game/winning-five-3b2aa7/</loc><lastmod>2026-10-17</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/playing-city-3b2aa7/</loc><lastmod>2026-10-17</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/dark-city-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/village-nodaji-3b2aa7/</loc><lastmod>2026-10-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/village-nodaji-3b2aa7/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/the-adventure-of-chipmunks-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/biosphere-ii-3b2aa7/</loc><lastmod>2026-10-17</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/do-not-bust-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
