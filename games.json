@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T01:18:29.917Z",
+  "generatedAt": "2026-10-23T01:39:25.184Z",
   "count": 239,
   "facets": {
     "playtime": [
@@ -1962,13 +1962,13 @@
       "components": [
         "트럼프 카드"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/shadow-market-3cfaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/shadow-market-3cfaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/shadow-market-3cfaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-09-02T01:15:00.000Z",
-      "updatedAt": "2026-10-08T00:43:00.000Z",
+      "updatedAt": "2026-10-23T01:38:00.000Z",
       "publishedAt": "2026-09-02T01:15:00.000Z"
     },
     {
