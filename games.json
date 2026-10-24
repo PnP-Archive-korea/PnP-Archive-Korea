@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:54:25.404Z",
+  "generatedAt": "2026-10-24T00:20:57.949Z",
   "count": 239,
   "facets": {
     "playtime": [
@@ -3390,9 +3390,9 @@
       "en": "Pollution Trump",
       "author": "아야어여우유좋아",
       "desc": "트럼프 카드와 노트만으로 즐기는, 질문과 카드 효과로 정답을 추론하거나 블러프로 방해하는 비대칭 1대1 추리 게임.",
-      "players": "3-5명",
-      "playersMin": 3,
-      "playersMax": 5,
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
       "playtime": "",
       "age": "",
       "mech": [
@@ -3425,7 +3425,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🔷",
       "createdAt": "2026-08-18T01:42:00.000Z",
-      "updatedAt": "2026-10-19T03:14:00.000Z",
+      "updatedAt": "2026-10-24T00:03:00.000Z",
       "publishedAt": "2026-08-18T01:42:00.000Z"
     },
     {
