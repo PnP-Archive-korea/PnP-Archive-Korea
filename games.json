@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T23:54:40.067Z",
-  "count": 239,
+  "generatedAt": "2026-10-26T02:42:23.676Z",
+  "count": 240,
   "facets": {
     "playtime": [
       "30~60분",
@@ -69,6 +69,7 @@
       "주사위 관리",
       "주사위 굴림",
       "주사위 배치",
+      "주식 조종",
       "지역 장악",
       "추리",
       "치트풀 시스템",
@@ -111,6 +112,49 @@
     ]
   },
   "games": [
+    {
+      "id": "405aa7a1591180348648fe9e68fb4f4b",
+      "slug": "share-tactics-405aa7",
+      "ko": "쉐어 택틱스",
+      "en": "Share Tactics",
+      "author": "Chris Parker",
+      "desc": "셰어 택틱스에서 3~5명의 플레이어는 기업의 주식을 모아 가장 많은 점수를 얻기 위해 경쟁합니다. 트릭에서 이겨 주식을 얻고, 특수 카드 효과를 사용해 시장을 바꾸고, 가치가 높은 기업 위주로 포트폴리오를 꾸려 큰 점수를 획득합니다. 하지만 조심해야 합니다. 한 플레이어가 너무 뒤처지면 시장 조정이 일어나 모두가 쌓아놓은 성과가 무너질 수 있습니다!",
+      "players": "3-5명",
+      "playersMin": 3,
+      "playersMax": 5,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "트릭테이킹",
+        "주식 조종",
+        "핸드 관리"
+      ],
+      "theme": [
+        "현대",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/xhe69wjcys16xvyrak0ta/AKSusk8sF_asOccnLhiA9xQ?rlkey=nn46e4pb6r013b7rlx8vdddzc&st=wxa3pt5z&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3578872/share-tactics-cube-rails-inspired-trick-taking-gam",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드"
+      ],
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🏙️",
+      "createdAt": "2026-10-26T02:32:00.000Z",
+      "updatedAt": "2026-10-26T02:41:00.000Z",
+      "publishedAt": "2026-10-26T02:42:20.965Z"
+    },
     {
       "id": "401aa7a159118050aae1eab94850188e",
       "slug": "ch-teau-mis-re-401aa7",
