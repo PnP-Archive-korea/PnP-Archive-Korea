@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:33:35.454Z",
+  "generatedAt": "2026-10-29T01:35:58.895Z",
   "count": 246,
   "facets": {
     "playtime": [
@@ -240,7 +240,7 @@
       "ko": "33!",
       "en": "33!",
       "author": "tsukiyami.yaru, CHUNJH, jiji7668, dlgustmd, KJHee, kmy0213, hsy0429, nunu116, nukuli",
-      "desc": "숫자 카드를 더하고 빼서 손안의 계산 값을 33으로 맞추세요. 가장 먼저 ‘33!’을 외치는 사람이 승리합니다.",
+      "desc": "[주의: 제공된 카드 파일을 2장씩 인쇄해야 게임이 요구하는 카드 갯수를 충족합니다]\n숫자 카드를 더하고 빼서 손안의 계산 값을 33으로 맞추세요. 가장 먼저 ‘33!’을 외치는 사람이 승리합니다.",
       "players": "2-4명",
       "playersMin": 2,
       "playersMax": 4,
@@ -269,7 +269,7 @@
       "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
       "icon": "⚔️",
       "createdAt": "2026-10-28T02:11:00.000Z",
-      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "updatedAt": "2026-10-29T01:35:00.000Z",
       "publishedAt": "2026-10-29T01:33:27.903Z"
     },
     {
