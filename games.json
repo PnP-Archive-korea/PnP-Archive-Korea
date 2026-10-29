@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T22:57:40.194Z",
-  "count": 240,
+  "generatedAt": "2026-10-29T01:33:35.454Z",
+  "count": 246,
   "facets": {
     "playtime": [
       "30~60분",
@@ -112,6 +112,244 @@
     ]
   },
   "games": [
+    {
+      "id": "407aa7a159118107a4bcece4504ec528",
+      "slug": "스타트업-게임회사-키우기-407aa7",
+      "ko": "스타트업 게임회사 키우기",
+      "en": "",
+      "author": "TaeGyeong",
+      "desc": "스타트업 게임 회사의 사장이 되어 회사의 주가를 올리세요. 경쟁에서 살아남아 시가총액 1위를 달성하면 승리합니다.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30~60분",
+      "age": "",
+      "mech": [
+        "롤 앤 무브",
+        "주식 조종"
+      ],
+      "theme": [
+        "현대"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://taegyeong.itch.io/raisinggamecompany",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/스타트업-게임회사-키우기-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/스타트업-게임회사-키우기-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/스타트업-게임회사-키우기-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏙️",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:32:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
+    {
+      "id": "407aa7a1591181778d5ed49075cbd10a",
+      "slug": "그거-있잖아-그거-407aa7",
+      "ko": "그거 있잖아, 그거!",
+      "en": "",
+      "author": "KJHee, tsukiyami.yaru, CHUNJH, jiji7668, dlgustmd, kmy0213, hsy0429, nunu116, nukuli",
+      "desc": "손님이 왕인 세상, 진상 고객이 원하는 물건을 스무고개로 누구보다 빨리 알아맞히세요. 정답을 맞힐 때마다 달콤한 상여금이 들어옵니다.",
+      "players": "3-6명",
+      "playersMin": 3,
+      "playersMax": 6,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "추리"
+      ],
+      "theme": [
+        "유머/파티"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://kjhee.itch.io/thatthat-a2-ysu",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "필기구",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/그거-있잖아-그거-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/그거-있잖아-그거-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/그거-있잖아-그거-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "🔖",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
+    {
+      "id": "407aa7a15911817b868ce5a94966946e",
+      "slug": "kingdom-407aa7",
+      "ko": "킹덤",
+      "en": "KingDom",
+      "author": "F2ronia, mygkrals",
+      "desc": "왕·귀족·평민·노예, 네 신분의 카드로 앞사람보다 더 강한 카드를 내세요. 손에 든 카드를 가장 먼저 모두 내면 승리합니다.",
+      "players": "3-5명",
+      "playersMin": 3,
+      "playersMax": 5,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "클라이밍",
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://f2ronia.itch.io/kingdom",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": "/assets/thumbs/kingdom-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/kingdom-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/kingdom-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
+    {
+      "id": "407aa7a159118181a0a1c24103a3207c",
+      "slug": "33-407aa7",
+      "ko": "33!",
+      "en": "33!",
+      "author": "tsukiyami.yaru, CHUNJH, jiji7668, dlgustmd, KJHee, kmy0213, hsy0429, nunu116, nukuli",
+      "desc": "숫자 카드를 더하고 빼서 손안의 계산 값을 33으로 맞추세요. 가장 먼저 ‘33!’을 외치는 사람이 승리합니다.",
+      "players": "2-4명",
+      "playersMin": 2,
+      "playersMax": 4,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://tsukiyamiyaru.itch.io/a2-33",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": "/assets/thumbs/33-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/33-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/33-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
+    {
+      "id": "407aa7a159118182ac7df6d06614dab8",
+      "slug": "도둑들-407aa7",
+      "ko": "도둑들",
+      "en": "",
+      "author": "simminji2022, phj02, xx03, HW",
+      "desc": "도둑과 경찰로 나뉘어 겨루세요. 도둑은 미술품을 챙겨 탈출하고, 경찰은 수갑으로 도둑을 붙잡으세요.",
+      "players": "4명",
+      "playersMin": 4,
+      "playersMax": 4,
+      "playtime": "30분 이하",
+      "age": "10세 이상",
+      "mech": [
+        "세트 수집",
+        "비대칭"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2023,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://simminji2022.itch.io/yeon202200279",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": "/assets/thumbs/도둑들-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/도둑들-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/도둑들-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
+    {
+      "id": "407aa7a15911818893e8e1f9762f8229",
+      "slug": "모험가-이야기-407aa7",
+      "ko": "모험가 이야기",
+      "en": "",
+      "author": "TaeGyeong",
+      "desc": "카드로 함께 모험 이야기를 이어 가세요. 밤마다 찾아오는 마왕의 저주를 피해 엔딩을 보거나, 투표로 숨은 마왕을 밝혀내세요.",
+      "players": "4-6명 (+사회자 1명)",
+      "playersMin": 4,
+      "playersMax": 6,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "스토리텔링",
+        "핸드 관리"
+      ],
+      "theme": [
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://taegyeong.itch.io/adventurersstory",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": "/assets/thumbs/모험가-이야기-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/모험가-이야기-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/모험가-이야기-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
+      "icon": "🃏",
+      "createdAt": "2026-10-28T02:11:00.000Z",
+      "updatedAt": "2026-10-29T01:31:00.000Z",
+      "publishedAt": "2026-10-29T01:33:27.903Z"
+    },
     {
       "id": "405aa7a1591180348648fe9e68fb4f4b",
       "slug": "share-tactics-405aa7",
