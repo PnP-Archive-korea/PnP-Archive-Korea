@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T21:36:41.478Z",
-  "count": 246,
+  "generatedAt": "2026-10-30T01:39:07.665Z",
+  "count": 245,
   "facets": {
     "playtime": [
       "30~60분",
@@ -4933,42 +4933,6 @@
       "thumbRaw": null,
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
-      "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
-      "publishedAt": "2026-08-12T02:10:00.000Z"
-    },
-    {
-      "id": "3baaa7a159118148b71ff760c62b742b",
-      "slug": "칼레이스-대륙-영웅의-길-3baaa7",
-      "ko": "칼레이스 대륙 -영웅의 길-",
-      "en": "",
-      "author": "팀 플렉스보드",
-      "desc": "인디보드게임 제작팀의 자체제작 판타지 보드게임. 테이블탑 시뮬레이터 창작마당에 일부 이미지를 제외한 프로토타입이 룰북과 함께 게재되어 있어 체험 가능. 별도로 텀블벅 펀딩 진행.",
-      "players": "",
-      "playersMin": null,
-      "playersMax": null,
-      "playtime": "",
-      "age": "",
-      "mech": [],
-      "theme": [
-        "판타지"
-      ],
-      "price": "무료",
-      "year": 2024,
-      "lang": [
-        "한국어"
-      ],
-      "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1583",
-      "infoUrl": "",
-      "playUrl": "",
-      "origin": "국내 창작",
-      "translator": "",
-      "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
-      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
-      "icon": "🏰",
       "createdAt": "2026-08-12T02:10:00.000Z",
       "updatedAt": "2026-10-12T04:17:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
