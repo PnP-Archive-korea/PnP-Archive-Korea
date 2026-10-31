@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-10-31T00:30:24.947Z",
-  "count": 245,
+  "generatedAt": "2026-10-31T00:38:15.638Z",
+  "count": 252,
   "facets": {
     "playtime": [
+      "120분 이상",
       "30~60분",
       "30분 이하",
       "60분~120분"
@@ -93,6 +94,7 @@
       "협력"
     ],
     "lang": [
+      "기타",
       "영어",
       "한국어"
     ],
@@ -112,6 +114,316 @@
     ]
   },
   "games": [
+    {
+      "id": "407aa7a15911811aaeb3d82e1ffff85f",
+      "slug": "wandering-knight-407aa7",
+      "ko": "방랑기사",
+      "en": "WANDERING KNIGHT",
+      "author": "Somin Yoon",
+      "desc": "지도를 만들어가는 3인용 GM없는 한 장짜리 TRPG. 게임 참가자들은 선한 신, 악한 신, 기사의 역할을 맡습니다.",
+      "players": "3명",
+      "playersMin": 3,
+      "playersMax": 3,
+      "playtime": "120분 이상",
+      "age": "",
+      "mech": [
+        "스토리텔링",
+        "롤플레잉",
+        "비대칭",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "판타지",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://sominqwop10.itch.io/wandering-knight-gm-less-3trpg-rulebook",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/wandering-knight-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/wandering-knight-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/wandering-knight-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏰",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a1591181588c73c07f1742a68d",
+      "slug": "ezra-s-scroll-407aa7",
+      "ko": "에스라의 두루마리",
+      "en": "Ezra's Scroll",
+      "author": "Jordan Pyle (kingdomgamification)",
+      "desc": "남녀노소 모든 베뢰아 사람을 위한 성경 암기 게임. 집에서 인쇄해서 가족과 함께 성경 인물, 장소, 책을 재미있게 외워 보세요.",
+      "players": "2-5명",
+      "playersMin": 2,
+      "playersMax": 5,
+      "playtime": "",
+      "age": "8세 이상",
+      "mech": [
+        "기타",
+        "카드 사용"
+      ],
+      "theme": [
+        "어린이/교육",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://kingdomgamification.itch.io/ezras-scroll-korean",
+      "playUrl": "",
+      "origin": "",
+      "translator": "",
+      "components": [],
+      "thumb": "/assets/thumbs/ezra-s-scroll-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/ezra-s-scroll-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/ezra-s-scroll-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a15911817d8811e4dbfe0400f9",
+      "slug": "colon-407aa7",
+      "ko": "COLON",
+      "en": "COLON",
+      "author": "Somin Yoon",
+      "desc": "신체, 원리 그리고 믿음. 세 가지 특성치를 통해 사람, 짐승, 산과 바다, 종교, 범죄 조직, 신적인 존재까지 당신은 무엇이든 될 수 있습니다.",
+      "players": "",
+      "playersMin": null,
+      "playersMax": null,
+      "playtime": "120분 이상",
+      "age": "",
+      "mech": [
+        "롤플레잉",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "기타"
+      ],
+      "price": "무료",
+      "year": 2023,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "",
+      "infoUrl": "https://sominqwop10.itch.io/colon",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위"
+      ],
+      "thumb": "/assets/thumbs/colon-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/colon-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/colon-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
+      "icon": "🎲",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a15911818d8a5adbaf9e9babf0",
+      "slug": "frontearth-striders-407aa7",
+      "ko": "프론트아스를 걷는 사람들",
+      "en": "Frontearth Striders",
+      "author": "Gearoong",
+      "desc": "격동하는 세계를 누비며 온갖 문제에 휘말리는 탐험가들의 이야기를, 간단하고 플레이하기 쉬운 규칙으로 다루는 TRPG.",
+      "players": "",
+      "playersMin": null,
+      "playersMax": null,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "롤플레잉",
+        "탐험",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "판타지",
+        "모험/탐험"
+      ],
+      "price": "무료",
+      "year": 2020,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "",
+      "infoUrl": "https://gearoong.itch.io/frontearth-striders",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위"
+      ],
+      "thumb": "/assets/thumbs/frontearth-striders-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/frontearth-striders-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/frontearth-striders-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🏰",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a1591181928a24f8f0151a8002",
+      "slug": "the-veilwoods-training-day-407aa7",
+      "ko": "The Veilwoods: Training Day",
+      "en": "The Veilwoods: Training Day",
+      "author": "StudioMantaGames",
+      "desc": "신비한 숲 베일우즈에 새로 부임한 레인저가 되어 훈련 첫날을 보내는 한 장짜리 솔로 TTRPG. 숲을 탐사하고, 살아남아 보고하세요. 베일우즈에서는 언제나 무언가가 지켜보고 있습니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "120분 이상",
+      "age": "",
+      "mech": [
+        "솔로/솔로테어 게임",
+        "롤플레잉",
+        "스토리텔링"
+      ],
+      "theme": [
+        "공포",
+        "판타지"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어",
+        "영어",
+        "기타"
+      ],
+      "url": "",
+      "infoUrl": "https://studiomantagames.itch.io/veilwoods-trainingday",
+      "playUrl": "",
+      "origin": "",
+      "translator": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/the-veilwoods-training-day-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/the-veilwoods-training-day-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/the-veilwoods-training-day-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
+      "icon": "👻",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a1591181a78597cc031915a87e",
+      "slug": "one-card-rpgs-407aa7",
+      "ko": "원카드 TRPG - 아날로그 미니게임 컬렉션",
+      "en": "One Card RPGs",
+      "author": "상준, 상덕 (magister ludi)",
+      "desc": "실험적이거나 파티적인 아날로그 미니게임!",
+      "players": "",
+      "playersMin": null,
+      "playersMax": null,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "롤플레잉",
+        "스토리텔링",
+        "추리",
+        "주사위 굴림"
+      ],
+      "theme": [
+        "기타",
+        "유머/파티"
+      ],
+      "price": "무료",
+      "year": 2019,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://magisterludikr.itch.io/onecardrpgs-kr",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/one-card-rpgs-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/one-card-rpgs-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/one-card-rpgs-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "🎲",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
+    {
+      "id": "407aa7a1591181b9904eed9d21031e58",
+      "slug": "konsei-reiyotan-tale-of-spirits-and-yokai-407aa7",
+      "ko": "혼세영요담",
+      "en": "Konsei Reiyotan: Tale of Spirits and Yokai",
+      "author": "셸먼 (Shellman)",
+      "desc": "영혼·요괴와 분대 전술을 다루는 전국시대 다크 판타지 TRPG.",
+      "players": "1-5명",
+      "playersMin": 1,
+      "playersMax": 5,
+      "playtime": "120분 이상",
+      "age": "",
+      "mech": [
+        "롤플레잉",
+        "주사위 굴림",
+        "액션 포인트"
+      ],
+      "theme": [
+        "역사",
+        "판타지",
+        "전쟁/전투"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어",
+        "영어",
+        "기타"
+      ],
+      "url": "",
+      "infoUrl": "https://ds62hg.itch.io/konsei-reiyotan",
+      "playUrl": "",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/konsei-reiyotan-tale-of-spirits-and-yokai-407aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/konsei-reiyotan-tale-of-spirits-and-yokai-407aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/konsei-reiyotan-tale-of-spirits-and-yokai-407aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🏯",
+      "createdAt": "2026-10-28T02:14:00.000Z",
+      "updatedAt": "2026-10-31T00:36:00.000Z",
+      "publishedAt": "2026-10-31T00:38:05.861Z"
+    },
     {
       "id": "407aa7a159118107a4bcece4504ec528",
       "slug": "스타트업-게임회사-키우기-407aa7",
