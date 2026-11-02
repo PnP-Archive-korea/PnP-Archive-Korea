@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T00:22:49.690Z",
-  "count": 252,
+  "generatedAt": "2026-11-02T00:56:28.067Z",
+  "count": 253,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,50 @@
     ]
   },
   "games": [
+    {
+      "id": "40caa7a1591180f3902bfe3ca0e6af23",
+      "slug": "trick-trick-boom-40caa7",
+      "ko": "트릭 트릭 붐",
+      "en": "Trick Trick Boom",
+      "author": "Haymire",
+      "desc": "뜨거운 감자 놀이와 비슷하지만… 감자를 던지는 대신 트릭 테이킹을 합니다.\n그런데… 모두가 폭탄을 들고 시작합니다.\n그리고… 여기서 감자란, 폭발하는 감자 폭탄을 말합니다.",
+      "players": "3-5명",
+      "playersMin": 3,
+      "playersMax": 5,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "트릭테이킹",
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임",
+        "유머/파티"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/irv08hrn2s9y4pw0anb15/ACg67K-481PsHcvi5sSWlqg?rlkey=k43wiw8q7whupej7cl1jjp8b4&st=osbjdirj&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3576183",
+      "playUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3582649214",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "트럼프 카드",
+        "큐브·토큰·미플"
+      ],
+      "thumb": "/assets/thumbs/trick-trick-boom-40caa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/trick-trick-boom-40caa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/trick-trick-boom-40caa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🎯",
+      "createdAt": "2026-11-02T00:06:00.000Z",
+      "updatedAt": "2026-11-02T00:55:00.000Z",
+      "publishedAt": "2026-11-02T00:56:24.593Z"
+    },
     {
       "id": "407aa7a15911811aaeb3d82e1ffff85f",
       "slug": "wandering-knight-407aa7",
