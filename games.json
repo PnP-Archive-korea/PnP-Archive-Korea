@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:49:30.435Z",
+  "generatedAt": "2026-11-05T03:16:37.458Z",
   "count": 254,
   "facets": {
     "playtime": [
@@ -120,7 +120,7 @@
       "ko": "라켓",
       "en": "Racket",
       "author": "Dirk R. Thesing",
-      "desc": "금주법 시대, 갱단이 주름잡는 도시 곳곳을 누비는 수완가가 되어 보세요. 밀주를 빚어 몰래 실어 나르고, 비밀 주점도 차립니다. 물론 모두 두목 자리를 노리는 갱스터들을 위한 일입니다. 시키는 대로 따르다 가끔은 뒤통수도 치다 보면, 어느새 도시에서 가장 돈 많은 수완가가 되어 있을지도 모릅니다.",
+      "desc": "금주법 시대, 갱단이 주름잡는 도시 곳곳을 누비는 수완가가 되어 보세요. 밀주를 빚어 몰래 실어 나르고, 비밀 주점도 차립니다. 물론 모두 두목 자리를 노리는 갱스터들을 위한 일입니다. 시키는 대로 따르다 가끔은 뒤통수도 치다 보면, 어느새 도시에서 가장 돈 많은 수완가가 되어 있을지도 모릅니다.\n\n플레이스루 비디오: https://www.youtube.com/watch?v=5J1V-DIROcc",
       "players": "3-4명",
       "playersMin": 3,
       "playersMax": 4,
@@ -143,7 +143,7 @@
       ],
       "url": "https://www.dropbox.com/scl/fo/xusiqwafxcj17hszu7586/AGBp1_IyJW_e6JiIXyU_7P8?rlkey=8lutwrk80842ftwksj8smyktc&st=wyk0c51q&dl=0",
       "infoUrl": "https://boardgamegeek.com/thread/3555689/wip-racket-pick-and-pass-your-way-through-the-proh",
-      "playUrl": "",
+      "playUrl": "https://playingcards.io/scpfmm",
       "origin": "해외 번역",
       "translator": "정성훈",
       "components": [],
@@ -153,7 +153,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "🏯",
       "createdAt": "2026-11-05T00:27:00.000Z",
-      "updatedAt": "2026-11-05T00:43:00.000Z",
+      "updatedAt": "2026-11-05T00:58:00.000Z",
       "publishedAt": "2026-11-05T00:44:03.839Z"
     },
     {
