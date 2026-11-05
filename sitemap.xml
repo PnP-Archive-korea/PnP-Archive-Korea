@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pnparchive.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-11-02</lastmod><priority>0.9</priority></url>
+  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-11-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://pnparchive.com/game/racket-40faa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/trick-trick-boom-40caa7/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/wandering-knight-407aa7/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/ezra-s-scroll-407aa7/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
@@ -16,16 +17,16 @@
   <url><loc>https://pnparchive.com/game/33-407aa7/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/도둑들-407aa7/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/모험가-이야기-407aa7/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/share-tactics-405aa7/</loc><lastmod>2026-10-26</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/ch-teau-mis-re-401aa7/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/share-tactics-405aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/ch-teau-mis-re-401aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/olm-3feaa7/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/super-robo-jetkaiser-z-3f9aa7/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/royal-rescue-3f9aa7/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/super-robo-jetkaiser-z-3f9aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/royal-rescue-3f9aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/깊은-곳의-부름-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/the-four-musketeers-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/the-d6-shooters-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/adamastor-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/gladiator-gauntlet-3f7aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/the-four-musketeers-3f7aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/the-d6-shooters-3f7aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/adamastor-3f7aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/gladiator-gauntlet-3f7aa7/</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/jack-s-dream-3f5aa7/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/barbarian-vince-3f3aa7/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/unsuspected-3f3aa7/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
