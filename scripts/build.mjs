@@ -9,6 +9,8 @@
  *   archive/index.html           전체 게임 텍스트 링크 목록 (검색엔진이 모든 게임 페이지를 찾는 통로)
  *   assets/thumbs/<slug>-*.webp 게임별 썸네일 (grid 600×450 / detail 1200×900)
  *   review-queue.json           운영자 검토 큐 (PDF 자동 추출 썸네일 목록) — review.html이 읽음
+ *   indexnow-state.json         IndexNow 변경 감지용 페이지 해시 (커밋됨)
+ *   .indexnow-urls.json         이번에 바뀐 페이지 주소 (커밋 안 함 — scripts/indexnow.mjs가 전송)
  *
  * 의존성: sharp(이미지 리사이즈), pdf-to-img(PDF 1페이지 렌더링) — package.json 참고.
  * 2026-08-31 이전에는 의존성이 없었지만, 썸네일 파이프라인 추가로 npm install이
@@ -17,6 +19,7 @@
  */
 
 import { writeFile, mkdir, rm, readFile, readdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildThumbnails, isFresh, setReviewFlag } from "./thumbnails.mjs";
@@ -36,6 +39,13 @@ const GA_MEASUREMENT_ID = "G-NJDJMDKBE0";
 
 // 슬러그 고정용 레지스트리 파일. 한 번 정해진 슬러그는 제목이 바뀌어도 유지됩니다.
 const SLUG_REGISTRY_PATH = join(ROOT, "slug-registry.json");
+
+// IndexNow(Bing·네이버 등에 바뀐 주소를 바로 알리는 규약)용 파일.
+//  - indexnow-state.json : 정적 페이지별 내용 해시. 워크플로가 커밋한다(다음 빌드의 비교 기준).
+//  - .indexnow-urls.json : 이번 빌드에서 새로 생기거나 바뀌거나 사라진 페이지 주소.
+//    커밋하지 않는 임시 파일이며, 워크플로의 다음 단계(scripts/indexnow.mjs)가 읽어 전송한다.
+const INDEXNOW_STATE_PATH = join(ROOT, "indexnow-state.json");
+const INDEXNOW_URLS_PATH = join(ROOT, ".indexnow-urls.json");
 
 // ─────────────────────────────────────────────
 // 설정
@@ -885,21 +895,76 @@ ${NAV_JS}
 `;
 }
 
+// ─────────────────────────────────────────────
+// IndexNow 전송 목록 만들기
+// 정적 페이지마다 HTML 해시를 indexnow-state.json에 기록해 두고, 직전 상태와 비교해
+//  - 새로 생긴 페이지(새로 게시된 게임), 내용이 바뀐 페이지(정보 수정·관련 게임 변경 등),
+//  - 사라진 페이지(게시 중단 — 검색엔진이 404를 확인하고 목록에서 빼도록)
+// 의 주소를 .indexnow-urls.json에 적는다. 상태 파일이 없으면(처음 도입할 때) 전체를 적는다.
+// 실제 전송은 커밋·배포 뒤에 scripts/indexnow.mjs가 한다.
+// ─────────────────────────────────────────────
+async function planIndexNow(pages) {
+  const sha1 = (s) => createHash("sha1").update(s).digest("hex").slice(0, 16);
+
+  let prev = null;
+  try {
+    prev = JSON.parse(await readFile(INDEXNOW_STATE_PATH, "utf8")).pages || null;
+  } catch {
+    prev = null;
+  }
+
+  const next = {};
+  for (const path of [...pages.keys()].sort()) next[path] = sha1(pages.get(path));
+
+  let changed;
+  if (!prev) {
+    changed = Object.keys(next);
+  } else {
+    changed = Object.keys(next).filter((p) => prev[p] !== next[p]);
+    for (const p of Object.keys(prev)) if (!(p in next)) changed.push(p); // 사라진 페이지
+  }
+
+  // 한국어 슬러그는 퍼센트 인코딩된 절대 주소로 보낸다.
+  const urls = changed.map((p) => new URL(p, `${SITE_URL}/`).href);
+
+  await writeFile(
+    INDEXNOW_STATE_PATH,
+    JSON.stringify({ note: "IndexNow 변경 감지용 — 빌드가 자동 생성합니다. 직접 수정하지 마세요.", pages: next }, null, 1) + "\n",
+    "utf8"
+  );
+  await writeFile(INDEXNOW_URLS_PATH, JSON.stringify({ urls }, null, 1) + "\n", "utf8");
+
+  console.log(
+    !prev
+      ? `✓ IndexNow — 상태 파일 없음(처음 도입): 전체 ${urls.length}개 주소를 전송 대기`
+      : `✓ IndexNow — 바뀐 주소 ${urls.length}개 전송 대기`
+  );
+}
+
 async function writeStaticSEO(games) {
   // 삭제된 게임의 페이지가 남지 않도록 game/ 디렉터리를 매번 새로 만듭니다.
   await rm(join(ROOT, "game"), { recursive: true, force: true });
   await rm(join(ROOT, "archive"), { recursive: true, force: true });
   await loadLogo();
 
+  // IndexNow 변경 감지용: 사이트 경로 → 생성된 HTML
+  const pages = new Map();
+
   for (const g of games) {
     const dir = join(ROOT, "game", g.slug);
     await mkdir(dir, { recursive: true });
-    await writeFile(join(dir, "index.html"), gamePageHtml(g, pickRelated(games, g)), "utf8");
+    const html = gamePageHtml(g, pickRelated(games, g));
+    await writeFile(join(dir, "index.html"), html, "utf8");
+    pages.set(`/game/${g.slug}/`, html);
   }
 
   // 모든 게임 페이지로 이어지는 정적 목록 페이지
   await mkdir(join(ROOT, "archive"), { recursive: true });
-  await writeFile(join(ROOT, "archive", "index.html"), archiveHubHtml(games), "utf8");
+  const hubHtml = archiveHubHtml(games);
+  await writeFile(join(ROOT, "archive", "index.html"), hubHtml, "utf8");
+  pages.set("/archive/", hubHtml);
+
+  await planIndexNow(pages);
   const latest = games.map((g) => (g.updatedAt || "").slice(0, 10)).sort().pop() || "";
 
   const urls = [
