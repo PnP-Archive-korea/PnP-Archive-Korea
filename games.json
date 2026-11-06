@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T08:41:38.348Z",
+  "generatedAt": "2026-11-06T08:46:55.735Z",
   "count": 255,
   "facets": {
     "playtime": [
@@ -120,7 +120,7 @@
       "ko": "파이팅 듀얼",
       "en": "FIGHTING DUEL",
       "author": "야츠무",
-      "desc": "레트로 대전 격투게임을 옮긴 2인 카드 대전. 매 턴 두 사람이 카드 한 장과 쓸 행동(위쪽 기술 또는 아래쪽 대시·백스텝·가드·기 모으기)을 몰래 정해 동시에 공개하고, 거리·속도·상성으로 판정한다. 거리 싸움과 기를 모아 쓰는 초필살기로 상대 체력 20을 먼저 0으로 만들면 승리.",
+      "desc": "카드로 즐기는레트로 격투게임\n거리를 조절하고, 상대의 다음 수를 예상하세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -146,13 +146,13 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/fighting-duel-410aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/fighting-duel-410aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/fighting-duel-410aa7-raw.webp",
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-11-06T07:17:00.000Z",
-      "updatedAt": "2026-11-06T08:40:00.000Z",
+      "updatedAt": "2026-11-06T08:46:00.000Z",
       "publishedAt": "2026-11-06T08:41:36.125Z"
     },
     {
