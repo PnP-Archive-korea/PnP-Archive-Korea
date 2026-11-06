@@ -56,10 +56,23 @@ jobs:
           # games.json 외에 sitemap.xml / robots.txt / game/* / assets/thumbs/* /
           # review-queue.json(운영자 검토 큐) / review.html(검토 큐 화면, 최초 1회 후엔
           # 내용이 안 바뀌지만 add -A라 매번 넣어도 무해합니다)도 함께 커밋합니다.
+          # indexnow-state.json = IndexNow 변경 감지 기준(페이지별 해시). .indexnow-urls.json은 임시 파일이라 넣지 않습니다.
           git add -A games.json sitemap.xml robots.txt game archive assets/thumbs review-queue.json review.html package-lock.json
+          if [ -f indexnow-state.json ]; then git add indexnow-state.json; fi
           if git diff --cached --quiet; then
             echo "변경 사항 없음 — 커밋 생략"
           else
             git commit -m "chore: Notion 데이터 동기화 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
           fi
+
+      # 바뀐 게임 페이지 주소를 IndexNow로 Bing·네이버 등에 바로 알립니다(2026-11-06 추가).
+      # 배포(GitHub Pages)가 끝날 때까지 최대 8분 기다렸다가 보내며, 바뀐 게 없으면 바로 끝납니다.
+      # 전송이 실패해도 동기화 자체는 성공으로 둡니다(continue-on-error).
+      # 키 파일: 저장소 루트의 677928d5f64aec2d0f655767db0feb71.txt — 지우지 마세요.
+      - name: IndexNow로 검색엔진에 알림 (Bing·네이버)
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node scripts/indexnow.mjs
