@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T07:44:44.975Z",
-  "count": 254,
+  "generatedAt": "2026-11-06T08:41:38.348Z",
+  "count": 255,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,47 @@
     ]
   },
   "games": [
+    {
+      "id": "410aa7a1591181c088edc23ec5afe234",
+      "slug": "fighting-duel-410aa7",
+      "ko": "파이팅 듀얼",
+      "en": "FIGHTING DUEL",
+      "author": "야츠무",
+      "desc": "레트로 대전 격투게임을 옮긴 2인 카드 대전. 매 턴 두 사람이 카드 한 장과 쓸 행동(위쪽 기술 또는 아래쪽 대시·백스텝·가드·기 모으기)을 몰래 정해 동시에 공개하고, 거리·속도·상성으로 판정한다. 거리 싸움과 기를 모아 쓰는 초필살기로 상대 체력 20을 먼저 0으로 만들면 승리.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "동시 액션 선택",
+        "다중 사용 카드",
+        "핸드 관리"
+      ],
+      "theme": [
+        "전쟁/전투",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://dicman.github.io/fighting-duel/#download",
+      "infoUrl": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=2064",
+      "playUrl": "https://dicman.github.io/fighting-duel/",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [],
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🗺️",
+      "createdAt": "2026-11-06T07:17:00.000Z",
+      "updatedAt": "2026-11-06T08:40:00.000Z",
+      "publishedAt": "2026-11-06T08:41:36.125Z"
+    },
     {
       "id": "40faa7a1591180559d62ed465c879265",
       "slug": "racket-40faa7",
