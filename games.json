@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T08:46:55.735Z",
+  "generatedAt": "2026-11-06T08:56:02.158Z",
   "count": 255,
   "facets": {
     "playtime": [
@@ -120,7 +120,7 @@
       "ko": "파이팅 듀얼",
       "en": "FIGHTING DUEL",
       "author": "야츠무",
-      "desc": "카드로 즐기는레트로 격투게임\n거리를 조절하고, 상대의 다음 수를 예상하세요.",
+      "desc": "카드로 즐기는 레트로 격투게임\n거리를 조절하고, 상대의 다음 수를 예상하세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -152,7 +152,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-11-06T07:17:00.000Z",
-      "updatedAt": "2026-11-06T08:46:00.000Z",
+      "updatedAt": "2026-11-06T08:47:00.000Z",
       "publishedAt": "2026-11-06T08:41:36.125Z"
     },
     {
