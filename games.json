@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T19:50:07.462Z",
+  "generatedAt": "2026-11-06T00:52:29.481Z",
   "count": 254,
   "facets": {
     "playtime": [
@@ -9016,8 +9016,8 @@
       "slug": "zermelo-3b2aa7",
       "ko": "체르멜로",
       "en": "Zermelo",
-      "author": "작자 미상",
-      "desc": "",
+      "author": "seongcharl",
+      "desc": "바둑알로 2인 추상전략을 즐겨보세요.",
       "players": "2명",
       "playersMin": 2,
       "playersMax": 2,
@@ -9048,7 +9048,7 @@
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🔷",
       "createdAt": "2026-08-04T05:47:00.000Z",
-      "updatedAt": "2026-10-17T03:24:00.000Z",
+      "updatedAt": "2026-11-06T00:42:00.000Z",
       "publishedAt": "2026-08-04T05:47:00.000Z"
     },
     {
