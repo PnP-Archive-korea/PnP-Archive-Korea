@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T01:29:42.704Z",
-  "count": 255,
+  "generatedAt": "2026-11-09T06:15:13.310Z",
+  "count": 256,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,47 @@
     ]
   },
   "games": [
+    {
+      "id": "413aa7a1591180aebe67d1689e3b4aaa",
+      "slug": "scavengers-413aa7",
+      "ko": "스캐빈저스",
+      "en": "Scavengers",
+      "author": "Georg Fischer",
+      "desc": "스캐빈저스는 핸드 빌딩 요소가 일부 들어간 토너먼트 트릭 테이킹 게임입니다. 2~8명의 플레이어가 무작위로 손패를 받습니다. 일대일 대전에서 점수를 얻기 위해 가장 많은 트릭을 차지해야 합니다. 각 대전이 끝나면 다음 대전을 위해 손패를 다시 드래프트합니다. 정해진 횟수의 대전이 끝난 뒤 점수가 가장 높은 사람이 승리의 영광을 얻습니다!",
+      "players": "2-8명",
+      "playersMin": 2,
+      "playersMax": 8,
+      "playtime": "30~60분",
+      "age": "",
+      "mech": [
+        "트릭테이킹",
+        "드래프트",
+        "핸드 관리"
+      ],
+      "theme": [
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/92tt8ussysodntxq6g0ow/AEvcjs5rGq7WsKcJ_JncrMc?rlkey=wuaut4h8n9ka5vle223gsj5k0&st=4hx43hz4&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3560045/scavengers-think-challengers-but-trick-taking-54-c",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [],
+      "thumb": "/assets/thumbs/scavengers-413aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/scavengers-413aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/scavengers-413aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-11-09T05:20:00.000Z",
+      "updatedAt": "2026-11-09T05:58:00.000Z",
+      "publishedAt": "2026-11-09T06:15:09.739Z"
+    },
     {
       "id": "410aa7a1591181c088edc23ec5afe234",
       "slug": "fighting-duel-410aa7",
