@@ -401,7 +401,7 @@ function heroHtml(g) {
 // ─────────────────────────────────────────────
 // 상단 메뉴 (정적 게임 페이지) — index.html의 <header class="nav">와 같은 구성
 //
-// 로고·메뉴 5개·KO/EN·검색·디스코드·게임 등록하기·모바일 메뉴까지 그대로 옮긴다.
+// 로고·메뉴 5개·KO/EN·검색·인스타그램·게임 등록하기·모바일 메뉴까지 그대로 옮긴다.
 // 로고는 index.html에 인라인된 이미지를 빌드 때 읽어 와서, 메인에서 로고를 바꾸면
 // 다음 동기화 때 게임 페이지에도 자동으로 반영된다(못 찾으면 글자만 표시).
 // 아이콘은 lucide 스크립트를 불러오지 않도록 같은 모양의 SVG를 직접 넣는다.
@@ -423,8 +423,14 @@ const svgIcon = (body) =>
 const ICON = {
   search: svgIcon('<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>'),
   message: svgIcon('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),
+  instagram: svgIcon('<rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>'),
   menu: svgIcon('<line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>'),
 };
+
+// 공식 인스타그램 (상단 버튼·모바일 메뉴·푸터). 디스코드는 푸터에만 둔다.
+const INSTAGRAM_URL = "https://www.instagram.com/pnp_archive_korea/";
+// 정적 페이지 푸터의 커뮤니티 링크 (메인 푸터 '커뮤니티' 열과 같은 구성)
+const snsLinksHtml = () => `<p class="foot-sns"><a href="${INSTAGRAM_URL}" target="_blank" rel="noopener" data-insta="footer"${enAttr("Instagram")}>인스타그램</a><span aria-hidden="true">·</span><a href="/discord" target="_blank" rel="noopener"${enAttr("Join our Discord")}>디스코드 참여하기</a></p>`;
 
 const NAV_ITEMS = [
   ["home", "홈", "Home"],
@@ -482,12 +488,12 @@ a{color:inherit}
 .search input{width:200px;height:40px;border-radius:999px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);padding:0 16px 0 38px;font:inherit;font-size:14px}
 .search input::placeholder{color:var(--muted)}
 .search input:focus{outline:none;border-color:var(--brand-mid);box-shadow:0 0 0 3px color-mix(in srgb,var(--brand-hi) 25%,transparent)}
-.btn-discord{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
-.btn-discord:hover{background:var(--gold-hi)}
-.btn-discord .ic{font-size:16px}
+.btn-insta{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
+.btn-insta:hover{background:var(--gold-hi)}
+.btn-insta .ic{font-size:16px}
 .btn-brand{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;border:1px solid var(--brand);background:var(--brand);color:var(--on-brand);transition:background .2s,border-color .2s,transform .15s}
 .btn-brand:hover{background:var(--brand-mid);border-color:var(--brand-mid)}
-.btn-discord:active,.btn-brand:active{transform:scale(.98)}
+.btn-insta:active,.btn-brand:active{transform:scale(.98)}
 .menu-btn{display:none;width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);align-items:center;justify-content:center;font-size:18px;cursor:pointer}
 .mobile-menu{border-top:1px solid var(--line);padding-block:8px 16px}
 .mobile-menu a{display:block;padding:12px 4px;font-weight:500;color:var(--ink-soft)}
@@ -495,11 +501,11 @@ a{color:inherit}
 .m-lang{display:none}
 @media (max-width:1480px){.search{display:none}}
 @media (max-width:1060px){.links a{padding:8px 9px;font-size:14px}.brand{font-size:16px}}
-@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-discord,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
+@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-insta,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
 @media (max-width:1040px){.nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}.links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}.links::-webkit-scrollbar{display:none}}
 @media (max-width:1720px){html[lang="en"] .search{display:none}}
 @media (max-width:1270px){html[lang="en"] .nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}html[lang="en"] .links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}}
-@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-discord{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
+@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-insta{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
 @media (max-width:540px){.nav-right .lang{display:none}.m-lang{display:inline-flex;margin-top:8px}}
 @media (max-width:420px){.brand .kr{display:none}}`;
 const NAV_JS = `/* 상단 메뉴 동작 — 모바일 메뉴 열기, 검색(아카이브로 이동), KO/EN 전환.
@@ -550,8 +556,11 @@ const NAV_JS = `/* 상단 메뉴 동작 — 모바일 메뉴 열기, 검색(아�
   });
 
   document.addEventListener("click", function(e){
-    var a = e.target && e.target.closest ? e.target.closest('a[href="/discord"]') : null;
-    if (a && typeof gtag === "function") gtag("event", "discord_click", { link_location: "nav", transport_type: "beacon" });
+    if (typeof gtag !== "function" || !e.target || !e.target.closest) return;
+    var d = e.target.closest('a[href="/discord"]');
+    if (d) gtag("event", "discord_click", { link_location: "footer", transport_type: "beacon" });
+    var ig = e.target.closest("a[data-insta]");
+    if (ig) gtag("event", "instagram_click", { link_location: ig.getAttribute("data-insta") || "", transport_type: "beacon" });
   }, true);
 })();`;
 
@@ -580,14 +589,14 @@ function siteHeaderHtml(g) {
         ${ICON.search}
         <input id="q" type="search" placeholder="게임 이름, 작가로 검색" data-en-ph="Search by title or designer">
       </form>
-      <a class="btn-discord" href="/discord" target="_blank" rel="noopener">${ICON.message}<span${enAttr("Discord")}>디스코드</span></a>
+      <a class="btn-insta" href="${INSTAGRAM_URL}" target="_blank" rel="noopener" data-insta="nav">${ICON.instagram}<span${enAttr("Instagram")}>인스타그램</span></a>
       <a class="btn-brand" href="/#/submit"${enAttr("Submit a Game")}>게임 등록하기</a>
       <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="메뉴 열기">${ICON.menu}</button>
     </div>
   </div>
   <div class="nav-wrap mobile-menu" id="mobileMenu" hidden>
     ${navLinks.join("\n    ")}
-    <a href="/discord" target="_blank" rel="noopener"${enAttr("Discord")}>디스코드</a>
+    <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener" data-insta="nav"${enAttr("Instagram")}>인스타그램</a>
     ${lang(" m-lang")}
   </div>
 </header>`;
@@ -695,6 +704,9 @@ th{width:32%;color:var(--muted);font-weight:500}
 .related-thumb{aspect-ratio:4/3;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:30px;background-size:cover;background-position:center}
 .related-title{padding:10px 6px 4px;font-size:14px;font-weight:700}
 footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.foot-sns{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px;font-size:14px}
+.foot-sns a{color:var(--ink-soft);font-weight:600;text-decoration:none}
+.foot-sns a:hover{color:var(--ink);text-decoration:underline}
 </style>
 </head>
 <body>
@@ -750,7 +762,10 @@ ${heroHtml(g)}
   </div>`
       : ""
   }
-  <footer${enAttr("© 2026 PnP Archive KOREA · All rights to each game belong to its creator. Listings are non-exclusive, and creators may request removal at any time. Submitting games that infringe third-party copyrights, and bulk collecting or redistributing information from this site, are prohibited.")}>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</footer>
+  <footer>
+    ${snsLinksHtml()}
+    <p${enAttr("© 2026 PnP Archive KOREA · All rights to each game belong to its creator. Listings are non-exclusive, and creators may request removal at any time. Submitting games that infringe third-party copyrights, and bulk collecting or redistributing information from this site, are prohibited.")}>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다. 등록은 비독점적이며, 창작자는 언제든지 게시 중단을 요청할 수 있습니다. 제3자의 저작권 등을 침해하는 게임 등록, 본 사이트 제공 정보를 대량 수집 및 재배포하는 행위를 금지합니다.</p>
+  </footer>
 </div>
 <script>
 ${NAV_JS}
@@ -875,6 +890,9 @@ ${BASE_CSS}
 .hub-en{font-family:Outfit,"Noto Sans KR",sans-serif;font-size:13px;font-weight:500;color:var(--muted)}
 .hub-meta{font-size:13px;color:var(--muted)}
 footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.foot-sns{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px;font-size:14px}
+.foot-sns a{color:var(--ink-soft);font-weight:600;text-decoration:none}
+.foot-sns a:hover{color:var(--ink);text-decoration:underline}
 </style>
 </head>
 <body>
@@ -885,7 +903,10 @@ ${siteHeaderHtml({ origin: "" })}
   <a class="hub-cta" href="/#/archive"${enAttr("Filter by players, time & mechanism →")}>인원·시간·메커니즘으로 찾기 →</a>
 ${section("국내 창작 PnP", domestic)}
 ${section("해외 번역 PnP", translated)}
-  <footer${enAttr("© 2026 PnP Archive KOREA · All rights to each game belong to its creator.")}>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다.</footer>
+  <footer>
+    ${snsLinksHtml()}
+    <p${enAttr("© 2026 PnP Archive KOREA · All rights to each game belong to its creator.")}>© 2026 PnP 아카이브 KOREA · 모든 게임의 권리는 각 창작자에게 있습니다.</p>
+  </footer>
 </main>
 <script>
 ${NAV_JS}
