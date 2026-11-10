@@ -111,10 +111,10 @@ html[lang="en"] .ab-mission h1{font-size:clamp(2rem,3.5vw,3.1rem)}
 .lang button{min-width:38px;padding:0 10px;border:0;border-radius:999px;background:transparent;color:var(--muted);font:600 13px/1 Outfit,sans-serif;letter-spacing:.04em;cursor:pointer;transition:background .2s,color .2s}
 .lang button[aria-pressed="true"]{background:var(--brand);color:var(--on-brand)}
 .lang button:not([aria-pressed="true"]):hover{color:var(--ink)}
-.btn-discord{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
-.btn-discord:hover{background:var(--gold-hi)}
-.btn-discord:active{transform:scale(.98)}
-.btn-discord .ic{font-size:16px}
+.btn-insta{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 16px 0 14px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap;background:var(--gold);color:var(--on-gold);border:1px solid var(--gold-deep);transition:background .2s,transform .15s}
+.btn-insta:hover{background:var(--gold-hi)}
+.btn-insta:active{transform:scale(.98)}
+.btn-insta .ic{font-size:16px}
 .more{display:inline-flex;align-items:center;gap:6px;font-size:15px;font-weight:700;color:var(--brand-mid);white-space:nowrap;padding-bottom:3px;border-bottom:1.5px solid transparent;transition:border-color .2s}
 .more:hover{border-color:currentColor}
 .more .ic{transition:transform .25s cubic-bezier(.16,1,.3,1)}
@@ -142,11 +142,11 @@ html[lang="en"] .ab-mission h1{font-size:clamp(2rem,3.5vw,3.1rem)}
 .mobile-menu a[aria-current="page"]{color:var(--ink);font-weight:700}
 @media (max-width:1480px){.search{display:none}}
 @media (max-width:1060px){.links a{padding:8px 9px;font-size:14px}.brand{font-size:16px}}
-@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-discord,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
+@media (max-width:1180px){.nav-bar{gap:14px}.links a{padding:8px 8px;font-size:14px}.brand{font-size:16px}.nav-right .btn-insta,.nav-right .btn-brand{padding:0 13px;font-size:13.5px}}
 @media (max-width:1040px){.nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}.links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}.links::-webkit-scrollbar{display:none}}
 @media (max-width:1720px){html[lang="en"] .search{display:none}}
 @media (max-width:1270px){html[lang="en"] .nav-bar{flex-wrap:wrap;height:auto;padding-block:12px 0;row-gap:6px}html[lang="en"] .links{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;margin-inline:-6px;padding:0 6px 8px}}
-@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-discord{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
+@media (max-width:640px){.links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}.nav-right .btn-insta{display:none}.nav-bar{column-gap:12px}.menu-btn{display:inline-flex}}
 .m-lang{display:none}
 @media (max-width:540px){.nav-right .lang{display:none}.m-lang{display:inline-flex;margin-top:8px}}
 @media (max-width:420px){.brand .kr{display:none}}
@@ -773,7 +773,7 @@ footer{margin-top:clamp(72px,10vw,128px);border-top:1px solid var(--line);paddin
         <i data-lucide="search" class="ic"></i>
         <input id="q" type="search" placeholder="게임 이름, 작가로 검색">
       </form>
-      <a class="btn-discord" href="/discord" target="_blank" rel="noopener" data-discord="nav"><i data-lucide="message-circle" class="ic"></i><span>디스코드</span></a>
+      <a class="btn-insta" href="https://www.instagram.com/pnp_archive_korea/" target="_blank" rel="noopener" data-insta="nav"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg><span>인스타그램</span></a>
       <a class="btn-brand" href="#/submit">게임 등록하기</a>
       <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="메뉴 열기"><i data-lucide="menu" class="ic"></i></button>
     </div>
@@ -784,7 +784,7 @@ footer{margin-top:clamp(72px,10vw,128px);border-top:1px solid var(--line);paddin
     <a href="#/translated">해외 번역 PnP</a>
     <a href="#/submit">게임 등록하기</a>
     <a href="#/about">소개 · 문의</a>
-    <a href="/discord" target="_blank" rel="noopener" data-discord="nav">디스코드</a>
+    <a href="https://www.instagram.com/pnp_archive_korea/" target="_blank" rel="noopener" data-insta="nav">인스타그램</a>
     <div class="lang m-lang" role="group" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
   </div>
 </header>
@@ -1053,7 +1053,7 @@ footer{margin-top:clamp(72px,10vw,128px);border-top:1px solid var(--line);paddin
       </div>
       <div><h4>페이지</h4><ul><li><a href="#/home">홈</a></li><li><a href="#/archive">게임 아카이브</a></li><li><a href="#/translated">해외 번역 PnP</a></li><li><a href="#/submit">게임 등록하기</a></li><li><a href="/archive/">전체 게임 목록</a></li></ul></div>
       <div><h4>안내</h4><ul><li><a href="#/about">소개</a></li><li><a href="#/submit">등록 원칙</a></li><li><a href="#/about">문의</a></li></ul></div>
-      <div><h4>커뮤니티</h4><ul><li><a href="/discord" target="_blank" rel="noopener" data-discord="footer">디스코드 참여하기</a></li></ul></div>
+      <div><h4>커뮤니티</h4><ul><li><a href="https://www.instagram.com/pnp_archive_korea/" target="_blank" rel="noopener" data-insta="footer">인스타그램</a></li><li><a href="/discord" target="_blank" rel="noopener" data-discord="footer">디스코드 참여하기</a></li></ul></div>
       <div><h4>연락처</h4><ul><li><a href="mailto:contact@pnparchive.com">contact@pnparchive.com</a></li></ul></div>
     </div>
     <div class="legal">
@@ -1072,7 +1072,7 @@ const EN = {
   // nav / shared
   "PnP 아카이브":"PnP Archive", "PnP 아카이브 KOREA":"PnP Archive KOREA",
   "홈":"Home", "전체 게임 목록":"All Games (List)", "게임 아카이브":"Game Archive", "해외 번역 PnP":"Translated PnP", "게임 등록하기":"Submit a Game", "소개 · 문의":"About · Contact",
-  "게임 검색":"Search games", "디스코드":"Discord", "디스코드 참여하기":"Join our Discord",
+  "게임 검색":"Search games", "디스코드":"Discord", "디스코드 참여하기":"Join our Discord", "인스타그램":"Instagram",
   "주요 메뉴":"Main menu", "메뉴 열기":"Open menu",
   // home
   "당신의 보드게임을":"Find your next", "탐색하세요":"board game",
@@ -1351,11 +1351,17 @@ function trackPageview(){
   if (typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
   gtag("event", "page_view", { page_title: document.title, page_location: location.href, page_path: location.pathname + location.hash, language: LANG });
 }
-// 디스코드 링크 클릭: link_location = nav / about / footer
+// 디스코드 링크 클릭: link_location = about / footer
 document.addEventListener("click", e => {
   const d = e.target && e.target.closest ? e.target.closest("a[data-discord]") : null;
   if (!d || typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
   gtag("event", "discord_click", { link_location: d.getAttribute("data-discord") || "", transport_type: "beacon" });
+}, true);
+// 인스타그램 링크 클릭: link_location = nav / footer
+document.addEventListener("click", e => {
+  const a = e.target && e.target.closest ? e.target.closest("a[data-insta]") : null;
+  if (!a || typeof gtag !== "function" || !window.GA_MEASUREMENT_ID) return;
+  gtag("event", "instagram_click", { link_location: a.getAttribute("data-insta") || "", transport_type: "beacon" });
 }, true);
 
 /* ══════════════════════════════════════════════
