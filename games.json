@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T23:33:13.998Z",
-  "count": 256,
+  "generatedAt": "2026-11-11T00:31:50.979Z",
+  "count": 257,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,47 @@
     ]
   },
   "games": [
+    {
+      "id": "414aa7a15911817fb873e6d6738aef20",
+      "slug": "스플체스-414aa7",
+      "ko": "스플체스",
+      "en": "",
+      "author": "오불",
+      "desc": "기물이 지나간 칸을 내 색으로 칠하는 체스. 상대 기물 주변을 모두 칠하면 잡습니다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "그리드 이동",
+        "지역 장악"
+      ],
+      "theme": [
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://arca.live/b/boardgame/188552243",
+      "playUrl": "https://boardmadang.com/web/?game=splat-chess",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "체스"
+      ],
+      "thumb": "/assets/thumbs/스플체스-414aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/스플체스-414aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/스플체스-414aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
+      "icon": "🔷",
+      "createdAt": "2026-11-10T23:40:00.000Z",
+      "updatedAt": "2026-11-11T00:31:00.000Z",
+      "publishedAt": "2026-11-11T00:31:47.942Z"
+    },
     {
       "id": "413aa7a1591180aebe67d1689e3b4aaa",
       "slug": "scavengers-413aa7",
