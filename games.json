@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T00:48:58.410Z",
-  "count": 257,
+  "generatedAt": "2026-11-16T07:19:27.350Z",
+  "count": 258,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,48 @@
     ]
   },
   "games": [
+    {
+      "id": "41aaa7a1591180c4962dc720032b9f72",
+      "slug": "rekta-41aaa7",
+      "ko": "렉타",
+      "en": "Rekta",
+      "author": "Janusz Kuśnierek",
+      "desc": "렉타는 2인용 추상 전술 카드 게임으로, 플레이어들은 치열한 수 싸움이 벌어지는 두뇌 대결을 펼칩니다. 플레이어들은 번갈아 차례를 진행하며, 끊임없이 바뀌는 그리드 상황에 맞춰 판단을 바꿔 가면서 치밀한 전술로 상대보다 한 수 앞서고 우위를 차지해야 합니다.\n\n[온라인 플레이] 다운로드 파일의 rekta_2025_12_16.pcio를 받은 뒤, PlayingCards.io(playingcards.io) 상단의 Import 메뉴로 파일을 불러와 방을 만듭니다. 방 코드를 상대에게 공유하면 함께 플레이할 수 있고, 테이블의 'Clear & Setup' 버튼을 누르면 카드가 섞여 게임 준비가 끝납니다. 설치나 가입 없이 브라우저에서 무료로 즐길 수 있습니다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
+      "mech": [
+        "지역 장악",
+        "타일 재배열",
+        "타일 놓기"
+      ],
+      "theme": [
+        "추상",
+        "퍼즐",
+        "카드게임"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/l4qfge3e879c6q1nzzhde/ALRSHIq0gx2bpB1zLJSwv2s?rlkey=zlsp2mhi6q6hqu5v99ryhlp2p&st=u9pgl6np&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3541265/wip-rekta-2p-abstract-tactical-puzzle-card-game",
+      "playUrl": "https://www.dropbox.com/scl/fo/ppo7fproi10zez1hltjou/AMoKQxbmjAkG0QaSwJadoDc?rlkey=vkhrasyrg5vfeko994dqwsrlk&st=v879rsm4&dl=0",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [],
+      "thumb": "/assets/thumbs/rekta-41aaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/rekta-41aaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/rekta-41aaa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "🔷",
+      "createdAt": "2026-11-16T06:45:00.000Z",
+      "updatedAt": "2026-11-16T07:18:00.000Z",
+      "publishedAt": "2026-11-16T07:19:24.032Z"
+    },
     {
       "id": "414aa7a15911817fb873e6d6738aef20",
       "slug": "스플체스-414aa7",
