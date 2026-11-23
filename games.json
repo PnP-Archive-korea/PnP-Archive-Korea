@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T00:01:45.350Z",
-  "count": 259,
+  "generatedAt": "2026-11-23T01:24:42.449Z",
+  "count": 260,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,51 @@
     ]
   },
   "games": [
+    {
+      "id": "421aa7a1591181739308d580e47dd861",
+      "slug": "locky-dice-421aa7",
+      "ko": "로키 다이스",
+      "en": "Locky Dice",
+      "author": "Joem Antonio",
+      "desc": "경보 장치까지 달린 최첨단 자물쇠라고 하네요. 초대장이나 다름없군요. 참석하겠다고 회신하고 자물쇠를 따기 시작합니다.\n영리한 조작과 타이밍으로, 자물쇠 주사위의 주사위 눈을 같은 열의 따개 주사위와 일치시켜 자물쇠 주사위 4개를 모두 없앱니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "12세 이상",
+      "mech": [
+        "주사위 관리",
+        "퍼즐 풀이",
+        "그리드 이동",
+        "솔로/솔로테어 게임"
+      ],
+      "theme": [
+        "퍼즐",
+        "현대"
+      ],
+      "price": "무료",
+      "year": 2025,
+      "lang": [
+        "한국어",
+        "영어"
+      ],
+      "url": "https://www.dropbox.com/scl/fo/751rxibedn9cf9svi2lhz/AABVJPEvUAzguZC0ZmRcb2Y?rlkey=hkgrdc7vpcabbgb9mr7is1149&st=hnr3ncop&dl=0",
+      "infoUrl": "https://boardgamegeek.com/thread/3495217/wip-locky-dice-a-solitaire-dice-manipulation-game",
+      "playUrl": "",
+      "origin": "해외 번역",
+      "translator": "정성훈",
+      "components": [
+        "주사위"
+      ],
+      "thumb": null,
+      "thumbLarge": null,
+      "thumbRaw": null,
+      "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
+      "icon": "🗺️",
+      "createdAt": "2026-11-23T01:15:00.000Z",
+      "updatedAt": "2026-11-23T01:23:00.000Z",
+      "publishedAt": "2026-11-23T01:24:40.184Z"
+    },
     {
       "id": "41eaa7a1591181f6b689fe133e413717",
       "slug": "haemu-archive-the-mixed-up-return-slip-41eaa7",
