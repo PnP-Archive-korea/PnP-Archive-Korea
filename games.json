@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T01:35:55.090Z",
-  "count": 260,
+  "generatedAt": "2026-11-23T02:11:56.873Z",
+  "count": 261,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,49 @@
     ]
   },
   "games": [
+    {
+      "id": "421aa7a15911818f8502e4fc3a6058dc",
+      "slug": "search-mark-421aa7",
+      "ko": "서치마크",
+      "en": "Search! Mark!",
+      "author": "당니",
+      "desc": "10면체 주사위를 굴려 5×5 칸에 숫자를 적고, 숫자 둘레 8칸에 숨은 지뢰를 깃발로 찾아내는 1인 롤 앤 라이트 퍼즐 게임입니다. 둘레가 다 차면 깃발 수가 숫자와 같은지 채점해 동그라미(아이템 획득) 또는 빗금을 칩니다. 판이 다 차면 동그라미 친 숫자의 개수와 그중 가장 큰 수를 더한 값이 점수입니다.",
+      "players": "1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "30분 이하",
+      "age": "",
+      "mech": [
+        "플립 앤 라이트/롤 앤 라이트",
+        "솔로/솔로테어 게임",
+        "퍼즐 풀이"
+      ],
+      "theme": [
+        "퍼즐"
+      ],
+      "price": "무료",
+      "year": 2024,
+      "lang": [
+        "한국어"
+      ],
+      "url": "",
+      "infoUrl": "https://blog.naver.com/dangnee_/224462337079",
+      "playUrl": "https://dangnuie-web.github.io/search-mark/",
+      "origin": "국내 창작",
+      "translator": "",
+      "components": [
+        "주사위",
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/search-mark-421aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/search-mark-421aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/search-mark-421aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#5B6E8C,#8A9BB8)",
+      "icon": "⚔️",
+      "createdAt": "2026-11-23T01:56:00.000Z",
+      "updatedAt": "2026-11-23T02:11:00.000Z",
+      "publishedAt": "2026-11-23T02:11:52.565Z"
+    },
     {
       "id": "421aa7a1591181739308d580e47dd861",
       "slug": "locky-dice-421aa7",
@@ -7426,7 +7469,7 @@
       "slug": "seven-clover-3baaa7",
       "ko": "7 클로버",
       "en": "SEVEN CLOVER",
-      "author": "mind_sweep",
+      "author": "당니",
       "desc": "7개의 네잎 클로버를 모아 행운의 주인공이 되어보세요! 4번째 잎을 그린 사람이 그 클로버의 주인이 됩니다.",
       "players": "2-4명",
       "playersMin": 2,
@@ -7444,7 +7487,7 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1646",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://dangnuie-web.github.io/seven-clover/",
       "origin": "국내 창작",
       "translator": "",
       "components": [
@@ -7456,7 +7499,7 @@
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:20:00.000Z",
+      "updatedAt": "2026-11-23T02:01:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
