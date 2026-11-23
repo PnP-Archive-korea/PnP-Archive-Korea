@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:17:12.639Z",
+  "generatedAt": "2026-11-23T00:01:45.350Z",
   "count": 259,
   "facets": {
     "playtime": [
@@ -10621,13 +10621,13 @@
         "주사위",
         "큐브·토큰·미플"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/dino-chase-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/dino-chase-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/dino-chase-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-17T03:24:00.000Z",
+      "updatedAt": "2026-11-22T23:56:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
