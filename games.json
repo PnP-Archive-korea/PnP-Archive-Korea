@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T20:56:31.277Z",
-  "count": 261,
+  "generatedAt": "2026-11-24T01:30:52.440Z",
+  "count": 262,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -114,6 +114,48 @@
     ]
   },
   "games": [
+    {
+      "id": "421aa7a15911813d93a1d6de4b40fac9",
+      "slug": "the-starlight-mailbox-421aa7",
+      "ko": "별길 우체통",
+      "en": "The Starlight Mailbox",
+      "author": "별빛 우편국",
+      "desc": "바람이 루미의 발자국을 지웠어요. 한 사람은 길 안내 편지를 읽고, 다른 사람은 종이 지도 위에서 손가락이나 연필로 한 칸씩 움직여 보세요. 마지막 우체통을 찾아 어른이 접어 둔 편지를 펴면 끝납니다. 6–9세 아이와 어른이 함께하는 한국어 놀이입니다. 어른용 규칙·힌트·마침 편지와 아이용 놀이판을 A4 두 장에 담았습니다. AI 도구를 활용했습니다.",
+      "players": "아이 1명과 어른 1명",
+      "playersMin": 1,
+      "playersMax": 1,
+      "playtime": "",
+      "age": "",
+      "mech": [
+        "협력",
+        "그리드 이동"
+      ],
+      "theme": [
+        "어린이/교육",
+        "동화"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어"
+      ],
+      "url": "https://byeolbit-post.pages.dev/birthday-paper-trial.pdf",
+      "infoUrl": "https://byeolbit-post.pages.dev/birthday-try?utm_source=pnp_archive&utm_medium=directory#paper-trial",
+      "playUrl": "https://byeolbit-post.pages.dev/birthday-try",
+      "origin": "",
+      "translator": "",
+      "components": [
+        "필기구"
+      ],
+      "thumb": "/assets/thumbs/the-starlight-mailbox-421aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/the-starlight-mailbox-421aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/the-starlight-mailbox-421aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
+      "icon": "🧩",
+      "createdAt": "2026-11-23T16:42:00.000Z",
+      "updatedAt": "2026-11-24T01:29:00.000Z",
+      "publishedAt": "2026-11-24T01:30:49.052Z"
+    },
     {
       "id": "421aa7a15911818f8502e4fc3a6058dc",
       "slug": "search-mark-421aa7",
@@ -10546,7 +10588,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-17T03:24:00.000Z",
+      "updatedAt": "2026-11-24T01:27:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
