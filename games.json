@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:30:52.440Z",
+  "generatedAt": "2026-11-24T01:43:53.145Z",
   "count": 262,
   "facets": {
     "playtime": [
@@ -140,9 +140,9 @@
         "한국어"
       ],
       "url": "https://byeolbit-post.pages.dev/birthday-paper-trial.pdf",
-      "infoUrl": "https://byeolbit-post.pages.dev/birthday-try?utm_source=pnp_archive&utm_medium=directory#paper-trial",
+      "infoUrl": "https://byeolbit-post.pages.dev/",
       "playUrl": "https://byeolbit-post.pages.dev/birthday-try",
-      "origin": "",
+      "origin": "국내 창작",
       "translator": "",
       "components": [
         "필기구"
@@ -153,7 +153,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🧩",
       "createdAt": "2026-11-23T16:42:00.000Z",
-      "updatedAt": "2026-11-24T01:29:00.000Z",
+      "updatedAt": "2026-11-24T01:43:00.000Z",
       "publishedAt": "2026-11-24T01:30:49.052Z"
     },
     {
@@ -10588,7 +10588,7 @@
       "grad": "linear-gradient(135deg,#1F2938,#2E3A4E)",
       "icon": "🗺️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-11-24T01:27:00.000Z",
+      "updatedAt": "2026-11-24T01:40:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
