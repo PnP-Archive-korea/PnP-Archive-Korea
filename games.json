@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:07:30.087Z",
+  "generatedAt": "2026-11-25T01:58:36.286Z",
   "count": 262,
   "facets": {
     "playtime": [
@@ -5850,7 +5850,7 @@
       "slug": "쿠이쿠이-숫자마작-3baaa7",
       "ko": "쿠이쿠이 숫자마작",
       "en": "",
-      "author": "mind_sweep(마인드스윗)",
+      "author": "당니",
       "desc": "마작의 테마를 입힌 숫자빙고. 마작에서 가져온 개념들을 토대로 새로운 경험을 즐겨보세요.",
       "players": "2-4명",
       "playersMin": 2,
@@ -5884,7 +5884,7 @@
       "grad": "linear-gradient(135deg,#C4593A,#E0A83C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-19T02:28:00.000Z",
+      "updatedAt": "2026-11-24T23:24:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
