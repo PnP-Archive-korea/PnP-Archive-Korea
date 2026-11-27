@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T00:11:41.909Z",
+  "generatedAt": "2026-11-27T00:16:16.279Z",
   "count": 262,
   "facets": {
     "playtime": [
@@ -5836,13 +5836,13 @@
         "큐브·토큰·미플",
         "필기구"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/draw-poker-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/draw-poker-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/draw-poker-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
       "icon": "📦",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-15T23:38:00.000Z",
+      "updatedAt": "2026-11-27T00:15:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
