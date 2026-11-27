@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pnparchive.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-11-24</lastmod><priority>0.9</priority></url>
+  <url><loc>https://pnparchive.com/archive/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://pnparchive.com/game/the-starlight-mailbox-421aa7/</loc><lastmod>2026-11-24</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/search-mark-421aa7/</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/locky-dice-421aa7/</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
@@ -166,7 +166,7 @@
   <url><loc>https://pnparchive.com/game/gambling-board-of-daimyo-3baaa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/pit-stop-3baaa7/</loc><lastmod>2026-10-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/mystery-cord-master-3baaa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/c-m-3baaa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/c-m-3baaa7/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/beat-and-roll-3baaa7/</loc><lastmod>2026-10-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/snowy-road-3baaa7/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/tarot-trick-3baaa7/</loc><lastmod>2026-10-18</lastmod><priority>0.7</priority></url>
@@ -263,5 +263,5 @@
   <url><loc>https://pnparchive.com/game/stack-blocks-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/dice-step-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://pnparchive.com/game/my-perfect-orchard-express-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://pnparchive.com/game/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://pnparchive.com/game/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 </urlset>

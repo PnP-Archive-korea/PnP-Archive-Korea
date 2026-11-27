@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:51:20.260Z",
+  "generatedAt": "2026-11-27T00:11:41.909Z",
   "count": 262,
   "facets": {
     "playtime": [
@@ -7036,13 +7036,13 @@
       "components": [
         "주사위"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/c-m-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/c-m-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/c-m-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#2E3A4E,#5B6E8C)",
       "icon": "🔷",
       "createdAt": "2026-08-12T01:58:00.000Z",
-      "updatedAt": "2026-10-12T04:18:00.000Z",
+      "updatedAt": "2026-11-27T00:10:00.000Z",
       "publishedAt": "2026-08-12T01:58:00.000Z"
     },
     {
@@ -11043,13 +11043,13 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/because-the-lonely-novice-hope-to-enter-the-dungeon-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏰",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-11-27T00:10:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     }
   ]
