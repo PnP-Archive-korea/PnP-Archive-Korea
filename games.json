@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:16:16.279Z",
-  "count": 262,
+  "generatedAt": "2026-11-27T00:43:52.193Z",
+  "count": 263,
   "facets": {
     "playtime": [
       "120분 이상",
@@ -115,6 +115,48 @@
     ]
   },
   "games": [
+    {
+      "id": "425aa7a1591181aa9818da75e76b3de6",
+      "slug": "low-wins-425aa7",
+      "ko": "로우 윈즈",
+      "en": "LOW WINS",
+      "author": "LOW WINS",
+      "desc": "1~10 카드 중 1장을 골라 상대와 동시에 공개하고, 작은 숫자를 낸 쪽이 라운드를 이겨 그 카드의 숫자를 점수로 얻는 2인용 심리전 카드 게임입니다. 8(무효)·9(예고: 다음 라운드 2배)·10(비장의 패: 1에게만 이기고 10점) 특수 카드가 있으며, 7라운드 후 총점이 높은 쪽이 승리합니다.",
+      "players": "2명",
+      "playersMin": 2,
+      "playersMax": 2,
+      "playtime": "30분 이하",
+      "age": "8세 이상",
+      "mech": [
+        "동시 액션 선택",
+        "블러핑"
+      ],
+      "theme": [
+        "카드게임",
+        "추상"
+      ],
+      "price": "무료",
+      "year": 2026,
+      "lang": [
+        "한국어",
+        "영어",
+        "기타"
+      ],
+      "url": "",
+      "infoUrl": "https://freegame-mugen.jp/puzzle/game_15258.html#google_vignette",
+      "playUrl": "https://low-wins.com",
+      "origin": "해외 번역",
+      "translator": "LOW WINS",
+      "components": [],
+      "thumb": "/assets/thumbs/low-wins-425aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/low-wins-425aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/low-wins-425aa7-raw.webp",
+      "grad": "linear-gradient(135deg,#4C7A3F,#8FB77F)",
+      "icon": "📦",
+      "createdAt": "2026-11-27T00:34:00.000Z",
+      "updatedAt": "2026-11-27T00:43:00.000Z",
+      "publishedAt": "2026-11-27T00:43:48.277Z"
+    },
     {
       "id": "421aa7a15911813d93a1d6de4b40fac9",
       "slug": "the-starlight-mailbox-421aa7",
