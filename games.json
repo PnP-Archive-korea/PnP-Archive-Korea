@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:15:45.174Z",
+  "generatedAt": "2026-11-28T06:48:27.760Z",
   "count": 263,
   "facets": {
     "playtime": [
@@ -3241,13 +3241,13 @@
       "components": [
         "주사위"
       ],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/뭐하세요-용사님-3c1aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/뭐하세요-용사님-3c1aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/뭐하세요-용사님-3c1aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🏰",
       "createdAt": "2026-08-19T02:51:00.000Z",
-      "updatedAt": "2026-10-16T00:02:00.000Z",
+      "updatedAt": "2026-11-28T01:39:00.000Z",
       "publishedAt": "2026-08-19T02:51:00.000Z"
     },
     {
@@ -5636,13 +5636,13 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/아빠-안-잔다-3baaa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/아빠-안-잔다-3baaa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/아빠-안-잔다-3baaa7-raw.webp",
       "grad": "linear-gradient(135deg,#8C4A5B,#C4818F)",
       "icon": "🏙️",
       "createdAt": "2026-08-12T02:10:00.000Z",
-      "updatedAt": "2026-10-12T04:17:00.000Z",
+      "updatedAt": "2026-11-28T01:46:00.000Z",
       "publishedAt": "2026-08-12T02:10:00.000Z"
     },
     {
@@ -8357,7 +8357,7 @@
       "slug": "firewall-3b2aa7",
       "ko": "방화벽",
       "en": "Firewall",
-      "author": "Rabbit",
+      "author": "래비",
       "desc": "<방화벽>은 디지털 세계에서 사이버 공격으로부터 중요한 메인 컴퓨터를 보호하는 1인용 게임입니다.\n게임의 진행 과정에서 사이버 공격이 점점 강력해지고, 그 순간을 틈타 메인 시스템에 대한 해킹을 시도하려고 합니다.\n이에 맞서 플레이어는 주사위를 굴려 기능을 활성화하고, 해커의 공격을 저지하기 위한 전략을 세워야 합니다.\n모든 사이버 공격을 방어하고, 6라운드를 버티면 플레이어가 승리합니다.",
       "players": "1명",
       "playersMin": 1,
@@ -8381,7 +8381,7 @@
       ],
       "url": "https://boardlife.co.kr/bbs_detail.php?tb=board_design&bbs_num=1779&game=20603",
       "infoUrl": "",
-      "playUrl": "",
+      "playUrl": "https://firewall-zeta.vercel.app",
       "origin": "국내 창작",
       "translator": "",
       "components": [
@@ -8394,7 +8394,7 @@
       "grad": "linear-gradient(135deg,#E0A83C,#F3D08A)",
       "icon": "🏙️",
       "createdAt": "2026-08-04T05:49:00.000Z",
-      "updatedAt": "2026-10-24T23:47:00.000Z",
+      "updatedAt": "2026-11-28T01:57:00.000Z",
       "publishedAt": "2026-08-04T05:49:00.000Z"
     },
     {
@@ -10750,13 +10750,13 @@
       "origin": "국내 창작",
       "translator": "",
       "components": [],
-      "thumb": null,
-      "thumbLarge": null,
-      "thumbRaw": null,
+      "thumb": "/assets/thumbs/through-the-meteors-3b2aa7-grid.webp",
+      "thumbLarge": "/assets/thumbs/through-the-meteors-3b2aa7-detail.webp",
+      "thumbRaw": "/assets/thumbs/through-the-meteors-3b2aa7-raw.webp",
       "grad": "linear-gradient(135deg,#7A5C3E,#A8845C)",
       "icon": "🛰️",
       "createdAt": "2026-08-04T05:41:00.000Z",
-      "updatedAt": "2026-10-12T04:15:00.000Z",
+      "updatedAt": "2026-11-28T01:46:00.000Z",
       "publishedAt": "2026-08-04T05:41:00.000Z"
     },
     {
